@@ -1,1 +1,1 @@
-{"id": 111, "name": "Rhyhorn", "color": "gray"}
+{"id": 111, "name": "Rhyhorn", "types": ["Ground", "Rock"], "color": "gray"}

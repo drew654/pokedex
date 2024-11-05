@@ -1,1 +1,1 @@
-{"id": 74, "name": "Geodude", "color": "brown"}
+{"id": 74, "name": "Geodude", "types": ["Rock", "Ground"], "color": "brown"}

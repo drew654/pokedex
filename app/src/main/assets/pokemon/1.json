@@ -1,1 +1,1 @@
-{"id": 1, "name": "Bulbasaur", "color": "green"}
+{"id": 1, "name": "Bulbasaur", "types": ["Grass", "Poison"], "color": "green"}
