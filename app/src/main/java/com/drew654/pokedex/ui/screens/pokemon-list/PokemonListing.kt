@@ -1,7 +1,9 @@
 package com.drew654.pokedex.ui.screens.pokemon
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -20,6 +22,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
 
@@ -33,6 +36,7 @@ fun PokemonListing(
     val json = Json { ignoreUnknownKeys = true }
     val pokemon = json.parseToJsonElement(inputStream.bufferedReader().use { it.readText() })
     val color = pokemon.jsonObject["color"]?.jsonPrimitive?.content
+    val types = pokemon.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }?.toList()
     val backgroundColor = when (color) {
         "green" -> Color(0xFF7AC74C)
         "red" -> Color(0xFFEE8130)
@@ -58,18 +62,35 @@ fun PokemonListing(
                 .padding(8.dp)
                 .fillMaxWidth()
         ) {
-            Text(
-                text = "#${id}",
-                color = Color(0x88000000),
-                fontSize = 24.sp,
-                modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp)
-            )
-            Text(
-                text = name.toString(),
-                color = Color(0x88000000),
-                fontSize = 24.sp,
-                modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp)
-            )
+            Column {
+                Row {
+                    Text(
+                        text = "#${id}",
+                        color = Color(0x88000000),
+                        fontSize = 24.sp,
+                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp)
+                    )
+                    Text(
+                        text = name.toString(),
+                        color = Color(0x88000000),
+                        fontSize = 24.sp,
+                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp)
+                    )
+                }
+                Row {
+                    for (type in types!!) {
+                        Text(
+                            text = type.toString(),
+                            color = Color(0x88000000),
+                            fontSize = 24.sp,
+                            modifier = Modifier
+                                .padding(horizontal = 8.dp, vertical = 8.dp)
+                                .border(1.dp, Color(0x88000000), RoundedCornerShape(12.dp))
+                                .padding(all = 4.dp)
+                        )
+                    }
+                }
+            }
             Spacer(modifier = Modifier.weight(1f))
             AsyncImage(
                 model = "file:///android_asset/sprites/${id}.png",
