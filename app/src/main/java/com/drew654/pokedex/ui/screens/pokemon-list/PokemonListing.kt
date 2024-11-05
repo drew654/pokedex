@@ -1,12 +1,14 @@
 package com.drew654.pokedex.ui.screens.pokemon
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -31,7 +33,7 @@ fun PokemonListing(
     val json = Json { ignoreUnknownKeys = true }
     val pokemon = json.parseToJsonElement(inputStream.bufferedReader().use { it.readText() })
     val color = pokemon.jsonObject["color"]?.jsonPrimitive?.content
-    val colorObject = when (color) {
+    val backgroundColor = when (color) {
         "green" -> Color(0xFF7AC74C)
         "red" -> Color(0xFFEE8130)
         "blue" -> Color(0xFF6390F0)
@@ -45,30 +47,38 @@ fun PokemonListing(
         else -> MaterialTheme.colorScheme.background
     }
 
-    Row(
+    Box(
         modifier = Modifier
-            .background(colorObject)
-            .padding(8.dp)
-            .fillMaxWidth()
+            .padding(horizontal = 8.dp, vertical = 4.dp)
+            .clip(RoundedCornerShape(12.dp))
     ) {
-        Text(
-            text = "#${id}",
-            fontSize = 24.sp,
-            modifier = Modifier.padding(horizontal = 8.dp, vertical = 16.dp)
-        )
-        Text(
-            text = name.toString(),
-            fontSize = 24.sp,
-            modifier = Modifier.padding(horizontal = 8.dp, vertical = 16.dp)
-        )
-        Spacer(modifier = Modifier.weight(1f))
-        AsyncImage(
-            model = "file:///android_asset/sprites/${id}.png",
-            contentDescription = name.toString(),
+        Row(
             modifier = Modifier
-                .size(100.dp)
-                .clip(CircleShape)
-                .background(MaterialTheme.colorScheme.background)
-        )
+                .background(backgroundColor)
+                .padding(8.dp)
+                .fillMaxWidth()
+        ) {
+            Text(
+                text = "#${id}",
+                color = Color(0x88000000),
+                fontSize = 24.sp,
+                modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp)
+            )
+            Text(
+                text = name.toString(),
+                color = Color(0x88000000),
+                fontSize = 24.sp,
+                modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp)
+            )
+            Spacer(modifier = Modifier.weight(1f))
+            AsyncImage(
+                model = "file:///android_asset/sprites/${id}.png",
+                contentDescription = name.toString(),
+                modifier = Modifier
+                    .size(100.dp)
+                    .clip(CircleShape)
+                    .background(MaterialTheme.colorScheme.background)
+            )
+        }
     }
 }
