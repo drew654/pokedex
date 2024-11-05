@@ -48,7 +48,9 @@ def main():
             names = species_data["names"]
             for name in names:
                 if name["language"]["name"] == "en":
+                    trimmed_data["id"] = id
                     trimmed_data["name"] = name["name"]
+                    trimmed_data["color"] = species_data["color"]["name"]
                     pokemon_names.append(name["name"])
                     break
 
@@ -57,6 +59,15 @@ def main():
             file_path = os.path.join("pokemon", f"{id}.json")
             with open(file_path, "w") as f:
                 f.write(json.dumps(trimmed_data))
+
+            if not os.path.exists("sprites"):
+                os.makedirs("sprites")
+            file_path = os.path.join("sprites", f"{id}.png")
+            image_url = f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{id}.png"
+            image = requests.get(image_url)
+            with open(file_path, "wb") as f:
+                f.write(image.content)
+
         file_path = os.path.join("pokemon", "names.json")
         with open(file_path, "w") as f:
             f.write(json.dumps(pokemon_names))
