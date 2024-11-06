@@ -1,7 +1,8 @@
-package com.drew654.pokedex.ui.screens.pokemon
+package com.drew654.pokedex.ui.screens.pokemon_list
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -20,7 +21,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import coil.compose.AsyncImage
+import com.drew654.pokedex.models.Pokemon
+import com.drew654.pokedex.models.Screen
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
@@ -29,7 +33,8 @@ import kotlinx.serialization.json.jsonPrimitive
 @Composable
 fun PokemonListing(
     id: Int,
-    name: String
+    name: String,
+    navController: NavController
 ) {
     val context = LocalContext.current
     val inputStream = context.assets.open("pokemon/${id}.json")
@@ -37,24 +42,15 @@ fun PokemonListing(
     val pokemon = json.parseToJsonElement(inputStream.bufferedReader().use { it.readText() })
     val color = pokemon.jsonObject["color"]?.jsonPrimitive?.content
     val types = pokemon.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }?.toList()
-    val backgroundColor = when (color) {
-        "green" -> Color(0xFF7AC74C)
-        "red" -> Color(0xFFEE8130)
-        "blue" -> Color(0xFF6390F0)
-        "white" -> Color(0xFFFFFFFF)
-        "brown" -> Color(0xFFA52A2A)
-        "yellow" -> Color(0xFFFFD600)
-        "purple" -> Color(0xFF9F5BBA)
-        "pink" -> Color(0xFFF48FB1)
-        "gray" -> Color(0xFF808080)
-        "black" -> Color(0xFF000000)
-        else -> MaterialTheme.colorScheme.background
-    }
+    val backgroundColor = Pokemon().GetBackgroundColor(color.toString())
 
     Box(
         modifier = Modifier
             .padding(horizontal = 8.dp, vertical = 4.dp)
             .clip(RoundedCornerShape(12.dp))
+            .clickable {
+                navController.navigate("${Screen.PokemonDetails.route}/${id}")
+            }
     ) {
         Row(
             modifier = Modifier

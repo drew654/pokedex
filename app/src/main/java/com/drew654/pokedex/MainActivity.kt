@@ -7,14 +7,15 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.drew654.pokedex.ui.screens.`pokemon-list`.PokemonListScreen
+import androidx.navigation.navArgument
+import com.drew654.pokedex.models.Screen
+import com.drew654.pokedex.ui.screens.pokemon_details.PokemonDetailsScreen
+import com.drew654.pokedex.ui.screens.pokemon_list.PokemonListScreen
 import com.drew654.pokedex.ui.theme.PokedexTheme
 
 class MainActivity : ComponentActivity() {
@@ -27,31 +28,27 @@ class MainActivity : ComponentActivity() {
                     val navController = rememberNavController()
                     NavHost(
                         navController = navController,
-                        startDestination = "pokemon-list",
+                        startDestination = Screen.PokemonList.route,
                         modifier = Modifier.padding(innerPadding)
                     ) {
-                        composable("pokemon-list") {
-                            PokemonListScreen()
+                        composable(
+                            route = Screen.PokemonList.route
+                        ) {
+                            PokemonListScreen(navController = navController)
+                        }
+                        composable(
+                            route = "${Screen.PokemonDetails.route}/{id}",
+                            arguments = listOf(
+                                navArgument(name = "id") {
+                                    type = NavType.IntType
+                                }
+                            )
+                        ) {
+                            PokemonDetailsScreen(id = it.arguments?.getInt("id")!!)
                         }
                     }
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    PokedexTheme {
-        Greeting("Android")
     }
 }
