@@ -1,1 +1,1 @@
-{"id": 345, "name": "Lileep", "types": ["Rock", "Grass"], "color": "purple"}
+{"id": 345, "name": "Lileep", "types": ["Rock", "Grass"], "abilities": [{"name": "Suction Cups", "is_hidden": false}, {"name": "Storm Drain", "is_hidden": true}], "color": "purple"}

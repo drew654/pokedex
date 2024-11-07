@@ -1,1 +1,1 @@
-{"id": 492, "name": "Shaymin", "types": ["Grass"], "color": "green"}
+{"id": 492, "name": "Shaymin", "types": ["Grass"], "abilities": [{"name": "Natural Cure", "is_hidden": false}], "color": "green"}

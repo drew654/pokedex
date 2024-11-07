@@ -1,1 +1,1 @@
-{"id": 424, "name": "Ambipom", "types": ["Normal"], "color": "purple"}
+{"id": 424, "name": "Ambipom", "types": ["Normal"], "abilities": [{"name": "Technician", "is_hidden": false}, {"name": "Pickup", "is_hidden": false}, {"name": "Skill Link", "is_hidden": true}], "color": "purple"}

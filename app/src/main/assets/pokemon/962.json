@@ -1,1 +1,1 @@
-{"id": 962, "name": "Bombirdier", "types": ["Flying", "Dark"], "color": "white"}
+{"id": 962, "name": "Bombirdier", "types": ["Flying", "Dark"], "abilities": [{"name": "Big Pecks", "is_hidden": false}, {"name": "Keen Eye", "is_hidden": false}, {"name": "Rocky Payload", "is_hidden": true}], "color": "white"}

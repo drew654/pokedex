@@ -1,1 +1,1 @@
-{"id": 195, "name": "Quagsire", "types": ["Water", "Ground"], "color": "blue"}
+{"id": 195, "name": "Quagsire", "types": ["Water", "Ground"], "abilities": [{"name": "Damp", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": false}, {"name": "Unaware", "is_hidden": true}], "color": "blue"}

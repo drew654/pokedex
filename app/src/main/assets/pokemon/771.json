@@ -1,1 +1,1 @@
-{"id": 771, "name": "Pyukumuku", "types": ["Water"], "color": "black"}
+{"id": 771, "name": "Pyukumuku", "types": ["Water"], "abilities": [{"name": "Innards Out", "is_hidden": false}, {"name": "Unaware", "is_hidden": true}], "color": "black"}

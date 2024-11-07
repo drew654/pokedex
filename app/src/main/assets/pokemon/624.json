@@ -1,1 +1,1 @@
-{"id": 624, "name": "Pawniard", "types": ["Dark", "Steel"], "color": "red"}
+{"id": 624, "name": "Pawniard", "types": ["Dark", "Steel"], "abilities": [{"name": "Defiant", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": false}, {"name": "Pressure", "is_hidden": true}], "color": "red"}

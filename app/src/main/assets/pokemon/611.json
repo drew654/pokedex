@@ -1,1 +1,1 @@
-{"id": 611, "name": "Fraxure", "types": ["Dragon"], "color": "green"}
+{"id": 611, "name": "Fraxure", "types": ["Dragon"], "abilities": [{"name": "Rivalry", "is_hidden": false}, {"name": "Mold Breaker", "is_hidden": false}, {"name": "Unnerve", "is_hidden": true}], "color": "green"}

@@ -1,1 +1,1 @@
-{"id": 862, "name": "Obstagoon", "types": ["Dark", "Normal"], "color": "gray"}
+{"id": 862, "name": "Obstagoon", "types": ["Dark", "Normal"], "abilities": [{"name": "Reckless", "is_hidden": false}, {"name": "Guts", "is_hidden": false}, {"name": "Defiant", "is_hidden": true}], "color": "gray"}

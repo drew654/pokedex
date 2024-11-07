@@ -1,1 +1,1 @@
-{"id": 753, "name": "Fomantis", "types": ["Grass"], "color": "pink"}
+{"id": 753, "name": "Fomantis", "types": ["Grass"], "abilities": [{"name": "Leaf Guard", "is_hidden": false}, {"name": "Contrary", "is_hidden": true}], "color": "pink"}

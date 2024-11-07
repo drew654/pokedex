@@ -1,1 +1,1 @@
-{"id": 174, "name": "Igglybuff", "types": ["Normal", "Fairy"], "color": "pink"}
+{"id": 174, "name": "Igglybuff", "types": ["Normal", "Fairy"], "abilities": [{"name": "Cute Charm", "is_hidden": false}, {"name": "Competitive", "is_hidden": false}, {"name": "Friend Guard", "is_hidden": true}], "color": "pink"}

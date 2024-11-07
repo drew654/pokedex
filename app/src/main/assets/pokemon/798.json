@@ -1,1 +1,1 @@
-{"id": 798, "name": "Kartana", "types": ["Grass", "Steel"], "color": "white"}
+{"id": 798, "name": "Kartana", "types": ["Grass", "Steel"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "white"}

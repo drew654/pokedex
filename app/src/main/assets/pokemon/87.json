@@ -1,1 +1,1 @@
-{"id": 87, "name": "Dewgong", "types": ["Water", "Ice"], "color": "white"}
+{"id": 87, "name": "Dewgong", "types": ["Water", "Ice"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Hydration", "is_hidden": false}, {"name": "Ice Body", "is_hidden": true}], "color": "white"}

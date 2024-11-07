@@ -1,1 +1,1 @@
-{"id": 313, "name": "Volbeat", "types": ["Bug"], "color": "gray"}
+{"id": 313, "name": "Volbeat", "types": ["Bug"], "abilities": [{"name": "Illuminate", "is_hidden": false}, {"name": "Swarm", "is_hidden": false}, {"name": "Prankster", "is_hidden": true}], "color": "gray"}

@@ -1,1 +1,1 @@
-{"id": 342, "name": "Crawdaunt", "types": ["Water", "Dark"], "color": "red"}
+{"id": 342, "name": "Crawdaunt", "types": ["Water", "Dark"], "abilities": [{"name": "Hyper Cutter", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": false}, {"name": "Adaptability", "is_hidden": true}], "color": "red"}

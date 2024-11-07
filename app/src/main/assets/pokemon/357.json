@@ -1,1 +1,1 @@
-{"id": 357, "name": "Tropius", "types": ["Grass", "Flying"], "color": "green"}
+{"id": 357, "name": "Tropius", "types": ["Grass", "Flying"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Solar Power", "is_hidden": false}, {"name": "Harvest", "is_hidden": true}], "color": "green"}

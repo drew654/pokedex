@@ -1,1 +1,1 @@
-{"id": 686, "name": "Inkay", "types": ["Dark", "Psychic"], "color": "blue"}
+{"id": 686, "name": "Inkay", "types": ["Dark", "Psychic"], "abilities": [{"name": "Contrary", "is_hidden": false}, {"name": "Suction Cups", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "blue"}

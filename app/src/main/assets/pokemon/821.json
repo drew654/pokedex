@@ -1,1 +1,1 @@
-{"id": 821, "name": "Rookidee", "types": ["Flying"], "color": "blue"}
+{"id": 821, "name": "Rookidee", "types": ["Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Unnerve", "is_hidden": false}, {"name": "Big Pecks", "is_hidden": true}], "color": "blue"}

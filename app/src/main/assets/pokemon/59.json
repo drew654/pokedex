@@ -1,1 +1,1 @@
-{"id": 59, "name": "Arcanine", "types": ["Fire"], "color": "brown"}
+{"id": 59, "name": "Arcanine", "types": ["Fire"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Flash Fire", "is_hidden": false}, {"name": "Justified", "is_hidden": true}], "color": "brown"}

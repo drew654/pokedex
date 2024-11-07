@@ -1,1 +1,1 @@
-{"id": 874, "name": "Stonjourner", "types": ["Rock"], "color": "gray"}
+{"id": 874, "name": "Stonjourner", "types": ["Rock"], "abilities": [{"name": "Power Spot", "is_hidden": false}], "color": "gray"}

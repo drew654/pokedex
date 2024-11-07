@@ -1,1 +1,1 @@
-{"id": 406, "name": "Budew", "types": ["Grass", "Poison"], "color": "green"}
+{"id": 406, "name": "Budew", "types": ["Grass", "Poison"], "abilities": [{"name": "Natural Cure", "is_hidden": false}, {"name": "Poison Point", "is_hidden": false}, {"name": "Leaf Guard", "is_hidden": true}], "color": "green"}

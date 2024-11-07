@@ -1,1 +1,1 @@
-{"id": 1016, "name": "Fezandipiti", "types": ["Poison", "Fairy"], "color": "black"}
+{"id": 1016, "name": "Fezandipiti", "types": ["Poison", "Fairy"], "abilities": [{"name": "Toxic Chain", "is_hidden": false}, {"name": "Technician", "is_hidden": true}], "color": "black"}

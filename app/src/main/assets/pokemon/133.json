@@ -1,1 +1,1 @@
-{"id": 133, "name": "Eevee", "types": ["Normal"], "color": "brown"}
+{"id": 133, "name": "Eevee", "types": ["Normal"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Adaptability", "is_hidden": false}, {"name": "Anticipation", "is_hidden": true}], "color": "brown"}

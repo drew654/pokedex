@@ -1,1 +1,1 @@
-{"id": 954, "name": "Rabsca", "types": ["Bug", "Psychic"], "color": "green"}
+{"id": 954, "name": "Rabsca", "types": ["Bug", "Psychic"], "abilities": [{"name": "Synchronize", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "green"}

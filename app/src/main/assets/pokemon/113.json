@@ -1,1 +1,1 @@
-{"id": 113, "name": "Chansey", "types": ["Normal"], "color": "pink"}
+{"id": 113, "name": "Chansey", "types": ["Normal"], "abilities": [{"name": "Natural Cure", "is_hidden": false}, {"name": "Serene Grace", "is_hidden": false}, {"name": "Healer", "is_hidden": true}], "color": "pink"}

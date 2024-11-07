@@ -1,1 +1,1 @@
-{"id": 933, "name": "Naclstack", "types": ["Rock"], "color": "brown"}
+{"id": 933, "name": "Naclstack", "types": ["Rock"], "abilities": [{"name": "Purifying Salt", "is_hidden": false}, {"name": "Sturdy", "is_hidden": false}, {"name": "Clear Body", "is_hidden": true}], "color": "brown"}

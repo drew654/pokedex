@@ -1,1 +1,1 @@
-{"id": 200, "name": "Misdreavus", "types": ["Ghost"], "color": "gray"}
+{"id": 200, "name": "Misdreavus", "types": ["Ghost"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "gray"}

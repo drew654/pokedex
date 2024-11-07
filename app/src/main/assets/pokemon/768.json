@@ -1,1 +1,1 @@
-{"id": 768, "name": "Golisopod", "types": ["Bug", "Water"], "color": "gray"}
+{"id": 768, "name": "Golisopod", "types": ["Bug", "Water"], "abilities": [{"name": "Emergency Exit", "is_hidden": false}], "color": "gray"}

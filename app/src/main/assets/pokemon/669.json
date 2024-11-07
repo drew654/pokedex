@@ -1,1 +1,1 @@
-{"id": 669, "name": "Flab\u00e9b\u00e9", "types": ["Fairy"], "color": "white"}
+{"id": 669, "name": "Flab\u00e9b\u00e9", "types": ["Fairy"], "abilities": [{"name": "Flower Veil", "is_hidden": false}, {"name": "Symbiosis", "is_hidden": true}], "color": "white"}

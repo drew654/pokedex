@@ -1,1 +1,1 @@
-{"id": 351, "name": "Castform", "types": ["Normal"], "color": "gray"}
+{"id": 351, "name": "Castform", "types": ["Normal"], "abilities": [{"name": "Forecast", "is_hidden": false}], "color": "gray"}

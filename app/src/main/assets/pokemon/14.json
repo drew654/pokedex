@@ -1,1 +1,1 @@
-{"id": 14, "name": "Kakuna", "types": ["Bug", "Poison"], "color": "yellow"}
+{"id": 14, "name": "Kakuna", "types": ["Bug", "Poison"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "yellow"}

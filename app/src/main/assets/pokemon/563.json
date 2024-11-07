@@ -1,1 +1,1 @@
-{"id": 563, "name": "Cofagrigus", "types": ["Ghost"], "color": "yellow"}
+{"id": 563, "name": "Cofagrigus", "types": ["Ghost"], "abilities": [{"name": "Mummy", "is_hidden": false}], "color": "yellow"}

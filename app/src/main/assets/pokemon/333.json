@@ -1,1 +1,1 @@
-{"id": 333, "name": "Swablu", "types": ["Normal", "Flying"], "color": "blue"}
+{"id": 333, "name": "Swablu", "types": ["Normal", "Flying"], "abilities": [{"name": "Natural Cure", "is_hidden": false}, {"name": "Cloud Nine", "is_hidden": true}], "color": "blue"}

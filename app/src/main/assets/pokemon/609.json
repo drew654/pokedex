@@ -1,1 +1,1 @@
-{"id": 609, "name": "Chandelure", "types": ["Ghost", "Fire"], "color": "black"}
+{"id": 609, "name": "Chandelure", "types": ["Ghost", "Fire"], "abilities": [{"name": "Flash Fire", "is_hidden": false}, {"name": "Flame Body", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "black"}

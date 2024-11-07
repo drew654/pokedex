@@ -1,1 +1,1 @@
-{"id": 21, "name": "Spearow", "types": ["Normal", "Flying"], "color": "brown"}
+{"id": 21, "name": "Spearow", "types": ["Normal", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Sniper", "is_hidden": true}], "color": "brown"}

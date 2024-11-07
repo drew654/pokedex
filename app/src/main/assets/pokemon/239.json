@@ -1,1 +1,1 @@
-{"id": 239, "name": "Elekid", "types": ["Electric"], "color": "yellow"}
+{"id": 239, "name": "Elekid", "types": ["Electric"], "abilities": [{"name": "Static", "is_hidden": false}, {"name": "Vital Spirit", "is_hidden": true}], "color": "yellow"}

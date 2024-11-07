@@ -1,1 +1,1 @@
-{"id": 604, "name": "Eelektross", "types": ["Electric"], "color": "blue"}
+{"id": 604, "name": "Eelektross", "types": ["Electric"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "blue"}

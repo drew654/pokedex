@@ -1,1 +1,1 @@
-{"id": 428, "name": "Lopunny", "types": ["Normal"], "color": "brown"}
+{"id": 428, "name": "Lopunny", "types": ["Normal"], "abilities": [{"name": "Cute Charm", "is_hidden": false}, {"name": "Klutz", "is_hidden": false}, {"name": "Limber", "is_hidden": true}], "color": "brown"}

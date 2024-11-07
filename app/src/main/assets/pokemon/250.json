@@ -1,1 +1,1 @@
-{"id": 250, "name": "Ho-Oh", "types": ["Fire", "Flying"], "color": "red"}
+{"id": 250, "name": "Ho-Oh", "types": ["Fire", "Flying"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "red"}

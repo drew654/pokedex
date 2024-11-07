@@ -1,1 +1,1 @@
-{"id": 650, "name": "Chespin", "types": ["Grass"], "color": "green"}
+{"id": 650, "name": "Chespin", "types": ["Grass"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Bulletproof", "is_hidden": true}], "color": "green"}

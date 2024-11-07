@@ -1,1 +1,1 @@
-{"id": 93, "name": "Haunter", "types": ["Ghost", "Poison"], "color": "purple"}
+{"id": 93, "name": "Haunter", "types": ["Ghost", "Poison"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "purple"}

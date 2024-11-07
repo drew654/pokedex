@@ -1,1 +1,1 @@
-{"id": 434, "name": "Stunky", "types": ["Poison", "Dark"], "color": "purple"}
+{"id": 434, "name": "Stunky", "types": ["Poison", "Dark"], "abilities": [{"name": "Stench", "is_hidden": false}, {"name": "Aftermath", "is_hidden": false}, {"name": "Keen Eye", "is_hidden": true}], "color": "purple"}

@@ -1,1 +1,1 @@
-{"id": 636, "name": "Larvesta", "types": ["Bug", "Fire"], "color": "white"}
+{"id": 636, "name": "Larvesta", "types": ["Bug", "Fire"], "abilities": [{"name": "Flame Body", "is_hidden": false}, {"name": "Swarm", "is_hidden": true}], "color": "white"}

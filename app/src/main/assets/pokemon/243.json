@@ -1,1 +1,1 @@
-{"id": 243, "name": "Raikou", "types": ["Electric"], "color": "yellow"}
+{"id": 243, "name": "Raikou", "types": ["Electric"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": true}], "color": "yellow"}

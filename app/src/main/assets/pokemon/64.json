@@ -1,1 +1,1 @@
-{"id": 64, "name": "Kadabra", "types": ["Psychic"], "color": "brown"}
+{"id": 64, "name": "Kadabra", "types": ["Psychic"], "abilities": [{"name": "Synchronize", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": false}, {"name": "Magic Guard", "is_hidden": true}], "color": "brown"}

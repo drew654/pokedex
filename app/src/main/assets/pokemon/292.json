@@ -1,1 +1,1 @@
-{"id": 292, "name": "Shedinja", "types": ["Bug", "Ghost"], "color": "brown"}
+{"id": 292, "name": "Shedinja", "types": ["Bug", "Ghost"], "abilities": [{"name": "Wonder Guard", "is_hidden": false}], "color": "brown"}

@@ -1,1 +1,1 @@
-{"id": 469, "name": "Yanmega", "types": ["Bug", "Flying"], "color": "green"}
+{"id": 469, "name": "Yanmega", "types": ["Bug", "Flying"], "abilities": [{"name": "Speed Boost", "is_hidden": false}, {"name": "Tinted Lens", "is_hidden": false}, {"name": "Frisk", "is_hidden": true}], "color": "green"}

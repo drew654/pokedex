@@ -1,1 +1,1 @@
-{"id": 232, "name": "Donphan", "types": ["Ground"], "color": "gray"}
+{"id": 232, "name": "Donphan", "types": ["Ground"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "gray"}

@@ -1,1 +1,1 @@
-{"id": 979, "name": "Annihilape", "types": ["Fighting", "Ghost"], "color": "gray"}
+{"id": 979, "name": "Annihilape", "types": ["Fighting", "Ghost"], "abilities": [{"name": "Vital Spirit", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": false}, {"name": "Defiant", "is_hidden": true}], "color": "gray"}

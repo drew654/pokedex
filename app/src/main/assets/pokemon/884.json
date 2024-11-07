@@ -1,1 +1,1 @@
-{"id": 884, "name": "Duraludon", "types": ["Steel", "Dragon"], "color": "white"}
+{"id": 884, "name": "Duraludon", "types": ["Steel", "Dragon"], "abilities": [{"name": "Light Metal", "is_hidden": false}, {"name": "Heavy Metal", "is_hidden": false}, {"name": "Stalwart", "is_hidden": true}], "color": "white"}

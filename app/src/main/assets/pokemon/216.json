@@ -1,1 +1,1 @@
-{"id": 216, "name": "Teddiursa", "types": ["Normal"], "color": "brown"}
+{"id": 216, "name": "Teddiursa", "types": ["Normal"], "abilities": [{"name": "Pickup", "is_hidden": false}, {"name": "Quick Feet", "is_hidden": false}, {"name": "Honey Gather", "is_hidden": true}], "color": "brown"}

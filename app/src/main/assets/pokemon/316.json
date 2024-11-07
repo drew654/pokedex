@@ -1,1 +1,1 @@
-{"id": 316, "name": "Gulpin", "types": ["Poison"], "color": "green"}
+{"id": 316, "name": "Gulpin", "types": ["Poison"], "abilities": [{"name": "Liquid Ooze", "is_hidden": false}, {"name": "Sticky Hold", "is_hidden": false}, {"name": "Gluttony", "is_hidden": true}], "color": "green"}

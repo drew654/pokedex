@@ -1,1 +1,1 @@
-{"id": 969, "name": "Glimmet", "types": ["Rock", "Poison"], "color": "blue"}
+{"id": 969, "name": "Glimmet", "types": ["Rock", "Poison"], "abilities": [{"name": "Toxic Debris", "is_hidden": false}, {"name": "Corrosion", "is_hidden": true}], "color": "blue"}

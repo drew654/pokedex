@@ -1,1 +1,1 @@
-{"id": 13, "name": "Weedle", "types": ["Bug", "Poison"], "color": "brown"}
+{"id": 13, "name": "Weedle", "types": ["Bug", "Poison"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Run Away", "is_hidden": true}], "color": "brown"}

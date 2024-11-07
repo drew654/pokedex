@@ -1,1 +1,1 @@
-{"id": 350, "name": "Milotic", "types": ["Water"], "color": "pink"}
+{"id": 350, "name": "Milotic", "types": ["Water"], "abilities": [{"name": "Marvel Scale", "is_hidden": false}, {"name": "Competitive", "is_hidden": false}, {"name": "Cute Charm", "is_hidden": true}], "color": "pink"}

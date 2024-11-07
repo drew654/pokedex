@@ -1,1 +1,1 @@
-{"id": 119, "name": "Seaking", "types": ["Water"], "color": "red"}
+{"id": 119, "name": "Seaking", "types": ["Water"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Water Veil", "is_hidden": false}, {"name": "Lightning Rod", "is_hidden": true}], "color": "red"}

@@ -1,1 +1,1 @@
-{"id": 615, "name": "Cryogonal", "types": ["Ice"], "color": "blue"}
+{"id": 615, "name": "Cryogonal", "types": ["Ice"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "blue"}

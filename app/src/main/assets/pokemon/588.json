@@ -1,1 +1,1 @@
-{"id": 588, "name": "Karrablast", "types": ["Bug"], "color": "blue"}
+{"id": 588, "name": "Karrablast", "types": ["Bug"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Shed Skin", "is_hidden": false}, {"name": "No Guard", "is_hidden": true}], "color": "blue"}

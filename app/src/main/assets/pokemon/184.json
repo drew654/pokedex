@@ -1,1 +1,1 @@
-{"id": 184, "name": "Azumarill", "types": ["Water", "Fairy"], "color": "blue"}
+{"id": 184, "name": "Azumarill", "types": ["Water", "Fairy"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Huge Power", "is_hidden": false}, {"name": "Sap Sipper", "is_hidden": true}], "color": "blue"}

@@ -1,1 +1,1 @@
-{"id": 205, "name": "Forretress", "types": ["Bug", "Steel"], "color": "purple"}
+{"id": 205, "name": "Forretress", "types": ["Bug", "Steel"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Overcoat", "is_hidden": true}], "color": "purple"}

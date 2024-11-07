@@ -1,1 +1,1 @@
-{"id": 811, "name": "Thwackey", "types": ["Grass"], "color": "green"}
+{"id": 811, "name": "Thwackey", "types": ["Grass"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Grassy Surge", "is_hidden": true}], "color": "green"}

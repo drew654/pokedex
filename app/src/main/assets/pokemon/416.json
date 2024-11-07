@@ -1,1 +1,1 @@
-{"id": 416, "name": "Vespiquen", "types": ["Bug", "Flying"], "color": "yellow"}
+{"id": 416, "name": "Vespiquen", "types": ["Bug", "Flying"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Unnerve", "is_hidden": true}], "color": "yellow"}

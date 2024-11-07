@@ -1,1 +1,1 @@
-{"id": 109, "name": "Koffing", "types": ["Poison"], "color": "purple"}
+{"id": 109, "name": "Koffing", "types": ["Poison"], "abilities": [{"name": "Levitate", "is_hidden": false}, {"name": "Neutralizing Gas", "is_hidden": false}, {"name": "Stench", "is_hidden": true}], "color": "purple"}

@@ -1,1 +1,1 @@
-{"id": 79, "name": "Slowpoke", "types": ["Water", "Psychic"], "color": "pink"}
+{"id": 79, "name": "Slowpoke", "types": ["Water", "Psychic"], "abilities": [{"name": "Oblivious", "is_hidden": false}, {"name": "Own Tempo", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "pink"}

@@ -1,1 +1,1 @@
-{"id": 166, "name": "Ledian", "types": ["Bug", "Flying"], "color": "red"}
+{"id": 166, "name": "Ledian", "types": ["Bug", "Flying"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Early Bird", "is_hidden": false}, {"name": "Iron Fist", "is_hidden": true}], "color": "red"}

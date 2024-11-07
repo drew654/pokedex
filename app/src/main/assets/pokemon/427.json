@@ -1,1 +1,1 @@
-{"id": 427, "name": "Buneary", "types": ["Normal"], "color": "brown"}
+{"id": 427, "name": "Buneary", "types": ["Normal"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Klutz", "is_hidden": false}, {"name": "Limber", "is_hidden": true}], "color": "brown"}

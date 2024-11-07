@@ -1,1 +1,1 @@
-{"id": 943, "name": "Mabosstiff", "types": ["Dark"], "color": "gray"}
+{"id": 943, "name": "Mabosstiff", "types": ["Dark"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Guard Dog", "is_hidden": false}, {"name": "Stakeout", "is_hidden": true}], "color": "gray"}

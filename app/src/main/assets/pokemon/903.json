@@ -1,1 +1,1 @@
-{"id": 903, "name": "Sneasler", "types": ["Fighting", "Poison"], "color": "gray"}
+{"id": 903, "name": "Sneasler", "types": ["Fighting", "Poison"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Unburden", "is_hidden": false}, {"name": "Poison Touch", "is_hidden": true}], "color": "gray"}

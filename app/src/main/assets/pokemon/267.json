@@ -1,1 +1,1 @@
-{"id": 267, "name": "Beautifly", "types": ["Bug", "Flying"], "color": "yellow"}
+{"id": 267, "name": "Beautifly", "types": ["Bug", "Flying"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Rivalry", "is_hidden": true}], "color": "yellow"}

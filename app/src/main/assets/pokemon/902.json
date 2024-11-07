@@ -1,1 +1,1 @@
-{"id": 902, "name": "Basculegion", "types": ["Water", "Ghost"], "color": "green"}
+{"id": 902, "name": "Basculegion", "types": ["Water", "Ghost"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Adaptability", "is_hidden": false}, {"name": "Mold Breaker", "is_hidden": true}], "color": "green"}

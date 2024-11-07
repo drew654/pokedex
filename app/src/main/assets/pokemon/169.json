@@ -1,1 +1,1 @@
-{"id": 169, "name": "Crobat", "types": ["Poison", "Flying"], "color": "purple"}
+{"id": 169, "name": "Crobat", "types": ["Poison", "Flying"], "abilities": [{"name": "Inner Focus", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "purple"}

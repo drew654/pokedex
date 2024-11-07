@@ -1,1 +1,1 @@
-{"id": 665, "name": "Spewpa", "types": ["Bug"], "color": "black"}
+{"id": 665, "name": "Spewpa", "types": ["Bug"], "abilities": [{"name": "Shed Skin", "is_hidden": false}, {"name": "Friend Guard", "is_hidden": true}], "color": "black"}

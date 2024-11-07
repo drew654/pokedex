@@ -1,1 +1,1 @@
-{"id": 257, "name": "Blaziken", "types": ["Fire", "Fighting"], "color": "red"}
+{"id": 257, "name": "Blaziken", "types": ["Fire", "Fighting"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Speed Boost", "is_hidden": true}], "color": "red"}

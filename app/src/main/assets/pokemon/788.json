@@ -1,1 +1,1 @@
-{"id": 788, "name": "Tapu Fini", "types": ["Water", "Fairy"], "color": "purple"}
+{"id": 788, "name": "Tapu Fini", "types": ["Water", "Fairy"], "abilities": [{"name": "Misty Surge", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "purple"}

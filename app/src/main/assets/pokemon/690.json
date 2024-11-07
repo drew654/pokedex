@@ -1,1 +1,1 @@
-{"id": 690, "name": "Skrelp", "types": ["Poison", "Water"], "color": "brown"}
+{"id": 690, "name": "Skrelp", "types": ["Poison", "Water"], "abilities": [{"name": "Poison Point", "is_hidden": false}, {"name": "Poison Touch", "is_hidden": false}, {"name": "Adaptability", "is_hidden": true}], "color": "brown"}

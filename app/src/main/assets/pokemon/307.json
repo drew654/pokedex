@@ -1,1 +1,1 @@
-{"id": 307, "name": "Meditite", "types": ["Fighting", "Psychic"], "color": "blue"}
+{"id": 307, "name": "Meditite", "types": ["Fighting", "Psychic"], "abilities": [{"name": "Pure Power", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "blue"}

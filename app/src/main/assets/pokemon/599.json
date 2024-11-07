@@ -1,1 +1,1 @@
-{"id": 599, "name": "Klink", "types": ["Steel"], "color": "gray"}
+{"id": 599, "name": "Klink", "types": ["Steel"], "abilities": [{"name": "Plus", "is_hidden": false}, {"name": "Minus", "is_hidden": false}, {"name": "Clear Body", "is_hidden": true}], "color": "gray"}

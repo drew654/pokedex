@@ -1,1 +1,1 @@
-{"id": 470, "name": "Leafeon", "types": ["Grass"], "color": "green"}
+{"id": 470, "name": "Leafeon", "types": ["Grass"], "abilities": [{"name": "Leaf Guard", "is_hidden": false}, {"name": "Chlorophyll", "is_hidden": true}], "color": "green"}

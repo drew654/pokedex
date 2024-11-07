@@ -1,1 +1,1 @@
-{"id": 617, "name": "Accelgor", "types": ["Bug"], "color": "red"}
+{"id": 617, "name": "Accelgor", "types": ["Bug"], "abilities": [{"name": "Hydration", "is_hidden": false}, {"name": "Sticky Hold", "is_hidden": false}, {"name": "Unburden", "is_hidden": true}], "color": "red"}

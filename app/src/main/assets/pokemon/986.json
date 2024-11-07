@@ -1,1 +1,1 @@
-{"id": 986, "name": "Brute Bonnet", "types": ["Grass", "Dark"], "color": "gray"}
+{"id": 986, "name": "Brute Bonnet", "types": ["Grass", "Dark"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}, {"name": "Protosynthesis", "is_hidden": true}], "color": "gray"}

@@ -1,1 +1,1 @@
-{"id": 196, "name": "Espeon", "types": ["Psychic"], "color": "purple"}
+{"id": 196, "name": "Espeon", "types": ["Psychic"], "abilities": [{"name": "Synchronize", "is_hidden": false}, {"name": "Magic Bounce", "is_hidden": true}], "color": "purple"}

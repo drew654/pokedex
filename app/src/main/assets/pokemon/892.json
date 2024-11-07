@@ -1,1 +1,1 @@
-{"id": 892, "name": "Urshifu", "types": ["Fighting", "Dark"], "color": "gray"}
+{"id": 892, "name": "Urshifu", "types": ["Fighting", "Dark"], "abilities": [{"name": "Unseen Fist", "is_hidden": false}], "color": "gray"}

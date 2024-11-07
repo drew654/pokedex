@@ -1,1 +1,1 @@
-{"id": 801, "name": "Magearna", "types": ["Steel", "Fairy"], "color": "gray"}
+{"id": 801, "name": "Magearna", "types": ["Steel", "Fairy"], "abilities": [{"name": "Soul-Heart", "is_hidden": false}], "color": "gray"}

@@ -1,1 +1,1 @@
-{"id": 49, "name": "Venomoth", "types": ["Bug", "Poison"], "color": "purple"}
+{"id": 49, "name": "Venomoth", "types": ["Bug", "Poison"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Tinted Lens", "is_hidden": false}, {"name": "Wonder Skin", "is_hidden": true}], "color": "purple"}

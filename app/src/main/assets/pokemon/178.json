@@ -1,1 +1,1 @@
-{"id": 178, "name": "Xatu", "types": ["Psychic", "Flying"], "color": "green"}
+{"id": 178, "name": "Xatu", "types": ["Psychic", "Flying"], "abilities": [{"name": "Synchronize", "is_hidden": false}, {"name": "Early Bird", "is_hidden": false}, {"name": "Magic Bounce", "is_hidden": true}], "color": "green"}

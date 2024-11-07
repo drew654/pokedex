@@ -1,1 +1,1 @@
-{"id": 1009, "name": "Walking Wake", "types": ["Water", "Dragon"], "color": "blue"}
+{"id": 1009, "name": "Walking Wake", "types": ["Water", "Dragon"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}, {"name": "Protosynthesis", "is_hidden": true}], "color": "blue"}

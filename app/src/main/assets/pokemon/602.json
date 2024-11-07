@@ -1,1 +1,1 @@
-{"id": 602, "name": "Tynamo", "types": ["Electric"], "color": "white"}
+{"id": 602, "name": "Tynamo", "types": ["Electric"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "white"}

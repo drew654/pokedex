@@ -1,1 +1,1 @@
-{"id": 37, "name": "Vulpix", "types": ["Fire"], "color": "brown"}
+{"id": 37, "name": "Vulpix", "types": ["Fire"], "abilities": [{"name": "Flash Fire", "is_hidden": false}, {"name": "Drought", "is_hidden": true}], "color": "brown"}

@@ -1,1 +1,1 @@
-{"id": 831, "name": "Wooloo", "types": ["Normal"], "color": "white"}
+{"id": 831, "name": "Wooloo", "types": ["Normal"], "abilities": [{"name": "Fluffy", "is_hidden": false}, {"name": "Run Away", "is_hidden": false}, {"name": "Bulletproof", "is_hidden": true}], "color": "white"}

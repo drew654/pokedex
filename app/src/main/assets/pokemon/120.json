@@ -1,1 +1,1 @@
-{"id": 120, "name": "Staryu", "types": ["Water"], "color": "brown"}
+{"id": 120, "name": "Staryu", "types": ["Water"], "abilities": [{"name": "Illuminate", "is_hidden": false}, {"name": "Natural Cure", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "brown"}

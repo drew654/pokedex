@@ -1,1 +1,1 @@
-{"id": 605, "name": "Elgyem", "types": ["Psychic"], "color": "blue"}
+{"id": 605, "name": "Elgyem", "types": ["Psychic"], "abilities": [{"name": "Telepathy", "is_hidden": false}, {"name": "Synchronize", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "blue"}

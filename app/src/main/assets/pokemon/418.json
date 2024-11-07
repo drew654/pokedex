@@ -1,1 +1,1 @@
-{"id": 418, "name": "Buizel", "types": ["Water"], "color": "brown"}
+{"id": 418, "name": "Buizel", "types": ["Water"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Water Veil", "is_hidden": true}], "color": "brown"}

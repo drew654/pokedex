@@ -1,1 +1,1 @@
-{"id": 1000, "name": "Gholdengo", "types": ["Steel", "Ghost"], "color": "yellow"}
+{"id": 1000, "name": "Gholdengo", "types": ["Steel", "Ghost"], "abilities": [{"name": "Good as Gold", "is_hidden": false}, {"name": "Good as Gold", "is_hidden": true}], "color": "yellow"}

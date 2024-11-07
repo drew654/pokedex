@@ -1,1 +1,1 @@
-{"id": 747, "name": "Mareanie", "types": ["Poison", "Water"], "color": "blue"}
+{"id": 747, "name": "Mareanie", "types": ["Poison", "Water"], "abilities": [{"name": "Merciless", "is_hidden": false}, {"name": "Limber", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "blue"}

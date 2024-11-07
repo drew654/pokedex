@@ -1,1 +1,1 @@
-{"id": 546, "name": "Cottonee", "types": ["Grass", "Fairy"], "color": "green"}
+{"id": 546, "name": "Cottonee", "types": ["Grass", "Fairy"], "abilities": [{"name": "Prankster", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": false}, {"name": "Chlorophyll", "is_hidden": true}], "color": "green"}

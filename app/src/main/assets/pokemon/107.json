@@ -1,1 +1,1 @@
-{"id": 107, "name": "Hitmonchan", "types": ["Fighting"], "color": "brown"}
+{"id": 107, "name": "Hitmonchan", "types": ["Fighting"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Iron Fist", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": true}], "color": "brown"}

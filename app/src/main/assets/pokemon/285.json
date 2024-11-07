@@ -1,1 +1,1 @@
-{"id": 285, "name": "Shroomish", "types": ["Grass"], "color": "brown"}
+{"id": 285, "name": "Shroomish", "types": ["Grass"], "abilities": [{"name": "Effect Spore", "is_hidden": false}, {"name": "Poison Heal", "is_hidden": false}, {"name": "Quick Feet", "is_hidden": true}], "color": "brown"}

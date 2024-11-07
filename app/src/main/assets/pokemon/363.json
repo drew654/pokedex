@@ -1,1 +1,1 @@
-{"id": 363, "name": "Spheal", "types": ["Ice", "Water"], "color": "blue"}
+{"id": 363, "name": "Spheal", "types": ["Ice", "Water"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Ice Body", "is_hidden": false}, {"name": "Oblivious", "is_hidden": true}], "color": "blue"}

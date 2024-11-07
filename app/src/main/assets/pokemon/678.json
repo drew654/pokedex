@@ -1,1 +1,1 @@
-{"id": 678, "name": "Meowstic", "types": ["Psychic"], "color": "blue"}
+{"id": 678, "name": "Meowstic", "types": ["Psychic"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": false}, {"name": "Prankster", "is_hidden": true}], "color": "blue"}

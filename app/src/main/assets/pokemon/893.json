@@ -1,1 +1,1 @@
-{"id": 893, "name": "Zarude", "types": ["Dark", "Grass"], "color": "green"}
+{"id": 893, "name": "Zarude", "types": ["Dark", "Grass"], "abilities": [{"name": "Leaf Guard", "is_hidden": false}], "color": "green"}

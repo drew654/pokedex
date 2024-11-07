@@ -1,1 +1,1 @@
-{"id": 31, "name": "Nidoqueen", "types": ["Poison", "Ground"], "color": "blue"}
+{"id": 31, "name": "Nidoqueen", "types": ["Poison", "Ground"], "abilities": [{"name": "Poison Point", "is_hidden": false}, {"name": "Rivalry", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "blue"}

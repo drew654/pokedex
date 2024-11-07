@@ -1,1 +1,1 @@
-{"id": 668, "name": "Pyroar", "types": ["Fire", "Normal"], "color": "brown"}
+{"id": 668, "name": "Pyroar", "types": ["Fire", "Normal"], "abilities": [{"name": "Rivalry", "is_hidden": false}, {"name": "Unnerve", "is_hidden": false}, {"name": "Moxie", "is_hidden": true}], "color": "brown"}

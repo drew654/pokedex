@@ -1,1 +1,1 @@
-{"id": 279, "name": "Pelipper", "types": ["Water", "Flying"], "color": "yellow"}
+{"id": 279, "name": "Pelipper", "types": ["Water", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Drizzle", "is_hidden": false}, {"name": "Rain Dish", "is_hidden": true}], "color": "yellow"}

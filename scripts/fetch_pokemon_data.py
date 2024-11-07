@@ -78,6 +78,15 @@ def main():
                     if type_name["language"]["name"] == "en":
                         trimmed_data["types"] += [type_name["name"]]
 
+            trimmed_data["abilities"] = []
+            abilities = pokemon_data["abilities"]
+            for ability in abilities:
+                ability_data = get_data(ability["ability"]["url"])
+                ability_names = ability_data["names"]
+                for ability_name in ability_names:
+                    if ability_name["language"]["name"] == "en":
+                        trimmed_data["abilities"] += [{"name": ability_name["name"], "is_hidden": ability["is_hidden"]}]
+
             trimmed_data["color"] = species_data["color"]["name"]
 
             if not os.path.exists("pokemon"):

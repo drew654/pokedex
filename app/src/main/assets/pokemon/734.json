@@ -1,1 +1,1 @@
-{"id": 734, "name": "Yungoos", "types": ["Normal"], "color": "brown"}
+{"id": 734, "name": "Yungoos", "types": ["Normal"], "abilities": [{"name": "Stakeout", "is_hidden": false}, {"name": "Strong Jaw", "is_hidden": false}, {"name": "Adaptability", "is_hidden": true}], "color": "brown"}

@@ -1,1 +1,1 @@
-{"id": 48, "name": "Venonat", "types": ["Bug", "Poison"], "color": "purple"}
+{"id": 48, "name": "Venonat", "types": ["Bug", "Poison"], "abilities": [{"name": "Compound Eyes", "is_hidden": false}, {"name": "Tinted Lens", "is_hidden": false}, {"name": "Run Away", "is_hidden": true}], "color": "purple"}

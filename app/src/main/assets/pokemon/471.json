@@ -1,1 +1,1 @@
-{"id": 471, "name": "Glaceon", "types": ["Ice"], "color": "blue"}
+{"id": 471, "name": "Glaceon", "types": ["Ice"], "abilities": [{"name": "Snow Cloak", "is_hidden": false}, {"name": "Ice Body", "is_hidden": true}], "color": "blue"}

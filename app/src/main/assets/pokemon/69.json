@@ -1,1 +1,1 @@
-{"id": 69, "name": "Bellsprout", "types": ["Grass", "Poison"], "color": "green"}
+{"id": 69, "name": "Bellsprout", "types": ["Grass", "Poison"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Gluttony", "is_hidden": true}], "color": "green"}

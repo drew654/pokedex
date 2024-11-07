@@ -1,1 +1,1 @@
-{"id": 765, "name": "Oranguru", "types": ["Normal", "Psychic"], "color": "white"}
+{"id": 765, "name": "Oranguru", "types": ["Normal", "Psychic"], "abilities": [{"name": "Inner Focus", "is_hidden": false}, {"name": "Telepathy", "is_hidden": false}, {"name": "Symbiosis", "is_hidden": true}], "color": "white"}

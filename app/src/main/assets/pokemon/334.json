@@ -1,1 +1,1 @@
-{"id": 334, "name": "Altaria", "types": ["Dragon", "Flying"], "color": "blue"}
+{"id": 334, "name": "Altaria", "types": ["Dragon", "Flying"], "abilities": [{"name": "Natural Cure", "is_hidden": false}, {"name": "Cloud Nine", "is_hidden": true}], "color": "blue"}

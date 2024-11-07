@@ -1,1 +1,1 @@
-{"id": 344, "name": "Claydol", "types": ["Ground", "Psychic"], "color": "black"}
+{"id": 344, "name": "Claydol", "types": ["Ground", "Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "black"}

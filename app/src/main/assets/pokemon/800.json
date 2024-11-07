@@ -1,1 +1,1 @@
-{"id": 800, "name": "Necrozma", "types": ["Psychic"], "color": "black"}
+{"id": 800, "name": "Necrozma", "types": ["Psychic"], "abilities": [{"name": "Prism Armor", "is_hidden": false}], "color": "black"}

@@ -1,1 +1,1 @@
-{"id": 843, "name": "Silicobra", "types": ["Ground"], "color": "green"}
+{"id": 843, "name": "Silicobra", "types": ["Ground"], "abilities": [{"name": "Sand Spit", "is_hidden": false}, {"name": "Shed Skin", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "green"}

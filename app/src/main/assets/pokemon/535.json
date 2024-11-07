@@ -1,1 +1,1 @@
-{"id": 535, "name": "Tympole", "types": ["Water"], "color": "blue"}
+{"id": 535, "name": "Tympole", "types": ["Water"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Hydration", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": true}], "color": "blue"}

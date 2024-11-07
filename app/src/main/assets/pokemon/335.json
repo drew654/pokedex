@@ -1,1 +1,1 @@
-{"id": 335, "name": "Zangoose", "types": ["Normal"], "color": "white"}
+{"id": 335, "name": "Zangoose", "types": ["Normal"], "abilities": [{"name": "Immunity", "is_hidden": false}, {"name": "Toxic Boost", "is_hidden": true}], "color": "white"}

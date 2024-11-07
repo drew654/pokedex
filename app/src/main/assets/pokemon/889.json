@@ -1,1 +1,1 @@
-{"id": 889, "name": "Zamazenta", "types": ["Fighting"], "color": "red"}
+{"id": 889, "name": "Zamazenta", "types": ["Fighting"], "abilities": [{"name": "Dauntless Shield", "is_hidden": false}], "color": "red"}

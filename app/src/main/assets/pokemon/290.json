@@ -1,1 +1,1 @@
-{"id": 290, "name": "Nincada", "types": ["Bug", "Ground"], "color": "gray"}
+{"id": 290, "name": "Nincada", "types": ["Bug", "Ground"], "abilities": [{"name": "Compound Eyes", "is_hidden": false}, {"name": "Run Away", "is_hidden": true}], "color": "gray"}

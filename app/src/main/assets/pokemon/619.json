@@ -1,1 +1,1 @@
-{"id": 619, "name": "Mienfoo", "types": ["Fighting"], "color": "yellow"}
+{"id": 619, "name": "Mienfoo", "types": ["Fighting"], "abilities": [{"name": "Inner Focus", "is_hidden": false}, {"name": "Regenerator", "is_hidden": false}, {"name": "Reckless", "is_hidden": true}], "color": "yellow"}

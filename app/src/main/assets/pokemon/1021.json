@@ -1,1 +1,1 @@
-{"id": 1021, "name": "Raging Bolt", "types": ["Electric", "Dragon"], "color": "yellow"}
+{"id": 1021, "name": "Raging Bolt", "types": ["Electric", "Dragon"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}], "color": "yellow"}

@@ -1,1 +1,1 @@
-{"id": 269, "name": "Dustox", "types": ["Bug", "Poison"], "color": "green"}
+{"id": 269, "name": "Dustox", "types": ["Bug", "Poison"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Compound Eyes", "is_hidden": true}], "color": "green"}

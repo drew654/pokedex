@@ -1,1 +1,1 @@
-{"id": 906, "name": "Sprigatito", "types": ["Grass"], "color": "green"}
+{"id": 906, "name": "Sprigatito", "types": ["Grass"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Protean", "is_hidden": true}], "color": "green"}

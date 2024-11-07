@@ -1,1 +1,1 @@
-{"id": 328, "name": "Trapinch", "types": ["Ground"], "color": "brown"}
+{"id": 328, "name": "Trapinch", "types": ["Ground"], "abilities": [{"name": "Hyper Cutter", "is_hidden": false}, {"name": "Arena Trap", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "brown"}

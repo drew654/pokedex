@@ -1,1 +1,1 @@
-{"id": 276, "name": "Taillow", "types": ["Normal", "Flying"], "color": "blue"}
+{"id": 276, "name": "Taillow", "types": ["Normal", "Flying"], "abilities": [{"name": "Guts", "is_hidden": false}, {"name": "Scrappy", "is_hidden": true}], "color": "blue"}

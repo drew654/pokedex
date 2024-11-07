@@ -1,1 +1,1 @@
-{"id": 885, "name": "Dreepy", "types": ["Dragon", "Ghost"], "color": "green"}
+{"id": 885, "name": "Dreepy", "types": ["Dragon", "Ghost"], "abilities": [{"name": "Clear Body", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": false}, {"name": "Cursed Body", "is_hidden": true}], "color": "green"}

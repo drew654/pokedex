@@ -1,1 +1,1 @@
-{"id": 231, "name": "Phanpy", "types": ["Ground"], "color": "blue"}
+{"id": 231, "name": "Phanpy", "types": ["Ground"], "abilities": [{"name": "Pickup", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "blue"}

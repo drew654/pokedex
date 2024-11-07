@@ -1,1 +1,1 @@
-{"id": 642, "name": "Thundurus", "types": ["Electric", "Flying"], "color": "blue"}
+{"id": 642, "name": "Thundurus", "types": ["Electric", "Flying"], "abilities": [{"name": "Prankster", "is_hidden": false}, {"name": "Defiant", "is_hidden": true}], "color": "blue"}

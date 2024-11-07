@@ -1,1 +1,1 @@
-{"id": 227, "name": "Skarmory", "types": ["Steel", "Flying"], "color": "gray"}
+{"id": 227, "name": "Skarmory", "types": ["Steel", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Sturdy", "is_hidden": false}, {"name": "Weak Armor", "is_hidden": true}], "color": "gray"}

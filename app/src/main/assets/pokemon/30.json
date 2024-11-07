@@ -1,1 +1,1 @@
-{"id": 30, "name": "Nidorina", "types": ["Poison"], "color": "blue"}
+{"id": 30, "name": "Nidorina", "types": ["Poison"], "abilities": [{"name": "Poison Point", "is_hidden": false}, {"name": "Rivalry", "is_hidden": false}, {"name": "Hustle", "is_hidden": true}], "color": "blue"}

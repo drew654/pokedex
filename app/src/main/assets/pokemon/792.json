@@ -1,1 +1,1 @@
-{"id": 792, "name": "Lunala", "types": ["Psychic", "Ghost"], "color": "purple"}
+{"id": 792, "name": "Lunala", "types": ["Psychic", "Ghost"], "abilities": [{"name": "Shadow Shield", "is_hidden": false}], "color": "purple"}

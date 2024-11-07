@@ -1,1 +1,1 @@
-{"id": 1, "name": "Bulbasaur", "types": ["Grass", "Poison"], "color": "green"}
+{"id": 1, "name": "Bulbasaur", "types": ["Grass", "Poison"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Chlorophyll", "is_hidden": true}], "color": "green"}

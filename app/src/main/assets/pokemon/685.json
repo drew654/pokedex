@@ -1,1 +1,1 @@
-{"id": 685, "name": "Slurpuff", "types": ["Fairy"], "color": "white"}
+{"id": 685, "name": "Slurpuff", "types": ["Fairy"], "abilities": [{"name": "Sweet Veil", "is_hidden": false}, {"name": "Unburden", "is_hidden": true}], "color": "white"}

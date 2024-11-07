@@ -1,1 +1,1 @@
-{"id": 41, "name": "Zubat", "types": ["Poison", "Flying"], "color": "purple"}
+{"id": 41, "name": "Zubat", "types": ["Poison", "Flying"], "abilities": [{"name": "Inner Focus", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "purple"}

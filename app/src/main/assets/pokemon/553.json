@@ -1,1 +1,1 @@
-{"id": 553, "name": "Krookodile", "types": ["Ground", "Dark"], "color": "red"}
+{"id": 553, "name": "Krookodile", "types": ["Ground", "Dark"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Moxie", "is_hidden": false}, {"name": "Anger Point", "is_hidden": true}], "color": "red"}

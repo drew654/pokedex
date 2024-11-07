@@ -1,1 +1,1 @@
-{"id": 293, "name": "Whismur", "types": ["Normal"], "color": "pink"}
+{"id": 293, "name": "Whismur", "types": ["Normal"], "abilities": [{"name": "Soundproof", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "pink"}

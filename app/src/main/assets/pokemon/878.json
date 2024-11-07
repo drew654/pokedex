@@ -1,1 +1,1 @@
-{"id": 878, "name": "Cufant", "types": ["Steel"], "color": "yellow"}
+{"id": 878, "name": "Cufant", "types": ["Steel"], "abilities": [{"name": "Sheer Force", "is_hidden": false}, {"name": "Heavy Metal", "is_hidden": true}], "color": "yellow"}

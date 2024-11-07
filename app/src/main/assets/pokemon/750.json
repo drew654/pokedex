@@ -1,1 +1,1 @@
-{"id": 750, "name": "Mudsdale", "types": ["Ground"], "color": "brown"}
+{"id": 750, "name": "Mudsdale", "types": ["Ground"], "abilities": [{"name": "Own Tempo", "is_hidden": false}, {"name": "Stamina", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": true}], "color": "brown"}

@@ -1,1 +1,1 @@
-{"id": 504, "name": "Patrat", "types": ["Normal"], "color": "brown"}
+{"id": 504, "name": "Patrat", "types": ["Normal"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Keen Eye", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "brown"}

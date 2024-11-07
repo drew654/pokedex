@@ -1,1 +1,1 @@
-{"id": 972, "name": "Houndstone", "types": ["Ghost"], "color": "white"}
+{"id": 972, "name": "Houndstone", "types": ["Ghost"], "abilities": [{"name": "Sand Rush", "is_hidden": false}, {"name": "Fluffy", "is_hidden": true}], "color": "white"}

@@ -1,1 +1,1 @@
-{"id": 28, "name": "Sandslash", "types": ["Ground"], "color": "yellow"}
+{"id": 28, "name": "Sandslash", "types": ["Ground"], "abilities": [{"name": "Sand Veil", "is_hidden": false}, {"name": "Sand Rush", "is_hidden": true}], "color": "yellow"}

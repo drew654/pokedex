@@ -1,1 +1,1 @@
-{"id": 91, "name": "Cloyster", "types": ["Water", "Ice"], "color": "purple"}
+{"id": 91, "name": "Cloyster", "types": ["Water", "Ice"], "abilities": [{"name": "Shell Armor", "is_hidden": false}, {"name": "Skill Link", "is_hidden": false}, {"name": "Overcoat", "is_hidden": true}], "color": "purple"}

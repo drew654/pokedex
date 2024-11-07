@@ -1,1 +1,1 @@
-{"id": 900, "name": "Kleavor", "types": ["Bug", "Rock"], "color": "brown"}
+{"id": 900, "name": "Kleavor", "types": ["Bug", "Rock"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": false}, {"name": "Sharpness", "is_hidden": true}], "color": "brown"}

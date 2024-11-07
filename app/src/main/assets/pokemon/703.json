@@ -1,1 +1,1 @@
-{"id": 703, "name": "Carbink", "types": ["Rock", "Fairy"], "color": "gray"}
+{"id": 703, "name": "Carbink", "types": ["Rock", "Fairy"], "abilities": [{"name": "Clear Body", "is_hidden": false}, {"name": "Sturdy", "is_hidden": true}], "color": "gray"}

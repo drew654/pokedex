@@ -1,1 +1,1 @@
-{"id": 247, "name": "Pupitar", "types": ["Rock", "Ground"], "color": "gray"}
+{"id": 247, "name": "Pupitar", "types": ["Rock", "Ground"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "gray"}

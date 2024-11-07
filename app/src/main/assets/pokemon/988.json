@@ -1,1 +1,1 @@
-{"id": 988, "name": "Slither Wing", "types": ["Bug", "Fighting"], "color": "red"}
+{"id": 988, "name": "Slither Wing", "types": ["Bug", "Fighting"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}, {"name": "Protosynthesis", "is_hidden": true}], "color": "red"}

@@ -1,1 +1,1 @@
-{"id": 883, "name": "Arctovish", "types": ["Water", "Ice"], "color": "blue"}
+{"id": 883, "name": "Arctovish", "types": ["Water", "Ice"], "abilities": [{"name": "Water Absorb", "is_hidden": false}, {"name": "Ice Body", "is_hidden": false}, {"name": "Slush Rush", "is_hidden": true}], "color": "blue"}

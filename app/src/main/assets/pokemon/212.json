@@ -1,1 +1,1 @@
-{"id": 212, "name": "Scizor", "types": ["Bug", "Steel"], "color": "red"}
+{"id": 212, "name": "Scizor", "types": ["Bug", "Steel"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Technician", "is_hidden": false}, {"name": "Light Metal", "is_hidden": true}], "color": "red"}

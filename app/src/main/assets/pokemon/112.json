@@ -1,1 +1,1 @@
-{"id": 112, "name": "Rhydon", "types": ["Ground", "Rock"], "color": "gray"}
+{"id": 112, "name": "Rhydon", "types": ["Ground", "Rock"], "abilities": [{"name": "Lightning Rod", "is_hidden": false}, {"name": "Rock Head", "is_hidden": false}, {"name": "Reckless", "is_hidden": true}], "color": "gray"}

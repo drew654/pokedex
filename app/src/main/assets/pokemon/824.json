@@ -1,1 +1,1 @@
-{"id": 824, "name": "Blipbug", "types": ["Bug"], "color": "blue"}
+{"id": 824, "name": "Blipbug", "types": ["Bug"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Compound Eyes", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "blue"}

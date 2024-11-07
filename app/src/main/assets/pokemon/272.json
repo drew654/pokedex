@@ -1,1 +1,1 @@
-{"id": 272, "name": "Ludicolo", "types": ["Water", "Grass"], "color": "green"}
+{"id": 272, "name": "Ludicolo", "types": ["Water", "Grass"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Rain Dish", "is_hidden": false}, {"name": "Own Tempo", "is_hidden": true}], "color": "green"}

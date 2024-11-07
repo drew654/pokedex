@@ -1,1 +1,1 @@
-{"id": 516, "name": "Simipour", "types": ["Water"], "color": "blue"}
+{"id": 516, "name": "Simipour", "types": ["Water"], "abilities": [{"name": "Gluttony", "is_hidden": false}, {"name": "Torrent", "is_hidden": true}], "color": "blue"}

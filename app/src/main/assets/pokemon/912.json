@@ -1,1 +1,1 @@
-{"id": 912, "name": "Quaxly", "types": ["Water"], "color": "white"}
+{"id": 912, "name": "Quaxly", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Moxie", "is_hidden": true}], "color": "white"}

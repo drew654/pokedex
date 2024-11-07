@@ -1,1 +1,1 @@
-{"id": 1019, "name": "Hydrapple", "types": ["Grass", "Dragon"], "color": "green"}
+{"id": 1019, "name": "Hydrapple", "types": ["Grass", "Dragon"], "abilities": [{"name": "Supersweet Syrup", "is_hidden": false}, {"name": "Regenerator", "is_hidden": false}, {"name": "Sticky Hold", "is_hidden": true}], "color": "green"}

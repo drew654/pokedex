@@ -1,1 +1,1 @@
-{"id": 1013, "name": "Sinistcha", "types": ["Grass", "Ghost"], "color": "green"}
+{"id": 1013, "name": "Sinistcha", "types": ["Grass", "Ghost"], "abilities": [{"name": "Hospitality", "is_hidden": false}, {"name": "Heatproof", "is_hidden": true}], "color": "green"}

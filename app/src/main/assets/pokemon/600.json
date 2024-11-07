@@ -1,1 +1,1 @@
-{"id": 600, "name": "Klang", "types": ["Steel"], "color": "gray"}
+{"id": 600, "name": "Klang", "types": ["Steel"], "abilities": [{"name": "Plus", "is_hidden": false}, {"name": "Minus", "is_hidden": false}, {"name": "Clear Body", "is_hidden": true}], "color": "gray"}

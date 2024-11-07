@@ -1,1 +1,1 @@
-{"id": 748, "name": "Toxapex", "types": ["Poison", "Water"], "color": "blue"}
+{"id": 748, "name": "Toxapex", "types": ["Poison", "Water"], "abilities": [{"name": "Merciless", "is_hidden": false}, {"name": "Limber", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "blue"}

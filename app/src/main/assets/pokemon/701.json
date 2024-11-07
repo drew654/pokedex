@@ -1,1 +1,1 @@
-{"id": 701, "name": "Hawlucha", "types": ["Fighting", "Flying"], "color": "green"}
+{"id": 701, "name": "Hawlucha", "types": ["Fighting", "Flying"], "abilities": [{"name": "Limber", "is_hidden": false}, {"name": "Unburden", "is_hidden": false}, {"name": "Mold Breaker", "is_hidden": true}], "color": "green"}

@@ -1,1 +1,1 @@
-{"id": 675, "name": "Pangoro", "types": ["Fighting", "Dark"], "color": "white"}
+{"id": 675, "name": "Pangoro", "types": ["Fighting", "Dark"], "abilities": [{"name": "Iron Fist", "is_hidden": false}, {"name": "Mold Breaker", "is_hidden": false}, {"name": "Scrappy", "is_hidden": true}], "color": "white"}

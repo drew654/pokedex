@@ -1,1 +1,1 @@
-{"id": 551, "name": "Sandile", "types": ["Ground", "Dark"], "color": "brown"}
+{"id": 551, "name": "Sandile", "types": ["Ground", "Dark"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Moxie", "is_hidden": false}, {"name": "Anger Point", "is_hidden": true}], "color": "brown"}

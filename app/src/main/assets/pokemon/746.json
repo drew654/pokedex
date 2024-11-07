@@ -1,1 +1,1 @@
-{"id": 746, "name": "Wishiwashi", "types": ["Water"], "color": "blue"}
+{"id": 746, "name": "Wishiwashi", "types": ["Water"], "abilities": [{"name": "Schooling", "is_hidden": false}], "color": "blue"}

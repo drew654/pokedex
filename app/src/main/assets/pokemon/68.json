@@ -1,1 +1,1 @@
-{"id": 68, "name": "Machamp", "types": ["Fighting"], "color": "gray"}
+{"id": 68, "name": "Machamp", "types": ["Fighting"], "abilities": [{"name": "Guts", "is_hidden": false}, {"name": "No Guard", "is_hidden": false}, {"name": "Steadfast", "is_hidden": true}], "color": "gray"}

@@ -1,1 +1,1 @@
-{"id": 126, "name": "Magmar", "types": ["Fire"], "color": "red"}
+{"id": 126, "name": "Magmar", "types": ["Fire"], "abilities": [{"name": "Flame Body", "is_hidden": false}, {"name": "Vital Spirit", "is_hidden": true}], "color": "red"}

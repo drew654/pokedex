@@ -1,1 +1,1 @@
-{"id": 81, "name": "Magnemite", "types": ["Electric", "Steel"], "color": "gray"}
+{"id": 81, "name": "Magnemite", "types": ["Electric", "Steel"], "abilities": [{"name": "Magnet Pull", "is_hidden": false}, {"name": "Sturdy", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "gray"}

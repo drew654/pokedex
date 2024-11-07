@@ -1,1 +1,1 @@
-{"id": 319, "name": "Sharpedo", "types": ["Water", "Dark"], "color": "blue"}
+{"id": 319, "name": "Sharpedo", "types": ["Water", "Dark"], "abilities": [{"name": "Rough Skin", "is_hidden": false}, {"name": "Speed Boost", "is_hidden": true}], "color": "blue"}

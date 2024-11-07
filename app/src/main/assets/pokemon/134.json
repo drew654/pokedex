@@ -1,1 +1,1 @@
-{"id": 134, "name": "Vaporeon", "types": ["Water"], "color": "blue"}
+{"id": 134, "name": "Vaporeon", "types": ["Water"], "abilities": [{"name": "Water Absorb", "is_hidden": false}, {"name": "Hydration", "is_hidden": true}], "color": "blue"}

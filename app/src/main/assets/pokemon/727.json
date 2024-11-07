@@ -1,1 +1,1 @@
-{"id": 727, "name": "Incineroar", "types": ["Fire", "Dark"], "color": "red"}
+{"id": 727, "name": "Incineroar", "types": ["Fire", "Dark"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Intimidate", "is_hidden": true}], "color": "red"}

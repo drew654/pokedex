@@ -1,1 +1,1 @@
-{"id": 352, "name": "Kecleon", "types": ["Normal"], "color": "green"}
+{"id": 352, "name": "Kecleon", "types": ["Normal"], "abilities": [{"name": "Color Change", "is_hidden": false}, {"name": "Protean", "is_hidden": true}], "color": "green"}

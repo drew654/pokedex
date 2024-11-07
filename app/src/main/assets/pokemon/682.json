@@ -1,1 +1,1 @@
-{"id": 682, "name": "Spritzee", "types": ["Fairy"], "color": "pink"}
+{"id": 682, "name": "Spritzee", "types": ["Fairy"], "abilities": [{"name": "Healer", "is_hidden": false}, {"name": "Aroma Veil", "is_hidden": true}], "color": "pink"}

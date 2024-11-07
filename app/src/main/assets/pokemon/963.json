@@ -1,1 +1,1 @@
-{"id": 963, "name": "Finizen", "types": ["Water"], "color": "blue"}
+{"id": 963, "name": "Finizen", "types": ["Water"], "abilities": [{"name": "Water Veil", "is_hidden": false}, {"name": "Water Veil", "is_hidden": true}], "color": "blue"}

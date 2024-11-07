@@ -1,1 +1,1 @@
-{"id": 347, "name": "Anorith", "types": ["Rock", "Bug"], "color": "gray"}
+{"id": 347, "name": "Anorith", "types": ["Rock", "Bug"], "abilities": [{"name": "Battle Armor", "is_hidden": false}, {"name": "Swift Swim", "is_hidden": true}], "color": "gray"}

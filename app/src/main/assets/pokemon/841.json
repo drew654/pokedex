@@ -1,1 +1,1 @@
-{"id": 841, "name": "Flapple", "types": ["Grass", "Dragon"], "color": "green"}
+{"id": 841, "name": "Flapple", "types": ["Grass", "Dragon"], "abilities": [{"name": "Ripen", "is_hidden": false}, {"name": "Gluttony", "is_hidden": false}, {"name": "Hustle", "is_hidden": true}], "color": "green"}

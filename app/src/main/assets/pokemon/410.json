@@ -1,1 +1,1 @@
-{"id": 410, "name": "Shieldon", "types": ["Rock", "Steel"], "color": "gray"}
+{"id": 410, "name": "Shieldon", "types": ["Rock", "Steel"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Soundproof", "is_hidden": true}], "color": "gray"}

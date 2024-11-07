@@ -1,1 +1,1 @@
-{"id": 647, "name": "Keldeo", "types": ["Water", "Fighting"], "color": "yellow"}
+{"id": 647, "name": "Keldeo", "types": ["Water", "Fighting"], "abilities": [{"name": "Justified", "is_hidden": false}], "color": "yellow"}

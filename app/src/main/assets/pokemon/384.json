@@ -1,1 +1,1 @@
-{"id": 384, "name": "Rayquaza", "types": ["Dragon", "Flying"], "color": "green"}
+{"id": 384, "name": "Rayquaza", "types": ["Dragon", "Flying"], "abilities": [{"name": "Air Lock", "is_hidden": false}], "color": "green"}

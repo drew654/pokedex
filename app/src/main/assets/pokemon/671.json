@@ -1,1 +1,1 @@
-{"id": 671, "name": "Florges", "types": ["Fairy"], "color": "white"}
+{"id": 671, "name": "Florges", "types": ["Fairy"], "abilities": [{"name": "Flower Veil", "is_hidden": false}, {"name": "Symbiosis", "is_hidden": true}], "color": "white"}

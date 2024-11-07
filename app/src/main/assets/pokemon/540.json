@@ -1,1 +1,1 @@
-{"id": 540, "name": "Sewaddle", "types": ["Bug", "Grass"], "color": "yellow"}
+{"id": 540, "name": "Sewaddle", "types": ["Bug", "Grass"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Chlorophyll", "is_hidden": false}, {"name": "Overcoat", "is_hidden": true}], "color": "yellow"}

@@ -1,1 +1,1 @@
-{"id": 273, "name": "Seedot", "types": ["Grass"], "color": "brown"}
+{"id": 273, "name": "Seedot", "types": ["Grass"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Early Bird", "is_hidden": false}, {"name": "Pickpocket", "is_hidden": true}], "color": "brown"}

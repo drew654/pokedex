@@ -1,1 +1,1 @@
-{"id": 355, "name": "Duskull", "types": ["Ghost"], "color": "black"}
+{"id": 355, "name": "Duskull", "types": ["Ghost"], "abilities": [{"name": "Levitate", "is_hidden": false}, {"name": "Frisk", "is_hidden": true}], "color": "black"}

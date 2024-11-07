@@ -1,1 +1,1 @@
-{"id": 86, "name": "Seel", "types": ["Water"], "color": "white"}
+{"id": 86, "name": "Seel", "types": ["Water"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Hydration", "is_hidden": false}, {"name": "Ice Body", "is_hidden": true}], "color": "white"}

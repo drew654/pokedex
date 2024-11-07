@@ -1,1 +1,1 @@
-{"id": 776, "name": "Turtonator", "types": ["Fire", "Dragon"], "color": "red"}
+{"id": 776, "name": "Turtonator", "types": ["Fire", "Dragon"], "abilities": [{"name": "Shell Armor", "is_hidden": false}], "color": "red"}

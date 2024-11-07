@@ -1,1 +1,1 @@
-{"id": 36, "name": "Clefable", "types": ["Fairy"], "color": "pink"}
+{"id": 36, "name": "Clefable", "types": ["Fairy"], "abilities": [{"name": "Cute Charm", "is_hidden": false}, {"name": "Magic Guard", "is_hidden": false}, {"name": "Unaware", "is_hidden": true}], "color": "pink"}

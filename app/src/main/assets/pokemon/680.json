@@ -1,1 +1,1 @@
-{"id": 680, "name": "Doublade", "types": ["Steel", "Ghost"], "color": "brown"}
+{"id": 680, "name": "Doublade", "types": ["Steel", "Ghost"], "abilities": [{"name": "No Guard", "is_hidden": false}], "color": "brown"}

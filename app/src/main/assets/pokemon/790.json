@@ -1,1 +1,1 @@
-{"id": 790, "name": "Cosmoem", "types": ["Psychic"], "color": "blue"}
+{"id": 790, "name": "Cosmoem", "types": ["Psychic"], "abilities": [{"name": "Sturdy", "is_hidden": false}], "color": "blue"}

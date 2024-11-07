@@ -1,1 +1,1 @@
-{"id": 101, "name": "Electrode", "types": ["Electric"], "color": "red"}
+{"id": 101, "name": "Electrode", "types": ["Electric"], "abilities": [{"name": "Soundproof", "is_hidden": false}, {"name": "Static", "is_hidden": false}, {"name": "Aftermath", "is_hidden": true}], "color": "red"}

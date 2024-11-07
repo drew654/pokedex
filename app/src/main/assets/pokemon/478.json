@@ -1,1 +1,1 @@
-{"id": 478, "name": "Froslass", "types": ["Ice", "Ghost"], "color": "white"}
+{"id": 478, "name": "Froslass", "types": ["Ice", "Ghost"], "abilities": [{"name": "Snow Cloak", "is_hidden": false}, {"name": "Cursed Body", "is_hidden": true}], "color": "white"}

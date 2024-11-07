@@ -1,1 +1,1 @@
-{"id": 730, "name": "Primarina", "types": ["Water", "Fairy"], "color": "blue"}
+{"id": 730, "name": "Primarina", "types": ["Water", "Fairy"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Liquid Voice", "is_hidden": true}], "color": "blue"}

@@ -1,1 +1,1 @@
-{"id": 845, "name": "Cramorant", "types": ["Flying", "Water"], "color": "blue"}
+{"id": 845, "name": "Cramorant", "types": ["Flying", "Water"], "abilities": [{"name": "Gulp Missile", "is_hidden": false}], "color": "blue"}

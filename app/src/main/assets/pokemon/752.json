@@ -1,1 +1,1 @@
-{"id": 752, "name": "Araquanid", "types": ["Water", "Bug"], "color": "green"}
+{"id": 752, "name": "Araquanid", "types": ["Water", "Bug"], "abilities": [{"name": "Water Bubble", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": true}], "color": "green"}

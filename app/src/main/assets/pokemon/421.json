@@ -1,1 +1,1 @@
-{"id": 421, "name": "Cherrim", "types": ["Grass"], "color": "purple"}
+{"id": 421, "name": "Cherrim", "types": ["Grass"], "abilities": [{"name": "Flower Gift", "is_hidden": false}], "color": "purple"}

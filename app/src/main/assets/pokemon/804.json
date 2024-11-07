@@ -1,1 +1,1 @@
-{"id": 804, "name": "Naganadel", "types": ["Poison", "Dragon"], "color": "purple"}
+{"id": 804, "name": "Naganadel", "types": ["Poison", "Dragon"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "purple"}

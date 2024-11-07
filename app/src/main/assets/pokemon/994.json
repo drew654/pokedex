@@ -1,1 +1,1 @@
-{"id": 994, "name": "Iron Moth", "types": ["Fire", "Poison"], "color": "yellow"}
+{"id": 994, "name": "Iron Moth", "types": ["Fire", "Poison"], "abilities": [{"name": "Quark Drive", "is_hidden": false}, {"name": "Quark Drive", "is_hidden": true}], "color": "yellow"}

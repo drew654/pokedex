@@ -1,1 +1,1 @@
-{"id": 927, "name": "Dachsbun", "types": ["Fairy"], "color": "brown"}
+{"id": 927, "name": "Dachsbun", "types": ["Fairy"], "abilities": [{"name": "Well-Baked Body", "is_hidden": false}, {"name": "Aroma Veil", "is_hidden": true}], "color": "brown"}

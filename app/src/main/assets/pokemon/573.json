@@ -1,1 +1,1 @@
-{"id": 573, "name": "Cinccino", "types": ["Normal"], "color": "gray"}
+{"id": 573, "name": "Cinccino", "types": ["Normal"], "abilities": [{"name": "Cute Charm", "is_hidden": false}, {"name": "Technician", "is_hidden": false}, {"name": "Skill Link", "is_hidden": true}], "color": "gray"}

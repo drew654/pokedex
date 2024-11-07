@@ -1,1 +1,1 @@
-{"id": 700, "name": "Sylveon", "types": ["Fairy"], "color": "pink"}
+{"id": 700, "name": "Sylveon", "types": ["Fairy"], "abilities": [{"name": "Cute Charm", "is_hidden": false}, {"name": "Pixilate", "is_hidden": true}], "color": "pink"}

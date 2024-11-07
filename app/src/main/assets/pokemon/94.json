@@ -1,1 +1,1 @@
-{"id": 94, "name": "Gengar", "types": ["Ghost", "Poison"], "color": "purple"}
+{"id": 94, "name": "Gengar", "types": ["Ghost", "Poison"], "abilities": [{"name": "Cursed Body", "is_hidden": false}], "color": "purple"}

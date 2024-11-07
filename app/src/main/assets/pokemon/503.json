@@ -1,1 +1,1 @@
-{"id": 503, "name": "Samurott", "types": ["Water"], "color": "blue"}
+{"id": 503, "name": "Samurott", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": true}], "color": "blue"}

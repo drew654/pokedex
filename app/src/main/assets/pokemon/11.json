@@ -1,1 +1,1 @@
-{"id": 11, "name": "Metapod", "types": ["Bug"], "color": "green"}
+{"id": 11, "name": "Metapod", "types": ["Bug"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "green"}

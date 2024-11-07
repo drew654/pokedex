@@ -1,1 +1,1 @@
-{"id": 598, "name": "Ferrothorn", "types": ["Grass", "Steel"], "color": "gray"}
+{"id": 598, "name": "Ferrothorn", "types": ["Grass", "Steel"], "abilities": [{"name": "Iron Barbs", "is_hidden": false}, {"name": "Anticipation", "is_hidden": true}], "color": "gray"}

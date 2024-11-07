@@ -1,1 +1,1 @@
-{"id": 614, "name": "Beartic", "types": ["Ice"], "color": "white"}
+{"id": 614, "name": "Beartic", "types": ["Ice"], "abilities": [{"name": "Snow Cloak", "is_hidden": false}, {"name": "Slush Rush", "is_hidden": false}, {"name": "Swift Swim", "is_hidden": true}], "color": "white"}

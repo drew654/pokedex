@@ -1,1 +1,1 @@
-{"id": 259, "name": "Marshtomp", "types": ["Water", "Ground"], "color": "blue"}
+{"id": 259, "name": "Marshtomp", "types": ["Water", "Ground"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Damp", "is_hidden": true}], "color": "blue"}

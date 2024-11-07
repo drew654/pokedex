@@ -1,1 +1,1 @@
-{"id": 437, "name": "Bronzong", "types": ["Steel", "Psychic"], "color": "green"}
+{"id": 437, "name": "Bronzong", "types": ["Steel", "Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}, {"name": "Heatproof", "is_hidden": false}, {"name": "Heavy Metal", "is_hidden": true}], "color": "green"}

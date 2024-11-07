@@ -1,1 +1,1 @@
-{"id": 131, "name": "Lapras", "types": ["Water", "Ice"], "color": "blue"}
+{"id": 131, "name": "Lapras", "types": ["Water", "Ice"], "abilities": [{"name": "Water Absorb", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": false}, {"name": "Hydration", "is_hidden": true}], "color": "blue"}

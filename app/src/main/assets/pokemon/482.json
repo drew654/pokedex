@@ -1,1 +1,1 @@
-{"id": 482, "name": "Azelf", "types": ["Psychic"], "color": "blue"}
+{"id": 482, "name": "Azelf", "types": ["Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "blue"}

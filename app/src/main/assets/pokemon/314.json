@@ -1,1 +1,1 @@
-{"id": 314, "name": "Illumise", "types": ["Bug"], "color": "purple"}
+{"id": 314, "name": "Illumise", "types": ["Bug"], "abilities": [{"name": "Oblivious", "is_hidden": false}, {"name": "Tinted Lens", "is_hidden": false}, {"name": "Prankster", "is_hidden": true}], "color": "purple"}

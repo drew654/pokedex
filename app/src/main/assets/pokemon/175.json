@@ -1,1 +1,1 @@
-{"id": 175, "name": "Togepi", "types": ["Fairy"], "color": "white"}
+{"id": 175, "name": "Togepi", "types": ["Fairy"], "abilities": [{"name": "Hustle", "is_hidden": false}, {"name": "Serene Grace", "is_hidden": false}, {"name": "Super Luck", "is_hidden": true}], "color": "white"}

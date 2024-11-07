@@ -1,1 +1,1 @@
-{"id": 961, "name": "Wugtrio", "types": ["Water"], "color": "red"}
+{"id": 961, "name": "Wugtrio", "types": ["Water"], "abilities": [{"name": "Gooey", "is_hidden": false}, {"name": "Rattled", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "red"}

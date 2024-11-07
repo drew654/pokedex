@@ -1,1 +1,1 @@
-{"id": 1006, "name": "Iron Valiant", "types": ["Fairy", "Fighting"], "color": "white"}
+{"id": 1006, "name": "Iron Valiant", "types": ["Fairy", "Fighting"], "abilities": [{"name": "Quark Drive", "is_hidden": false}, {"name": "Quark Drive", "is_hidden": true}], "color": "white"}

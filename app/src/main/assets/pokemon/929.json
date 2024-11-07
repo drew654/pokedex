@@ -1,1 +1,1 @@
-{"id": 929, "name": "Dolliv", "types": ["Grass", "Normal"], "color": "green"}
+{"id": 929, "name": "Dolliv", "types": ["Grass", "Normal"], "abilities": [{"name": "Early Bird", "is_hidden": false}, {"name": "Harvest", "is_hidden": true}], "color": "green"}

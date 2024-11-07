@@ -1,1 +1,1 @@
-{"id": 785, "name": "Tapu Koko", "types": ["Electric", "Fairy"], "color": "yellow"}
+{"id": 785, "name": "Tapu Koko", "types": ["Electric", "Fairy"], "abilities": [{"name": "Electric Surge", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "yellow"}

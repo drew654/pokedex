@@ -1,1 +1,1 @@
-{"id": 10, "name": "Caterpie", "types": ["Bug"], "color": "green"}
+{"id": 10, "name": "Caterpie", "types": ["Bug"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Run Away", "is_hidden": true}], "color": "green"}

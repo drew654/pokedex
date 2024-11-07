@@ -1,1 +1,1 @@
-{"id": 210, "name": "Granbull", "types": ["Fairy"], "color": "purple"}
+{"id": 210, "name": "Granbull", "types": ["Fairy"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Quick Feet", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "purple"}

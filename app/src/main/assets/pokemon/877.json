@@ -1,1 +1,1 @@
-{"id": 877, "name": "Morpeko", "types": ["Electric", "Dark"], "color": "yellow"}
+{"id": 877, "name": "Morpeko", "types": ["Electric", "Dark"], "abilities": [{"name": "Hunger Switch", "is_hidden": false}], "color": "yellow"}

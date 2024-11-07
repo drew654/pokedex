@@ -1,1 +1,1 @@
-{"id": 3, "name": "Venusaur", "types": ["Grass", "Poison"], "color": "green"}
+{"id": 3, "name": "Venusaur", "types": ["Grass", "Poison"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Chlorophyll", "is_hidden": true}], "color": "green"}

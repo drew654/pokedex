@@ -1,1 +1,1 @@
-{"id": 223, "name": "Remoraid", "types": ["Water"], "color": "gray"}
+{"id": 223, "name": "Remoraid", "types": ["Water"], "abilities": [{"name": "Hustle", "is_hidden": false}, {"name": "Sniper", "is_hidden": false}, {"name": "Moody", "is_hidden": true}], "color": "gray"}

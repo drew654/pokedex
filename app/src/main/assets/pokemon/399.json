@@ -1,1 +1,1 @@
-{"id": 399, "name": "Bidoof", "types": ["Normal"], "color": "brown"}
+{"id": 399, "name": "Bidoof", "types": ["Normal"], "abilities": [{"name": "Simple", "is_hidden": false}, {"name": "Unaware", "is_hidden": false}, {"name": "Moody", "is_hidden": true}], "color": "brown"}

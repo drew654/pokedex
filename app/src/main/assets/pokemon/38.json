@@ -1,1 +1,1 @@
-{"id": 38, "name": "Ninetales", "types": ["Fire"], "color": "yellow"}
+{"id": 38, "name": "Ninetales", "types": ["Fire"], "abilities": [{"name": "Flash Fire", "is_hidden": false}, {"name": "Drought", "is_hidden": true}], "color": "yellow"}

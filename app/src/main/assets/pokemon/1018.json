@@ -1,1 +1,1 @@
-{"id": 1018, "name": "Archaludon", "types": ["Steel", "Dragon"], "color": "white"}
+{"id": 1018, "name": "Archaludon", "types": ["Steel", "Dragon"], "abilities": [{"name": "Stamina", "is_hidden": false}, {"name": "Sturdy", "is_hidden": false}, {"name": "Stalwart", "is_hidden": true}], "color": "white"}

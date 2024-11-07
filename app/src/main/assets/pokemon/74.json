@@ -1,1 +1,1 @@
-{"id": 74, "name": "Geodude", "types": ["Rock", "Ground"], "color": "brown"}
+{"id": 74, "name": "Geodude", "types": ["Rock", "Ground"], "abilities": [{"name": "Rock Head", "is_hidden": false}, {"name": "Sturdy", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "brown"}

@@ -1,1 +1,1 @@
-{"id": 964, "name": "Palafin", "types": ["Water"], "color": "blue"}
+{"id": 964, "name": "Palafin", "types": ["Water"], "abilities": [{"name": "Zero to Hero", "is_hidden": false}, {"name": "Zero to Hero", "is_hidden": true}], "color": "blue"}

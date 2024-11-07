@@ -1,1 +1,1 @@
-{"id": 663, "name": "Talonflame", "types": ["Fire", "Flying"], "color": "red"}
+{"id": 663, "name": "Talonflame", "types": ["Fire", "Flying"], "abilities": [{"name": "Flame Body", "is_hidden": false}, {"name": "Gale Wings", "is_hidden": true}], "color": "red"}

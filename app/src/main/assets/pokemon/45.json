@@ -1,1 +1,1 @@
-{"id": 45, "name": "Vileplume", "types": ["Grass", "Poison"], "color": "red"}
+{"id": 45, "name": "Vileplume", "types": ["Grass", "Poison"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Effect Spore", "is_hidden": true}], "color": "red"}

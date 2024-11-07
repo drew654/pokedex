@@ -1,1 +1,1 @@
-{"id": 136, "name": "Flareon", "types": ["Fire"], "color": "red"}
+{"id": 136, "name": "Flareon", "types": ["Fire"], "abilities": [{"name": "Flash Fire", "is_hidden": false}, {"name": "Guts", "is_hidden": true}], "color": "red"}

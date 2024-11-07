@@ -1,1 +1,1 @@
-{"id": 286, "name": "Breloom", "types": ["Grass", "Fighting"], "color": "green"}
+{"id": 286, "name": "Breloom", "types": ["Grass", "Fighting"], "abilities": [{"name": "Effect Spore", "is_hidden": false}, {"name": "Poison Heal", "is_hidden": false}, {"name": "Technician", "is_hidden": true}], "color": "green"}

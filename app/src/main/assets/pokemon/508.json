@@ -1,1 +1,1 @@
-{"id": 508, "name": "Stoutland", "types": ["Normal"], "color": "gray"}
+{"id": 508, "name": "Stoutland", "types": ["Normal"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Sand Rush", "is_hidden": false}, {"name": "Scrappy", "is_hidden": true}], "color": "gray"}

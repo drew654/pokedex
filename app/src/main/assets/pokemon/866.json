@@ -1,1 +1,1 @@
-{"id": 866, "name": "Mr. Rime", "types": ["Ice", "Psychic"], "color": "purple"}
+{"id": 866, "name": "Mr. Rime", "types": ["Ice", "Psychic"], "abilities": [{"name": "Tangled Feet", "is_hidden": false}, {"name": "Screen Cleaner", "is_hidden": false}, {"name": "Ice Body", "is_hidden": true}], "color": "purple"}

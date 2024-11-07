@@ -1,1 +1,1 @@
-{"id": 422, "name": "Shellos", "types": ["Water"], "color": "purple"}
+{"id": 422, "name": "Shellos", "types": ["Water"], "abilities": [{"name": "Sticky Hold", "is_hidden": false}, {"name": "Storm Drain", "is_hidden": false}, {"name": "Sand Force", "is_hidden": true}], "color": "purple"}

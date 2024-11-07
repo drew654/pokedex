@@ -1,1 +1,1 @@
-{"id": 915, "name": "Lechonk", "types": ["Normal"], "color": "gray"}
+{"id": 915, "name": "Lechonk", "types": ["Normal"], "abilities": [{"name": "Aroma Veil", "is_hidden": false}, {"name": "Gluttony", "is_hidden": false}, {"name": "Thick Fat", "is_hidden": true}], "color": "gray"}

@@ -1,1 +1,1 @@
-{"id": 566, "name": "Archen", "types": ["Rock", "Flying"], "color": "yellow"}
+{"id": 566, "name": "Archen", "types": ["Rock", "Flying"], "abilities": [{"name": "Defeatist", "is_hidden": false}], "color": "yellow"}

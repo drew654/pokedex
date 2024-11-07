@@ -1,1 +1,1 @@
-{"id": 589, "name": "Escavalier", "types": ["Bug", "Steel"], "color": "gray"}
+{"id": 589, "name": "Escavalier", "types": ["Bug", "Steel"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": false}, {"name": "Overcoat", "is_hidden": true}], "color": "gray"}

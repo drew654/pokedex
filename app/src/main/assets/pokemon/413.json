@@ -1,1 +1,1 @@
-{"id": 413, "name": "Wormadam", "types": ["Bug", "Grass"], "color": "green"}
+{"id": 413, "name": "Wormadam", "types": ["Bug", "Grass"], "abilities": [{"name": "Anticipation", "is_hidden": false}, {"name": "Overcoat", "is_hidden": true}], "color": "green"}

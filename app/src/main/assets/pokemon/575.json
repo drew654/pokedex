@@ -1,1 +1,1 @@
-{"id": 575, "name": "Gothorita", "types": ["Psychic"], "color": "purple"}
+{"id": 575, "name": "Gothorita", "types": ["Psychic"], "abilities": [{"name": "Frisk", "is_hidden": false}, {"name": "Competitive", "is_hidden": false}, {"name": "Shadow Tag", "is_hidden": true}], "color": "purple"}

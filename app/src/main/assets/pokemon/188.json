@@ -1,1 +1,1 @@
-{"id": 188, "name": "Skiploom", "types": ["Grass", "Flying"], "color": "green"}
+{"id": 188, "name": "Skiploom", "types": ["Grass", "Flying"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Leaf Guard", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "green"}

@@ -1,1 +1,1 @@
-{"id": 500, "name": "Emboar", "types": ["Fire", "Fighting"], "color": "red"}
+{"id": 500, "name": "Emboar", "types": ["Fire", "Fighting"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Reckless", "is_hidden": true}], "color": "red"}

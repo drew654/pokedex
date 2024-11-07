@@ -1,1 +1,1 @@
-{"id": 224, "name": "Octillery", "types": ["Water"], "color": "red"}
+{"id": 224, "name": "Octillery", "types": ["Water"], "abilities": [{"name": "Suction Cups", "is_hidden": false}, {"name": "Sniper", "is_hidden": false}, {"name": "Moody", "is_hidden": true}], "color": "red"}

@@ -1,1 +1,1 @@
-{"id": 430, "name": "Honchkrow", "types": ["Dark", "Flying"], "color": "black"}
+{"id": 430, "name": "Honchkrow", "types": ["Dark", "Flying"], "abilities": [{"name": "Insomnia", "is_hidden": false}, {"name": "Super Luck", "is_hidden": false}, {"name": "Moxie", "is_hidden": true}], "color": "black"}

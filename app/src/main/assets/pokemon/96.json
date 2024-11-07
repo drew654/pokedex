@@ -1,1 +1,1 @@
-{"id": 96, "name": "Drowzee", "types": ["Psychic"], "color": "yellow"}
+{"id": 96, "name": "Drowzee", "types": ["Psychic"], "abilities": [{"name": "Insomnia", "is_hidden": false}, {"name": "Forewarn", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": true}], "color": "yellow"}

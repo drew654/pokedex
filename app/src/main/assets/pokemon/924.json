@@ -1,1 +1,1 @@
-{"id": 924, "name": "Tandemaus", "types": ["Normal"], "color": "white"}
+{"id": 924, "name": "Tandemaus", "types": ["Normal"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Pickup", "is_hidden": false}, {"name": "Own Tempo", "is_hidden": true}], "color": "white"}

@@ -1,1 +1,1 @@
-{"id": 185, "name": "Sudowoodo", "types": ["Rock"], "color": "brown"}
+{"id": 185, "name": "Sudowoodo", "types": ["Rock"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Rock Head", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "brown"}

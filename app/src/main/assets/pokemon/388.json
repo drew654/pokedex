@@ -1,1 +1,1 @@
-{"id": 388, "name": "Grotle", "types": ["Grass"], "color": "green"}
+{"id": 388, "name": "Grotle", "types": ["Grass"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": true}], "color": "green"}

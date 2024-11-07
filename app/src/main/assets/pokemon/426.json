@@ -1,1 +1,1 @@
-{"id": 426, "name": "Drifblim", "types": ["Ghost", "Flying"], "color": "purple"}
+{"id": 426, "name": "Drifblim", "types": ["Ghost", "Flying"], "abilities": [{"name": "Aftermath", "is_hidden": false}, {"name": "Unburden", "is_hidden": false}, {"name": "Flare Boost", "is_hidden": true}], "color": "purple"}

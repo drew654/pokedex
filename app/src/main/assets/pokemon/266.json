@@ -1,1 +1,1 @@
-{"id": 266, "name": "Silcoon", "types": ["Bug"], "color": "white"}
+{"id": 266, "name": "Silcoon", "types": ["Bug"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "white"}

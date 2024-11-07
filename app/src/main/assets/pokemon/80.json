@@ -1,1 +1,1 @@
-{"id": 80, "name": "Slowbro", "types": ["Water", "Psychic"], "color": "pink"}
+{"id": 80, "name": "Slowbro", "types": ["Water", "Psychic"], "abilities": [{"name": "Oblivious", "is_hidden": false}, {"name": "Own Tempo", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "pink"}

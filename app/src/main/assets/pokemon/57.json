@@ -1,1 +1,1 @@
-{"id": 57, "name": "Primeape", "types": ["Fighting"], "color": "brown"}
+{"id": 57, "name": "Primeape", "types": ["Fighting"], "abilities": [{"name": "Vital Spirit", "is_hidden": false}, {"name": "Anger Point", "is_hidden": false}, {"name": "Defiant", "is_hidden": true}], "color": "brown"}

@@ -1,1 +1,1 @@
-{"id": 415, "name": "Combee", "types": ["Bug", "Flying"], "color": "yellow"}
+{"id": 415, "name": "Combee", "types": ["Bug", "Flying"], "abilities": [{"name": "Honey Gather", "is_hidden": false}, {"name": "Hustle", "is_hidden": true}], "color": "yellow"}

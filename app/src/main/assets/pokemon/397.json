@@ -1,1 +1,1 @@
-{"id": 397, "name": "Staravia", "types": ["Normal", "Flying"], "color": "brown"}
+{"id": 397, "name": "Staravia", "types": ["Normal", "Flying"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Reckless", "is_hidden": true}], "color": "brown"}

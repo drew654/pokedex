@@ -1,1 +1,1 @@
-{"id": 638, "name": "Cobalion", "types": ["Steel", "Fighting"], "color": "blue"}
+{"id": 638, "name": "Cobalion", "types": ["Steel", "Fighting"], "abilities": [{"name": "Justified", "is_hidden": false}], "color": "blue"}

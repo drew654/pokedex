@@ -1,1 +1,1 @@
-{"id": 444, "name": "Gabite", "types": ["Dragon", "Ground"], "color": "blue"}
+{"id": 444, "name": "Gabite", "types": ["Dragon", "Ground"], "abilities": [{"name": "Sand Veil", "is_hidden": false}, {"name": "Rough Skin", "is_hidden": true}], "color": "blue"}

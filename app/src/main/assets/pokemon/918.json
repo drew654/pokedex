@@ -1,1 +1,1 @@
-{"id": 918, "name": "Spidops", "types": ["Bug"], "color": "green"}
+{"id": 918, "name": "Spidops", "types": ["Bug"], "abilities": [{"name": "Insomnia", "is_hidden": false}, {"name": "Stakeout", "is_hidden": true}], "color": "green"}

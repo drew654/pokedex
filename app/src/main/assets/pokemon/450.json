@@ -1,1 +1,1 @@
-{"id": 450, "name": "Hippowdon", "types": ["Ground"], "color": "brown"}
+{"id": 450, "name": "Hippowdon", "types": ["Ground"], "abilities": [{"name": "Sand Stream", "is_hidden": false}, {"name": "Sand Force", "is_hidden": true}], "color": "brown"}

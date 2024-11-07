@@ -1,1 +1,1 @@
-{"id": 215, "name": "Sneasel", "types": ["Dark", "Ice"], "color": "black"}
+{"id": 215, "name": "Sneasel", "types": ["Dark", "Ice"], "abilities": [{"name": "Inner Focus", "is_hidden": false}, {"name": "Keen Eye", "is_hidden": false}, {"name": "Pickpocket", "is_hidden": true}], "color": "black"}

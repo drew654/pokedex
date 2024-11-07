@@ -1,1 +1,1 @@
-{"id": 472, "name": "Gliscor", "types": ["Ground", "Flying"], "color": "purple"}
+{"id": 472, "name": "Gliscor", "types": ["Ground", "Flying"], "abilities": [{"name": "Hyper Cutter", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": false}, {"name": "Poison Heal", "is_hidden": true}], "color": "purple"}

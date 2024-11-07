@@ -1,1 +1,1 @@
-{"id": 991, "name": "Iron Bundle", "types": ["Ice", "Water"], "color": "red"}
+{"id": 991, "name": "Iron Bundle", "types": ["Ice", "Water"], "abilities": [{"name": "Quark Drive", "is_hidden": false}, {"name": "Quark Drive", "is_hidden": true}], "color": "red"}

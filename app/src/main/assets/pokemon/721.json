@@ -1,1 +1,1 @@
-{"id": 721, "name": "Volcanion", "types": ["Fire", "Water"], "color": "brown"}
+{"id": 721, "name": "Volcanion", "types": ["Fire", "Water"], "abilities": [{"name": "Water Absorb", "is_hidden": false}], "color": "brown"}

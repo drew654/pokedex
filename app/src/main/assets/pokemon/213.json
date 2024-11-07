@@ -1,1 +1,1 @@
-{"id": 213, "name": "Shuckle", "types": ["Bug", "Rock"], "color": "yellow"}
+{"id": 213, "name": "Shuckle", "types": ["Bug", "Rock"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Gluttony", "is_hidden": false}, {"name": "Contrary", "is_hidden": true}], "color": "yellow"}

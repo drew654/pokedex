@@ -1,1 +1,1 @@
-{"id": 310, "name": "Manectric", "types": ["Electric"], "color": "yellow"}
+{"id": 310, "name": "Manectric", "types": ["Electric"], "abilities": [{"name": "Static", "is_hidden": false}, {"name": "Lightning Rod", "is_hidden": false}, {"name": "Minus", "is_hidden": true}], "color": "yellow"}

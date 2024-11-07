@@ -1,1 +1,1 @@
-{"id": 128, "name": "Tauros", "types": ["Normal"], "color": "brown"}
+{"id": 128, "name": "Tauros", "types": ["Normal"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Anger Point", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "brown"}

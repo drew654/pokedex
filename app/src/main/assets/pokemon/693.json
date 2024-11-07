@@ -1,1 +1,1 @@
-{"id": 693, "name": "Clawitzer", "types": ["Water"], "color": "blue"}
+{"id": 693, "name": "Clawitzer", "types": ["Water"], "abilities": [{"name": "Mega Launcher", "is_hidden": false}], "color": "blue"}

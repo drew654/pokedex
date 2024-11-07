@@ -1,1 +1,1 @@
-{"id": 55, "name": "Golduck", "types": ["Water"], "color": "blue"}
+{"id": 55, "name": "Golduck", "types": ["Water"], "abilities": [{"name": "Damp", "is_hidden": false}, {"name": "Cloud Nine", "is_hidden": false}, {"name": "Swift Swim", "is_hidden": true}], "color": "blue"}

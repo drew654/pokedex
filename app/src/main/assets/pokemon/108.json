@@ -1,1 +1,1 @@
-{"id": 108, "name": "Lickitung", "types": ["Normal"], "color": "pink"}
+{"id": 108, "name": "Lickitung", "types": ["Normal"], "abilities": [{"name": "Own Tempo", "is_hidden": false}, {"name": "Oblivious", "is_hidden": false}, {"name": "Cloud Nine", "is_hidden": true}], "color": "pink"}

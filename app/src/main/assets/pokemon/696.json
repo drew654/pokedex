@@ -1,1 +1,1 @@
-{"id": 696, "name": "Tyrunt", "types": ["Rock", "Dragon"], "color": "brown"}
+{"id": 696, "name": "Tyrunt", "types": ["Rock", "Dragon"], "abilities": [{"name": "Strong Jaw", "is_hidden": false}, {"name": "Sturdy", "is_hidden": true}], "color": "brown"}

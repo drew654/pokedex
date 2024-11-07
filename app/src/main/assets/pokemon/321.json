@@ -1,1 +1,1 @@
-{"id": 321, "name": "Wailord", "types": ["Water"], "color": "blue"}
+{"id": 321, "name": "Wailord", "types": ["Water"], "abilities": [{"name": "Water Veil", "is_hidden": false}, {"name": "Oblivious", "is_hidden": false}, {"name": "Pressure", "is_hidden": true}], "color": "blue"}

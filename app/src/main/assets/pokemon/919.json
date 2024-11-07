@@ -1,1 +1,1 @@
-{"id": 919, "name": "Nymble", "types": ["Bug"], "color": "gray"}
+{"id": 919, "name": "Nymble", "types": ["Bug"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Tinted Lens", "is_hidden": true}], "color": "gray"}

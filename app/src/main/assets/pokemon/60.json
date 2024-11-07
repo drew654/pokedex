@@ -1,1 +1,1 @@
-{"id": 60, "name": "Poliwag", "types": ["Water"], "color": "blue"}
+{"id": 60, "name": "Poliwag", "types": ["Water"], "abilities": [{"name": "Water Absorb", "is_hidden": false}, {"name": "Damp", "is_hidden": false}, {"name": "Swift Swim", "is_hidden": true}], "color": "blue"}

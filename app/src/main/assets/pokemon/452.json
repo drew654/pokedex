@@ -1,1 +1,1 @@
-{"id": 452, "name": "Drapion", "types": ["Poison", "Dark"], "color": "purple"}
+{"id": 452, "name": "Drapion", "types": ["Poison", "Dark"], "abilities": [{"name": "Battle Armor", "is_hidden": false}, {"name": "Sniper", "is_hidden": false}, {"name": "Keen Eye", "is_hidden": true}], "color": "purple"}

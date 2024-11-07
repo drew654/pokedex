@@ -1,1 +1,1 @@
-{"id": 501, "name": "Oshawott", "types": ["Water"], "color": "blue"}
+{"id": 501, "name": "Oshawott", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": true}], "color": "blue"}

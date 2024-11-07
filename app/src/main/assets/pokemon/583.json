@@ -1,1 +1,1 @@
-{"id": 583, "name": "Vanillish", "types": ["Ice"], "color": "white"}
+{"id": 583, "name": "Vanillish", "types": ["Ice"], "abilities": [{"name": "Ice Body", "is_hidden": false}, {"name": "Snow Cloak", "is_hidden": false}, {"name": "Weak Armor", "is_hidden": true}], "color": "white"}

@@ -1,1 +1,1 @@
-{"id": 951, "name": "Capsakid", "types": ["Grass"], "color": "green"}
+{"id": 951, "name": "Capsakid", "types": ["Grass"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Insomnia", "is_hidden": false}, {"name": "Klutz", "is_hidden": true}], "color": "green"}

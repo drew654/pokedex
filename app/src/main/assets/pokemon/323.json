@@ -1,1 +1,1 @@
-{"id": 323, "name": "Camerupt", "types": ["Fire", "Ground"], "color": "red"}
+{"id": 323, "name": "Camerupt", "types": ["Fire", "Ground"], "abilities": [{"name": "Magma Armor", "is_hidden": false}, {"name": "Solid Rock", "is_hidden": false}, {"name": "Anger Point", "is_hidden": true}], "color": "red"}

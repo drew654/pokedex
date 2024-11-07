@@ -1,1 +1,1 @@
-{"id": 559, "name": "Scraggy", "types": ["Dark", "Fighting"], "color": "yellow"}
+{"id": 559, "name": "Scraggy", "types": ["Dark", "Fighting"], "abilities": [{"name": "Shed Skin", "is_hidden": false}, {"name": "Moxie", "is_hidden": false}, {"name": "Intimidate", "is_hidden": true}], "color": "yellow"}

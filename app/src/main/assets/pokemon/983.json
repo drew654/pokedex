@@ -1,1 +1,1 @@
-{"id": 983, "name": "Kingambit", "types": ["Dark", "Steel"], "color": "black"}
+{"id": 983, "name": "Kingambit", "types": ["Dark", "Steel"], "abilities": [{"name": "Defiant", "is_hidden": false}, {"name": "Supreme Overlord", "is_hidden": false}, {"name": "Pressure", "is_hidden": true}], "color": "black"}

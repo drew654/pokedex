@@ -1,1 +1,1 @@
-{"id": 340, "name": "Whiscash", "types": ["Water", "Ground"], "color": "blue"}
+{"id": 340, "name": "Whiscash", "types": ["Water", "Ground"], "abilities": [{"name": "Oblivious", "is_hidden": false}, {"name": "Anticipation", "is_hidden": false}, {"name": "Hydration", "is_hidden": true}], "color": "blue"}

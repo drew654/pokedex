@@ -1,1 +1,1 @@
-{"id": 486, "name": "Regigigas", "types": ["Normal"], "color": "white"}
+{"id": 486, "name": "Regigigas", "types": ["Normal"], "abilities": [{"name": "Slow Start", "is_hidden": false}], "color": "white"}

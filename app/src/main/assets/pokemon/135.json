@@ -1,1 +1,1 @@
-{"id": 135, "name": "Jolteon", "types": ["Electric"], "color": "yellow"}
+{"id": 135, "name": "Jolteon", "types": ["Electric"], "abilities": [{"name": "Volt Absorb", "is_hidden": false}, {"name": "Quick Feet", "is_hidden": true}], "color": "yellow"}

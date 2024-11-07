@@ -1,1 +1,1 @@
-{"id": 349, "name": "Feebas", "types": ["Water"], "color": "brown"}
+{"id": 349, "name": "Feebas", "types": ["Water"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Oblivious", "is_hidden": false}, {"name": "Adaptability", "is_hidden": true}], "color": "brown"}

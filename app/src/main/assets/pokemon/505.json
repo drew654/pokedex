@@ -1,1 +1,1 @@
-{"id": 505, "name": "Watchog", "types": ["Normal"], "color": "brown"}
+{"id": 505, "name": "Watchog", "types": ["Normal"], "abilities": [{"name": "Illuminate", "is_hidden": false}, {"name": "Keen Eye", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "brown"}

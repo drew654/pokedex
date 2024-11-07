@@ -1,1 +1,1 @@
-{"id": 987, "name": "Flutter Mane", "types": ["Ghost", "Fairy"], "color": "gray"}
+{"id": 987, "name": "Flutter Mane", "types": ["Ghost", "Fairy"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}, {"name": "Protosynthesis", "is_hidden": true}], "color": "gray"}

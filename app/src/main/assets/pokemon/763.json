@@ -1,1 +1,1 @@
-{"id": 763, "name": "Tsareena", "types": ["Grass"], "color": "purple"}
+{"id": 763, "name": "Tsareena", "types": ["Grass"], "abilities": [{"name": "Leaf Guard", "is_hidden": false}, {"name": "Queenly Majesty", "is_hidden": false}, {"name": "Sweet Veil", "is_hidden": true}], "color": "purple"}

@@ -1,1 +1,1 @@
-{"id": 666, "name": "Vivillon", "types": ["Bug", "Flying"], "color": "white"}
+{"id": 666, "name": "Vivillon", "types": ["Bug", "Flying"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Compound Eyes", "is_hidden": false}, {"name": "Friend Guard", "is_hidden": true}], "color": "white"}

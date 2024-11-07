@@ -1,1 +1,1 @@
-{"id": 850, "name": "Sizzlipede", "types": ["Fire", "Bug"], "color": "red"}
+{"id": 850, "name": "Sizzlipede", "types": ["Fire", "Bug"], "abilities": [{"name": "Flash Fire", "is_hidden": false}, {"name": "White Smoke", "is_hidden": false}, {"name": "Flame Body", "is_hidden": true}], "color": "red"}

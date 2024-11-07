@@ -1,1 +1,1 @@
-{"id": 534, "name": "Conkeldurr", "types": ["Fighting"], "color": "brown"}
+{"id": 534, "name": "Conkeldurr", "types": ["Fighting"], "abilities": [{"name": "Guts", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": false}, {"name": "Iron Fist", "is_hidden": true}], "color": "brown"}

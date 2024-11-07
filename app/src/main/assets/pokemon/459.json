@@ -1,1 +1,1 @@
-{"id": 459, "name": "Snover", "types": ["Grass", "Ice"], "color": "white"}
+{"id": 459, "name": "Snover", "types": ["Grass", "Ice"], "abilities": [{"name": "Snow Warning", "is_hidden": false}, {"name": "Soundproof", "is_hidden": true}], "color": "white"}

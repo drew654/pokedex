@@ -1,1 +1,1 @@
-{"id": 197, "name": "Umbreon", "types": ["Dark"], "color": "black"}
+{"id": 197, "name": "Umbreon", "types": ["Dark"], "abilities": [{"name": "Synchronize", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": true}], "color": "black"}

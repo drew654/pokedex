@@ -1,1 +1,1 @@
-{"id": 371, "name": "Bagon", "types": ["Dragon"], "color": "blue"}
+{"id": 371, "name": "Bagon", "types": ["Dragon"], "abilities": [{"name": "Rock Head", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "blue"}

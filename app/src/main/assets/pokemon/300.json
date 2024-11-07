@@ -1,1 +1,1 @@
-{"id": 300, "name": "Skitty", "types": ["Normal"], "color": "pink"}
+{"id": 300, "name": "Skitty", "types": ["Normal"], "abilities": [{"name": "Cute Charm", "is_hidden": false}, {"name": "Normalize", "is_hidden": false}, {"name": "Wonder Skin", "is_hidden": true}], "color": "pink"}

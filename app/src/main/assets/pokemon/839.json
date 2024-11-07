@@ -1,1 +1,1 @@
-{"id": 839, "name": "Coalossal", "types": ["Rock", "Fire"], "color": "black"}
+{"id": 839, "name": "Coalossal", "types": ["Rock", "Fire"], "abilities": [{"name": "Steam Engine", "is_hidden": false}, {"name": "Flame Body", "is_hidden": false}, {"name": "Flash Fire", "is_hidden": true}], "color": "black"}

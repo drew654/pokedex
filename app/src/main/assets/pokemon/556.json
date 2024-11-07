@@ -1,1 +1,1 @@
-{"id": 556, "name": "Maractus", "types": ["Grass"], "color": "green"}
+{"id": 556, "name": "Maractus", "types": ["Grass"], "abilities": [{"name": "Water Absorb", "is_hidden": false}, {"name": "Chlorophyll", "is_hidden": false}, {"name": "Storm Drain", "is_hidden": true}], "color": "green"}

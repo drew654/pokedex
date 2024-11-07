@@ -1,1 +1,1 @@
-{"id": 89, "name": "Muk", "types": ["Poison"], "color": "purple"}
+{"id": 89, "name": "Muk", "types": ["Poison"], "abilities": [{"name": "Stench", "is_hidden": false}, {"name": "Sticky Hold", "is_hidden": false}, {"name": "Poison Touch", "is_hidden": true}], "color": "purple"}

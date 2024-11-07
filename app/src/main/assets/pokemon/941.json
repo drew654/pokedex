@@ -1,1 +1,1 @@
-{"id": 941, "name": "Kilowattrel", "types": ["Electric", "Flying"], "color": "yellow"}
+{"id": 941, "name": "Kilowattrel", "types": ["Electric", "Flying"], "abilities": [{"name": "Wind Power", "is_hidden": false}, {"name": "Volt Absorb", "is_hidden": false}, {"name": "Competitive", "is_hidden": true}], "color": "yellow"}

@@ -1,1 +1,1 @@
-{"id": 298, "name": "Azurill", "types": ["Normal", "Fairy"], "color": "blue"}
+{"id": 298, "name": "Azurill", "types": ["Normal", "Fairy"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Huge Power", "is_hidden": false}, {"name": "Sap Sipper", "is_hidden": true}], "color": "blue"}

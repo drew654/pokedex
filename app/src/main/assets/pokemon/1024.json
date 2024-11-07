@@ -1,1 +1,1 @@
-{"id": 1024, "name": "Terapagos", "types": ["Normal"], "color": "blue"}
+{"id": 1024, "name": "Terapagos", "types": ["Normal"], "abilities": [{"name": "Tera Shift", "is_hidden": false}], "color": "blue"}

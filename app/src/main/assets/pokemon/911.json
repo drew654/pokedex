@@ -1,1 +1,1 @@
-{"id": 911, "name": "Skeledirge", "types": ["Fire", "Ghost"], "color": "red"}
+{"id": 911, "name": "Skeledirge", "types": ["Fire", "Ghost"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Unaware", "is_hidden": true}], "color": "red"}

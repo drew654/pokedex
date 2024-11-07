@@ -1,1 +1,1 @@
-{"id": 62, "name": "Poliwrath", "types": ["Water", "Fighting"], "color": "blue"}
+{"id": 62, "name": "Poliwrath", "types": ["Water", "Fighting"], "abilities": [{"name": "Water Absorb", "is_hidden": false}, {"name": "Damp", "is_hidden": false}, {"name": "Swift Swim", "is_hidden": true}], "color": "blue"}

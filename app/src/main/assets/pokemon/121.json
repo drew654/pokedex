@@ -1,1 +1,1 @@
-{"id": 121, "name": "Starmie", "types": ["Water", "Psychic"], "color": "purple"}
+{"id": 121, "name": "Starmie", "types": ["Water", "Psychic"], "abilities": [{"name": "Illuminate", "is_hidden": false}, {"name": "Natural Cure", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "purple"}

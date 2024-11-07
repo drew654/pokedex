@@ -1,1 +1,1 @@
-{"id": 336, "name": "Seviper", "types": ["Poison"], "color": "black"}
+{"id": 336, "name": "Seviper", "types": ["Poison"], "abilities": [{"name": "Shed Skin", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "black"}

@@ -1,1 +1,1 @@
-{"id": 392, "name": "Infernape", "types": ["Fire", "Fighting"], "color": "brown"}
+{"id": 392, "name": "Infernape", "types": ["Fire", "Fighting"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Iron Fist", "is_hidden": true}], "color": "brown"}

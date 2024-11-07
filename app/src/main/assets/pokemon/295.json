@@ -1,1 +1,1 @@
-{"id": 295, "name": "Exploud", "types": ["Normal"], "color": "blue"}
+{"id": 295, "name": "Exploud", "types": ["Normal"], "abilities": [{"name": "Soundproof", "is_hidden": false}, {"name": "Scrappy", "is_hidden": true}], "color": "blue"}

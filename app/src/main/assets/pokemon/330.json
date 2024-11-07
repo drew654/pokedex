@@ -1,1 +1,1 @@
-{"id": 330, "name": "Flygon", "types": ["Ground", "Dragon"], "color": "green"}
+{"id": 330, "name": "Flygon", "types": ["Ground", "Dragon"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "green"}

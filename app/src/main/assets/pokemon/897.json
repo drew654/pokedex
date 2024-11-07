@@ -1,1 +1,1 @@
-{"id": 897, "name": "Spectrier", "types": ["Ghost"], "color": "black"}
+{"id": 897, "name": "Spectrier", "types": ["Ghost"], "abilities": [{"name": "Grim Neigh", "is_hidden": false}], "color": "black"}

@@ -1,1 +1,1 @@
-{"id": 813, "name": "Scorbunny", "types": ["Fire"], "color": "white"}
+{"id": 813, "name": "Scorbunny", "types": ["Fire"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Libero", "is_hidden": true}], "color": "white"}

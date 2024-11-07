@@ -1,1 +1,1 @@
-{"id": 879, "name": "Copperajah", "types": ["Steel"], "color": "green"}
+{"id": 879, "name": "Copperajah", "types": ["Steel"], "abilities": [{"name": "Sheer Force", "is_hidden": false}, {"name": "Heavy Metal", "is_hidden": true}], "color": "green"}

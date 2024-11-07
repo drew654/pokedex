@@ -1,1 +1,1 @@
-{"id": 278, "name": "Wingull", "types": ["Water", "Flying"], "color": "white"}
+{"id": 278, "name": "Wingull", "types": ["Water", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Hydration", "is_hidden": false}, {"name": "Rain Dish", "is_hidden": true}], "color": "white"}

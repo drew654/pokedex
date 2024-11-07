@@ -1,1 +1,1 @@
-{"id": 455, "name": "Carnivine", "types": ["Grass"], "color": "green"}
+{"id": 455, "name": "Carnivine", "types": ["Grass"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "green"}

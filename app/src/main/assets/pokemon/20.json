@@ -1,1 +1,1 @@
-{"id": 20, "name": "Raticate", "types": ["Normal"], "color": "brown"}
+{"id": 20, "name": "Raticate", "types": ["Normal"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Guts", "is_hidden": false}, {"name": "Hustle", "is_hidden": true}], "color": "brown"}

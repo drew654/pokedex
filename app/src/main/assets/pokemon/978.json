@@ -1,1 +1,1 @@
-{"id": 978, "name": "Tatsugiri", "types": ["Dragon", "Water"], "color": "pink"}
+{"id": 978, "name": "Tatsugiri", "types": ["Dragon", "Water"], "abilities": [{"name": "Commander", "is_hidden": false}, {"name": "Storm Drain", "is_hidden": true}], "color": "pink"}

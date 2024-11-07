@@ -1,1 +1,1 @@
-{"id": 265, "name": "Wurmple", "types": ["Bug"], "color": "red"}
+{"id": 265, "name": "Wurmple", "types": ["Bug"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Run Away", "is_hidden": true}], "color": "red"}

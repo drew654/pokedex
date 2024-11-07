@@ -1,1 +1,1 @@
-{"id": 856, "name": "Hatenna", "types": ["Psychic"], "color": "pink"}
+{"id": 856, "name": "Hatenna", "types": ["Psychic"], "abilities": [{"name": "Healer", "is_hidden": false}, {"name": "Anticipation", "is_hidden": false}, {"name": "Magic Bounce", "is_hidden": true}], "color": "pink"}

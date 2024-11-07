@@ -1,1 +1,1 @@
-{"id": 511, "name": "Pansage", "types": ["Grass"], "color": "green"}
+{"id": 511, "name": "Pansage", "types": ["Grass"], "abilities": [{"name": "Gluttony", "is_hidden": false}, {"name": "Overgrow", "is_hidden": true}], "color": "green"}

@@ -1,1 +1,1 @@
-{"id": 784, "name": "Kommo-o", "types": ["Dragon", "Fighting"], "color": "gray"}
+{"id": 784, "name": "Kommo-o", "types": ["Dragon", "Fighting"], "abilities": [{"name": "Bulletproof", "is_hidden": false}, {"name": "Soundproof", "is_hidden": false}, {"name": "Overcoat", "is_hidden": true}], "color": "gray"}

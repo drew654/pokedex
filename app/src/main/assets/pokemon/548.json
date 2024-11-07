@@ -1,1 +1,1 @@
-{"id": 548, "name": "Petilil", "types": ["Grass"], "color": "green"}
+{"id": 548, "name": "Petilil", "types": ["Grass"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Own Tempo", "is_hidden": false}, {"name": "Leaf Guard", "is_hidden": true}], "color": "green"}

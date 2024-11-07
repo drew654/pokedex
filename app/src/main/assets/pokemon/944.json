@@ -1,1 +1,1 @@
-{"id": 944, "name": "Shroodle", "types": ["Poison", "Normal"], "color": "gray"}
+{"id": 944, "name": "Shroodle", "types": ["Poison", "Normal"], "abilities": [{"name": "Unburden", "is_hidden": false}, {"name": "Pickpocket", "is_hidden": false}, {"name": "Prankster", "is_hidden": true}], "color": "gray"}

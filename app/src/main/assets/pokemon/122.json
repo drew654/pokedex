@@ -1,1 +1,1 @@
-{"id": 122, "name": "Mr. Mime", "types": ["Psychic", "Fairy"], "color": "pink"}
+{"id": 122, "name": "Mr. Mime", "types": ["Psychic", "Fairy"], "abilities": [{"name": "Soundproof", "is_hidden": false}, {"name": "Filter", "is_hidden": false}, {"name": "Technician", "is_hidden": true}], "color": "pink"}

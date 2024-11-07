@@ -1,1 +1,1 @@
-{"id": 826, "name": "Orbeetle", "types": ["Bug", "Psychic"], "color": "red"}
+{"id": 826, "name": "Orbeetle", "types": ["Bug", "Psychic"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Frisk", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "red"}

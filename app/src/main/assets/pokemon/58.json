@@ -1,1 +1,1 @@
-{"id": 58, "name": "Growlithe", "types": ["Fire"], "color": "brown"}
+{"id": 58, "name": "Growlithe", "types": ["Fire"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Flash Fire", "is_hidden": false}, {"name": "Justified", "is_hidden": true}], "color": "brown"}

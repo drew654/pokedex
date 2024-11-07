@@ -1,1 +1,1 @@
-{"id": 567, "name": "Archeops", "types": ["Rock", "Flying"], "color": "yellow"}
+{"id": 567, "name": "Archeops", "types": ["Rock", "Flying"], "abilities": [{"name": "Defeatist", "is_hidden": false}], "color": "yellow"}

@@ -1,1 +1,1 @@
-{"id": 803, "name": "Poipole", "types": ["Poison"], "color": "purple"}
+{"id": 803, "name": "Poipole", "types": ["Poison"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "purple"}

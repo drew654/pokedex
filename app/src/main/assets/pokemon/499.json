@@ -1,1 +1,1 @@
-{"id": 499, "name": "Pignite", "types": ["Fire", "Fighting"], "color": "red"}
+{"id": 499, "name": "Pignite", "types": ["Fire", "Fighting"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Thick Fat", "is_hidden": true}], "color": "red"}

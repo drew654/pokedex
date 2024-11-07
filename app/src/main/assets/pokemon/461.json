@@ -1,1 +1,1 @@
-{"id": 461, "name": "Weavile", "types": ["Dark", "Ice"], "color": "black"}
+{"id": 461, "name": "Weavile", "types": ["Dark", "Ice"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Pickpocket", "is_hidden": true}], "color": "black"}

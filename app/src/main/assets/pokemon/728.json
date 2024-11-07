@@ -1,1 +1,1 @@
-{"id": 728, "name": "Popplio", "types": ["Water"], "color": "blue"}
+{"id": 728, "name": "Popplio", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Liquid Voice", "is_hidden": true}], "color": "blue"}

@@ -1,1 +1,1 @@
-{"id": 865, "name": "Sirfetch\u2019d", "types": ["Fighting"], "color": "white"}
+{"id": 865, "name": "Sirfetch\u2019d", "types": ["Fighting"], "abilities": [{"name": "Steadfast", "is_hidden": false}, {"name": "Scrappy", "is_hidden": true}], "color": "white"}

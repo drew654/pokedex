@@ -1,1 +1,1 @@
-{"id": 274, "name": "Nuzleaf", "types": ["Grass", "Dark"], "color": "brown"}
+{"id": 274, "name": "Nuzleaf", "types": ["Grass", "Dark"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Early Bird", "is_hidden": false}, {"name": "Pickpocket", "is_hidden": true}], "color": "brown"}

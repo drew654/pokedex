@@ -1,1 +1,1 @@
-{"id": 462, "name": "Magnezone", "types": ["Electric", "Steel"], "color": "gray"}
+{"id": 462, "name": "Magnezone", "types": ["Electric", "Steel"], "abilities": [{"name": "Magnet Pull", "is_hidden": false}, {"name": "Sturdy", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "gray"}

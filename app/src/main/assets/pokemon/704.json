@@ -1,1 +1,1 @@
-{"id": 704, "name": "Goomy", "types": ["Dragon"], "color": "purple"}
+{"id": 704, "name": "Goomy", "types": ["Dragon"], "abilities": [{"name": "Sap Sipper", "is_hidden": false}, {"name": "Hydration", "is_hidden": false}, {"name": "Gooey", "is_hidden": true}], "color": "purple"}

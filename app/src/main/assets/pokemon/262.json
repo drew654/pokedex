@@ -1,1 +1,1 @@
-{"id": 262, "name": "Mightyena", "types": ["Dark"], "color": "gray"}
+{"id": 262, "name": "Mightyena", "types": ["Dark"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Quick Feet", "is_hidden": false}, {"name": "Moxie", "is_hidden": true}], "color": "gray"}

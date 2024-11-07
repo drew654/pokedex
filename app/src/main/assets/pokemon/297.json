@@ -1,1 +1,1 @@
-{"id": 297, "name": "Hariyama", "types": ["Fighting"], "color": "brown"}
+{"id": 297, "name": "Hariyama", "types": ["Fighting"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Guts", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "brown"}

@@ -1,1 +1,1 @@
-{"id": 40, "name": "Wigglytuff", "types": ["Normal", "Fairy"], "color": "pink"}
+{"id": 40, "name": "Wigglytuff", "types": ["Normal", "Fairy"], "abilities": [{"name": "Cute Charm", "is_hidden": false}, {"name": "Competitive", "is_hidden": false}, {"name": "Frisk", "is_hidden": true}], "color": "pink"}

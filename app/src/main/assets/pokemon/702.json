@@ -1,1 +1,1 @@
-{"id": 702, "name": "Dedenne", "types": ["Electric", "Fairy"], "color": "yellow"}
+{"id": 702, "name": "Dedenne", "types": ["Electric", "Fairy"], "abilities": [{"name": "Cheek Pouch", "is_hidden": false}, {"name": "Pickup", "is_hidden": false}, {"name": "Plus", "is_hidden": true}], "color": "yellow"}

@@ -1,1 +1,1 @@
-{"id": 306, "name": "Aggron", "types": ["Steel", "Rock"], "color": "gray"}
+{"id": 306, "name": "Aggron", "types": ["Steel", "Rock"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Rock Head", "is_hidden": false}, {"name": "Heavy Metal", "is_hidden": true}], "color": "gray"}

@@ -1,1 +1,1 @@
-{"id": 103, "name": "Exeggutor", "types": ["Grass", "Psychic"], "color": "yellow"}
+{"id": 103, "name": "Exeggutor", "types": ["Grass", "Psychic"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Harvest", "is_hidden": true}], "color": "yellow"}

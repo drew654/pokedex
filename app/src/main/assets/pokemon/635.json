@@ -1,1 +1,1 @@
-{"id": 635, "name": "Hydreigon", "types": ["Dark", "Dragon"], "color": "blue"}
+{"id": 635, "name": "Hydreigon", "types": ["Dark", "Dragon"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "blue"}

@@ -1,1 +1,1 @@
-{"id": 532, "name": "Timburr", "types": ["Fighting"], "color": "gray"}
+{"id": 532, "name": "Timburr", "types": ["Fighting"], "abilities": [{"name": "Guts", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": false}, {"name": "Iron Fist", "is_hidden": true}], "color": "gray"}

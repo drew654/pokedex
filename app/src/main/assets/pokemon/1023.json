@@ -1,1 +1,1 @@
-{"id": 1023, "name": "Iron Crown", "types": ["Steel", "Psychic"], "color": "blue"}
+{"id": 1023, "name": "Iron Crown", "types": ["Steel", "Psychic"], "abilities": [{"name": "Quark Drive", "is_hidden": false}], "color": "blue"}

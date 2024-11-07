@@ -1,1 +1,1 @@
-{"id": 949, "name": "Toedscruel", "types": ["Ground", "Grass"], "color": "black"}
+{"id": 949, "name": "Toedscruel", "types": ["Ground", "Grass"], "abilities": [{"name": "Mycelium Might", "is_hidden": false}, {"name": "Mycelium Might", "is_hidden": true}], "color": "black"}

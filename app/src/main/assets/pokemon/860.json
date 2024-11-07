@@ -1,1 +1,1 @@
-{"id": 860, "name": "Morgrem", "types": ["Dark", "Fairy"], "color": "pink"}
+{"id": 860, "name": "Morgrem", "types": ["Dark", "Fairy"], "abilities": [{"name": "Prankster", "is_hidden": false}, {"name": "Frisk", "is_hidden": false}, {"name": "Pickpocket", "is_hidden": true}], "color": "pink"}

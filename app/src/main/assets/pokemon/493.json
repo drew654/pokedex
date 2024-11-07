@@ -1,1 +1,1 @@
-{"id": 493, "name": "Arceus", "types": ["Normal"], "color": "white"}
+{"id": 493, "name": "Arceus", "types": ["Normal"], "abilities": [{"name": "Multitype", "is_hidden": false}], "color": "white"}

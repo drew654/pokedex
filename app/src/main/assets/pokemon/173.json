@@ -1,1 +1,1 @@
-{"id": 173, "name": "Cleffa", "types": ["Fairy"], "color": "pink"}
+{"id": 173, "name": "Cleffa", "types": ["Fairy"], "abilities": [{"name": "Cute Charm", "is_hidden": false}, {"name": "Magic Guard", "is_hidden": false}, {"name": "Friend Guard", "is_hidden": true}], "color": "pink"}

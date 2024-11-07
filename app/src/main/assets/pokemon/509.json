@@ -1,1 +1,1 @@
-{"id": 509, "name": "Purrloin", "types": ["Dark"], "color": "purple"}
+{"id": 509, "name": "Purrloin", "types": ["Dark"], "abilities": [{"name": "Limber", "is_hidden": false}, {"name": "Unburden", "is_hidden": false}, {"name": "Prankster", "is_hidden": true}], "color": "purple"}

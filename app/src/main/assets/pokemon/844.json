@@ -1,1 +1,1 @@
-{"id": 844, "name": "Sandaconda", "types": ["Ground"], "color": "green"}
+{"id": 844, "name": "Sandaconda", "types": ["Ground"], "abilities": [{"name": "Sand Spit", "is_hidden": false}, {"name": "Shed Skin", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "green"}

@@ -1,1 +1,1 @@
-{"id": 331, "name": "Cacnea", "types": ["Grass"], "color": "green"}
+{"id": 331, "name": "Cacnea", "types": ["Grass"], "abilities": [{"name": "Sand Veil", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": true}], "color": "green"}

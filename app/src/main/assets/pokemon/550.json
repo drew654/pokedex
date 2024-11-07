@@ -1,1 +1,1 @@
-{"id": 550, "name": "Basculin", "types": ["Water"], "color": "green"}
+{"id": 550, "name": "Basculin", "types": ["Water"], "abilities": [{"name": "Reckless", "is_hidden": false}, {"name": "Adaptability", "is_hidden": false}, {"name": "Mold Breaker", "is_hidden": true}], "color": "green"}

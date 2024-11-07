@@ -1,1 +1,1 @@
-{"id": 366, "name": "Clamperl", "types": ["Water"], "color": "blue"}
+{"id": 366, "name": "Clamperl", "types": ["Water"], "abilities": [{"name": "Shell Armor", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "blue"}

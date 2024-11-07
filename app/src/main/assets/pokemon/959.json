@@ -1,1 +1,1 @@
-{"id": 959, "name": "Tinkaton", "types": ["Fairy", "Steel"], "color": "pink"}
+{"id": 959, "name": "Tinkaton", "types": ["Fairy", "Steel"], "abilities": [{"name": "Mold Breaker", "is_hidden": false}, {"name": "Own Tempo", "is_hidden": false}, {"name": "Pickpocket", "is_hidden": true}], "color": "pink"}

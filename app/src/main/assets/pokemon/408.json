@@ -1,1 +1,1 @@
-{"id": 408, "name": "Cranidos", "types": ["Rock"], "color": "blue"}
+{"id": 408, "name": "Cranidos", "types": ["Rock"], "abilities": [{"name": "Mold Breaker", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "blue"}

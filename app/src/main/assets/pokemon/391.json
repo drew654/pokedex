@@ -1,1 +1,1 @@
-{"id": 391, "name": "Monferno", "types": ["Fire", "Fighting"], "color": "brown"}
+{"id": 391, "name": "Monferno", "types": ["Fire", "Fighting"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Iron Fist", "is_hidden": true}], "color": "brown"}

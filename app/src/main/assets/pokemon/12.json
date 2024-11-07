@@ -1,1 +1,1 @@
-{"id": 12, "name": "Butterfree", "types": ["Bug", "Flying"], "color": "white"}
+{"id": 12, "name": "Butterfree", "types": ["Bug", "Flying"], "abilities": [{"name": "Compound Eyes", "is_hidden": false}, {"name": "Tinted Lens", "is_hidden": true}], "color": "white"}

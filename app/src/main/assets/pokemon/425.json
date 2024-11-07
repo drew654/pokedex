@@ -1,1 +1,1 @@
-{"id": 425, "name": "Drifloon", "types": ["Ghost", "Flying"], "color": "purple"}
+{"id": 425, "name": "Drifloon", "types": ["Ghost", "Flying"], "abilities": [{"name": "Aftermath", "is_hidden": false}, {"name": "Unburden", "is_hidden": false}, {"name": "Flare Boost", "is_hidden": true}], "color": "purple"}

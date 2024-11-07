@@ -1,1 +1,1 @@
-{"id": 211, "name": "Qwilfish", "types": ["Water", "Poison"], "color": "gray"}
+{"id": 211, "name": "Qwilfish", "types": ["Water", "Poison"], "abilities": [{"name": "Poison Point", "is_hidden": false}, {"name": "Swift Swim", "is_hidden": false}, {"name": "Intimidate", "is_hidden": true}], "color": "gray"}

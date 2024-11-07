@@ -1,1 +1,1 @@
-{"id": 291, "name": "Ninjask", "types": ["Bug", "Flying"], "color": "yellow"}
+{"id": 291, "name": "Ninjask", "types": ["Bug", "Flying"], "abilities": [{"name": "Speed Boost", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "yellow"}

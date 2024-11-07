@@ -1,1 +1,1 @@
-{"id": 835, "name": "Yamper", "types": ["Electric"], "color": "yellow"}
+{"id": 835, "name": "Yamper", "types": ["Electric"], "abilities": [{"name": "Ball Fetch", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "yellow"}

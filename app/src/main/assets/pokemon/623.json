@@ -1,1 +1,1 @@
-{"id": 623, "name": "Golurk", "types": ["Ground", "Ghost"], "color": "green"}
+{"id": 623, "name": "Golurk", "types": ["Ground", "Ghost"], "abilities": [{"name": "Iron Fist", "is_hidden": false}, {"name": "Klutz", "is_hidden": false}, {"name": "No Guard", "is_hidden": true}], "color": "green"}

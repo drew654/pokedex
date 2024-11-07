@@ -1,1 +1,1 @@
-{"id": 149, "name": "Dragonite", "types": ["Dragon", "Flying"], "color": "brown"}
+{"id": 149, "name": "Dragonite", "types": ["Dragon", "Flying"], "abilities": [{"name": "Inner Focus", "is_hidden": false}, {"name": "Multiscale", "is_hidden": true}], "color": "brown"}

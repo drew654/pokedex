@@ -1,1 +1,1 @@
-{"id": 543, "name": "Venipede", "types": ["Bug", "Poison"], "color": "red"}
+{"id": 543, "name": "Venipede", "types": ["Bug", "Poison"], "abilities": [{"name": "Poison Point", "is_hidden": false}, {"name": "Swarm", "is_hidden": false}, {"name": "Speed Boost", "is_hidden": true}], "color": "red"}

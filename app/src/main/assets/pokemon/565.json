@@ -1,1 +1,1 @@
-{"id": 565, "name": "Carracosta", "types": ["Water", "Rock"], "color": "blue"}
+{"id": 565, "name": "Carracosta", "types": ["Water", "Rock"], "abilities": [{"name": "Solid Rock", "is_hidden": false}, {"name": "Sturdy", "is_hidden": false}, {"name": "Swift Swim", "is_hidden": true}], "color": "blue"}

@@ -1,1 +1,1 @@
-{"id": 871, "name": "Pincurchin", "types": ["Electric"], "color": "purple"}
+{"id": 871, "name": "Pincurchin", "types": ["Electric"], "abilities": [{"name": "Lightning Rod", "is_hidden": false}, {"name": "Electric Surge", "is_hidden": true}], "color": "purple"}

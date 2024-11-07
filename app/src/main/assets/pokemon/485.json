@@ -1,1 +1,1 @@
-{"id": 485, "name": "Heatran", "types": ["Fire", "Steel"], "color": "brown"}
+{"id": 485, "name": "Heatran", "types": ["Fire", "Steel"], "abilities": [{"name": "Flash Fire", "is_hidden": false}, {"name": "Flame Body", "is_hidden": true}], "color": "brown"}

@@ -1,1 +1,1 @@
-{"id": 296, "name": "Makuhita", "types": ["Fighting"], "color": "yellow"}
+{"id": 296, "name": "Makuhita", "types": ["Fighting"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Guts", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "yellow"}

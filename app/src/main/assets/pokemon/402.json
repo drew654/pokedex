@@ -1,1 +1,1 @@
-{"id": 402, "name": "Kricketune", "types": ["Bug"], "color": "red"}
+{"id": 402, "name": "Kricketune", "types": ["Bug"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Technician", "is_hidden": true}], "color": "red"}

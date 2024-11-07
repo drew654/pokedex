@@ -1,1 +1,1 @@
-{"id": 192, "name": "Sunflora", "types": ["Grass"], "color": "yellow"}
+{"id": 192, "name": "Sunflora", "types": ["Grass"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Solar Power", "is_hidden": false}, {"name": "Early Bird", "is_hidden": true}], "color": "yellow"}

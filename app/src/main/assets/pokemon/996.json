@@ -1,1 +1,1 @@
-{"id": 996, "name": "Frigibax", "types": ["Dragon", "Ice"], "color": "gray"}
+{"id": 996, "name": "Frigibax", "types": ["Dragon", "Ice"], "abilities": [{"name": "Thermal Exchange", "is_hidden": false}, {"name": "Ice Body", "is_hidden": true}], "color": "gray"}

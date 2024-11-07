@@ -1,1 +1,1 @@
-{"id": 744, "name": "Rockruff", "types": ["Rock"], "color": "brown"}
+{"id": 744, "name": "Rockruff", "types": ["Rock"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Vital Spirit", "is_hidden": false}, {"name": "Steadfast", "is_hidden": true}], "color": "brown"}

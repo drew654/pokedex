@@ -1,1 +1,1 @@
-{"id": 517, "name": "Munna", "types": ["Psychic"], "color": "pink"}
+{"id": 517, "name": "Munna", "types": ["Psychic"], "abilities": [{"name": "Forewarn", "is_hidden": false}, {"name": "Synchronize", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "pink"}

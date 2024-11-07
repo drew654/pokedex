@@ -1,1 +1,1 @@
-{"id": 938, "name": "Tadbulb", "types": ["Electric"], "color": "yellow"}
+{"id": 938, "name": "Tadbulb", "types": ["Electric"], "abilities": [{"name": "Own Tempo", "is_hidden": false}, {"name": "Static", "is_hidden": false}, {"name": "Damp", "is_hidden": true}], "color": "yellow"}

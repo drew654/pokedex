@@ -1,1 +1,1 @@
-{"id": 733, "name": "Toucannon", "types": ["Normal", "Flying"], "color": "black"}
+{"id": 733, "name": "Toucannon", "types": ["Normal", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Skill Link", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "black"}

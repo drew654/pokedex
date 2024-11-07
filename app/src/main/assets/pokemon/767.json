@@ -1,1 +1,1 @@
-{"id": 767, "name": "Wimpod", "types": ["Bug", "Water"], "color": "gray"}
+{"id": 767, "name": "Wimpod", "types": ["Bug", "Water"], "abilities": [{"name": "Wimp Out", "is_hidden": false}], "color": "gray"}

@@ -1,1 +1,1 @@
-{"id": 872, "name": "Snom", "types": ["Ice", "Bug"], "color": "white"}
+{"id": 872, "name": "Snom", "types": ["Ice", "Bug"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Ice Scales", "is_hidden": true}], "color": "white"}

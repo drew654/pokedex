@@ -1,1 +1,1 @@
-{"id": 536, "name": "Palpitoad", "types": ["Water", "Ground"], "color": "blue"}
+{"id": 536, "name": "Palpitoad", "types": ["Water", "Ground"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Hydration", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": true}], "color": "blue"}

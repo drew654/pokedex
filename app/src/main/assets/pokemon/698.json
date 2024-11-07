@@ -1,1 +1,1 @@
-{"id": 698, "name": "Amaura", "types": ["Rock", "Ice"], "color": "blue"}
+{"id": 698, "name": "Amaura", "types": ["Rock", "Ice"], "abilities": [{"name": "Refrigerate", "is_hidden": false}, {"name": "Snow Warning", "is_hidden": true}], "color": "blue"}

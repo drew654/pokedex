@@ -1,1 +1,1 @@
-{"id": 280, "name": "Ralts", "types": ["Psychic", "Fairy"], "color": "white"}
+{"id": 280, "name": "Ralts", "types": ["Psychic", "Fairy"], "abilities": [{"name": "Synchronize", "is_hidden": false}, {"name": "Trace", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "white"}

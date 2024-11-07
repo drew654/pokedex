@@ -1,1 +1,1 @@
-{"id": 362, "name": "Glalie", "types": ["Ice"], "color": "gray"}
+{"id": 362, "name": "Glalie", "types": ["Ice"], "abilities": [{"name": "Inner Focus", "is_hidden": false}, {"name": "Ice Body", "is_hidden": false}, {"name": "Moody", "is_hidden": true}], "color": "gray"}

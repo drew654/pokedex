@@ -1,1 +1,1 @@
-{"id": 779, "name": "Bruxish", "types": ["Water", "Psychic"], "color": "pink"}
+{"id": 779, "name": "Bruxish", "types": ["Water", "Psychic"], "abilities": [{"name": "Dazzling", "is_hidden": false}, {"name": "Strong Jaw", "is_hidden": false}, {"name": "Wonder Skin", "is_hidden": true}], "color": "pink"}

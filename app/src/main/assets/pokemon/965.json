@@ -1,1 +1,1 @@
-{"id": 965, "name": "Varoom", "types": ["Steel", "Poison"], "color": "gray"}
+{"id": 965, "name": "Varoom", "types": ["Steel", "Poison"], "abilities": [{"name": "Overcoat", "is_hidden": false}, {"name": "Slow Start", "is_hidden": true}], "color": "gray"}

@@ -1,1 +1,1 @@
-{"id": 29, "name": "Nidoran\u2640", "types": ["Poison"], "color": "blue"}
+{"id": 29, "name": "Nidoran\u2640", "types": ["Poison"], "abilities": [{"name": "Poison Point", "is_hidden": false}, {"name": "Rivalry", "is_hidden": false}, {"name": "Hustle", "is_hidden": true}], "color": "blue"}

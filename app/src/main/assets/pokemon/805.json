@@ -1,1 +1,1 @@
-{"id": 805, "name": "Stakataka", "types": ["Rock", "Steel"], "color": "gray"}
+{"id": 805, "name": "Stakataka", "types": ["Rock", "Steel"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "gray"}

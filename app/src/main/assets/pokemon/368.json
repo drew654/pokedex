@@ -1,1 +1,1 @@
-{"id": 368, "name": "Gorebyss", "types": ["Water"], "color": "pink"}
+{"id": 368, "name": "Gorebyss", "types": ["Water"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Hydration", "is_hidden": true}], "color": "pink"}

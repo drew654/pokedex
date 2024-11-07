@@ -1,1 +1,1 @@
-{"id": 383, "name": "Groudon", "types": ["Ground"], "color": "red"}
+{"id": 383, "name": "Groudon", "types": ["Ground"], "abilities": [{"name": "Drought", "is_hidden": false}], "color": "red"}

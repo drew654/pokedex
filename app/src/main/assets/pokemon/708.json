@@ -1,1 +1,1 @@
-{"id": 708, "name": "Phantump", "types": ["Ghost", "Grass"], "color": "brown"}
+{"id": 708, "name": "Phantump", "types": ["Ghost", "Grass"], "abilities": [{"name": "Natural Cure", "is_hidden": false}, {"name": "Frisk", "is_hidden": false}, {"name": "Harvest", "is_hidden": true}], "color": "brown"}

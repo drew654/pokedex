@@ -1,1 +1,1 @@
-{"id": 67, "name": "Machoke", "types": ["Fighting"], "color": "gray"}
+{"id": 67, "name": "Machoke", "types": ["Fighting"], "abilities": [{"name": "Guts", "is_hidden": false}, {"name": "No Guard", "is_hidden": false}, {"name": "Steadfast", "is_hidden": true}], "color": "gray"}
