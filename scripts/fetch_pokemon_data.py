@@ -45,10 +45,37 @@ def get_data(url):
         print("Error: ", e)
         return None
 
+def get_type_names_en():
+    data = get_data("https://pokeapi.co/api/v2/type")
+    types = data["results"]
+    type_names = {}
+    for type in types:
+        url = type["url"]
+        names = get_data(url)["names"]
+        for name in names:
+            if name["language"]["name"] == "en":
+                type_names[type["name"]] = name["name"]
+                break
+    return type_names
+
+def get_ability_names_en():
+    data = get_data("https://pokeapi.co/api/v2/ability?limit=1000")
+    abilities = data["results"]
+    ability_names = {}
+    for ability in abilities:
+        url = ability["url"]
+        names = get_data(url)["names"]
+        for name in names:
+            if name["language"]["name"] == "en":
+                ability_names[ability["name"]] = name["name"]
+                break
+    return ability_names
 
 def main():
     pokemon_species = get_all_pokemon_species()
     pokemon = get_all_pokemon()
+    type_names_en = get_type_names_en()
+    ability_names_en = get_ability_names_en()
 
     if pokemon_species and pokemon:
         pokemon_names = []
@@ -72,20 +99,12 @@ def main():
             trimmed_data["types"] = []
             types = pokemon_data["types"]
             for type in types:
-                type_data = get_data(type["type"]["url"])
-                type_names = type_data["names"]
-                for type_name in type_names:
-                    if type_name["language"]["name"] == "en":
-                        trimmed_data["types"] += [type_name["name"]]
+                trimmed_data["types"] += [type_names_en[type["type"]["name"]]]
 
             trimmed_data["abilities"] = []
             abilities = pokemon_data["abilities"]
             for ability in abilities:
-                ability_data = get_data(ability["ability"]["url"])
-                ability_names = ability_data["names"]
-                for ability_name in ability_names:
-                    if ability_name["language"]["name"] == "en":
-                        trimmed_data["abilities"] += [{"name": ability_name["name"], "is_hidden": ability["is_hidden"]}]
+                trimmed_data["abilities"] += [{"name": ability_names_en[ability["ability"]["name"]], "is_hidden": ability["is_hidden"]}]
 
             trimmed_data["color"] = species_data["color"]["name"]
 
