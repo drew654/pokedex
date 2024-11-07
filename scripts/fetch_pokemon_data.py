@@ -117,7 +117,7 @@ def main():
             if not os.path.exists("sprites"):
                 os.makedirs("sprites")
             file_path = os.path.join("sprites", f"{id}.png")
-            image_url = f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{id}.png"
+            image_url = f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{id}.png"
             image = requests.get(image_url)
             with open(file_path, "wb") as f:
                 f.write(image.content)
