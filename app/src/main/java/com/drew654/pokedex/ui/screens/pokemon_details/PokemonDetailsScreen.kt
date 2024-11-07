@@ -26,6 +26,7 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.drew654.pokedex.models.Pokemon
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.booleanOrNull
 import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
@@ -40,9 +41,16 @@ fun PokemonDetailsScreen(id: Int) {
     val color = pokemon.jsonObject["color"]?.jsonPrimitive?.content
     val types = pokemon.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }?.toList()
     val abilities = pokemon.jsonObject["abilities"]?.jsonArray
-    val abilityNames = abilities?.map { ability ->
-        ability.jsonObject["name"]?.jsonPrimitive?.content
-    }
+    val (hiddenAbilityNames, abilityNames) = abilities
+        ?.partition { ability ->
+            ability.jsonObject["is_hidden"]?.jsonPrimitive?.booleanOrNull == true
+        }
+        ?.let { (hidden, nonHidden) ->
+            hidden.mapNotNull { it.jsonObject["name"]?.jsonPrimitive?.content } to
+                    nonHidden.mapNotNull { it.jsonObject["name"]?.jsonPrimitive?.content }
+        }
+        ?: (emptyList<String>() to emptyList<String>())
+
     val backgroundColor = Pokemon().GetBackgroundColor(color.toString())
 
     Box(
@@ -97,49 +105,13 @@ fun PokemonDetailsScreen(id: Int) {
                     model = "file:///android_asset/sprites/${id}.png",
                     contentDescription = name.toString(),
                     modifier = Modifier
-                        .size(125.dp)
+                        .size(100.dp)
                         .clip(CircleShape)
                         .background(MaterialTheme.colorScheme.background)
                 )
             }
             Spacer(modifier = Modifier.size(16.dp))
-            Row(
-                horizontalArrangement = Arrangement.Center,
-                modifier = Modifier.fillMaxWidth()
-            ) {
-                Text(
-                    text = "Abilities",
-                    fontSize = 24.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = Color(0x88000000)
-                )
-            }
-            Box(
-                modifier = Modifier
-                    .padding(16.dp)
-                    .fillMaxWidth()
-                    .border(1.dp, Color(0x88000000), RoundedCornerShape(12.dp))
-            ) {
-                Column {
-                    for (ability in abilityNames!!) {
-                        Row(
-                            horizontalArrangement = Arrangement.Center,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(top = 16.dp, start = 16.dp, end = 16.dp)
-                                .border(1.dp, Color(0x88000000), RoundedCornerShape(12.dp))
-                        ) {
-                            Text(
-                                text = ability.toString(),
-                                fontSize = 24.sp,
-                                color = Color(0x88000000),
-                                modifier = Modifier.padding(8.dp)
-                            )
-                        }
-                    }
-                    Spacer(modifier = Modifier.size(16.dp))
-                }
-            }
+            AbilitiesSection(abilityNames, hiddenAbilityNames)
         }
     }
 }
