@@ -44,7 +44,10 @@ class MainActivity : ComponentActivity() {
                                 }
                             )
                         ) {
-                            PokemonDetailsScreen(id = it.arguments?.getInt("id")!!)
+                            PokemonDetailsScreen(
+                                id = it.arguments?.getInt("id")!!,
+                                navController = navController
+                            )
                         }
                     }
                 }

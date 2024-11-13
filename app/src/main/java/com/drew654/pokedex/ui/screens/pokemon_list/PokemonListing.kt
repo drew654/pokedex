@@ -39,10 +39,10 @@ fun PokemonListing(
     val context = LocalContext.current
     val inputStream = context.assets.open("pokemon/${id}.json")
     val json = Json { ignoreUnknownKeys = true }
-    val pokemon = json.parseToJsonElement(inputStream.bufferedReader().use { it.readText() })
-    val color = pokemon.jsonObject["color"]?.jsonPrimitive?.content
-    val types = pokemon.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }?.toList()
-    val backgroundColor = Pokemon().GetBackgroundColor(color.toString())
+    val pokemonJson = json.parseToJsonElement(inputStream.bufferedReader().use { it.readText() })
+    val color = pokemonJson.jsonObject["color"]?.jsonPrimitive?.content
+    val types = pokemonJson.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }?.toList()
+    val pokemon = Pokemon(id, name, color.toString())
 
     Box(
         modifier = Modifier
@@ -54,7 +54,7 @@ fun PokemonListing(
     ) {
         Row(
             modifier = Modifier
-                .background(backgroundColor)
+                .background(pokemon.color)
                 .padding(8.dp)
                 .fillMaxWidth()
         ) {
