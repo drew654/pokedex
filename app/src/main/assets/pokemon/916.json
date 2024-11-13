@@ -1,1 +1,1 @@
-{"id": 916, "name": "Oinkologne", "types": ["Normal"], "abilities": [{"name": "Lingering Aroma", "is_hidden": false}, {"name": "Gluttony", "is_hidden": false}, {"name": "Thick Fat", "is_hidden": true}], "color": "gray"}
+{"id": 916, "name": "Oinkologne", "types": ["Normal"], "abilities": [{"name": "Lingering Aroma", "is_hidden": false}, {"name": "Gluttony", "is_hidden": false}, {"name": "Thick Fat", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 915, "evolves_to": [{"id": 916}]}}

@@ -1,1 +1,1 @@
-{"id": 38, "name": "Ninetales", "types": ["Fire"], "abilities": [{"name": "Flash Fire", "is_hidden": false}, {"name": "Drought", "is_hidden": true}], "color": "yellow"}
+{"id": 38, "name": "Ninetales", "types": ["Fire"], "abilities": [{"name": "Flash Fire", "is_hidden": false}, {"name": "Drought", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 37, "evolves_to": [{"id": 38}]}}

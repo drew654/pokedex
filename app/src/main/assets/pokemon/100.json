@@ -1,1 +1,1 @@
-{"id": 100, "name": "Voltorb", "types": ["Electric"], "abilities": [{"name": "Soundproof", "is_hidden": false}, {"name": "Static", "is_hidden": false}, {"name": "Aftermath", "is_hidden": true}], "color": "red"}
+{"id": 100, "name": "Voltorb", "types": ["Electric"], "abilities": [{"name": "Soundproof", "is_hidden": false}, {"name": "Static", "is_hidden": false}, {"name": "Aftermath", "is_hidden": true}], "color": "red", "evolution_line": {"id": 100, "evolves_to": [{"id": 101}]}}

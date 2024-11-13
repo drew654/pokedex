@@ -1,1 +1,1 @@
-{"id": 214, "name": "Heracross", "types": ["Bug", "Fighting"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Guts", "is_hidden": false}, {"name": "Moxie", "is_hidden": true}], "color": "blue"}
+{"id": 214, "name": "Heracross", "types": ["Bug", "Fighting"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Guts", "is_hidden": false}, {"name": "Moxie", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 214}}

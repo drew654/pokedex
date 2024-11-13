@@ -1,1 +1,1 @@
-{"id": 632, "name": "Durant", "types": ["Bug", "Steel"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Hustle", "is_hidden": false}, {"name": "Truant", "is_hidden": true}], "color": "gray"}
+{"id": 632, "name": "Durant", "types": ["Bug", "Steel"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Hustle", "is_hidden": false}, {"name": "Truant", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 632}}

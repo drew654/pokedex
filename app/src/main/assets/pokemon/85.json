@@ -1,1 +1,1 @@
-{"id": 85, "name": "Dodrio", "types": ["Normal", "Flying"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Early Bird", "is_hidden": false}, {"name": "Tangled Feet", "is_hidden": true}], "color": "brown"}
+{"id": 85, "name": "Dodrio", "types": ["Normal", "Flying"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Early Bird", "is_hidden": false}, {"name": "Tangled Feet", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 84, "evolves_to": [{"id": 85}]}}

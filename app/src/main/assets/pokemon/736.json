@@ -1,1 +1,1 @@
-{"id": 736, "name": "Grubbin", "types": ["Bug"], "abilities": [{"name": "Swarm", "is_hidden": false}], "color": "gray"}
+{"id": 736, "name": "Grubbin", "types": ["Bug"], "abilities": [{"name": "Swarm", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 736, "evolves_to": [{"id": 737, "evolves_to": [{"id": 738}]}]}}

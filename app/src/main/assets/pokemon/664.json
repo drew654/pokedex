@@ -1,1 +1,1 @@
-{"id": 664, "name": "Scatterbug", "types": ["Bug"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Compound Eyes", "is_hidden": false}, {"name": "Friend Guard", "is_hidden": true}], "color": "black"}
+{"id": 664, "name": "Scatterbug", "types": ["Bug"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Compound Eyes", "is_hidden": false}, {"name": "Friend Guard", "is_hidden": true}], "color": "black", "evolution_line": {"id": 664, "evolves_to": [{"id": 665, "evolves_to": [{"id": 666}]}]}}

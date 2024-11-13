@@ -1,1 +1,1 @@
-{"id": 876, "name": "Indeedee", "types": ["Psychic", "Normal"], "abilities": [{"name": "Inner Focus", "is_hidden": false}, {"name": "Synchronize", "is_hidden": false}, {"name": "Psychic Surge", "is_hidden": true}], "color": "purple"}
+{"id": 876, "name": "Indeedee", "types": ["Psychic", "Normal"], "abilities": [{"name": "Inner Focus", "is_hidden": false}, {"name": "Synchronize", "is_hidden": false}, {"name": "Psychic Surge", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 876}}

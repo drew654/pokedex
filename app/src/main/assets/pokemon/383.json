@@ -1,1 +1,1 @@
-{"id": 383, "name": "Groudon", "types": ["Ground"], "abilities": [{"name": "Drought", "is_hidden": false}], "color": "red"}
+{"id": 383, "name": "Groudon", "types": ["Ground"], "abilities": [{"name": "Drought", "is_hidden": false}], "color": "red", "evolution_line": {"id": 383}}

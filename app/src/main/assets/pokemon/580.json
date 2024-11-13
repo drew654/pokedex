@@ -1,1 +1,1 @@
-{"id": 580, "name": "Ducklett", "types": ["Water", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Big Pecks", "is_hidden": false}, {"name": "Hydration", "is_hidden": true}], "color": "blue"}
+{"id": 580, "name": "Ducklett", "types": ["Water", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Big Pecks", "is_hidden": false}, {"name": "Hydration", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 580, "evolves_to": [{"id": 581}]}}

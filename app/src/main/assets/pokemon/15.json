@@ -1,1 +1,1 @@
-{"id": 15, "name": "Beedrill", "types": ["Bug", "Poison"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Sniper", "is_hidden": true}], "color": "yellow"}
+{"id": 15, "name": "Beedrill", "types": ["Bug", "Poison"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Sniper", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 13, "evolves_to": [{"id": 14, "evolves_to": [{"id": 15}]}]}}

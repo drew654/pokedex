@@ -1,1 +1,1 @@
-{"id": 359, "name": "Absol", "types": ["Dark"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Super Luck", "is_hidden": false}, {"name": "Justified", "is_hidden": true}], "color": "white"}
+{"id": 359, "name": "Absol", "types": ["Dark"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Super Luck", "is_hidden": false}, {"name": "Justified", "is_hidden": true}], "color": "white", "evolution_line": {"id": 359}}

@@ -1,1 +1,1 @@
-{"id": 395, "name": "Empoleon", "types": ["Water", "Steel"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Competitive", "is_hidden": true}], "color": "blue"}
+{"id": 395, "name": "Empoleon", "types": ["Water", "Steel"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Competitive", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 393, "evolves_to": [{"id": 394, "evolves_to": [{"id": 395}]}]}}

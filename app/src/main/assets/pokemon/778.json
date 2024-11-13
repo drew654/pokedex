@@ -1,1 +1,1 @@
-{"id": 778, "name": "Mimikyu", "types": ["Ghost", "Fairy"], "abilities": [{"name": "Disguise", "is_hidden": false}], "color": "yellow"}
+{"id": 778, "name": "Mimikyu", "types": ["Ghost", "Fairy"], "abilities": [{"name": "Disguise", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 778}}

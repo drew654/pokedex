@@ -1,1 +1,1 @@
-{"id": 171, "name": "Lanturn", "types": ["Water", "Electric"], "abilities": [{"name": "Volt Absorb", "is_hidden": false}, {"name": "Illuminate", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": true}], "color": "blue"}
+{"id": 171, "name": "Lanturn", "types": ["Water", "Electric"], "abilities": [{"name": "Volt Absorb", "is_hidden": false}, {"name": "Illuminate", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 170, "evolves_to": [{"id": 171}]}}

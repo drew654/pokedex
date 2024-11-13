@@ -1,1 +1,1 @@
-{"id": 14, "name": "Kakuna", "types": ["Bug", "Poison"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "yellow"}
+{"id": 14, "name": "Kakuna", "types": ["Bug", "Poison"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 13, "evolves_to": [{"id": 14, "evolves_to": [{"id": 15}]}]}}

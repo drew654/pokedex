@@ -1,1 +1,1 @@
-{"id": 11, "name": "Metapod", "types": ["Bug"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "green"}
+{"id": 11, "name": "Metapod", "types": ["Bug"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "green", "evolution_line": {"id": 10, "evolves_to": [{"id": 11, "evolves_to": [{"id": 12}]}]}}

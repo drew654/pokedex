@@ -1,1 +1,1 @@
-{"id": 356, "name": "Dusclops", "types": ["Ghost"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Frisk", "is_hidden": true}], "color": "black"}
+{"id": 356, "name": "Dusclops", "types": ["Ghost"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Frisk", "is_hidden": true}], "color": "black", "evolution_line": {"id": 355, "evolves_to": [{"id": 356, "evolves_to": [{"id": 477}]}]}}

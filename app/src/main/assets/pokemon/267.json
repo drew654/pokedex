@@ -1,1 +1,1 @@
-{"id": 267, "name": "Beautifly", "types": ["Bug", "Flying"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Rivalry", "is_hidden": true}], "color": "yellow"}
+{"id": 267, "name": "Beautifly", "types": ["Bug", "Flying"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Rivalry", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 265, "evolves_to": [{"id": 266, "evolves_to": [{"id": 267}]}, {"id": 268, "evolves_to": [{"id": 269}]}]}}

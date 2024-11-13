@@ -1,1 +1,1 @@
-{"id": 781, "name": "Dhelmise", "types": ["Ghost", "Grass"], "abilities": [{"name": "Steelworker", "is_hidden": false}], "color": "green"}
+{"id": 781, "name": "Dhelmise", "types": ["Ghost", "Grass"], "abilities": [{"name": "Steelworker", "is_hidden": false}], "color": "green", "evolution_line": {"id": 781}}

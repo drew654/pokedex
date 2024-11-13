@@ -1,1 +1,1 @@
-{"id": 421, "name": "Cherrim", "types": ["Grass"], "abilities": [{"name": "Flower Gift", "is_hidden": false}], "color": "purple"}
+{"id": 421, "name": "Cherrim", "types": ["Grass"], "abilities": [{"name": "Flower Gift", "is_hidden": false}], "color": "purple", "evolution_line": {"id": 420, "evolves_to": [{"id": 421}]}}

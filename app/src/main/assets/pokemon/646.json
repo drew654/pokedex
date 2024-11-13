@@ -1,1 +1,1 @@
-{"id": 646, "name": "Kyurem", "types": ["Dragon", "Ice"], "abilities": [{"name": "Pressure", "is_hidden": false}], "color": "gray"}
+{"id": 646, "name": "Kyurem", "types": ["Dragon", "Ice"], "abilities": [{"name": "Pressure", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 646}}

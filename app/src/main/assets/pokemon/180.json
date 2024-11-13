@@ -1,1 +1,1 @@
-{"id": 180, "name": "Flaaffy", "types": ["Electric"], "abilities": [{"name": "Static", "is_hidden": false}, {"name": "Plus", "is_hidden": true}], "color": "pink"}
+{"id": 180, "name": "Flaaffy", "types": ["Electric"], "abilities": [{"name": "Static", "is_hidden": false}, {"name": "Plus", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 179, "evolves_to": [{"id": 180, "evolves_to": [{"id": 181}]}]}}

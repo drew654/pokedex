@@ -1,1 +1,1 @@
-{"id": 633, "name": "Deino", "types": ["Dark", "Dragon"], "abilities": [{"name": "Hustle", "is_hidden": false}], "color": "blue"}
+{"id": 633, "name": "Deino", "types": ["Dark", "Dragon"], "abilities": [{"name": "Hustle", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 633, "evolves_to": [{"id": 634, "evolves_to": [{"id": 635}]}]}}

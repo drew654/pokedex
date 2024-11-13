@@ -1,1 +1,1 @@
-{"id": 88, "name": "Grimer", "types": ["Poison"], "abilities": [{"name": "Stench", "is_hidden": false}, {"name": "Sticky Hold", "is_hidden": false}, {"name": "Poison Touch", "is_hidden": true}], "color": "purple"}
+{"id": 88, "name": "Grimer", "types": ["Poison"], "abilities": [{"name": "Stench", "is_hidden": false}, {"name": "Sticky Hold", "is_hidden": false}, {"name": "Poison Touch", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 88, "evolves_to": [{"id": 89}]}}

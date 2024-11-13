@@ -1,1 +1,1 @@
-{"id": 13, "name": "Weedle", "types": ["Bug", "Poison"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Run Away", "is_hidden": true}], "color": "brown"}
+{"id": 13, "name": "Weedle", "types": ["Bug", "Poison"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Run Away", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 13, "evolves_to": [{"id": 14, "evolves_to": [{"id": 15}]}]}}

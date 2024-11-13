@@ -1,1 +1,1 @@
-{"id": 1008, "name": "Miraidon", "types": ["Electric", "Dragon"], "abilities": [{"name": "Hadron Engine", "is_hidden": false}, {"name": "Hadron Engine", "is_hidden": true}], "color": "blue"}
+{"id": 1008, "name": "Miraidon", "types": ["Electric", "Dragon"], "abilities": [{"name": "Hadron Engine", "is_hidden": false}, {"name": "Hadron Engine", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 1008}}

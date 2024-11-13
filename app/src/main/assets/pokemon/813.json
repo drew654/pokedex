@@ -1,1 +1,1 @@
-{"id": 813, "name": "Scorbunny", "types": ["Fire"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Libero", "is_hidden": true}], "color": "white"}
+{"id": 813, "name": "Scorbunny", "types": ["Fire"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Libero", "is_hidden": true}], "color": "white", "evolution_line": {"id": 813, "evolves_to": [{"id": 814, "evolves_to": [{"id": 815}]}]}}

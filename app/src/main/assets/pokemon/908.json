@@ -1,1 +1,1 @@
-{"id": 908, "name": "Meowscarada", "types": ["Grass", "Dark"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Protean", "is_hidden": true}], "color": "green"}
+{"id": 908, "name": "Meowscarada", "types": ["Grass", "Dark"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Protean", "is_hidden": true}], "color": "green", "evolution_line": {"id": 906, "evolves_to": [{"id": 907, "evolves_to": [{"id": 908}]}]}}

@@ -1,1 +1,1 @@
-{"id": 287, "name": "Slakoth", "types": ["Normal"], "abilities": [{"name": "Truant", "is_hidden": false}], "color": "brown"}
+{"id": 287, "name": "Slakoth", "types": ["Normal"], "abilities": [{"name": "Truant", "is_hidden": false}], "color": "brown", "evolution_line": {"id": 287, "evolves_to": [{"id": 288, "evolves_to": [{"id": 289}]}]}}

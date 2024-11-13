@@ -1,1 +1,1 @@
-{"id": 742, "name": "Cutiefly", "types": ["Bug", "Fairy"], "abilities": [{"name": "Honey Gather", "is_hidden": false}, {"name": "Shield Dust", "is_hidden": false}, {"name": "Sweet Veil", "is_hidden": true}], "color": "yellow"}
+{"id": 742, "name": "Cutiefly", "types": ["Bug", "Fairy"], "abilities": [{"name": "Honey Gather", "is_hidden": false}, {"name": "Shield Dust", "is_hidden": false}, {"name": "Sweet Veil", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 742, "evolves_to": [{"id": 743}]}}

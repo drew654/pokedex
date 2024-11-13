@@ -1,1 +1,1 @@
-{"id": 97, "name": "Hypno", "types": ["Psychic"], "abilities": [{"name": "Insomnia", "is_hidden": false}, {"name": "Forewarn", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": true}], "color": "yellow"}
+{"id": 97, "name": "Hypno", "types": ["Psychic"], "abilities": [{"name": "Insomnia", "is_hidden": false}, {"name": "Forewarn", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 96, "evolves_to": [{"id": 97}]}}

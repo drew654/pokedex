@@ -1,1 +1,1 @@
-{"id": 401, "name": "Kricketot", "types": ["Bug"], "abilities": [{"name": "Shed Skin", "is_hidden": false}, {"name": "Run Away", "is_hidden": true}], "color": "red"}
+{"id": 401, "name": "Kricketot", "types": ["Bug"], "abilities": [{"name": "Shed Skin", "is_hidden": false}, {"name": "Run Away", "is_hidden": true}], "color": "red", "evolution_line": {"id": 401, "evolves_to": [{"id": 402}]}}

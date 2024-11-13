@@ -1,1 +1,1 @@
-{"id": 447, "name": "Riolu", "types": ["Fighting"], "abilities": [{"name": "Steadfast", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": false}, {"name": "Prankster", "is_hidden": true}], "color": "blue"}
+{"id": 447, "name": "Riolu", "types": ["Fighting"], "abilities": [{"name": "Steadfast", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": false}, {"name": "Prankster", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 447, "evolves_to": [{"id": 448}]}}

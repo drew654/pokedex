@@ -1,1 +1,1 @@
-{"id": 1004, "name": "Chi-Yu", "types": ["Dark", "Fire"], "abilities": [{"name": "Beads of Ruin", "is_hidden": false}, {"name": "Beads of Ruin", "is_hidden": true}], "color": "red"}
+{"id": 1004, "name": "Chi-Yu", "types": ["Dark", "Fire"], "abilities": [{"name": "Beads of Ruin", "is_hidden": false}, {"name": "Beads of Ruin", "is_hidden": true}], "color": "red", "evolution_line": {"id": 1004}}

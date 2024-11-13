@@ -1,1 +1,1 @@
-{"id": 268, "name": "Cascoon", "types": ["Bug"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "purple"}
+{"id": 268, "name": "Cascoon", "types": ["Bug"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "purple", "evolution_line": {"id": 265, "evolves_to": [{"id": 266, "evolves_to": [{"id": 267}]}, {"id": 268, "evolves_to": [{"id": 269}]}]}}

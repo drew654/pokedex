@@ -1,1 +1,1 @@
-{"id": 932, "name": "Nacli", "types": ["Rock"], "abilities": [{"name": "Purifying Salt", "is_hidden": false}, {"name": "Sturdy", "is_hidden": false}, {"name": "Clear Body", "is_hidden": true}], "color": "brown"}
+{"id": 932, "name": "Nacli", "types": ["Rock"], "abilities": [{"name": "Purifying Salt", "is_hidden": false}, {"name": "Sturdy", "is_hidden": false}, {"name": "Clear Body", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 932, "evolves_to": [{"id": 933, "evolves_to": [{"id": 934}]}]}}

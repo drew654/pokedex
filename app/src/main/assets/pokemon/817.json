@@ -1,1 +1,1 @@
-{"id": 817, "name": "Drizzile", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Sniper", "is_hidden": true}], "color": "blue"}
+{"id": 817, "name": "Drizzile", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Sniper", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 816, "evolves_to": [{"id": 817, "evolves_to": [{"id": 818}]}]}}

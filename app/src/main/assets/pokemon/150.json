@@ -1,1 +1,1 @@
-{"id": 150, "name": "Mewtwo", "types": ["Psychic"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Unnerve", "is_hidden": true}], "color": "purple"}
+{"id": 150, "name": "Mewtwo", "types": ["Psychic"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Unnerve", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 150}}

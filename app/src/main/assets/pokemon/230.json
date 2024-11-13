@@ -1,1 +1,1 @@
-{"id": 230, "name": "Kingdra", "types": ["Water", "Dragon"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Sniper", "is_hidden": false}, {"name": "Damp", "is_hidden": true}], "color": "blue"}
+{"id": 230, "name": "Kingdra", "types": ["Water", "Dragon"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Sniper", "is_hidden": false}, {"name": "Damp", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 116, "evolves_to": [{"id": 117, "evolves_to": [{"id": 230}]}]}}

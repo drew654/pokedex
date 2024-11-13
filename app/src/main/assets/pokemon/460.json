@@ -1,1 +1,1 @@
-{"id": 460, "name": "Abomasnow", "types": ["Grass", "Ice"], "abilities": [{"name": "Snow Warning", "is_hidden": false}, {"name": "Soundproof", "is_hidden": true}], "color": "white"}
+{"id": 460, "name": "Abomasnow", "types": ["Grass", "Ice"], "abilities": [{"name": "Snow Warning", "is_hidden": false}, {"name": "Soundproof", "is_hidden": true}], "color": "white", "evolution_line": {"id": 459, "evolves_to": [{"id": 460}]}}

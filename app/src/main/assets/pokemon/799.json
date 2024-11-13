@@ -1,1 +1,1 @@
-{"id": 799, "name": "Guzzlord", "types": ["Dark", "Dragon"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "black"}
+{"id": 799, "name": "Guzzlord", "types": ["Dark", "Dragon"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "black", "evolution_line": {"id": 799}}

@@ -1,1 +1,1 @@
-{"id": 428, "name": "Lopunny", "types": ["Normal"], "abilities": [{"name": "Cute Charm", "is_hidden": false}, {"name": "Klutz", "is_hidden": false}, {"name": "Limber", "is_hidden": true}], "color": "brown"}
+{"id": 428, "name": "Lopunny", "types": ["Normal"], "abilities": [{"name": "Cute Charm", "is_hidden": false}, {"name": "Klutz", "is_hidden": false}, {"name": "Limber", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 427, "evolves_to": [{"id": 428}]}}

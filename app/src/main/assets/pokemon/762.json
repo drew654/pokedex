@@ -1,1 +1,1 @@
-{"id": 762, "name": "Steenee", "types": ["Grass"], "abilities": [{"name": "Leaf Guard", "is_hidden": false}, {"name": "Oblivious", "is_hidden": false}, {"name": "Sweet Veil", "is_hidden": true}], "color": "purple"}
+{"id": 762, "name": "Steenee", "types": ["Grass"], "abilities": [{"name": "Leaf Guard", "is_hidden": false}, {"name": "Oblivious", "is_hidden": false}, {"name": "Sweet Veil", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 761, "evolves_to": [{"id": 762, "evolves_to": [{"id": 763}]}]}}

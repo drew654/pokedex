@@ -1,1 +1,1 @@
-{"id": 695, "name": "Heliolisk", "types": ["Electric", "Normal"], "abilities": [{"name": "Dry Skin", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": false}, {"name": "Solar Power", "is_hidden": true}], "color": "yellow"}
+{"id": 695, "name": "Heliolisk", "types": ["Electric", "Normal"], "abilities": [{"name": "Dry Skin", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": false}, {"name": "Solar Power", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 694, "evolves_to": [{"id": 695}]}}

@@ -1,1 +1,1 @@
-{"id": 563, "name": "Cofagrigus", "types": ["Ghost"], "abilities": [{"name": "Mummy", "is_hidden": false}], "color": "yellow"}
+{"id": 563, "name": "Cofagrigus", "types": ["Ghost"], "abilities": [{"name": "Mummy", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 562, "evolves_to": [{"id": 563}, {"id": 867}]}}

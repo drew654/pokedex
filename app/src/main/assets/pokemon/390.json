@@ -1,1 +1,1 @@
-{"id": 390, "name": "Chimchar", "types": ["Fire"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Iron Fist", "is_hidden": true}], "color": "brown"}
+{"id": 390, "name": "Chimchar", "types": ["Fire"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Iron Fist", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 390, "evolves_to": [{"id": 391, "evolves_to": [{"id": 392}]}]}}

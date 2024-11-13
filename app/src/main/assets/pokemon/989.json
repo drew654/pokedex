@@ -1,1 +1,1 @@
-{"id": 989, "name": "Sandy Shocks", "types": ["Electric", "Ground"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}, {"name": "Protosynthesis", "is_hidden": true}], "color": "gray"}
+{"id": 989, "name": "Sandy Shocks", "types": ["Electric", "Ground"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}, {"name": "Protosynthesis", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 989}}

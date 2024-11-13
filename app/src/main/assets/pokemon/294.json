@@ -1,1 +1,1 @@
-{"id": 294, "name": "Loudred", "types": ["Normal"], "abilities": [{"name": "Soundproof", "is_hidden": false}, {"name": "Scrappy", "is_hidden": true}], "color": "blue"}
+{"id": 294, "name": "Loudred", "types": ["Normal"], "abilities": [{"name": "Soundproof", "is_hidden": false}, {"name": "Scrappy", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 293, "evolves_to": [{"id": 294, "evolves_to": [{"id": 295}]}]}}

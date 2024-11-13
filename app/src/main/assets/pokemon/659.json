@@ -1,1 +1,1 @@
-{"id": 659, "name": "Bunnelby", "types": ["Normal"], "abilities": [{"name": "Pickup", "is_hidden": false}, {"name": "Cheek Pouch", "is_hidden": false}, {"name": "Huge Power", "is_hidden": true}], "color": "brown"}
+{"id": 659, "name": "Bunnelby", "types": ["Normal"], "abilities": [{"name": "Pickup", "is_hidden": false}, {"name": "Cheek Pouch", "is_hidden": false}, {"name": "Huge Power", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 659, "evolves_to": [{"id": 660}]}}

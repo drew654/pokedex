@@ -1,1 +1,1 @@
-{"id": 707, "name": "Klefki", "types": ["Steel", "Fairy"], "abilities": [{"name": "Prankster", "is_hidden": false}, {"name": "Magician", "is_hidden": true}], "color": "gray"}
+{"id": 707, "name": "Klefki", "types": ["Steel", "Fairy"], "abilities": [{"name": "Prankster", "is_hidden": false}, {"name": "Magician", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 707}}

@@ -1,1 +1,1 @@
-{"id": 967, "name": "Cyclizar", "types": ["Dragon", "Normal"], "abilities": [{"name": "Shed Skin", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "green"}
+{"id": 967, "name": "Cyclizar", "types": ["Dragon", "Normal"], "abilities": [{"name": "Shed Skin", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "green", "evolution_line": {"id": 967}}

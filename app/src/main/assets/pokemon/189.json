@@ -1,1 +1,1 @@
-{"id": 189, "name": "Jumpluff", "types": ["Grass", "Flying"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Leaf Guard", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "blue"}
+{"id": 189, "name": "Jumpluff", "types": ["Grass", "Flying"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Leaf Guard", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 187, "evolves_to": [{"id": 188, "evolves_to": [{"id": 189}]}]}}

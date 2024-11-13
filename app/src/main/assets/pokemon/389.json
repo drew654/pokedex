@@ -1,1 +1,1 @@
-{"id": 389, "name": "Torterra", "types": ["Grass", "Ground"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": true}], "color": "green"}
+{"id": 389, "name": "Torterra", "types": ["Grass", "Ground"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": true}], "color": "green", "evolution_line": {"id": 387, "evolves_to": [{"id": 388, "evolves_to": [{"id": 389}]}]}}

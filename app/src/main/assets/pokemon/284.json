@@ -1,1 +1,1 @@
-{"id": 284, "name": "Masquerain", "types": ["Bug", "Flying"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Unnerve", "is_hidden": true}], "color": "blue"}
+{"id": 284, "name": "Masquerain", "types": ["Bug", "Flying"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Unnerve", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 283, "evolves_to": [{"id": 284}]}}

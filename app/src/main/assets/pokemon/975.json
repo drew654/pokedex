@@ -1,1 +1,1 @@
-{"id": 975, "name": "Cetitan", "types": ["Ice"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Slush Rush", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "white"}
+{"id": 975, "name": "Cetitan", "types": ["Ice"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Slush Rush", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "white", "evolution_line": {"id": 974, "evolves_to": [{"id": 975}]}}

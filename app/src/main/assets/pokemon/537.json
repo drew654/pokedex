@@ -1,1 +1,1 @@
-{"id": 537, "name": "Seismitoad", "types": ["Water", "Ground"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Poison Touch", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": true}], "color": "blue"}
+{"id": 537, "name": "Seismitoad", "types": ["Water", "Ground"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Poison Touch", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 535, "evolves_to": [{"id": 536, "evolves_to": [{"id": 537}]}]}}

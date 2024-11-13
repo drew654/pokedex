@@ -1,1 +1,1 @@
-{"id": 338, "name": "Solrock", "types": ["Rock", "Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "red"}
+{"id": 338, "name": "Solrock", "types": ["Rock", "Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "red", "evolution_line": {"id": 338}}

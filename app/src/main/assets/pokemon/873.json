@@ -1,1 +1,1 @@
-{"id": 873, "name": "Frosmoth", "types": ["Ice", "Bug"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Ice Scales", "is_hidden": true}], "color": "white"}
+{"id": 873, "name": "Frosmoth", "types": ["Ice", "Bug"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Ice Scales", "is_hidden": true}], "color": "white", "evolution_line": {"id": 872, "evolves_to": [{"id": 873}]}}

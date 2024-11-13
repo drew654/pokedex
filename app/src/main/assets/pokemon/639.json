@@ -1,1 +1,1 @@
-{"id": 639, "name": "Terrakion", "types": ["Rock", "Fighting"], "abilities": [{"name": "Justified", "is_hidden": false}], "color": "gray"}
+{"id": 639, "name": "Terrakion", "types": ["Rock", "Fighting"], "abilities": [{"name": "Justified", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 639}}

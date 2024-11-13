@@ -1,1 +1,1 @@
-{"id": 852, "name": "Clobbopus", "types": ["Fighting"], "abilities": [{"name": "Limber", "is_hidden": false}, {"name": "Technician", "is_hidden": true}], "color": "brown"}
+{"id": 852, "name": "Clobbopus", "types": ["Fighting"], "abilities": [{"name": "Limber", "is_hidden": false}, {"name": "Technician", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 852, "evolves_to": [{"id": 853}]}}

@@ -1,1 +1,1 @@
-{"id": 32, "name": "Nidoran\u2642", "types": ["Poison"], "abilities": [{"name": "Poison Point", "is_hidden": false}, {"name": "Rivalry", "is_hidden": false}, {"name": "Hustle", "is_hidden": true}], "color": "purple"}
+{"id": 32, "name": "Nidoran\u2642", "types": ["Poison"], "abilities": [{"name": "Poison Point", "is_hidden": false}, {"name": "Rivalry", "is_hidden": false}, {"name": "Hustle", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 32, "evolves_to": [{"id": 33, "evolves_to": [{"id": 34}]}]}}

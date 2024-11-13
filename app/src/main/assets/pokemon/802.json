@@ -1,1 +1,1 @@
-{"id": 802, "name": "Marshadow", "types": ["Fighting", "Ghost"], "abilities": [{"name": "Technician", "is_hidden": false}], "color": "gray"}
+{"id": 802, "name": "Marshadow", "types": ["Fighting", "Ghost"], "abilities": [{"name": "Technician", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 802}}

@@ -1,1 +1,1 @@
-{"id": 993, "name": "Iron Jugulis", "types": ["Dark", "Flying"], "abilities": [{"name": "Quark Drive", "is_hidden": false}, {"name": "Quark Drive", "is_hidden": true}], "color": "blue"}
+{"id": 993, "name": "Iron Jugulis", "types": ["Dark", "Flying"], "abilities": [{"name": "Quark Drive", "is_hidden": false}, {"name": "Quark Drive", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 993}}

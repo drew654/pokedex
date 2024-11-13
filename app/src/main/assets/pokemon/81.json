@@ -1,1 +1,1 @@
-{"id": 81, "name": "Magnemite", "types": ["Electric", "Steel"], "abilities": [{"name": "Magnet Pull", "is_hidden": false}, {"name": "Sturdy", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "gray"}
+{"id": 81, "name": "Magnemite", "types": ["Electric", "Steel"], "abilities": [{"name": "Magnet Pull", "is_hidden": false}, {"name": "Sturdy", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 81, "evolves_to": [{"id": 82, "evolves_to": [{"id": 462}]}]}}

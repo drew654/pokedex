@@ -1,1 +1,1 @@
-{"id": 792, "name": "Lunala", "types": ["Psychic", "Ghost"], "abilities": [{"name": "Shadow Shield", "is_hidden": false}], "color": "purple"}
+{"id": 792, "name": "Lunala", "types": ["Psychic", "Ghost"], "abilities": [{"name": "Shadow Shield", "is_hidden": false}], "color": "purple", "evolution_line": {"id": 789, "evolves_to": [{"id": 790, "evolves_to": [{"id": 791}, {"id": 792}]}]}}

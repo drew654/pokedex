@@ -1,1 +1,1 @@
-{"id": 449, "name": "Hippopotas", "types": ["Ground"], "abilities": [{"name": "Sand Stream", "is_hidden": false}, {"name": "Sand Force", "is_hidden": true}], "color": "brown"}
+{"id": 449, "name": "Hippopotas", "types": ["Ground"], "abilities": [{"name": "Sand Stream", "is_hidden": false}, {"name": "Sand Force", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 449, "evolves_to": [{"id": 450}]}}

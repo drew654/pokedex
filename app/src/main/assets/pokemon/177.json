@@ -1,1 +1,1 @@
-{"id": 177, "name": "Natu", "types": ["Psychic", "Flying"], "abilities": [{"name": "Synchronize", "is_hidden": false}, {"name": "Early Bird", "is_hidden": false}, {"name": "Magic Bounce", "is_hidden": true}], "color": "green"}
+{"id": 177, "name": "Natu", "types": ["Psychic", "Flying"], "abilities": [{"name": "Synchronize", "is_hidden": false}, {"name": "Early Bird", "is_hidden": false}, {"name": "Magic Bounce", "is_hidden": true}], "color": "green", "evolution_line": {"id": 177, "evolves_to": [{"id": 178}]}}

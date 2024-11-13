@@ -1,1 +1,1 @@
-{"id": 73, "name": "Tentacruel", "types": ["Water", "Poison"], "abilities": [{"name": "Clear Body", "is_hidden": false}, {"name": "Liquid Ooze", "is_hidden": false}, {"name": "Rain Dish", "is_hidden": true}], "color": "blue"}
+{"id": 73, "name": "Tentacruel", "types": ["Water", "Poison"], "abilities": [{"name": "Clear Body", "is_hidden": false}, {"name": "Liquid Ooze", "is_hidden": false}, {"name": "Rain Dish", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 72, "evolves_to": [{"id": 73}]}}

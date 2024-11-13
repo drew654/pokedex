@@ -1,1 +1,1 @@
-{"id": 745, "name": "Lycanroc", "types": ["Rock"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Sand Rush", "is_hidden": false}, {"name": "Steadfast", "is_hidden": true}], "color": "brown"}
+{"id": 745, "name": "Lycanroc", "types": ["Rock"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Sand Rush", "is_hidden": false}, {"name": "Steadfast", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 744, "evolves_to": [{"id": 745}]}}

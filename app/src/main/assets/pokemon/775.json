@@ -1,1 +1,1 @@
-{"id": 775, "name": "Komala", "types": ["Normal"], "abilities": [{"name": "Comatose", "is_hidden": false}], "color": "blue"}
+{"id": 775, "name": "Komala", "types": ["Normal"], "abilities": [{"name": "Comatose", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 775}}

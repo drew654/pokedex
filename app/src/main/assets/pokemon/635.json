@@ -1,1 +1,1 @@
-{"id": 635, "name": "Hydreigon", "types": ["Dark", "Dragon"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "blue"}
+{"id": 635, "name": "Hydreigon", "types": ["Dark", "Dragon"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 633, "evolves_to": [{"id": 634, "evolves_to": [{"id": 635}]}]}}

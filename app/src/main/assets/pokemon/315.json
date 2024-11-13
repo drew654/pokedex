@@ -1,1 +1,1 @@
-{"id": 315, "name": "Roselia", "types": ["Grass", "Poison"], "abilities": [{"name": "Natural Cure", "is_hidden": false}, {"name": "Poison Point", "is_hidden": false}, {"name": "Leaf Guard", "is_hidden": true}], "color": "green"}
+{"id": 315, "name": "Roselia", "types": ["Grass", "Poison"], "abilities": [{"name": "Natural Cure", "is_hidden": false}, {"name": "Poison Point", "is_hidden": false}, {"name": "Leaf Guard", "is_hidden": true}], "color": "green", "evolution_line": {"id": 406, "evolves_to": [{"id": 315, "evolves_to": [{"id": 407}]}]}}

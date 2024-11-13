@@ -1,1 +1,1 @@
-{"id": 711, "name": "Gourgeist", "types": ["Ghost", "Grass"], "abilities": [{"name": "Pickup", "is_hidden": false}, {"name": "Frisk", "is_hidden": false}, {"name": "Insomnia", "is_hidden": true}], "color": "brown"}
+{"id": 711, "name": "Gourgeist", "types": ["Ghost", "Grass"], "abilities": [{"name": "Pickup", "is_hidden": false}, {"name": "Frisk", "is_hidden": false}, {"name": "Insomnia", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 710, "evolves_to": [{"id": 711}]}}

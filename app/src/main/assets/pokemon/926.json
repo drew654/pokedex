@@ -1,1 +1,1 @@
-{"id": 926, "name": "Fidough", "types": ["Fairy"], "abilities": [{"name": "Own Tempo", "is_hidden": false}, {"name": "Klutz", "is_hidden": true}], "color": "yellow"}
+{"id": 926, "name": "Fidough", "types": ["Fairy"], "abilities": [{"name": "Own Tempo", "is_hidden": false}, {"name": "Klutz", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 926, "evolves_to": [{"id": 927}]}}

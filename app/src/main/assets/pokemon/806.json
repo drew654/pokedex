@@ -1,1 +1,1 @@
-{"id": 806, "name": "Blacephalon", "types": ["Fire", "Ghost"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "white"}
+{"id": 806, "name": "Blacephalon", "types": ["Fire", "Ghost"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "white", "evolution_line": {"id": 806}}

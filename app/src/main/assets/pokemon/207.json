@@ -1,1 +1,1 @@
-{"id": 207, "name": "Gligar", "types": ["Ground", "Flying"], "abilities": [{"name": "Hyper Cutter", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": false}, {"name": "Immunity", "is_hidden": true}], "color": "purple"}
+{"id": 207, "name": "Gligar", "types": ["Ground", "Flying"], "abilities": [{"name": "Hyper Cutter", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": false}, {"name": "Immunity", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 207, "evolves_to": [{"id": 472}]}}

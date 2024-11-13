@@ -1,1 +1,1 @@
-{"id": 977, "name": "Dondozo", "types": ["Water"], "abilities": [{"name": "Unaware", "is_hidden": false}, {"name": "Oblivious", "is_hidden": false}, {"name": "Water Veil", "is_hidden": true}], "color": "blue"}
+{"id": 977, "name": "Dondozo", "types": ["Water"], "abilities": [{"name": "Unaware", "is_hidden": false}, {"name": "Oblivious", "is_hidden": false}, {"name": "Water Veil", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 977}}

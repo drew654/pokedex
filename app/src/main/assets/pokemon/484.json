@@ -1,1 +1,1 @@
-{"id": 484, "name": "Palkia", "types": ["Water", "Dragon"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "purple"}
+{"id": 484, "name": "Palkia", "types": ["Water", "Dragon"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 484}}

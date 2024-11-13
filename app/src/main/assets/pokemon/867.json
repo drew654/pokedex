@@ -1,1 +1,1 @@
-{"id": 867, "name": "Runerigus", "types": ["Ground", "Ghost"], "abilities": [{"name": "Wandering Spirit", "is_hidden": false}], "color": "gray"}
+{"id": 867, "name": "Runerigus", "types": ["Ground", "Ghost"], "abilities": [{"name": "Wandering Spirit", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 562, "evolves_to": [{"id": 563}, {"id": 867}]}}

@@ -1,1 +1,1 @@
-{"id": 311, "name": "Plusle", "types": ["Electric"], "abilities": [{"name": "Plus", "is_hidden": false}, {"name": "Lightning Rod", "is_hidden": true}], "color": "yellow"}
+{"id": 311, "name": "Plusle", "types": ["Electric"], "abilities": [{"name": "Plus", "is_hidden": false}, {"name": "Lightning Rod", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 311}}

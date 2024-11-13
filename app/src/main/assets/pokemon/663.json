@@ -1,1 +1,1 @@
-{"id": 663, "name": "Talonflame", "types": ["Fire", "Flying"], "abilities": [{"name": "Flame Body", "is_hidden": false}, {"name": "Gale Wings", "is_hidden": true}], "color": "red"}
+{"id": 663, "name": "Talonflame", "types": ["Fire", "Flying"], "abilities": [{"name": "Flame Body", "is_hidden": false}, {"name": "Gale Wings", "is_hidden": true}], "color": "red", "evolution_line": {"id": 661, "evolves_to": [{"id": 662, "evolves_to": [{"id": 663}]}]}}

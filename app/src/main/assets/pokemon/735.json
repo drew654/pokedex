@@ -1,1 +1,1 @@
-{"id": 735, "name": "Gumshoos", "types": ["Normal"], "abilities": [{"name": "Stakeout", "is_hidden": false}, {"name": "Strong Jaw", "is_hidden": false}, {"name": "Adaptability", "is_hidden": true}], "color": "brown"}
+{"id": 735, "name": "Gumshoos", "types": ["Normal"], "abilities": [{"name": "Stakeout", "is_hidden": false}, {"name": "Strong Jaw", "is_hidden": false}, {"name": "Adaptability", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 734, "evolves_to": [{"id": 735}]}}

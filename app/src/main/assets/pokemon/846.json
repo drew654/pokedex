@@ -1,1 +1,1 @@
-{"id": 846, "name": "Arrokuda", "types": ["Water"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Propeller Tail", "is_hidden": true}], "color": "brown"}
+{"id": 846, "name": "Arrokuda", "types": ["Water"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Propeller Tail", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 846, "evolves_to": [{"id": 847}]}}

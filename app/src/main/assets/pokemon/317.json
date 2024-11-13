@@ -1,1 +1,1 @@
-{"id": 317, "name": "Swalot", "types": ["Poison"], "abilities": [{"name": "Liquid Ooze", "is_hidden": false}, {"name": "Sticky Hold", "is_hidden": false}, {"name": "Gluttony", "is_hidden": true}], "color": "purple"}
+{"id": 317, "name": "Swalot", "types": ["Poison"], "abilities": [{"name": "Liquid Ooze", "is_hidden": false}, {"name": "Sticky Hold", "is_hidden": false}, {"name": "Gluttony", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 316, "evolves_to": [{"id": 317}]}}

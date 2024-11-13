@@ -1,1 +1,1 @@
-{"id": 602, "name": "Tynamo", "types": ["Electric"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "white"}
+{"id": 602, "name": "Tynamo", "types": ["Electric"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "white", "evolution_line": {"id": 602, "evolves_to": [{"id": 603, "evolves_to": [{"id": 604}]}]}}

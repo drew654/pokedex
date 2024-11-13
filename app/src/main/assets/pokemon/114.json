@@ -1,1 +1,1 @@
-{"id": 114, "name": "Tangela", "types": ["Grass"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Leaf Guard", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "blue"}
+{"id": 114, "name": "Tangela", "types": ["Grass"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Leaf Guard", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 114, "evolves_to": [{"id": 465}]}}

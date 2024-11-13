@@ -1,1 +1,1 @@
-{"id": 199, "name": "Slowking", "types": ["Water", "Psychic"], "abilities": [{"name": "Oblivious", "is_hidden": false}, {"name": "Own Tempo", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "pink"}
+{"id": 199, "name": "Slowking", "types": ["Water", "Psychic"], "abilities": [{"name": "Oblivious", "is_hidden": false}, {"name": "Own Tempo", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 79, "evolves_to": [{"id": 80}, {"id": 199}]}}

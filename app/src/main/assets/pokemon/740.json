@@ -1,1 +1,1 @@
-{"id": 740, "name": "Crabominable", "types": ["Fighting", "Ice"], "abilities": [{"name": "Hyper Cutter", "is_hidden": false}, {"name": "Iron Fist", "is_hidden": false}, {"name": "Anger Point", "is_hidden": true}], "color": "white"}
+{"id": 740, "name": "Crabominable", "types": ["Fighting", "Ice"], "abilities": [{"name": "Hyper Cutter", "is_hidden": false}, {"name": "Iron Fist", "is_hidden": false}, {"name": "Anger Point", "is_hidden": true}], "color": "white", "evolution_line": {"id": 739, "evolves_to": [{"id": 740}]}}

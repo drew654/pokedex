@@ -1,1 +1,1 @@
-{"id": 475, "name": "Gallade", "types": ["Psychic", "Fighting"], "abilities": [{"name": "Steadfast", "is_hidden": false}, {"name": "Sharpness", "is_hidden": false}, {"name": "Justified", "is_hidden": true}], "color": "white"}
+{"id": 475, "name": "Gallade", "types": ["Psychic", "Fighting"], "abilities": [{"name": "Steadfast", "is_hidden": false}, {"name": "Sharpness", "is_hidden": false}, {"name": "Justified", "is_hidden": true}], "color": "white", "evolution_line": {"id": 280, "evolves_to": [{"id": 281, "evolves_to": [{"id": 282}, {"id": 475}]}]}}

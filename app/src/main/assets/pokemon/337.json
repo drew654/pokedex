@@ -1,1 +1,1 @@
-{"id": 337, "name": "Lunatone", "types": ["Rock", "Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "yellow"}
+{"id": 337, "name": "Lunatone", "types": ["Rock", "Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 337}}

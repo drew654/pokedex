@@ -1,1 +1,1 @@
-{"id": 235, "name": "Smeargle", "types": ["Normal"], "abilities": [{"name": "Own Tempo", "is_hidden": false}, {"name": "Technician", "is_hidden": false}, {"name": "Moody", "is_hidden": true}], "color": "white"}
+{"id": 235, "name": "Smeargle", "types": ["Normal"], "abilities": [{"name": "Own Tempo", "is_hidden": false}, {"name": "Technician", "is_hidden": false}, {"name": "Moody", "is_hidden": true}], "color": "white", "evolution_line": {"id": 235}}

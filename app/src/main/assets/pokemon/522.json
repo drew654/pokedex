@@ -1,1 +1,1 @@
-{"id": 522, "name": "Blitzle", "types": ["Electric"], "abilities": [{"name": "Lightning Rod", "is_hidden": false}, {"name": "Motor Drive", "is_hidden": false}, {"name": "Sap Sipper", "is_hidden": true}], "color": "black"}
+{"id": 522, "name": "Blitzle", "types": ["Electric"], "abilities": [{"name": "Lightning Rod", "is_hidden": false}, {"name": "Motor Drive", "is_hidden": false}, {"name": "Sap Sipper", "is_hidden": true}], "color": "black", "evolution_line": {"id": 522, "evolves_to": [{"id": 523}]}}

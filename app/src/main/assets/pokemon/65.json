@@ -1,1 +1,1 @@
-{"id": 65, "name": "Alakazam", "types": ["Psychic"], "abilities": [{"name": "Synchronize", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": false}, {"name": "Magic Guard", "is_hidden": true}], "color": "brown"}
+{"id": 65, "name": "Alakazam", "types": ["Psychic"], "abilities": [{"name": "Synchronize", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": false}, {"name": "Magic Guard", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 63, "evolves_to": [{"id": 64, "evolves_to": [{"id": 65}]}]}}

@@ -71,6 +71,23 @@ def get_ability_names_en():
                 break
     return ability_names
 
+def get_evolution_line_id(id):
+    data = get_data(f"https://pokeapi.co/api/v2/pokemon-species/{id}")
+    return data["evolution_chain"]["url"].split("/")[-2]
+
+def get_evolution_line(pokemon_id):
+    data = get_data(f"https://pokeapi.co/api/v2/evolution-chain/{get_evolution_line_id(pokemon_id)}")
+
+    def build_evolution_tree(chain):
+        species_id = int(chain["species"]["url"].split("/")[-2])
+        evolution_tree = {"id": species_id}
+        evolves_to = [build_evolution_tree(evolution) for evolution in chain["evolves_to"]]
+        if evolves_to:
+            evolution_tree["evolves_to"] = evolves_to
+        return evolution_tree
+
+    return build_evolution_tree(data["chain"])
+
 def main():
     pokemon_species = get_all_pokemon_species()
     pokemon = get_all_pokemon()
@@ -107,6 +124,8 @@ def main():
                 trimmed_data["abilities"] += [{"name": ability_names_en[ability["ability"]["name"]], "is_hidden": ability["is_hidden"]}]
 
             trimmed_data["color"] = species_data["color"]["name"]
+
+            trimmed_data["evolution_line"] = get_evolution_line(id)
 
             if not os.path.exists("pokemon"):
                 os.makedirs("pokemon")

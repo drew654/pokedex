@@ -1,1 +1,1 @@
-{"id": 106, "name": "Hitmonlee", "types": ["Fighting"], "abilities": [{"name": "Limber", "is_hidden": false}, {"name": "Reckless", "is_hidden": false}, {"name": "Unburden", "is_hidden": true}], "color": "brown"}
+{"id": 106, "name": "Hitmonlee", "types": ["Fighting"], "abilities": [{"name": "Limber", "is_hidden": false}, {"name": "Reckless", "is_hidden": false}, {"name": "Unburden", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 236, "evolves_to": [{"id": 106}, {"id": 107}, {"id": 237}]}}

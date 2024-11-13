@@ -1,1 +1,1 @@
-{"id": 204, "name": "Pineco", "types": ["Bug"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Overcoat", "is_hidden": true}], "color": "gray"}
+{"id": 204, "name": "Pineco", "types": ["Bug"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Overcoat", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 204, "evolves_to": [{"id": 205}]}}

@@ -1,1 +1,1 @@
-{"id": 757, "name": "Salandit", "types": ["Poison", "Fire"], "abilities": [{"name": "Corrosion", "is_hidden": false}, {"name": "Oblivious", "is_hidden": true}], "color": "black"}
+{"id": 757, "name": "Salandit", "types": ["Poison", "Fire"], "abilities": [{"name": "Corrosion", "is_hidden": false}, {"name": "Oblivious", "is_hidden": true}], "color": "black", "evolution_line": {"id": 757, "evolves_to": [{"id": 758}]}}

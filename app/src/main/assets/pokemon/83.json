@@ -1,1 +1,1 @@
-{"id": 83, "name": "Farfetch\u2019d", "types": ["Normal", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": false}, {"name": "Defiant", "is_hidden": true}], "color": "brown"}
+{"id": 83, "name": "Farfetch\u2019d", "types": ["Normal", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": false}, {"name": "Defiant", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 83, "evolves_to": [{"id": 865}]}}

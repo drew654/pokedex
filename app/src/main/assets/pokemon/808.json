@@ -1,1 +1,1 @@
-{"id": 808, "name": "Meltan", "types": ["Steel"], "abilities": [{"name": "Magnet Pull", "is_hidden": false}], "color": "gray"}
+{"id": 808, "name": "Meltan", "types": ["Steel"], "abilities": [{"name": "Magnet Pull", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 808}}

@@ -1,1 +1,1 @@
-{"id": 398, "name": "Staraptor", "types": ["Normal", "Flying"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Reckless", "is_hidden": true}], "color": "brown"}
+{"id": 398, "name": "Staraptor", "types": ["Normal", "Flying"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Reckless", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 396, "evolves_to": [{"id": 397, "evolves_to": [{"id": 398}]}]}}

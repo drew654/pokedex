@@ -1,1 +1,1 @@
-{"id": 125, "name": "Electabuzz", "types": ["Electric"], "abilities": [{"name": "Static", "is_hidden": false}, {"name": "Vital Spirit", "is_hidden": true}], "color": "yellow"}
+{"id": 125, "name": "Electabuzz", "types": ["Electric"], "abilities": [{"name": "Static", "is_hidden": false}, {"name": "Vital Spirit", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 239, "evolves_to": [{"id": 125, "evolves_to": [{"id": 466}]}]}}

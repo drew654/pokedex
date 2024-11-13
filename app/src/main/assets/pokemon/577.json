@@ -1,1 +1,1 @@
-{"id": 577, "name": "Solosis", "types": ["Psychic"], "abilities": [{"name": "Overcoat", "is_hidden": false}, {"name": "Magic Guard", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "green"}
+{"id": 577, "name": "Solosis", "types": ["Psychic"], "abilities": [{"name": "Overcoat", "is_hidden": false}, {"name": "Magic Guard", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "green", "evolution_line": {"id": 577, "evolves_to": [{"id": 578, "evolves_to": [{"id": 579}]}]}}

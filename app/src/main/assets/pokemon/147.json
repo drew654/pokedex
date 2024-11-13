@@ -1,1 +1,1 @@
-{"id": 147, "name": "Dratini", "types": ["Dragon"], "abilities": [{"name": "Shed Skin", "is_hidden": false}, {"name": "Marvel Scale", "is_hidden": true}], "color": "blue"}
+{"id": 147, "name": "Dratini", "types": ["Dragon"], "abilities": [{"name": "Shed Skin", "is_hidden": false}, {"name": "Marvel Scale", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 147, "evolves_to": [{"id": 148, "evolves_to": [{"id": 149}]}]}}

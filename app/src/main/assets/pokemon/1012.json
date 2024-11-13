@@ -1,1 +1,1 @@
-{"id": 1012, "name": "Poltchageist", "types": ["Grass", "Ghost"], "abilities": [{"name": "Hospitality", "is_hidden": false}, {"name": "Heatproof", "is_hidden": true}], "color": "green"}
+{"id": 1012, "name": "Poltchageist", "types": ["Grass", "Ghost"], "abilities": [{"name": "Hospitality", "is_hidden": false}, {"name": "Heatproof", "is_hidden": true}], "color": "green", "evolution_line": {"id": 1012, "evolves_to": [{"id": 1013}]}}

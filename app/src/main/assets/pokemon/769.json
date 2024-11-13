@@ -1,1 +1,1 @@
-{"id": 769, "name": "Sandygast", "types": ["Ghost", "Ground"], "abilities": [{"name": "Water Compaction", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "brown"}
+{"id": 769, "name": "Sandygast", "types": ["Ghost", "Ground"], "abilities": [{"name": "Water Compaction", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 769, "evolves_to": [{"id": 770}]}}

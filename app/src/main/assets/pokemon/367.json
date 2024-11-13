@@ -1,1 +1,1 @@
-{"id": 367, "name": "Huntail", "types": ["Water"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Water Veil", "is_hidden": true}], "color": "blue"}
+{"id": 367, "name": "Huntail", "types": ["Water"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Water Veil", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 366, "evolves_to": [{"id": 367}, {"id": 368}]}}

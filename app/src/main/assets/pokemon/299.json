@@ -1,1 +1,1 @@
-{"id": 299, "name": "Nosepass", "types": ["Rock"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Magnet Pull", "is_hidden": false}, {"name": "Sand Force", "is_hidden": true}], "color": "gray"}
+{"id": 299, "name": "Nosepass", "types": ["Rock"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Magnet Pull", "is_hidden": false}, {"name": "Sand Force", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 299, "evolves_to": [{"id": 476}]}}

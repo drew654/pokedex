@@ -1,1 +1,1 @@
-{"id": 324, "name": "Torkoal", "types": ["Fire"], "abilities": [{"name": "White Smoke", "is_hidden": false}, {"name": "Drought", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": true}], "color": "brown"}
+{"id": 324, "name": "Torkoal", "types": ["Fire"], "abilities": [{"name": "White Smoke", "is_hidden": false}, {"name": "Drought", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 324}}

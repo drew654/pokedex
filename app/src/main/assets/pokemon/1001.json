@@ -1,1 +1,1 @@
-{"id": 1001, "name": "Wo-Chien", "types": ["Dark", "Grass"], "abilities": [{"name": "Tablets of Ruin", "is_hidden": false}, {"name": "Tablets of Ruin", "is_hidden": true}], "color": "brown"}
+{"id": 1001, "name": "Wo-Chien", "types": ["Dark", "Grass"], "abilities": [{"name": "Tablets of Ruin", "is_hidden": false}, {"name": "Tablets of Ruin", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 1001}}

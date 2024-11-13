@@ -1,1 +1,1 @@
-{"id": 759, "name": "Stufful", "types": ["Normal", "Fighting"], "abilities": [{"name": "Fluffy", "is_hidden": false}, {"name": "Klutz", "is_hidden": false}, {"name": "Cute Charm", "is_hidden": true}], "color": "pink"}
+{"id": 759, "name": "Stufful", "types": ["Normal", "Fighting"], "abilities": [{"name": "Fluffy", "is_hidden": false}, {"name": "Klutz", "is_hidden": false}, {"name": "Cute Charm", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 759, "evolves_to": [{"id": 760}]}}

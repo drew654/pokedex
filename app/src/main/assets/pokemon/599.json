@@ -1,1 +1,1 @@
-{"id": 599, "name": "Klink", "types": ["Steel"], "abilities": [{"name": "Plus", "is_hidden": false}, {"name": "Minus", "is_hidden": false}, {"name": "Clear Body", "is_hidden": true}], "color": "gray"}
+{"id": 599, "name": "Klink", "types": ["Steel"], "abilities": [{"name": "Plus", "is_hidden": false}, {"name": "Minus", "is_hidden": false}, {"name": "Clear Body", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 599, "evolves_to": [{"id": 600, "evolves_to": [{"id": 601}]}]}}

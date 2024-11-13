@@ -1,1 +1,1 @@
-{"id": 603, "name": "Eelektrik", "types": ["Electric"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "blue"}
+{"id": 603, "name": "Eelektrik", "types": ["Electric"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 602, "evolves_to": [{"id": 603, "evolves_to": [{"id": 604}]}]}}

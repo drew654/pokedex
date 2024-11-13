@@ -1,1 +1,1 @@
-{"id": 654, "name": "Braixen", "types": ["Fire"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Magician", "is_hidden": true}], "color": "red"}
+{"id": 654, "name": "Braixen", "types": ["Fire"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Magician", "is_hidden": true}], "color": "red", "evolution_line": {"id": 653, "evolves_to": [{"id": 654, "evolves_to": [{"id": 655}]}]}}

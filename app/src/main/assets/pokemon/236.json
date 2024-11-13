@@ -1,1 +1,1 @@
-{"id": 236, "name": "Tyrogue", "types": ["Fighting"], "abilities": [{"name": "Guts", "is_hidden": false}, {"name": "Steadfast", "is_hidden": false}, {"name": "Vital Spirit", "is_hidden": true}], "color": "purple"}
+{"id": 236, "name": "Tyrogue", "types": ["Fighting"], "abilities": [{"name": "Guts", "is_hidden": false}, {"name": "Steadfast", "is_hidden": false}, {"name": "Vital Spirit", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 236, "evolves_to": [{"id": 106}, {"id": 107}, {"id": 237}]}}

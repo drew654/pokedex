@@ -1,1 +1,1 @@
-{"id": 432, "name": "Purugly", "types": ["Normal"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Own Tempo", "is_hidden": false}, {"name": "Defiant", "is_hidden": true}], "color": "gray"}
+{"id": 432, "name": "Purugly", "types": ["Normal"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Own Tempo", "is_hidden": false}, {"name": "Defiant", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 431, "evolves_to": [{"id": 432}]}}

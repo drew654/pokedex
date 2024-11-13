@@ -1,1 +1,1 @@
-{"id": 420, "name": "Cherubi", "types": ["Grass"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}], "color": "pink"}
+{"id": 420, "name": "Cherubi", "types": ["Grass"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}], "color": "pink", "evolution_line": {"id": 420, "evolves_to": [{"id": 421}]}}

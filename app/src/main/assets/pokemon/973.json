@@ -1,1 +1,1 @@
-{"id": 973, "name": "Flamigo", "types": ["Flying", "Fighting"], "abilities": [{"name": "Scrappy", "is_hidden": false}, {"name": "Tangled Feet", "is_hidden": false}, {"name": "Costar", "is_hidden": true}], "color": "pink"}
+{"id": 973, "name": "Flamigo", "types": ["Flying", "Fighting"], "abilities": [{"name": "Scrappy", "is_hidden": false}, {"name": "Tangled Feet", "is_hidden": false}, {"name": "Costar", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 973}}

@@ -1,1 +1,1 @@
-{"id": 864, "name": "Cursola", "types": ["Ghost"], "abilities": [{"name": "Weak Armor", "is_hidden": false}, {"name": "Perish Body", "is_hidden": true}], "color": "white"}
+{"id": 864, "name": "Cursola", "types": ["Ghost"], "abilities": [{"name": "Weak Armor", "is_hidden": false}, {"name": "Perish Body", "is_hidden": true}], "color": "white", "evolution_line": {"id": 222, "evolves_to": [{"id": 864}]}}

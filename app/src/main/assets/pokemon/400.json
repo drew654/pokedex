@@ -1,1 +1,1 @@
-{"id": 400, "name": "Bibarel", "types": ["Normal", "Water"], "abilities": [{"name": "Simple", "is_hidden": false}, {"name": "Unaware", "is_hidden": false}, {"name": "Moody", "is_hidden": true}], "color": "brown"}
+{"id": 400, "name": "Bibarel", "types": ["Normal", "Water"], "abilities": [{"name": "Simple", "is_hidden": false}, {"name": "Unaware", "is_hidden": false}, {"name": "Moody", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 399, "evolves_to": [{"id": 400}]}}

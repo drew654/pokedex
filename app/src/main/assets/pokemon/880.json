@@ -1,1 +1,1 @@
-{"id": 880, "name": "Dracozolt", "types": ["Electric", "Dragon"], "abilities": [{"name": "Volt Absorb", "is_hidden": false}, {"name": "Hustle", "is_hidden": false}, {"name": "Sand Rush", "is_hidden": true}], "color": "green"}
+{"id": 880, "name": "Dracozolt", "types": ["Electric", "Dragon"], "abilities": [{"name": "Volt Absorb", "is_hidden": false}, {"name": "Hustle", "is_hidden": false}, {"name": "Sand Rush", "is_hidden": true}], "color": "green", "evolution_line": {"id": 880}}

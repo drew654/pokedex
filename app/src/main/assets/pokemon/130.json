@@ -1,1 +1,1 @@
-{"id": 130, "name": "Gyarados", "types": ["Water", "Flying"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Moxie", "is_hidden": true}], "color": "blue"}
+{"id": 130, "name": "Gyarados", "types": ["Water", "Flying"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Moxie", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 129, "evolves_to": [{"id": 130}]}}

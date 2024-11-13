@@ -1,1 +1,1 @@
-{"id": 752, "name": "Araquanid", "types": ["Water", "Bug"], "abilities": [{"name": "Water Bubble", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": true}], "color": "green"}
+{"id": 752, "name": "Araquanid", "types": ["Water", "Bug"], "abilities": [{"name": "Water Bubble", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": true}], "color": "green", "evolution_line": {"id": 751, "evolves_to": [{"id": 752}]}}

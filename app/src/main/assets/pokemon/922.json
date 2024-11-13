@@ -1,1 +1,1 @@
-{"id": 922, "name": "Pawmo", "types": ["Electric", "Fighting"], "abilities": [{"name": "Volt Absorb", "is_hidden": false}, {"name": "Natural Cure", "is_hidden": false}, {"name": "Iron Fist", "is_hidden": true}], "color": "yellow"}
+{"id": 922, "name": "Pawmo", "types": ["Electric", "Fighting"], "abilities": [{"name": "Volt Absorb", "is_hidden": false}, {"name": "Natural Cure", "is_hidden": false}, {"name": "Iron Fist", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 921, "evolves_to": [{"id": 922, "evolves_to": [{"id": 923}]}]}}

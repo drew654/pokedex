@@ -1,1 +1,1 @@
-{"id": 651, "name": "Quilladin", "types": ["Grass"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Bulletproof", "is_hidden": true}], "color": "green"}
+{"id": 651, "name": "Quilladin", "types": ["Grass"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Bulletproof", "is_hidden": true}], "color": "green", "evolution_line": {"id": 650, "evolves_to": [{"id": 651, "evolves_to": [{"id": 652}]}]}}

@@ -1,1 +1,1 @@
-{"id": 570, "name": "Zorua", "types": ["Dark"], "abilities": [{"name": "Illusion", "is_hidden": false}], "color": "gray"}
+{"id": 570, "name": "Zorua", "types": ["Dark"], "abilities": [{"name": "Illusion", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 570, "evolves_to": [{"id": 571}]}}

@@ -1,1 +1,1 @@
-{"id": 237, "name": "Hitmontop", "types": ["Fighting"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Technician", "is_hidden": false}, {"name": "Steadfast", "is_hidden": true}], "color": "brown"}
+{"id": 237, "name": "Hitmontop", "types": ["Fighting"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Technician", "is_hidden": false}, {"name": "Steadfast", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 236, "evolves_to": [{"id": 106}, {"id": 107}, {"id": 237}]}}

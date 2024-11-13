@@ -1,1 +1,1 @@
-{"id": 976, "name": "Veluza", "types": ["Water", "Psychic"], "abilities": [{"name": "Mold Breaker", "is_hidden": false}, {"name": "Sharpness", "is_hidden": true}], "color": "gray"}
+{"id": 976, "name": "Veluza", "types": ["Water", "Psychic"], "abilities": [{"name": "Mold Breaker", "is_hidden": false}, {"name": "Sharpness", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 976}}

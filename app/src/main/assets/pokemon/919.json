@@ -1,1 +1,1 @@
-{"id": 919, "name": "Nymble", "types": ["Bug"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Tinted Lens", "is_hidden": true}], "color": "gray"}
+{"id": 919, "name": "Nymble", "types": ["Bug"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Tinted Lens", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 919, "evolves_to": [{"id": 920}]}}

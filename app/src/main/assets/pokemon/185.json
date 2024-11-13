@@ -1,1 +1,1 @@
-{"id": 185, "name": "Sudowoodo", "types": ["Rock"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Rock Head", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "brown"}
+{"id": 185, "name": "Sudowoodo", "types": ["Rock"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Rock Head", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 438, "evolves_to": [{"id": 185}]}}

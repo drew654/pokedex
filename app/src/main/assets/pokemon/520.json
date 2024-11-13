@@ -1,1 +1,1 @@
-{"id": 520, "name": "Tranquill", "types": ["Normal", "Flying"], "abilities": [{"name": "Big Pecks", "is_hidden": false}, {"name": "Super Luck", "is_hidden": false}, {"name": "Rivalry", "is_hidden": true}], "color": "gray"}
+{"id": 520, "name": "Tranquill", "types": ["Normal", "Flying"], "abilities": [{"name": "Big Pecks", "is_hidden": false}, {"name": "Super Luck", "is_hidden": false}, {"name": "Rivalry", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 519, "evolves_to": [{"id": 520, "evolves_to": [{"id": 521}]}]}}

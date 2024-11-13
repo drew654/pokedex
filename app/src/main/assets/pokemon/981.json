@@ -1,1 +1,1 @@
-{"id": 981, "name": "Farigiraf", "types": ["Normal", "Psychic"], "abilities": [{"name": "Cud Chew", "is_hidden": false}, {"name": "Armor Tail", "is_hidden": false}, {"name": "Sap Sipper", "is_hidden": true}], "color": "brown"}
+{"id": 981, "name": "Farigiraf", "types": ["Normal", "Psychic"], "abilities": [{"name": "Cud Chew", "is_hidden": false}, {"name": "Armor Tail", "is_hidden": false}, {"name": "Sap Sipper", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 203, "evolves_to": [{"id": 981}]}}

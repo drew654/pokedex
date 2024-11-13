@@ -1,1 +1,1 @@
-{"id": 1005, "name": "Roaring Moon", "types": ["Dragon", "Dark"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}, {"name": "Protosynthesis", "is_hidden": true}], "color": "green"}
+{"id": 1005, "name": "Roaring Moon", "types": ["Dragon", "Dark"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}, {"name": "Protosynthesis", "is_hidden": true}], "color": "green", "evolution_line": {"id": 1005}}

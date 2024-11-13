@@ -1,1 +1,1 @@
-{"id": 18, "name": "Pidgeot", "types": ["Normal", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Tangled Feet", "is_hidden": false}, {"name": "Big Pecks", "is_hidden": true}], "color": "brown"}
+{"id": 18, "name": "Pidgeot", "types": ["Normal", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Tangled Feet", "is_hidden": false}, {"name": "Big Pecks", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 16, "evolves_to": [{"id": 17, "evolves_to": [{"id": 18}]}]}}

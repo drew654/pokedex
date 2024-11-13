@@ -1,1 +1,1 @@
-{"id": 939, "name": "Bellibolt", "types": ["Electric"], "abilities": [{"name": "Electromorphosis", "is_hidden": false}, {"name": "Static", "is_hidden": false}, {"name": "Damp", "is_hidden": true}], "color": "green"}
+{"id": 939, "name": "Bellibolt", "types": ["Electric"], "abilities": [{"name": "Electromorphosis", "is_hidden": false}, {"name": "Static", "is_hidden": false}, {"name": "Damp", "is_hidden": true}], "color": "green", "evolution_line": {"id": 938, "evolves_to": [{"id": 939}]}}

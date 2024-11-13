@@ -1,1 +1,1 @@
-{"id": 552, "name": "Krokorok", "types": ["Ground", "Dark"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Moxie", "is_hidden": false}, {"name": "Anger Point", "is_hidden": true}], "color": "brown"}
+{"id": 552, "name": "Krokorok", "types": ["Ground", "Dark"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Moxie", "is_hidden": false}, {"name": "Anger Point", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 551, "evolves_to": [{"id": 552, "evolves_to": [{"id": 553}]}]}}

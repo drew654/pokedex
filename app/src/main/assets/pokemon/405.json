@@ -1,1 +1,1 @@
-{"id": 405, "name": "Luxray", "types": ["Electric"], "abilities": [{"name": "Rivalry", "is_hidden": false}, {"name": "Intimidate", "is_hidden": false}, {"name": "Guts", "is_hidden": true}], "color": "blue"}
+{"id": 405, "name": "Luxray", "types": ["Electric"], "abilities": [{"name": "Rivalry", "is_hidden": false}, {"name": "Intimidate", "is_hidden": false}, {"name": "Guts", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 403, "evolves_to": [{"id": 404, "evolves_to": [{"id": 405}]}]}}

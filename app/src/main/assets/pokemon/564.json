@@ -1,1 +1,1 @@
-{"id": 564, "name": "Tirtouga", "types": ["Water", "Rock"], "abilities": [{"name": "Solid Rock", "is_hidden": false}, {"name": "Sturdy", "is_hidden": false}, {"name": "Swift Swim", "is_hidden": true}], "color": "blue"}
+{"id": 564, "name": "Tirtouga", "types": ["Water", "Rock"], "abilities": [{"name": "Solid Rock", "is_hidden": false}, {"name": "Sturdy", "is_hidden": false}, {"name": "Swift Swim", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 564, "evolves_to": [{"id": 565}]}}

@@ -1,1 +1,1 @@
-{"id": 980, "name": "Clodsire", "types": ["Poison", "Ground"], "abilities": [{"name": "Poison Point", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": false}, {"name": "Unaware", "is_hidden": true}], "color": "brown"}
+{"id": 980, "name": "Clodsire", "types": ["Poison", "Ground"], "abilities": [{"name": "Poison Point", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": false}, {"name": "Unaware", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 194, "evolves_to": [{"id": 195}, {"id": 980}]}}

@@ -1,1 +1,1 @@
-{"id": 203, "name": "Girafarig", "types": ["Normal", "Psychic"], "abilities": [{"name": "Inner Focus", "is_hidden": false}, {"name": "Early Bird", "is_hidden": false}, {"name": "Sap Sipper", "is_hidden": true}], "color": "yellow"}
+{"id": 203, "name": "Girafarig", "types": ["Normal", "Psychic"], "abilities": [{"name": "Inner Focus", "is_hidden": false}, {"name": "Early Bird", "is_hidden": false}, {"name": "Sap Sipper", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 203, "evolves_to": [{"id": 981}]}}

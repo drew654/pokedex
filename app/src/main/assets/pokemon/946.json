@@ -1,1 +1,1 @@
-{"id": 946, "name": "Bramblin", "types": ["Grass", "Ghost"], "abilities": [{"name": "Wind Rider", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "brown"}
+{"id": 946, "name": "Bramblin", "types": ["Grass", "Ghost"], "abilities": [{"name": "Wind Rider", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 946, "evolves_to": [{"id": 947}]}}

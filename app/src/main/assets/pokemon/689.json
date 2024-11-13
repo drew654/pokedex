@@ -1,1 +1,1 @@
-{"id": 689, "name": "Barbaracle", "types": ["Rock", "Water"], "abilities": [{"name": "Tough Claws", "is_hidden": false}, {"name": "Sniper", "is_hidden": false}, {"name": "Pickpocket", "is_hidden": true}], "color": "brown"}
+{"id": 689, "name": "Barbaracle", "types": ["Rock", "Water"], "abilities": [{"name": "Tough Claws", "is_hidden": false}, {"name": "Sniper", "is_hidden": false}, {"name": "Pickpocket", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 688, "evolves_to": [{"id": 689}]}}

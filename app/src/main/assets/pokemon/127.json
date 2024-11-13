@@ -1,1 +1,1 @@
-{"id": 127, "name": "Pinsir", "types": ["Bug"], "abilities": [{"name": "Hyper Cutter", "is_hidden": false}, {"name": "Mold Breaker", "is_hidden": false}, {"name": "Moxie", "is_hidden": true}], "color": "brown"}
+{"id": 127, "name": "Pinsir", "types": ["Bug"], "abilities": [{"name": "Hyper Cutter", "is_hidden": false}, {"name": "Mold Breaker", "is_hidden": false}, {"name": "Moxie", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 127}}

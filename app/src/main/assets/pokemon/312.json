@@ -1,1 +1,1 @@
-{"id": 312, "name": "Minun", "types": ["Electric"], "abilities": [{"name": "Minus", "is_hidden": false}, {"name": "Volt Absorb", "is_hidden": true}], "color": "yellow"}
+{"id": 312, "name": "Minun", "types": ["Electric"], "abilities": [{"name": "Minus", "is_hidden": false}, {"name": "Volt Absorb", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 312}}

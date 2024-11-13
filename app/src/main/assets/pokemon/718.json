@@ -1,1 +1,1 @@
-{"id": 718, "name": "Zygarde", "types": ["Dragon", "Ground"], "abilities": [{"name": "Aura Break", "is_hidden": false}], "color": "green"}
+{"id": 718, "name": "Zygarde", "types": ["Dragon", "Ground"], "abilities": [{"name": "Aura Break", "is_hidden": false}], "color": "green", "evolution_line": {"id": 718}}
