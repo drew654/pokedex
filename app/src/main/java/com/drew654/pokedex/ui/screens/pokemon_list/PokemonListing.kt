@@ -1,13 +1,12 @@
 package com.drew654.pokedex.ui.screens.pokemon_list
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
@@ -41,58 +40,48 @@ fun PokemonListing(
     val json = Json { ignoreUnknownKeys = true }
     val pokemonJson = json.parseToJsonElement(inputStream.bufferedReader().use { it.readText() })
     val color = pokemonJson.jsonObject["color"]?.jsonPrimitive?.content
-    val types = pokemonJson.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }?.toList()
+    val typesData =
+        pokemonJson.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }?.toList()
     val pokemon = Pokemon(id, name, color.toString())
 
     Box(
         modifier = Modifier
             .padding(horizontal = 8.dp, vertical = 4.dp)
             .clip(RoundedCornerShape(12.dp))
+            .background(pokemon.color)
             .clickable {
                 navController.navigate("${Screen.PokemonDetails.route}/${id}")
             }
+            .clip(RoundedCornerShape(12.dp))
+            .padding(8.dp)
     ) {
-        Row(
-            modifier = Modifier
-                .background(pokemon.color)
-                .padding(8.dp)
-                .fillMaxWidth()
-        ) {
+        Box {
             Column {
                 Row {
                     Text(
                         text = "#${id}",
                         color = Color(0x88000000),
                         fontSize = 24.sp,
-                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp)
+                        modifier = Modifier.padding(all = 8.dp)
                     )
                     Text(
                         text = name.toString(),
                         color = Color(0x88000000),
                         fontSize = 24.sp,
-                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp)
+                        modifier = Modifier.padding(all = 8.dp)
                     )
                 }
-                Row {
-                    for (type in types!!) {
-                        Text(
-                            text = type.toString(),
-                            color = Color(0x88000000),
-                            fontSize = 24.sp,
-                            modifier = Modifier
-                                .padding(horizontal = 8.dp, vertical = 8.dp)
-                                .border(1.dp, Color(0x88000000), RoundedCornerShape(12.dp))
-                                .padding(all = 4.dp)
-                        )
-                    }
-                }
+                Spacer(modifier = Modifier.height(8.dp))
+                PokemonListingTypes(typesData = typesData)
             }
+        }
+        Row {
             Spacer(modifier = Modifier.weight(1f))
             AsyncImage(
                 model = "file:///android_asset/sprites/${id}.png",
                 contentDescription = name.toString(),
                 modifier = Modifier
-                    .size(100.dp)
+                    .size(92.dp)
                     .clip(CircleShape)
                     .background(MaterialTheme.colorScheme.background)
             )
