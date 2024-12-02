@@ -24,6 +24,7 @@ import com.drew654.pokedex.models.Pokemon
 import com.drew654.pokedex.models.Screen
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.intOrNull
+import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
 
@@ -45,9 +46,11 @@ fun PokemonListScreen(navController: NavController, filterViewModel: FilterViewM
         val id = pokemonJson.jsonObject["id"]?.jsonPrimitive?.intOrNull
         val name = pokemonJson.jsonObject["name"]?.jsonPrimitive?.content
         val color = pokemonJson.jsonObject["color"]?.jsonPrimitive?.content
+        val types =
+            pokemonJson.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }?.toList()!!
 
         if (id != null && name != null && color != null) {
-            Pokemon(id, name, color)
+            Pokemon(id, name, color, types)
         } else {
             null
         }
@@ -72,8 +75,7 @@ fun PokemonListScreen(navController: NavController, filterViewModel: FilterViewM
                         ) == true
                     }) { pokemon ->
                         PokemonListing(
-                            id = pokemon.id,
-                            name = pokemon.name,
+                            pokemon = pokemon,
                             navController = navController
                         )
                     }

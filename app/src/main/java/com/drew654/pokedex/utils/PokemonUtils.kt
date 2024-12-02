@@ -24,7 +24,10 @@ fun getEvolutionsWithIndention(
                 json.parseToJsonElement(inputStream.bufferedReader().use { it.readText() })
             val name = pokemonJson.jsonObject["name"]?.jsonPrimitive?.content
             val color = pokemonJson.jsonObject["color"]?.jsonPrimitive?.content
-            val pokemonObject = Pokemon(id, name.toString(), color.toString())
+            val types =
+                pokemonJson.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }
+                    ?.toList()!!
+            val pokemonObject = Pokemon(id, name.toString(), color.toString(), types)
             pokemonList.add(pokemonObject to indentLevel)
 
             val evolvesTo = jsonObject["evolves_to"]?.jsonArray

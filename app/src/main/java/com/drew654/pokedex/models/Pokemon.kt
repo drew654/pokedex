@@ -2,7 +2,7 @@ package com.drew654.pokedex.models
 
 import androidx.compose.ui.graphics.Color
 
-class Pokemon(val id: Int, val name: String, colorString: String) {
+class Pokemon(val id: Int, val name: String, colorString: String, val types: List<String>) {
     val color: Color = when (colorString) {
         "green" -> Color(0xFF7AC74C)
         "red" -> Color(0xFFEE8130)
@@ -16,4 +16,6 @@ class Pokemon(val id: Int, val name: String, colorString: String) {
         "black" -> Color(0xFF000000)
         else -> Color.Unspecified
     }
+
+    val imageUrl = "file:///android_asset/sprites/${id}.png"
 }

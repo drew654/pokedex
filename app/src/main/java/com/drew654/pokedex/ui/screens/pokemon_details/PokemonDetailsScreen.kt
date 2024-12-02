@@ -41,7 +41,7 @@ fun PokemonDetailsScreen(id: Int, navController: NavController) {
     val name = pokemonJson.jsonObject["name"]?.jsonPrimitive?.content
     val color = pokemonJson.jsonObject["color"]?.jsonPrimitive?.content
     val types =
-        pokemonJson.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }?.toList()
+        pokemonJson.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }?.toList()!!
     val abilities = pokemonJson.jsonObject["abilities"]?.jsonArray
     val (hiddenAbilityNames, abilityNames) = abilities
         ?.partition { ability ->
@@ -52,7 +52,7 @@ fun PokemonDetailsScreen(id: Int, navController: NavController) {
                     nonHidden.mapNotNull { it.jsonObject["name"]?.jsonPrimitive?.content }
         }
         ?: (emptyList<String>() to emptyList<String>())
-    val pokemon = Pokemon(id, name.toString(), color.toString())
+    val pokemon = Pokemon(id, name.toString(), color.toString(), types)
 
     Box(
         modifier = Modifier
