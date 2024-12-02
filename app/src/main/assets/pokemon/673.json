@@ -1,1 +1,1 @@
-{"id": 673, "name": "Gogoat", "types": ["Grass"], "abilities": [{"name": "Sap Sipper", "is_hidden": false}, {"name": "Grass Pelt", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 672, "evolves_to": [{"id": 673}]}}
+{"id": 673, "name": "Gogoat", "types": ["Grass"], "abilities": [{"name": "Sap Sipper", "is_hidden": false}, {"name": "Grass Pelt", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 672, "evolves_to": [{"id": 673}]}, "original_region": "Kalos"}

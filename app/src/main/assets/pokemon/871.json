@@ -1,1 +1,1 @@
-{"id": 871, "name": "Pincurchin", "types": ["Electric"], "abilities": [{"name": "Lightning Rod", "is_hidden": false}, {"name": "Electric Surge", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 871}}
+{"id": 871, "name": "Pincurchin", "types": ["Electric"], "abilities": [{"name": "Lightning Rod", "is_hidden": false}, {"name": "Electric Surge", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 871}, "original_region": "Galar"}

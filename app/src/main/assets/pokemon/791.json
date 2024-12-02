@@ -1,1 +1,1 @@
-{"id": 791, "name": "Solgaleo", "types": ["Psychic", "Steel"], "abilities": [{"name": "Full Metal Body", "is_hidden": false}], "color": "white", "evolution_line": {"id": 789, "evolves_to": [{"id": 790, "evolves_to": [{"id": 791}, {"id": 792}]}]}}
+{"id": 791, "name": "Solgaleo", "types": ["Psychic", "Steel"], "abilities": [{"name": "Full Metal Body", "is_hidden": false}], "color": "white", "evolution_line": {"id": 789, "evolves_to": [{"id": 790, "evolves_to": [{"id": 791}, {"id": 792}]}]}, "original_region": "Alola"}

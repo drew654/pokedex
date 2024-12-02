@@ -1,1 +1,1 @@
-{"id": 667, "name": "Litleo", "types": ["Fire", "Normal"], "abilities": [{"name": "Rivalry", "is_hidden": false}, {"name": "Unnerve", "is_hidden": false}, {"name": "Moxie", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 667, "evolves_to": [{"id": 668}]}}
+{"id": 667, "name": "Litleo", "types": ["Fire", "Normal"], "abilities": [{"name": "Rivalry", "is_hidden": false}, {"name": "Unnerve", "is_hidden": false}, {"name": "Moxie", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 667, "evolves_to": [{"id": 668}]}, "original_region": "Kalos"}

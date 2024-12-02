@@ -1,1 +1,1 @@
-{"id": 247, "name": "Pupitar", "types": ["Rock", "Ground"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 246, "evolves_to": [{"id": 247, "evolves_to": [{"id": 248}]}]}}
+{"id": 247, "name": "Pupitar", "types": ["Rock", "Ground"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 246, "evolves_to": [{"id": 247, "evolves_to": [{"id": 248}]}]}, "original_region": "Johto"}

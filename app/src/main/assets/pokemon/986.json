@@ -1,1 +1,1 @@
-{"id": 986, "name": "Brute Bonnet", "types": ["Grass", "Dark"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}, {"name": "Protosynthesis", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 986}}
+{"id": 986, "name": "Brute Bonnet", "types": ["Grass", "Dark"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}, {"name": "Protosynthesis", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 986}, "original_region": "Paldea"}

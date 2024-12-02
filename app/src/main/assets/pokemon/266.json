@@ -1,1 +1,1 @@
-{"id": 266, "name": "Silcoon", "types": ["Bug"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "white", "evolution_line": {"id": 265, "evolves_to": [{"id": 266, "evolves_to": [{"id": 267}]}, {"id": 268, "evolves_to": [{"id": 269}]}]}}
+{"id": 266, "name": "Silcoon", "types": ["Bug"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "white", "evolution_line": {"id": 265, "evolves_to": [{"id": 266, "evolves_to": [{"id": 267}]}, {"id": 268, "evolves_to": [{"id": 269}]}]}, "original_region": "Hoenn"}

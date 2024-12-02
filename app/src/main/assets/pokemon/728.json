@@ -1,1 +1,1 @@
-{"id": 728, "name": "Popplio", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Liquid Voice", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 728, "evolves_to": [{"id": 729, "evolves_to": [{"id": 730}]}]}}
+{"id": 728, "name": "Popplio", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Liquid Voice", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 728, "evolves_to": [{"id": 729, "evolves_to": [{"id": 730}]}]}, "original_region": "Alola"}

@@ -1,1 +1,1 @@
-{"id": 441, "name": "Chatot", "types": ["Normal", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Tangled Feet", "is_hidden": false}, {"name": "Big Pecks", "is_hidden": true}], "color": "black", "evolution_line": {"id": 441}}
+{"id": 441, "name": "Chatot", "types": ["Normal", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Tangled Feet", "is_hidden": false}, {"name": "Big Pecks", "is_hidden": true}], "color": "black", "evolution_line": {"id": 441}, "original_region": "Sinnoh"}

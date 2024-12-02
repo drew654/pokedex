@@ -1,1 +1,1 @@
-{"id": 658, "name": "Greninja", "types": ["Water", "Dark"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Protean", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 656, "evolves_to": [{"id": 657, "evolves_to": [{"id": 658}]}]}}
+{"id": 658, "name": "Greninja", "types": ["Water", "Dark"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Protean", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 656, "evolves_to": [{"id": 657, "evolves_to": [{"id": 658}]}]}, "original_region": "Kalos"}

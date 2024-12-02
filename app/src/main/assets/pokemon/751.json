@@ -1,1 +1,1 @@
-{"id": 751, "name": "Dewpider", "types": ["Water", "Bug"], "abilities": [{"name": "Water Bubble", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": true}], "color": "green", "evolution_line": {"id": 751, "evolves_to": [{"id": 752}]}}
+{"id": 751, "name": "Dewpider", "types": ["Water", "Bug"], "abilities": [{"name": "Water Bubble", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": true}], "color": "green", "evolution_line": {"id": 751, "evolves_to": [{"id": 752}]}, "original_region": "Alola"}

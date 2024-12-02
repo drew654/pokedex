@@ -1,1 +1,1 @@
-{"id": 202, "name": "Wobbuffet", "types": ["Psychic"], "abilities": [{"name": "Shadow Tag", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 360, "evolves_to": [{"id": 202}]}}
+{"id": 202, "name": "Wobbuffet", "types": ["Psychic"], "abilities": [{"name": "Shadow Tag", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 360, "evolves_to": [{"id": 202}]}, "original_region": "Johto"}

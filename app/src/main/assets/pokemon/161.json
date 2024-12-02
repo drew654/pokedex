@@ -1,1 +1,1 @@
-{"id": 161, "name": "Sentret", "types": ["Normal"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Keen Eye", "is_hidden": false}, {"name": "Frisk", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 161, "evolves_to": [{"id": 162}]}}
+{"id": 161, "name": "Sentret", "types": ["Normal"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Keen Eye", "is_hidden": false}, {"name": "Frisk", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 161, "evolves_to": [{"id": 162}]}, "original_region": "Johto"}

@@ -1,1 +1,1 @@
-{"id": 737, "name": "Charjabug", "types": ["Bug", "Electric"], "abilities": [{"name": "Battery", "is_hidden": false}], "color": "green", "evolution_line": {"id": 736, "evolves_to": [{"id": 737, "evolves_to": [{"id": 738}]}]}}
+{"id": 737, "name": "Charjabug", "types": ["Bug", "Electric"], "abilities": [{"name": "Battery", "is_hidden": false}], "color": "green", "evolution_line": {"id": 736, "evolves_to": [{"id": 737, "evolves_to": [{"id": 738}]}]}, "original_region": "Alola"}

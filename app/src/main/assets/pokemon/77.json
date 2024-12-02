@@ -1,1 +1,1 @@
-{"id": 77, "name": "Ponyta", "types": ["Fire"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Flash Fire", "is_hidden": false}, {"name": "Flame Body", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 77, "evolves_to": [{"id": 78}]}}
+{"id": 77, "name": "Ponyta", "types": ["Fire"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Flash Fire", "is_hidden": false}, {"name": "Flame Body", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 77, "evolves_to": [{"id": 78}]}, "original_region": "Kanto"}

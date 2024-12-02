@@ -1,1 +1,1 @@
-{"id": 276, "name": "Taillow", "types": ["Normal", "Flying"], "abilities": [{"name": "Guts", "is_hidden": false}, {"name": "Scrappy", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 276, "evolves_to": [{"id": 277}]}}
+{"id": 276, "name": "Taillow", "types": ["Normal", "Flying"], "abilities": [{"name": "Guts", "is_hidden": false}, {"name": "Scrappy", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 276, "evolves_to": [{"id": 277}]}, "original_region": "Hoenn"}

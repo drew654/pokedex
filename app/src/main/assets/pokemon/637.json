@@ -1,1 +1,1 @@
-{"id": 637, "name": "Volcarona", "types": ["Bug", "Fire"], "abilities": [{"name": "Flame Body", "is_hidden": false}, {"name": "Swarm", "is_hidden": true}], "color": "white", "evolution_line": {"id": 636, "evolves_to": [{"id": 637}]}}
+{"id": 637, "name": "Volcarona", "types": ["Bug", "Fire"], "abilities": [{"name": "Flame Body", "is_hidden": false}, {"name": "Swarm", "is_hidden": true}], "color": "white", "evolution_line": {"id": 636, "evolves_to": [{"id": 637}]}, "original_region": "Unova"}

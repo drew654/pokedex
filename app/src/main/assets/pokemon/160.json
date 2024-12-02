@@ -1,1 +1,1 @@
-{"id": 160, "name": "Feraligatr", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 158, "evolves_to": [{"id": 159, "evolves_to": [{"id": 160}]}]}}
+{"id": 160, "name": "Feraligatr", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 158, "evolves_to": [{"id": 159, "evolves_to": [{"id": 160}]}]}, "original_region": "Johto"}

@@ -1,1 +1,1 @@
-{"id": 951, "name": "Capsakid", "types": ["Grass"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Insomnia", "is_hidden": false}, {"name": "Klutz", "is_hidden": true}], "color": "green", "evolution_line": {"id": 951, "evolves_to": [{"id": 952}]}}
+{"id": 951, "name": "Capsakid", "types": ["Grass"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Insomnia", "is_hidden": false}, {"name": "Klutz", "is_hidden": true}], "color": "green", "evolution_line": {"id": 951, "evolves_to": [{"id": 952}]}, "original_region": "Paldea"}

@@ -1,1 +1,1 @@
-{"id": 764, "name": "Comfey", "types": ["Fairy"], "abilities": [{"name": "Flower Veil", "is_hidden": false}, {"name": "Triage", "is_hidden": false}, {"name": "Natural Cure", "is_hidden": true}], "color": "green", "evolution_line": {"id": 764}}
+{"id": 764, "name": "Comfey", "types": ["Fairy"], "abilities": [{"name": "Flower Veil", "is_hidden": false}, {"name": "Triage", "is_hidden": false}, {"name": "Natural Cure", "is_hidden": true}], "color": "green", "evolution_line": {"id": 764}, "original_region": "Alola"}

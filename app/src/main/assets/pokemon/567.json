@@ -1,1 +1,1 @@
-{"id": 567, "name": "Archeops", "types": ["Rock", "Flying"], "abilities": [{"name": "Defeatist", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 566, "evolves_to": [{"id": 567}]}}
+{"id": 567, "name": "Archeops", "types": ["Rock", "Flying"], "abilities": [{"name": "Defeatist", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 566, "evolves_to": [{"id": 567}]}, "original_region": "Unova"}

@@ -1,1 +1,1 @@
-{"id": 1003, "name": "Ting-Lu", "types": ["Dark", "Ground"], "abilities": [{"name": "Vessel of Ruin", "is_hidden": false}, {"name": "Vessel of Ruin", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 1003}}
+{"id": 1003, "name": "Ting-Lu", "types": ["Dark", "Ground"], "abilities": [{"name": "Vessel of Ruin", "is_hidden": false}, {"name": "Vessel of Ruin", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 1003}, "original_region": "Paldea"}

@@ -1,1 +1,1 @@
-{"id": 684, "name": "Swirlix", "types": ["Fairy"], "abilities": [{"name": "Sweet Veil", "is_hidden": false}, {"name": "Unburden", "is_hidden": true}], "color": "white", "evolution_line": {"id": 684, "evolves_to": [{"id": 685}]}}
+{"id": 684, "name": "Swirlix", "types": ["Fairy"], "abilities": [{"name": "Sweet Veil", "is_hidden": false}, {"name": "Unburden", "is_hidden": true}], "color": "white", "evolution_line": {"id": 684, "evolves_to": [{"id": 685}]}, "original_region": "Kalos"}

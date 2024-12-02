@@ -1,1 +1,1 @@
-{"id": 905, "name": "Enamorus", "types": ["Fairy", "Flying"], "abilities": [{"name": "Cute Charm", "is_hidden": false}, {"name": "Contrary", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 905}}
+{"id": 905, "name": "Enamorus", "types": ["Fairy", "Flying"], "abilities": [{"name": "Cute Charm", "is_hidden": false}, {"name": "Contrary", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 905}, "original_region": "Galar"}

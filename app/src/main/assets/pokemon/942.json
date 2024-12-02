@@ -1,1 +1,1 @@
-{"id": 942, "name": "Maschiff", "types": ["Dark"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Run Away", "is_hidden": false}, {"name": "Stakeout", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 942, "evolves_to": [{"id": 943}]}}
+{"id": 942, "name": "Maschiff", "types": ["Dark"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Run Away", "is_hidden": false}, {"name": "Stakeout", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 942, "evolves_to": [{"id": 943}]}, "original_region": "Paldea"}

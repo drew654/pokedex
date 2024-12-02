@@ -1,1 +1,1 @@
-{"id": 964, "name": "Palafin", "types": ["Water"], "abilities": [{"name": "Zero to Hero", "is_hidden": false}, {"name": "Zero to Hero", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 963, "evolves_to": [{"id": 964}]}}
+{"id": 964, "name": "Palafin", "types": ["Water"], "abilities": [{"name": "Zero to Hero", "is_hidden": false}, {"name": "Zero to Hero", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 963, "evolves_to": [{"id": 964}]}, "original_region": "Paldea"}

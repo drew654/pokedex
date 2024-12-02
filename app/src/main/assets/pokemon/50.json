@@ -1,1 +1,1 @@
-{"id": 50, "name": "Diglett", "types": ["Ground"], "abilities": [{"name": "Sand Veil", "is_hidden": false}, {"name": "Arena Trap", "is_hidden": false}, {"name": "Sand Force", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 50, "evolves_to": [{"id": 51}]}}
+{"id": 50, "name": "Diglett", "types": ["Ground"], "abilities": [{"name": "Sand Veil", "is_hidden": false}, {"name": "Arena Trap", "is_hidden": false}, {"name": "Sand Force", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 50, "evolves_to": [{"id": 51}]}, "original_region": "Kanto"}

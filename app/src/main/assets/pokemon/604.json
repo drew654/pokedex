@@ -1,1 +1,1 @@
-{"id": 604, "name": "Eelektross", "types": ["Electric"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 602, "evolves_to": [{"id": 603, "evolves_to": [{"id": 604}]}]}}
+{"id": 604, "name": "Eelektross", "types": ["Electric"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 602, "evolves_to": [{"id": 603, "evolves_to": [{"id": 604}]}]}, "original_region": "Unova"}

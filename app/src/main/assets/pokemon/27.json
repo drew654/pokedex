@@ -1,1 +1,1 @@
-{"id": 27, "name": "Sandshrew", "types": ["Ground"], "abilities": [{"name": "Sand Veil", "is_hidden": false}, {"name": "Sand Rush", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 27, "evolves_to": [{"id": 28}]}}
+{"id": 27, "name": "Sandshrew", "types": ["Ground"], "abilities": [{"name": "Sand Veil", "is_hidden": false}, {"name": "Sand Rush", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 27, "evolves_to": [{"id": 28}]}, "original_region": "Kanto"}

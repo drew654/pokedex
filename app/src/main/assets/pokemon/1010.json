@@ -1,1 +1,1 @@
-{"id": 1010, "name": "Iron Leaves", "types": ["Grass", "Psychic"], "abilities": [{"name": "Quark Drive", "is_hidden": false}, {"name": "Quark Drive", "is_hidden": true}], "color": "green", "evolution_line": {"id": 1010}}
+{"id": 1010, "name": "Iron Leaves", "types": ["Grass", "Psychic"], "abilities": [{"name": "Quark Drive", "is_hidden": false}, {"name": "Quark Drive", "is_hidden": true}], "color": "green", "evolution_line": {"id": 1010}, "original_region": "Paldea"}

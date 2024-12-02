@@ -1,1 +1,1 @@
-{"id": 416, "name": "Vespiquen", "types": ["Bug", "Flying"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Unnerve", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 415, "evolves_to": [{"id": 416}]}}
+{"id": 416, "name": "Vespiquen", "types": ["Bug", "Flying"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Unnerve", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 415, "evolves_to": [{"id": 416}]}, "original_region": "Sinnoh"}

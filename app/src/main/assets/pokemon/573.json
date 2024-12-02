@@ -1,1 +1,1 @@
-{"id": 573, "name": "Cinccino", "types": ["Normal"], "abilities": [{"name": "Cute Charm", "is_hidden": false}, {"name": "Technician", "is_hidden": false}, {"name": "Skill Link", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 572, "evolves_to": [{"id": 573}]}}
+{"id": 573, "name": "Cinccino", "types": ["Normal"], "abilities": [{"name": "Cute Charm", "is_hidden": false}, {"name": "Technician", "is_hidden": false}, {"name": "Skill Link", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 572, "evolves_to": [{"id": 573}]}, "original_region": "Unova"}

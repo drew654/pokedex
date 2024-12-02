@@ -1,1 +1,1 @@
-{"id": 126, "name": "Magmar", "types": ["Fire"], "abilities": [{"name": "Flame Body", "is_hidden": false}, {"name": "Vital Spirit", "is_hidden": true}], "color": "red", "evolution_line": {"id": 240, "evolves_to": [{"id": 126, "evolves_to": [{"id": 467}]}]}}
+{"id": 126, "name": "Magmar", "types": ["Fire"], "abilities": [{"name": "Flame Body", "is_hidden": false}, {"name": "Vital Spirit", "is_hidden": true}], "color": "red", "evolution_line": {"id": 240, "evolves_to": [{"id": 126, "evolves_to": [{"id": 467}]}]}, "original_region": "Kanto"}

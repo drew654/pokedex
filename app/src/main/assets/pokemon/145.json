@@ -1,1 +1,1 @@
-{"id": 145, "name": "Zapdos", "types": ["Electric", "Flying"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Static", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 145}}
+{"id": 145, "name": "Zapdos", "types": ["Electric", "Flying"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Static", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 145}, "original_region": "Kanto"}

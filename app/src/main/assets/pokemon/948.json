@@ -1,1 +1,1 @@
-{"id": 948, "name": "Toedscool", "types": ["Ground", "Grass"], "abilities": [{"name": "Mycelium Might", "is_hidden": false}, {"name": "Mycelium Might", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 948, "evolves_to": [{"id": 949}]}}
+{"id": 948, "name": "Toedscool", "types": ["Ground", "Grass"], "abilities": [{"name": "Mycelium Might", "is_hidden": false}, {"name": "Mycelium Might", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 948, "evolves_to": [{"id": 949}]}, "original_region": "Paldea"}

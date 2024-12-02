@@ -1,1 +1,1 @@
-{"id": 835, "name": "Yamper", "types": ["Electric"], "abilities": [{"name": "Ball Fetch", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 835, "evolves_to": [{"id": 836}]}}
+{"id": 835, "name": "Yamper", "types": ["Electric"], "abilities": [{"name": "Ball Fetch", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 835, "evolves_to": [{"id": 836}]}, "original_region": "Galar"}

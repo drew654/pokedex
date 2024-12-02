@@ -1,1 +1,1 @@
-{"id": 872, "name": "Snom", "types": ["Ice", "Bug"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Ice Scales", "is_hidden": true}], "color": "white", "evolution_line": {"id": 872, "evolves_to": [{"id": 873}]}}
+{"id": 872, "name": "Snom", "types": ["Ice", "Bug"], "abilities": [{"name": "Shield Dust", "is_hidden": false}, {"name": "Ice Scales", "is_hidden": true}], "color": "white", "evolution_line": {"id": 872, "evolves_to": [{"id": 873}]}, "original_region": "Galar"}

@@ -1,1 +1,1 @@
-{"id": 283, "name": "Surskit", "types": ["Bug", "Water"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Rain Dish", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 283, "evolves_to": [{"id": 284}]}}
+{"id": 283, "name": "Surskit", "types": ["Bug", "Water"], "abilities": [{"name": "Swift Swim", "is_hidden": false}, {"name": "Rain Dish", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 283, "evolves_to": [{"id": 284}]}, "original_region": "Hoenn"}

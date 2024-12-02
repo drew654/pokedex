@@ -1,1 +1,1 @@
-{"id": 848, "name": "Toxel", "types": ["Electric", "Poison"], "abilities": [{"name": "Rattled", "is_hidden": false}, {"name": "Static", "is_hidden": false}, {"name": "Klutz", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 848, "evolves_to": [{"id": 849}]}}
+{"id": 848, "name": "Toxel", "types": ["Electric", "Poison"], "abilities": [{"name": "Rattled", "is_hidden": false}, {"name": "Static", "is_hidden": false}, {"name": "Klutz", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 848, "evolves_to": [{"id": 849}]}, "original_region": "Galar"}

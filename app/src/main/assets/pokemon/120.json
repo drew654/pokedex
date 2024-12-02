@@ -1,1 +1,1 @@
-{"id": 120, "name": "Staryu", "types": ["Water"], "abilities": [{"name": "Illuminate", "is_hidden": false}, {"name": "Natural Cure", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 120, "evolves_to": [{"id": 121}]}}
+{"id": 120, "name": "Staryu", "types": ["Water"], "abilities": [{"name": "Illuminate", "is_hidden": false}, {"name": "Natural Cure", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 120, "evolves_to": [{"id": 121}]}, "original_region": "Kanto"}

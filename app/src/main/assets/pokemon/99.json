@@ -1,1 +1,1 @@
-{"id": 99, "name": "Kingler", "types": ["Water"], "abilities": [{"name": "Hyper Cutter", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "red", "evolution_line": {"id": 98, "evolves_to": [{"id": 99}]}}
+{"id": 99, "name": "Kingler", "types": ["Water"], "abilities": [{"name": "Hyper Cutter", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "red", "evolution_line": {"id": 98, "evolves_to": [{"id": 99}]}, "original_region": "Kanto"}

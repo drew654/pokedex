@@ -1,1 +1,1 @@
-{"id": 950, "name": "Klawf", "types": ["Rock"], "abilities": [{"name": "Anger Shell", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "red", "evolution_line": {"id": 950}}
+{"id": 950, "name": "Klawf", "types": ["Rock"], "abilities": [{"name": "Anger Shell", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "red", "evolution_line": {"id": 950}, "original_region": "Paldea"}

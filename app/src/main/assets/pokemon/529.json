@@ -1,1 +1,1 @@
-{"id": 529, "name": "Drilbur", "types": ["Ground"], "abilities": [{"name": "Sand Rush", "is_hidden": false}, {"name": "Sand Force", "is_hidden": false}, {"name": "Mold Breaker", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 529, "evolves_to": [{"id": 530}]}}
+{"id": 529, "name": "Drilbur", "types": ["Ground"], "abilities": [{"name": "Sand Rush", "is_hidden": false}, {"name": "Sand Force", "is_hidden": false}, {"name": "Mold Breaker", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 529, "evolves_to": [{"id": 530}]}, "original_region": "Unova"}

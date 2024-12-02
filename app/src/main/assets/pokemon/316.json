@@ -1,1 +1,1 @@
-{"id": 316, "name": "Gulpin", "types": ["Poison"], "abilities": [{"name": "Liquid Ooze", "is_hidden": false}, {"name": "Sticky Hold", "is_hidden": false}, {"name": "Gluttony", "is_hidden": true}], "color": "green", "evolution_line": {"id": 316, "evolves_to": [{"id": 317}]}}
+{"id": 316, "name": "Gulpin", "types": ["Poison"], "abilities": [{"name": "Liquid Ooze", "is_hidden": false}, {"name": "Sticky Hold", "is_hidden": false}, {"name": "Gluttony", "is_hidden": true}], "color": "green", "evolution_line": {"id": 316, "evolves_to": [{"id": 317}]}, "original_region": "Hoenn"}

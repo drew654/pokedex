@@ -1,1 +1,1 @@
-{"id": 487, "name": "Giratina", "types": ["Ghost", "Dragon"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "black", "evolution_line": {"id": 487}}
+{"id": 487, "name": "Giratina", "types": ["Ghost", "Dragon"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "black", "evolution_line": {"id": 487}, "original_region": "Sinnoh"}

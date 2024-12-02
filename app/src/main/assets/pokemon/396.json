@@ -1,1 +1,1 @@
-{"id": 396, "name": "Starly", "types": ["Normal", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Reckless", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 396, "evolves_to": [{"id": 397, "evolves_to": [{"id": 398}]}]}}
+{"id": 396, "name": "Starly", "types": ["Normal", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Reckless", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 396, "evolves_to": [{"id": 397, "evolves_to": [{"id": 398}]}]}, "original_region": "Sinnoh"}

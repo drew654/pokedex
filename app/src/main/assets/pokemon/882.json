@@ -1,1 +1,1 @@
-{"id": 882, "name": "Dracovish", "types": ["Water", "Dragon"], "abilities": [{"name": "Water Absorb", "is_hidden": false}, {"name": "Strong Jaw", "is_hidden": false}, {"name": "Sand Rush", "is_hidden": true}], "color": "green", "evolution_line": {"id": 882}}
+{"id": 882, "name": "Dracovish", "types": ["Water", "Dragon"], "abilities": [{"name": "Water Absorb", "is_hidden": false}, {"name": "Strong Jaw", "is_hidden": false}, {"name": "Sand Rush", "is_hidden": true}], "color": "green", "evolution_line": {"id": 882}, "original_region": "Galar"}

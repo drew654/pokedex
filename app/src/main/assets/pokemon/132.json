@@ -1,1 +1,1 @@
-{"id": 132, "name": "Ditto", "types": ["Normal"], "abilities": [{"name": "Limber", "is_hidden": false}, {"name": "Imposter", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 132}}
+{"id": 132, "name": "Ditto", "types": ["Normal"], "abilities": [{"name": "Limber", "is_hidden": false}, {"name": "Imposter", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 132}, "original_region": "Kanto"}

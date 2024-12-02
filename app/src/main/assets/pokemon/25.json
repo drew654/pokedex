@@ -1,1 +1,1 @@
-{"id": 25, "name": "Pikachu", "types": ["Electric"], "abilities": [{"name": "Static", "is_hidden": false}, {"name": "Lightning Rod", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 172, "evolves_to": [{"id": 25, "evolves_to": [{"id": 26}]}]}}
+{"id": 25, "name": "Pikachu", "types": ["Electric"], "abilities": [{"name": "Static", "is_hidden": false}, {"name": "Lightning Rod", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 172, "evolves_to": [{"id": 25, "evolves_to": [{"id": 26}]}]}, "original_region": "Kanto"}

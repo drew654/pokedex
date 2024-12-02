@@ -1,1 +1,1 @@
-{"id": 292, "name": "Shedinja", "types": ["Bug", "Ghost"], "abilities": [{"name": "Wonder Guard", "is_hidden": false}], "color": "brown", "evolution_line": {"id": 290, "evolves_to": [{"id": 291}, {"id": 292}]}}
+{"id": 292, "name": "Shedinja", "types": ["Bug", "Ghost"], "abilities": [{"name": "Wonder Guard", "is_hidden": false}], "color": "brown", "evolution_line": {"id": 290, "evolves_to": [{"id": 291}, {"id": 292}]}, "original_region": "Hoenn"}

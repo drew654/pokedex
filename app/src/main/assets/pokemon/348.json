@@ -1,1 +1,1 @@
-{"id": 348, "name": "Armaldo", "types": ["Rock", "Bug"], "abilities": [{"name": "Battle Armor", "is_hidden": false}, {"name": "Swift Swim", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 347, "evolves_to": [{"id": 348}]}}
+{"id": 348, "name": "Armaldo", "types": ["Rock", "Bug"], "abilities": [{"name": "Battle Armor", "is_hidden": false}, {"name": "Swift Swim", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 347, "evolves_to": [{"id": 348}]}, "original_region": "Hoenn"}

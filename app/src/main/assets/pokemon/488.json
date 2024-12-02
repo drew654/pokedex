@@ -1,1 +1,1 @@
-{"id": 488, "name": "Cresselia", "types": ["Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 488}}
+{"id": 488, "name": "Cresselia", "types": ["Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 488}, "original_region": "Sinnoh"}

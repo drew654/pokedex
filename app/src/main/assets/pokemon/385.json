@@ -1,1 +1,1 @@
-{"id": 385, "name": "Jirachi", "types": ["Steel", "Psychic"], "abilities": [{"name": "Serene Grace", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 385}}
+{"id": 385, "name": "Jirachi", "types": ["Steel", "Psychic"], "abilities": [{"name": "Serene Grace", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 385}, "original_region": "Hoenn"}

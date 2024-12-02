@@ -1,1 +1,1 @@
-{"id": 827, "name": "Nickit", "types": ["Dark"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Unburden", "is_hidden": false}, {"name": "Stakeout", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 827, "evolves_to": [{"id": 828}]}}
+{"id": 827, "name": "Nickit", "types": ["Dark"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Unburden", "is_hidden": false}, {"name": "Stakeout", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 827, "evolves_to": [{"id": 828}]}, "original_region": "Galar"}

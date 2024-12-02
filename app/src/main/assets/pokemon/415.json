@@ -1,1 +1,1 @@
-{"id": 415, "name": "Combee", "types": ["Bug", "Flying"], "abilities": [{"name": "Honey Gather", "is_hidden": false}, {"name": "Hustle", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 415, "evolves_to": [{"id": 416}]}}
+{"id": 415, "name": "Combee", "types": ["Bug", "Flying"], "abilities": [{"name": "Honey Gather", "is_hidden": false}, {"name": "Hustle", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 415, "evolves_to": [{"id": 416}]}, "original_region": "Sinnoh"}

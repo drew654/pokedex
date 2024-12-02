@@ -1,1 +1,1 @@
-{"id": 780, "name": "Drampa", "types": ["Normal", "Dragon"], "abilities": [{"name": "Berserk", "is_hidden": false}, {"name": "Sap Sipper", "is_hidden": false}, {"name": "Cloud Nine", "is_hidden": true}], "color": "white", "evolution_line": {"id": 780}}
+{"id": 780, "name": "Drampa", "types": ["Normal", "Dragon"], "abilities": [{"name": "Berserk", "is_hidden": false}, {"name": "Sap Sipper", "is_hidden": false}, {"name": "Cloud Nine", "is_hidden": true}], "color": "white", "evolution_line": {"id": 780}, "original_region": "Alola"}

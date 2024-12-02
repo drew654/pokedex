@@ -1,1 +1,1 @@
-{"id": 144, "name": "Articuno", "types": ["Ice", "Flying"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Snow Cloak", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 144}}
+{"id": 144, "name": "Articuno", "types": ["Ice", "Flying"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Snow Cloak", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 144}, "original_region": "Kanto"}

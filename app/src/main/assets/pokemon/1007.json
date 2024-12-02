@@ -1,1 +1,1 @@
-{"id": 1007, "name": "Koraidon", "types": ["Fighting", "Dragon"], "abilities": [{"name": "Orichalcum Pulse", "is_hidden": false}, {"name": "Orichalcum Pulse", "is_hidden": true}], "color": "red", "evolution_line": {"id": 1007}}
+{"id": 1007, "name": "Koraidon", "types": ["Fighting", "Dragon"], "abilities": [{"name": "Orichalcum Pulse", "is_hidden": false}, {"name": "Orichalcum Pulse", "is_hidden": true}], "color": "red", "evolution_line": {"id": 1007}, "original_region": "Paldea"}

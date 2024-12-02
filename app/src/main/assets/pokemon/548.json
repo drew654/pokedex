@@ -1,1 +1,1 @@
-{"id": 548, "name": "Petilil", "types": ["Grass"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Own Tempo", "is_hidden": false}, {"name": "Leaf Guard", "is_hidden": true}], "color": "green", "evolution_line": {"id": 548, "evolves_to": [{"id": 549}]}}
+{"id": 548, "name": "Petilil", "types": ["Grass"], "abilities": [{"name": "Chlorophyll", "is_hidden": false}, {"name": "Own Tempo", "is_hidden": false}, {"name": "Leaf Guard", "is_hidden": true}], "color": "green", "evolution_line": {"id": 548, "evolves_to": [{"id": 549}]}, "original_region": "Unova"}

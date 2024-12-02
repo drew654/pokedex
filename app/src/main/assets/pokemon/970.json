@@ -1,1 +1,1 @@
-{"id": 970, "name": "Glimmora", "types": ["Rock", "Poison"], "abilities": [{"name": "Toxic Debris", "is_hidden": false}, {"name": "Corrosion", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 969, "evolves_to": [{"id": 970}]}}
+{"id": 970, "name": "Glimmora", "types": ["Rock", "Poison"], "abilities": [{"name": "Toxic Debris", "is_hidden": false}, {"name": "Corrosion", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 969, "evolves_to": [{"id": 970}]}, "original_region": "Paldea"}

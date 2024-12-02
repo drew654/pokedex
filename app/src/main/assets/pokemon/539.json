@@ -1,1 +1,1 @@
-{"id": 539, "name": "Sawk", "types": ["Fighting"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": false}, {"name": "Mold Breaker", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 539}}
+{"id": 539, "name": "Sawk", "types": ["Fighting"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": false}, {"name": "Mold Breaker", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 539}, "original_region": "Unova"}

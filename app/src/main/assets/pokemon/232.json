@@ -1,1 +1,1 @@
-{"id": 232, "name": "Donphan", "types": ["Ground"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 231, "evolves_to": [{"id": 232}]}}
+{"id": 232, "name": "Donphan", "types": ["Ground"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 231, "evolves_to": [{"id": 232}]}, "original_region": "Johto"}

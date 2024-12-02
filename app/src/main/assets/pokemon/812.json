@@ -1,1 +1,1 @@
-{"id": 812, "name": "Rillaboom", "types": ["Grass"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Grassy Surge", "is_hidden": true}], "color": "green", "evolution_line": {"id": 810, "evolves_to": [{"id": 811, "evolves_to": [{"id": 812}]}]}}
+{"id": 812, "name": "Rillaboom", "types": ["Grass"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Grassy Surge", "is_hidden": true}], "color": "green", "evolution_line": {"id": 810, "evolves_to": [{"id": 811, "evolves_to": [{"id": 812}]}]}, "original_region": "Galar"}

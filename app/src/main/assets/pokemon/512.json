@@ -1,1 +1,1 @@
-{"id": 512, "name": "Simisage", "types": ["Grass"], "abilities": [{"name": "Gluttony", "is_hidden": false}, {"name": "Overgrow", "is_hidden": true}], "color": "green", "evolution_line": {"id": 511, "evolves_to": [{"id": 512}]}}
+{"id": 512, "name": "Simisage", "types": ["Grass"], "abilities": [{"name": "Gluttony", "is_hidden": false}, {"name": "Overgrow", "is_hidden": true}], "color": "green", "evolution_line": {"id": 511, "evolves_to": [{"id": 512}]}, "original_region": "Unova"}

@@ -1,1 +1,1 @@
-{"id": 836, "name": "Boltund", "types": ["Electric"], "abilities": [{"name": "Strong Jaw", "is_hidden": false}, {"name": "Competitive", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 835, "evolves_to": [{"id": 836}]}}
+{"id": 836, "name": "Boltund", "types": ["Electric"], "abilities": [{"name": "Strong Jaw", "is_hidden": false}, {"name": "Competitive", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 835, "evolves_to": [{"id": 836}]}, "original_region": "Galar"}

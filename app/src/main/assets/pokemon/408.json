@@ -1,1 +1,1 @@
-{"id": 408, "name": "Cranidos", "types": ["Rock"], "abilities": [{"name": "Mold Breaker", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 408, "evolves_to": [{"id": 409}]}}
+{"id": 408, "name": "Cranidos", "types": ["Rock"], "abilities": [{"name": "Mold Breaker", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 408, "evolves_to": [{"id": 409}]}, "original_region": "Sinnoh"}

@@ -1,1 +1,1 @@
-{"id": 244, "name": "Entei", "types": ["Fire"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 244}}
+{"id": 244, "name": "Entei", "types": ["Fire"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 244}, "original_region": "Johto"}

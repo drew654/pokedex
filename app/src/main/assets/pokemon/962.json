@@ -1,1 +1,1 @@
-{"id": 962, "name": "Bombirdier", "types": ["Flying", "Dark"], "abilities": [{"name": "Big Pecks", "is_hidden": false}, {"name": "Keen Eye", "is_hidden": false}, {"name": "Rocky Payload", "is_hidden": true}], "color": "white", "evolution_line": {"id": 962}}
+{"id": 962, "name": "Bombirdier", "types": ["Flying", "Dark"], "abilities": [{"name": "Big Pecks", "is_hidden": false}, {"name": "Keen Eye", "is_hidden": false}, {"name": "Rocky Payload", "is_hidden": true}], "color": "white", "evolution_line": {"id": 962}, "original_region": "Paldea"}

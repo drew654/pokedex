@@ -1,1 +1,1 @@
-{"id": 518, "name": "Musharna", "types": ["Psychic"], "abilities": [{"name": "Forewarn", "is_hidden": false}, {"name": "Synchronize", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 517, "evolves_to": [{"id": 518}]}}
+{"id": 518, "name": "Musharna", "types": ["Psychic"], "abilities": [{"name": "Forewarn", "is_hidden": false}, {"name": "Synchronize", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 517, "evolves_to": [{"id": 518}]}, "original_region": "Unova"}

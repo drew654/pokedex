@@ -1,1 +1,1 @@
-{"id": 261, "name": "Poochyena", "types": ["Dark"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Quick Feet", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 261, "evolves_to": [{"id": 262}]}}
+{"id": 261, "name": "Poochyena", "types": ["Dark"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Quick Feet", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 261, "evolves_to": [{"id": 262}]}, "original_region": "Hoenn"}

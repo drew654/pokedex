@@ -1,1 +1,1 @@
-{"id": 640, "name": "Virizion", "types": ["Grass", "Fighting"], "abilities": [{"name": "Justified", "is_hidden": false}], "color": "green", "evolution_line": {"id": 640}}
+{"id": 640, "name": "Virizion", "types": ["Grass", "Fighting"], "abilities": [{"name": "Justified", "is_hidden": false}], "color": "green", "evolution_line": {"id": 640}, "original_region": "Unova"}

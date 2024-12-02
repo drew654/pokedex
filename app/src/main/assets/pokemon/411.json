@@ -1,1 +1,1 @@
-{"id": 411, "name": "Bastiodon", "types": ["Rock", "Steel"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Soundproof", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 410, "evolves_to": [{"id": 411}]}}
+{"id": 411, "name": "Bastiodon", "types": ["Rock", "Steel"], "abilities": [{"name": "Sturdy", "is_hidden": false}, {"name": "Soundproof", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 410, "evolves_to": [{"id": 411}]}, "original_region": "Sinnoh"}

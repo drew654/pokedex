@@ -1,1 +1,1 @@
-{"id": 898, "name": "Calyrex", "types": ["Psychic", "Grass"], "abilities": [{"name": "Unnerve", "is_hidden": false}], "color": "green", "evolution_line": {"id": 898}}
+{"id": 898, "name": "Calyrex", "types": ["Psychic", "Grass"], "abilities": [{"name": "Unnerve", "is_hidden": false}], "color": "green", "evolution_line": {"id": 898}, "original_region": "Galar"}

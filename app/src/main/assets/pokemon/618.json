@@ -1,1 +1,1 @@
-{"id": 618, "name": "Stunfisk", "types": ["Ground", "Electric"], "abilities": [{"name": "Static", "is_hidden": false}, {"name": "Limber", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 618}}
+{"id": 618, "name": "Stunfisk", "types": ["Ground", "Electric"], "abilities": [{"name": "Static", "is_hidden": false}, {"name": "Limber", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 618}, "original_region": "Unova"}

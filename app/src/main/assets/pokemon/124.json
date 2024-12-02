@@ -1,1 +1,1 @@
-{"id": 124, "name": "Jynx", "types": ["Ice", "Psychic"], "abilities": [{"name": "Oblivious", "is_hidden": false}, {"name": "Forewarn", "is_hidden": false}, {"name": "Dry Skin", "is_hidden": true}], "color": "red", "evolution_line": {"id": 238, "evolves_to": [{"id": 124}]}}
+{"id": 124, "name": "Jynx", "types": ["Ice", "Psychic"], "abilities": [{"name": "Oblivious", "is_hidden": false}, {"name": "Forewarn", "is_hidden": false}, {"name": "Dry Skin", "is_hidden": true}], "color": "red", "evolution_line": {"id": 238, "evolves_to": [{"id": 124}]}, "original_region": "Kanto"}

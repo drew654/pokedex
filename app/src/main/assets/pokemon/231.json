@@ -1,1 +1,1 @@
-{"id": 231, "name": "Phanpy", "types": ["Ground"], "abilities": [{"name": "Pickup", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 231, "evolves_to": [{"id": 232}]}}
+{"id": 231, "name": "Phanpy", "types": ["Ground"], "abilities": [{"name": "Pickup", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 231, "evolves_to": [{"id": 232}]}, "original_region": "Johto"}

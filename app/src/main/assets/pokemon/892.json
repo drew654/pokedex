@@ -1,1 +1,1 @@
-{"id": 892, "name": "Urshifu", "types": ["Fighting", "Dark"], "abilities": [{"name": "Unseen Fist", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 891, "evolves_to": [{"id": 892}]}}
+{"id": 892, "name": "Urshifu", "types": ["Fighting", "Dark"], "abilities": [{"name": "Unseen Fist", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 891, "evolves_to": [{"id": 892}]}, "original_region": "Galar"}

@@ -1,1 +1,1 @@
-{"id": 23, "name": "Ekans", "types": ["Poison"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Shed Skin", "is_hidden": false}, {"name": "Unnerve", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 23, "evolves_to": [{"id": 24}]}}
+{"id": 23, "name": "Ekans", "types": ["Poison"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Shed Skin", "is_hidden": false}, {"name": "Unnerve", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 23, "evolves_to": [{"id": 24}]}, "original_region": "Kanto"}

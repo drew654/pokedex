@@ -1,1 +1,1 @@
-{"id": 930, "name": "Arboliva", "types": ["Grass", "Normal"], "abilities": [{"name": "Seed Sower", "is_hidden": false}, {"name": "Harvest", "is_hidden": true}], "color": "green", "evolution_line": {"id": 928, "evolves_to": [{"id": 929, "evolves_to": [{"id": 930}]}]}}
+{"id": 930, "name": "Arboliva", "types": ["Grass", "Normal"], "abilities": [{"name": "Seed Sower", "is_hidden": false}, {"name": "Harvest", "is_hidden": true}], "color": "green", "evolution_line": {"id": 928, "evolves_to": [{"id": 929, "evolves_to": [{"id": 930}]}]}, "original_region": "Paldea"}

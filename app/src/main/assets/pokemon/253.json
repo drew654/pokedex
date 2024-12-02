@@ -1,1 +1,1 @@
-{"id": 253, "name": "Grovyle", "types": ["Grass"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Unburden", "is_hidden": true}], "color": "green", "evolution_line": {"id": 252, "evolves_to": [{"id": 253, "evolves_to": [{"id": 254}]}]}}
+{"id": 253, "name": "Grovyle", "types": ["Grass"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Unburden", "is_hidden": true}], "color": "green", "evolution_line": {"id": 252, "evolves_to": [{"id": 253, "evolves_to": [{"id": 254}]}]}, "original_region": "Hoenn"}

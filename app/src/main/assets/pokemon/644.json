@@ -1,1 +1,1 @@
-{"id": 644, "name": "Zekrom", "types": ["Dragon", "Electric"], "abilities": [{"name": "Teravolt", "is_hidden": false}], "color": "black", "evolution_line": {"id": 644}}
+{"id": 644, "name": "Zekrom", "types": ["Dragon", "Electric"], "abilities": [{"name": "Teravolt", "is_hidden": false}], "color": "black", "evolution_line": {"id": 644}, "original_region": "Unova"}

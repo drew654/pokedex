@@ -1,1 +1,1 @@
-{"id": 803, "name": "Poipole", "types": ["Poison"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "purple", "evolution_line": {"id": 803, "evolves_to": [{"id": 804}]}}
+{"id": 803, "name": "Poipole", "types": ["Poison"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "purple", "evolution_line": {"id": 803, "evolves_to": [{"id": 804}]}, "original_region": "Alola"}

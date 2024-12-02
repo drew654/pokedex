@@ -1,1 +1,1 @@
-{"id": 59, "name": "Arcanine", "types": ["Fire"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Flash Fire", "is_hidden": false}, {"name": "Justified", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 58, "evolves_to": [{"id": 59}]}}
+{"id": 59, "name": "Arcanine", "types": ["Fire"], "abilities": [{"name": "Intimidate", "is_hidden": false}, {"name": "Flash Fire", "is_hidden": false}, {"name": "Justified", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 58, "evolves_to": [{"id": 59}]}, "original_region": "Kanto"}

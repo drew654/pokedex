@@ -1,1 +1,1 @@
-{"id": 605, "name": "Elgyem", "types": ["Psychic"], "abilities": [{"name": "Telepathy", "is_hidden": false}, {"name": "Synchronize", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 605, "evolves_to": [{"id": 606}]}}
+{"id": 605, "name": "Elgyem", "types": ["Psychic"], "abilities": [{"name": "Telepathy", "is_hidden": false}, {"name": "Synchronize", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 605, "evolves_to": [{"id": 606}]}, "original_region": "Unova"}

@@ -1,1 +1,1 @@
-{"id": 591, "name": "Amoonguss", "types": ["Grass", "Poison"], "abilities": [{"name": "Effect Spore", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "white", "evolution_line": {"id": 590, "evolves_to": [{"id": 591}]}}
+{"id": 591, "name": "Amoonguss", "types": ["Grass", "Poison"], "abilities": [{"name": "Effect Spore", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "white", "evolution_line": {"id": 590, "evolves_to": [{"id": 591}]}, "original_region": "Unova"}

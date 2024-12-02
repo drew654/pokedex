@@ -1,1 +1,1 @@
-{"id": 974, "name": "Cetoddle", "types": ["Ice"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Snow Cloak", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "white", "evolution_line": {"id": 974, "evolves_to": [{"id": 975}]}}
+{"id": 974, "name": "Cetoddle", "types": ["Ice"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Snow Cloak", "is_hidden": false}, {"name": "Sheer Force", "is_hidden": true}], "color": "white", "evolution_line": {"id": 974, "evolves_to": [{"id": 975}]}, "original_region": "Paldea"}

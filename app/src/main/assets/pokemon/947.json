@@ -1,1 +1,1 @@
-{"id": 947, "name": "Brambleghast", "types": ["Grass", "Ghost"], "abilities": [{"name": "Wind Rider", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 946, "evolves_to": [{"id": 947}]}}
+{"id": 947, "name": "Brambleghast", "types": ["Grass", "Ghost"], "abilities": [{"name": "Wind Rider", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 946, "evolves_to": [{"id": 947}]}, "original_region": "Paldea"}

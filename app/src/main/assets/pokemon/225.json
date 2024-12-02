@@ -1,1 +1,1 @@
-{"id": 225, "name": "Delibird", "types": ["Ice", "Flying"], "abilities": [{"name": "Vital Spirit", "is_hidden": false}, {"name": "Hustle", "is_hidden": false}, {"name": "Insomnia", "is_hidden": true}], "color": "red", "evolution_line": {"id": 225}}
+{"id": 225, "name": "Delibird", "types": ["Ice", "Flying"], "abilities": [{"name": "Vital Spirit", "is_hidden": false}, {"name": "Hustle", "is_hidden": false}, {"name": "Insomnia", "is_hidden": true}], "color": "red", "evolution_line": {"id": 225}, "original_region": "Johto"}

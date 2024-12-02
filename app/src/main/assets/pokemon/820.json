@@ -1,1 +1,1 @@
-{"id": 820, "name": "Greedent", "types": ["Normal"], "abilities": [{"name": "Cheek Pouch", "is_hidden": false}, {"name": "Gluttony", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 819, "evolves_to": [{"id": 820}]}}
+{"id": 820, "name": "Greedent", "types": ["Normal"], "abilities": [{"name": "Cheek Pouch", "is_hidden": false}, {"name": "Gluttony", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 819, "evolves_to": [{"id": 820}]}, "original_region": "Galar"}

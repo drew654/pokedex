@@ -1,1 +1,1 @@
-{"id": 332, "name": "Cacturne", "types": ["Grass", "Dark"], "abilities": [{"name": "Sand Veil", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": true}], "color": "green", "evolution_line": {"id": 331, "evolves_to": [{"id": 332}]}}
+{"id": 332, "name": "Cacturne", "types": ["Grass", "Dark"], "abilities": [{"name": "Sand Veil", "is_hidden": false}, {"name": "Water Absorb", "is_hidden": true}], "color": "green", "evolution_line": {"id": 331, "evolves_to": [{"id": 332}]}, "original_region": "Hoenn"}

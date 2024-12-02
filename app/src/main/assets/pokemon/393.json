@@ -1,1 +1,1 @@
-{"id": 393, "name": "Piplup", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Competitive", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 393, "evolves_to": [{"id": 394, "evolves_to": [{"id": 395}]}]}}
+{"id": 393, "name": "Piplup", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Competitive", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 393, "evolves_to": [{"id": 394, "evolves_to": [{"id": 395}]}]}, "original_region": "Sinnoh"}

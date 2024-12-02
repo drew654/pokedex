@@ -1,1 +1,1 @@
-{"id": 960, "name": "Wiglett", "types": ["Water"], "abilities": [{"name": "Gooey", "is_hidden": false}, {"name": "Rattled", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "white", "evolution_line": {"id": 960, "evolves_to": [{"id": 961}]}}
+{"id": 960, "name": "Wiglett", "types": ["Water"], "abilities": [{"name": "Gooey", "is_hidden": false}, {"name": "Rattled", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "white", "evolution_line": {"id": 960, "evolves_to": [{"id": 961}]}, "original_region": "Paldea"}

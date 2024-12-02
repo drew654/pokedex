@@ -1,1 +1,1 @@
-{"id": 90, "name": "Shellder", "types": ["Water"], "abilities": [{"name": "Shell Armor", "is_hidden": false}, {"name": "Skill Link", "is_hidden": false}, {"name": "Overcoat", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 90, "evolves_to": [{"id": 91}]}}
+{"id": 90, "name": "Shellder", "types": ["Water"], "abilities": [{"name": "Shell Armor", "is_hidden": false}, {"name": "Skill Link", "is_hidden": false}, {"name": "Overcoat", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 90, "evolves_to": [{"id": 91}]}, "original_region": "Kanto"}

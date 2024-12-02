@@ -1,1 +1,1 @@
-{"id": 766, "name": "Passimian", "types": ["Fighting"], "abilities": [{"name": "Receiver", "is_hidden": false}, {"name": "Defiant", "is_hidden": true}], "color": "white", "evolution_line": {"id": 766}}
+{"id": 766, "name": "Passimian", "types": ["Fighting"], "abilities": [{"name": "Receiver", "is_hidden": false}, {"name": "Defiant", "is_hidden": true}], "color": "white", "evolution_line": {"id": 766}, "original_region": "Alola"}

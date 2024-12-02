@@ -1,1 +1,1 @@
-{"id": 241, "name": "Miltank", "types": ["Normal"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Scrappy", "is_hidden": false}, {"name": "Sap Sipper", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 241}}
+{"id": 241, "name": "Miltank", "types": ["Normal"], "abilities": [{"name": "Thick Fat", "is_hidden": false}, {"name": "Scrappy", "is_hidden": false}, {"name": "Sap Sipper", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 241}, "original_region": "Johto"}

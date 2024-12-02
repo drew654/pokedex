@@ -1,1 +1,1 @@
-{"id": 693, "name": "Clawitzer", "types": ["Water"], "abilities": [{"name": "Mega Launcher", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 692, "evolves_to": [{"id": 693}]}}
+{"id": 693, "name": "Clawitzer", "types": ["Water"], "abilities": [{"name": "Mega Launcher", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 692, "evolves_to": [{"id": 693}]}, "original_region": "Kalos"}

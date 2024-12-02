@@ -1,1 +1,1 @@
-{"id": 427, "name": "Buneary", "types": ["Normal"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Klutz", "is_hidden": false}, {"name": "Limber", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 427, "evolves_to": [{"id": 428}]}}
+{"id": 427, "name": "Buneary", "types": ["Normal"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Klutz", "is_hidden": false}, {"name": "Limber", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 427, "evolves_to": [{"id": 428}]}, "original_region": "Sinnoh"}

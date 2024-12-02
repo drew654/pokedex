@@ -1,1 +1,1 @@
-{"id": 151, "name": "Mew", "types": ["Psychic"], "abilities": [{"name": "Synchronize", "is_hidden": false}], "color": "pink", "evolution_line": {"id": 151}}
+{"id": 151, "name": "Mew", "types": ["Psychic"], "abilities": [{"name": "Synchronize", "is_hidden": false}], "color": "pink", "evolution_line": {"id": 151}, "original_region": "Kanto"}

@@ -1,1 +1,1 @@
-{"id": 681, "name": "Aegislash", "types": ["Steel", "Ghost"], "abilities": [{"name": "Stance Change", "is_hidden": false}], "color": "brown", "evolution_line": {"id": 679, "evolves_to": [{"id": 680, "evolves_to": [{"id": 681}]}]}}
+{"id": 681, "name": "Aegislash", "types": ["Steel", "Ghost"], "abilities": [{"name": "Stance Change", "is_hidden": false}], "color": "brown", "evolution_line": {"id": 679, "evolves_to": [{"id": 680, "evolves_to": [{"id": 681}]}]}, "original_region": "Kalos"}

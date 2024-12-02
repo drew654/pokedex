@@ -1,1 +1,1 @@
-{"id": 155, "name": "Cyndaquil", "types": ["Fire"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Flash Fire", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 155, "evolves_to": [{"id": 156, "evolves_to": [{"id": 157}]}]}}
+{"id": 155, "name": "Cyndaquil", "types": ["Fire"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Flash Fire", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 155, "evolves_to": [{"id": 156, "evolves_to": [{"id": 157}]}]}, "original_region": "Johto"}

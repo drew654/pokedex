@@ -1,1 +1,1 @@
-{"id": 623, "name": "Golurk", "types": ["Ground", "Ghost"], "abilities": [{"name": "Iron Fist", "is_hidden": false}, {"name": "Klutz", "is_hidden": false}, {"name": "No Guard", "is_hidden": true}], "color": "green", "evolution_line": {"id": 622, "evolves_to": [{"id": 623}]}}
+{"id": 623, "name": "Golurk", "types": ["Ground", "Ghost"], "abilities": [{"name": "Iron Fist", "is_hidden": false}, {"name": "Klutz", "is_hidden": false}, {"name": "No Guard", "is_hidden": true}], "color": "green", "evolution_line": {"id": 622, "evolves_to": [{"id": 623}]}, "original_region": "Unova"}

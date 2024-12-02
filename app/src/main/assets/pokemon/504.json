@@ -1,1 +1,1 @@
-{"id": 504, "name": "Patrat", "types": ["Normal"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Keen Eye", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 504, "evolves_to": [{"id": 505}]}}
+{"id": 504, "name": "Patrat", "types": ["Normal"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Keen Eye", "is_hidden": false}, {"name": "Analytic", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 504, "evolves_to": [{"id": 505}]}, "original_region": "Unova"}

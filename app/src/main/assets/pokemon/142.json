@@ -1,1 +1,1 @@
-{"id": 142, "name": "Aerodactyl", "types": ["Rock", "Flying"], "abilities": [{"name": "Rock Head", "is_hidden": false}, {"name": "Pressure", "is_hidden": false}, {"name": "Unnerve", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 142}}
+{"id": 142, "name": "Aerodactyl", "types": ["Rock", "Flying"], "abilities": [{"name": "Rock Head", "is_hidden": false}, {"name": "Pressure", "is_hidden": false}, {"name": "Unnerve", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 142}, "original_region": "Kanto"}

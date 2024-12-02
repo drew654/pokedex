@@ -1,1 +1,1 @@
-{"id": 674, "name": "Pancham", "types": ["Fighting"], "abilities": [{"name": "Iron Fist", "is_hidden": false}, {"name": "Mold Breaker", "is_hidden": false}, {"name": "Scrappy", "is_hidden": true}], "color": "white", "evolution_line": {"id": 674, "evolves_to": [{"id": 675}]}}
+{"id": 674, "name": "Pancham", "types": ["Fighting"], "abilities": [{"name": "Iron Fist", "is_hidden": false}, {"name": "Mold Breaker", "is_hidden": false}, {"name": "Scrappy", "is_hidden": true}], "color": "white", "evolution_line": {"id": 674, "evolves_to": [{"id": 675}]}, "original_region": "Kalos"}

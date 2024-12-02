@@ -1,1 +1,1 @@
-{"id": 832, "name": "Dubwool", "types": ["Normal"], "abilities": [{"name": "Fluffy", "is_hidden": false}, {"name": "Steadfast", "is_hidden": false}, {"name": "Bulletproof", "is_hidden": true}], "color": "white", "evolution_line": {"id": 831, "evolves_to": [{"id": 832}]}}
+{"id": 832, "name": "Dubwool", "types": ["Normal"], "abilities": [{"name": "Fluffy", "is_hidden": false}, {"name": "Steadfast", "is_hidden": false}, {"name": "Bulletproof", "is_hidden": true}], "color": "white", "evolution_line": {"id": 831, "evolves_to": [{"id": 832}]}, "original_region": "Galar"}

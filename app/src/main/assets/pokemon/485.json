@@ -1,1 +1,1 @@
-{"id": 485, "name": "Heatran", "types": ["Fire", "Steel"], "abilities": [{"name": "Flash Fire", "is_hidden": false}, {"name": "Flame Body", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 485}}
+{"id": 485, "name": "Heatran", "types": ["Fire", "Steel"], "abilities": [{"name": "Flash Fire", "is_hidden": false}, {"name": "Flame Body", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 485}, "original_region": "Sinnoh"}

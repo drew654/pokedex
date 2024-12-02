@@ -1,1 +1,1 @@
-{"id": 503, "name": "Samurott", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 501, "evolves_to": [{"id": 502, "evolves_to": [{"id": 503}]}]}}
+{"id": 503, "name": "Samurott", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 501, "evolves_to": [{"id": 502, "evolves_to": [{"id": 503}]}]}, "original_region": "Unova"}

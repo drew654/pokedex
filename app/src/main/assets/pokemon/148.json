@@ -1,1 +1,1 @@
-{"id": 148, "name": "Dragonair", "types": ["Dragon"], "abilities": [{"name": "Shed Skin", "is_hidden": false}, {"name": "Marvel Scale", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 147, "evolves_to": [{"id": 148, "evolves_to": [{"id": 149}]}]}}
+{"id": 148, "name": "Dragonair", "types": ["Dragon"], "abilities": [{"name": "Shed Skin", "is_hidden": false}, {"name": "Marvel Scale", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 147, "evolves_to": [{"id": 148, "evolves_to": [{"id": 149}]}]}, "original_region": "Kanto"}

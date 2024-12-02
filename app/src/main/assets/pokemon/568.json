@@ -1,1 +1,1 @@
-{"id": 568, "name": "Trubbish", "types": ["Poison"], "abilities": [{"name": "Stench", "is_hidden": false}, {"name": "Sticky Hold", "is_hidden": false}, {"name": "Aftermath", "is_hidden": true}], "color": "green", "evolution_line": {"id": 568, "evolves_to": [{"id": 569}]}}
+{"id": 568, "name": "Trubbish", "types": ["Poison"], "abilities": [{"name": "Stench", "is_hidden": false}, {"name": "Sticky Hold", "is_hidden": false}, {"name": "Aftermath", "is_hidden": true}], "color": "green", "evolution_line": {"id": 568, "evolves_to": [{"id": 569}]}, "original_region": "Unova"}

@@ -114,6 +114,26 @@ def get_pokemon_filters():
 
     return filters
 
+def get_generation_region():
+    region_names = []
+
+    data = get_data("https://pokeapi.co/api/v2/generation")
+    generations = data["results"]
+    generation_region = {}
+    for generation in generations:
+        generation_region[generation["name"]] = get_data(generation["url"])["main_region"]["name"]
+
+    for generation in generation_region:
+        url = "https://pokeapi.co/api/v2/region/{}".format(generation_region[generation])
+        names = get_data(url)["names"]
+        for name in names:
+            if name["language"]["name"] == "en":
+                region_names += [name["name"]]
+                generation_region[generation] = name["name"]
+                break
+
+    return generation_region, region_names
+
 def main():
     filters = get_pokemon_filters()
     with open ("filters.json", "w") as f:
@@ -123,6 +143,10 @@ def main():
     pokemon = get_all_pokemon()
     type_names_en = get_type_names_en()
     ability_names_en = get_ability_names_en()
+    generation_region, region_names = get_generation_region()
+
+    with open("region_names.json", "w") as f:
+        f.write(json.dumps(region_names))
 
     if pokemon_species and pokemon:
         pokemon_names = []
@@ -156,6 +180,8 @@ def main():
             trimmed_data["color"] = species_data["color"]["name"]
 
             trimmed_data["evolution_line"] = get_evolution_line(id)
+
+            trimmed_data["original_region"] = generation_region[species_data["generation"]["name"]]
 
             if not os.path.exists("pokemon"):
                 os.makedirs("pokemon")

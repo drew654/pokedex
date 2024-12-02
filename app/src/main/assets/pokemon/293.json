@@ -1,1 +1,1 @@
-{"id": 293, "name": "Whismur", "types": ["Normal"], "abilities": [{"name": "Soundproof", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 293, "evolves_to": [{"id": 294, "evolves_to": [{"id": 295}]}]}}
+{"id": 293, "name": "Whismur", "types": ["Normal"], "abilities": [{"name": "Soundproof", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 293, "evolves_to": [{"id": 294, "evolves_to": [{"id": 295}]}]}, "original_region": "Hoenn"}

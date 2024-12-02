@@ -1,1 +1,1 @@
-{"id": 380, "name": "Latias", "types": ["Dragon", "Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "red", "evolution_line": {"id": 380}}
+{"id": 380, "name": "Latias", "types": ["Dragon", "Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "red", "evolution_line": {"id": 380}, "original_region": "Hoenn"}
