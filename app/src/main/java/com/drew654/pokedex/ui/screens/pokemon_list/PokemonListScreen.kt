@@ -7,17 +7,19 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.material.icons.Icons
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.drew654.pokedex.models.FilterViewModel
 import com.drew654.pokedex.models.Pokemon
 import com.drew654.pokedex.models.Screen
 import kotlinx.serialization.json.Json
@@ -26,9 +28,11 @@ import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
 
 @Composable
-fun PokemonListScreen(navController: NavController) {
+fun PokemonListScreen(navController: NavController, filterViewModel: FilterViewModel) {
     val context = LocalContext.current
     val files = context.assets.list("pokemon")
+    val pokedexFilter = filterViewModel.pokedexFilter.collectAsState()
+    val isLoading = filterViewModel.isLoading.collectAsState()
 
     val pokemonList = files?.map { file ->
         if (file == "names.json") {
@@ -54,14 +58,25 @@ fun PokemonListScreen(navController: NavController) {
             .fillMaxSize()
             .background(MaterialTheme.colorScheme.background)
     ) {
-        Column {
-            LazyColumn {
-                items(pokemonList) { pokemon ->
-                    PokemonListing(
-                        id = pokemon.id,
-                        name = pokemon.name,
-                        navController = navController
-                    )
+        if (!isLoading.value) {
+            Column {
+                Text(
+                    text = "Pokédex: ${pokedexFilter.value?.name}",
+                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+                )
+
+                LazyColumn {
+                    items(pokemonList.filter { pokemon ->
+                        filterViewModel.pokedexFilter.value?.ids?.contains(
+                            pokemon.id
+                        ) == true
+                    }) { pokemon ->
+                        PokemonListing(
+                            id = pokemon.id,
+                            name = pokemon.name,
+                            navController = navController
+                        )
+                    }
                 }
             }
         }
@@ -72,15 +87,16 @@ fun PokemonListScreen(navController: NavController) {
         modifier = Modifier
             .fillMaxSize()
     ) {
-        FloatingActionButton(
-            onClick = { navController.navigate(Screen.Filters.route) },
-            modifier = Modifier.padding(16.dp)
-        ) {
-            Icon(
-                painter = painterResource(id = com.drew654.pokedex.R.drawable.baseline_filter_list_24),
-                contentDescription = "Filter"
-            )
-
+        if (!isLoading.value) {
+            FloatingActionButton(
+                onClick = { navController.navigate(Screen.Filters.route) },
+                modifier = Modifier.padding(16.dp)
+            ) {
+                Icon(
+                    painter = painterResource(id = com.drew654.pokedex.R.drawable.baseline_filter_list_24),
+                    contentDescription = "Filter"
+                )
+            }
         }
     }
 }
