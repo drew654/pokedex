@@ -88,7 +88,37 @@ def get_evolution_line(pokemon_id):
 
     return build_evolution_tree(data["chain"])
 
+def get_pokedex_names_en():
+    data = get_data("https://pokeapi.co/api/v2/pokedex?limit=100")
+    pokedexes = data["results"]
+    pokedex_names = {}
+    for pokedex in pokedexes:
+        url = pokedex["url"]
+        names = get_data(url)["names"]
+        for name in names:
+            if name["language"]["name"] == "en":
+                pokedex_names[pokedex["name"]] = name["name"]
+                break
+    return pokedex_names
+
+def get_pokemon_filters():
+    pokedex_names = get_pokedex_names_en()
+    filters = {"pokedexes": {}}
+    for pokedex in pokedex_names:
+        filters["pokedexes"][pokedex] = {"name": pokedex_names[pokedex], "pokemon": []}
+        data = get_data(f"https://pokeapi.co/api/v2/pokedex/{pokedex}")
+        if data:
+            pokemon_entries = data["pokemon_entries"]
+            ids = [int(entry["pokemon_species"]["url"].split("/")[-2]) for entry in pokemon_entries]
+            filters["pokedexes"][pokedex]["pokemon"] = ids
+
+    return filters
+
 def main():
+    filters = get_pokemon_filters()
+    with open ("filters.json", "w") as f:
+        f.write(json.dumps(filters))
+
     pokemon_species = get_all_pokemon_species()
     pokemon = get_all_pokemon()
     type_names_en = get_type_names_en()
