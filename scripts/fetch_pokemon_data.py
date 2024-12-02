@@ -101,19 +101,6 @@ def get_pokedex_names_en():
                 break
     return pokedex_names
 
-def get_pokemon_filters():
-    pokedex_names = get_pokedex_names_en()
-    filters = {"pokedexes": {}}
-    for pokedex in pokedex_names:
-        filters["pokedexes"][pokedex] = {"name": pokedex_names[pokedex], "pokemon": []}
-        data = get_data(f"https://pokeapi.co/api/v2/pokedex/{pokedex}")
-        if data:
-            pokemon_entries = data["pokemon_entries"]
-            ids = [int(entry["pokemon_species"]["url"].split("/")[-2]) for entry in pokemon_entries]
-            filters["pokedexes"][pokedex]["pokemon"] = ids
-
-    return filters
-
 def get_generation_region():
     region_names = []
 
@@ -135,10 +122,6 @@ def get_generation_region():
     return generation_region, region_names
 
 def main():
-    filters = get_pokemon_filters()
-    with open ("filters.json", "w") as f:
-        f.write(json.dumps(filters))
-
     pokemon_species = get_all_pokemon_species()
     pokemon = get_all_pokemon()
     type_names_en = get_type_names_en()

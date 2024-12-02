@@ -2,7 +2,13 @@ package com.drew654.pokedex.models
 
 import androidx.compose.ui.graphics.Color
 
-class Pokemon(val id: Int, val name: String, colorString: String, val types: List<String>) {
+class Pokemon(
+    val id: Int,
+    val name: String,
+    colorString: String,
+    val types: List<String>,
+    val originalRegion: String
+) {
     val color: Color = when (colorString) {
         "green" -> Color(0xFF7AC74C)
         "red" -> Color(0xFFEE8130)

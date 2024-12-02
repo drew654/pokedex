@@ -52,7 +52,8 @@ fun PokemonDetailsScreen(id: Int, navController: NavController) {
                     nonHidden.mapNotNull { it.jsonObject["name"]?.jsonPrimitive?.content }
         }
         ?: (emptyList<String>() to emptyList<String>())
-    val pokemon = Pokemon(id, name.toString(), color.toString(), types)
+    val originalRegion = pokemonJson.jsonObject["original_region"]?.jsonPrimitive?.content!!
+    val pokemon = Pokemon(id, name.toString(), color.toString(), types, originalRegion)
 
     Box(
         modifier = Modifier
@@ -90,7 +91,7 @@ fun PokemonDetailsScreen(id: Int, navController: NavController) {
                             )
                         }
                         Row {
-                            for (type in types!!) {
+                            for (type in types) {
                                 Text(
                                     text = type.toString(),
                                     color = Color(0x88000000),

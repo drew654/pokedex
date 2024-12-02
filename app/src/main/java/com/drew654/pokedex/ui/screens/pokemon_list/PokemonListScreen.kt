@@ -32,8 +32,7 @@ import kotlinx.serialization.json.jsonPrimitive
 fun PokemonListScreen(navController: NavController, filterViewModel: FilterViewModel) {
     val context = LocalContext.current
     val files = context.assets.list("pokemon")
-    val pokedexFilter = filterViewModel.pokedexFilter.collectAsState()
-    val isLoading = filterViewModel.isLoading.collectAsState()
+    val regionFilter = filterViewModel.regionFilter.collectAsState()
 
     val pokemonList = files?.map { file ->
         if (file == "names.json") {
@@ -48,37 +47,37 @@ fun PokemonListScreen(navController: NavController, filterViewModel: FilterViewM
         val color = pokemonJson.jsonObject["color"]?.jsonPrimitive?.content
         val types =
             pokemonJson.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }?.toList()!!
+        val originalRegion = pokemonJson.jsonObject["original_region"]?.jsonPrimitive?.content!!
 
         if (id != null && name != null && color != null) {
-            Pokemon(id, name, color, types)
+            Pokemon(id, name, color, types, originalRegion)
         } else {
             null
         }
-    }?.filterNotNull()?.sortedBy { it.id } ?: emptyList()
+    }?.filterNotNull()?.sortedBy { it.id }
+        ?.filter { pokemon ->
+            regionFilter.value == null || pokemon.originalRegion == regionFilter.value
+        } ?: emptyList()
 
     Box(
         modifier = Modifier
             .fillMaxSize()
             .background(MaterialTheme.colorScheme.background)
     ) {
-        if (!isLoading.value) {
-            Column {
+        Column {
+            if (regionFilter.value != null) {
                 Text(
-                    text = "Pokédex: ${pokedexFilter.value?.name}",
+                    text = "Original Region: ${regionFilter.value}",
                     modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
                 )
+            }
 
-                LazyColumn {
-                    items(pokemonList.filter { pokemon ->
-                        filterViewModel.pokedexFilter.value?.ids?.contains(
-                            pokemon.id
-                        ) == true
-                    }) { pokemon ->
-                        PokemonListing(
-                            pokemon = pokemon,
-                            navController = navController
-                        )
-                    }
+            LazyColumn {
+                items(pokemonList) { pokemon ->
+                    PokemonListing(
+                        pokemon = pokemon,
+                        navController = navController
+                    )
                 }
             }
         }
@@ -89,16 +88,14 @@ fun PokemonListScreen(navController: NavController, filterViewModel: FilterViewM
         modifier = Modifier
             .fillMaxSize()
     ) {
-        if (!isLoading.value) {
-            FloatingActionButton(
-                onClick = { navController.navigate(Screen.Filters.route) },
-                modifier = Modifier.padding(16.dp)
-            ) {
-                Icon(
-                    painter = painterResource(id = com.drew654.pokedex.R.drawable.baseline_filter_list_24),
-                    contentDescription = "Filter"
-                )
-            }
+        FloatingActionButton(
+            onClick = { navController.navigate(Screen.Filters.route) },
+            modifier = Modifier.padding(16.dp)
+        ) {
+            Icon(
+                painter = painterResource(id = com.drew654.pokedex.R.drawable.baseline_filter_list_24),
+                contentDescription = "Filter"
+            )
         }
     }
 }
