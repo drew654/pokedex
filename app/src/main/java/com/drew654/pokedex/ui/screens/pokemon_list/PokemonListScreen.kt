@@ -4,14 +4,22 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material3.FloatingActionButton
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.drew654.pokedex.models.Pokemon
+import com.drew654.pokedex.models.Screen
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.intOrNull
 import kotlinx.serialization.json.jsonObject
@@ -41,7 +49,6 @@ fun PokemonListScreen(navController: NavController) {
         }
     }?.filterNotNull()?.sortedBy { it.id } ?: emptyList()
 
-
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -57,6 +64,23 @@ fun PokemonListScreen(navController: NavController) {
                     )
                 }
             }
+        }
+    }
+
+    Box(
+        contentAlignment = Alignment.BottomEnd,
+        modifier = Modifier
+            .fillMaxSize()
+    ) {
+        FloatingActionButton(
+            onClick = { navController.navigate(Screen.Filters.route) },
+            modifier = Modifier.padding(16.dp)
+        ) {
+            Icon(
+                painter = painterResource(id = com.drew654.pokedex.R.drawable.baseline_filter_list_24),
+                contentDescription = "Filter"
+            )
+
         }
     }
 }
