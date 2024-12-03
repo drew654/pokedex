@@ -1,16 +1,18 @@
 package com.drew654.pokedex.ui.screens.pokemon_list
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Alignment
@@ -74,23 +76,41 @@ fun PokemonListScreen(navController: NavController, filterViewModel: FilterViewM
             .background(MaterialTheme.colorScheme.background)
     ) {
         Column {
-            if (regionFilter.value != null) {
-                Text(
-                    text = "Original Region: ${regionFilter.value}",
-                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
-                )
-            }
-            if (type1Filter.value != null) {
-                Text(
-                    text = "Type 1: ${type1Filter.value}",
-                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
-                )
-            }
-            if (type2Filter.value != null) {
-                Text(
-                    text = "Type 2: ${type2Filter.value}",
-                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
-                )
+            Row(
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                if (regionFilter.value != null) {
+                    Box(
+                        modifier = Modifier
+                            .padding(horizontal = 4.dp)
+                            .weight(0.5f)
+                    ) {
+                        FilterTag(type = regionFilter.value!!)
+                    }
+                }
+                Row(
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    modifier = Modifier.weight(1f)
+                ) {
+                    if (type1Filter.value != null) {
+                        Box(
+                            modifier = Modifier
+                                .padding(horizontal = 4.dp)
+                                .weight(1f)
+                        ) {
+                            FilterTag(type = type1Filter.value!!)
+                        }
+                    }
+                    if (type2Filter.value != null) {
+                        Box(
+                            modifier = Modifier
+                                .padding(horizontal = 4.dp)
+                                .weight(1f)
+                        ) {
+                            FilterTag(type = type2Filter.value!!)
+                        }
+                    }
+                }
             }
 
             LazyColumn {
