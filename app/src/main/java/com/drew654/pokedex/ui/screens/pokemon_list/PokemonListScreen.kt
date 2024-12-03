@@ -33,6 +33,8 @@ fun PokemonListScreen(navController: NavController, filterViewModel: FilterViewM
     val context = LocalContext.current
     val files = context.assets.list("pokemon")
     val regionFilter = filterViewModel.regionFilter.collectAsState()
+    val type1Filter = filterViewModel.type1Filter.collectAsState()
+    val type2Filter = filterViewModel.type2Filter.collectAsState()
 
     val pokemonList = files?.map { file ->
         if (file == "names.json") {
@@ -57,7 +59,14 @@ fun PokemonListScreen(navController: NavController, filterViewModel: FilterViewM
     }?.filterNotNull()?.sortedBy { it.id }
         ?.filter { pokemon ->
             regionFilter.value == null || pokemon.originalRegion == regionFilter.value
-        } ?: emptyList()
+        }
+        ?.filter { pokemon ->
+            type1Filter.value == null || pokemon.types.contains(type1Filter.value)
+        }
+        ?.filter { pokemon ->
+            type2Filter.value == null || pokemon.types.contains(type2Filter.value)
+        }
+        ?: emptyList()
 
     Box(
         modifier = Modifier
@@ -68,6 +77,18 @@ fun PokemonListScreen(navController: NavController, filterViewModel: FilterViewM
             if (regionFilter.value != null) {
                 Text(
                     text = "Original Region: ${regionFilter.value}",
+                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+                )
+            }
+            if (type1Filter.value != null) {
+                Text(
+                    text = "Type 1: ${type1Filter.value}",
+                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+                )
+            }
+            if (type2Filter.value != null) {
+                Text(
+                    text = "Type 2: ${type2Filter.value}",
                     modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
                 )
             }

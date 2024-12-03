@@ -4,8 +4,10 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.MaterialTheme
@@ -26,6 +28,9 @@ fun FiltersScreen(filterViewModel: FilterViewModel) {
     val focusManager = LocalFocusManager.current
     val regions = filterViewModel.regions.collectAsState()
     val selectedRegionFilter = filterViewModel.regionFilter.collectAsState()
+    val types = filterViewModel.types.collectAsState()
+    val selectedType1Filter = filterViewModel.type1Filter.collectAsState()
+    val selectedType2Filter = filterViewModel.type2Filter.collectAsState()
 
     Box(
         modifier = Modifier
@@ -50,6 +55,30 @@ fun FiltersScreen(filterViewModel: FilterViewModel) {
                     options = regions.value,
                     onValueChange = { selectedName ->
                         filterViewModel.setRegionFilter(selectedName)
+                    },
+                    modifier = Modifier.fillMaxWidth()
+                )
+
+                Spacer(modifier = Modifier.height(16.dp))
+
+                DropdownMenu(
+                    selectedValue = selectedType1Filter.value ?: "",
+                    label = "Type",
+                    options = types.value,
+                    onValueChange = { selectedName ->
+                        filterViewModel.setType1Filter(selectedName)
+                    },
+                    modifier = Modifier.fillMaxWidth()
+                )
+
+                Spacer(modifier = Modifier.height(16.dp))
+
+                DropdownMenu(
+                    selectedValue = selectedType2Filter.value ?: "",
+                    label = "Type",
+                    options = types.value,
+                    onValueChange = { selectedName ->
+                        filterViewModel.setType2Filter(selectedName)
                     },
                     modifier = Modifier.fillMaxWidth()
                 )

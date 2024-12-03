@@ -125,8 +125,15 @@ def main():
     pokemon_species = get_all_pokemon_species()
     pokemon = get_all_pokemon()
     type_names_en = get_type_names_en()
+    type_names = []
     ability_names_en = get_ability_names_en()
     generation_region, region_names = get_generation_region()
+
+    for type in type_names_en:
+        if type != "unknown" and type != "stellar":
+            type_names.append(type_names_en[type])
+    with open("type_names.json", "w") as f:
+        f.write(json.dumps(type_names))
 
     with open("region_names.json", "w") as f:
         f.write(json.dumps(region_names))

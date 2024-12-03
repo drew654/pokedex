@@ -17,6 +17,7 @@ class FilterViewModel(application: Application) : AndroidViewModel(application) 
     init {
         viewModelScope.launch {
             loadRegionsFromJson()
+            loadTypesFromJson()
         }
     }
 
@@ -41,7 +42,37 @@ class FilterViewModel(application: Application) : AndroidViewModel(application) 
         _regionFilter.value = region
     }
 
+    private suspend fun loadTypesFromJson() {
+        val json = Json { ignoreUnknownKeys = true }
+        val typesJson = withContext(Dispatchers.IO) {
+            val inputStream =
+                getApplication<Application>().assets.open("type_names.json")
+            json.parseToJsonElement(inputStream.bufferedReader().use { it.readText() }).jsonArray
+        }
+
+        _types.value = typesJson.map { it.jsonPrimitive.content }
+    }
+
+    private val _types = MutableStateFlow<List<String>>(emptyList())
+    val types: StateFlow<List<String>> = _types.asStateFlow()
+
+    private val _type1Filter = MutableStateFlow<String?>(null)
+    val type1Filter: StateFlow<String?> = _type1Filter.asStateFlow()
+
+    fun setType1Filter(type: String) {
+        _type1Filter.value = type
+    }
+
+    private val _type2Filter = MutableStateFlow<String?>(null)
+    val type2Filter: StateFlow<String?> = _type2Filter.asStateFlow()
+
+    fun setType2Filter(type: String) {
+        _type2Filter.value = type
+    }
+
     fun clearFilters() {
         _regionFilter.value = null
+        _type1Filter.value = null
+        _type2Filter.value = null
     }
 }
