@@ -19,7 +19,7 @@ class Pokemon(
         "purple" -> Color(0xFF9F5BBA)
         "pink" -> Color(0xFFF48FB1)
         "gray" -> Color(0xFF808080)
-        "black" -> Color(0xFF000000)
+        "black" -> Color(0xFF808080)
         else -> Color.Unspecified
     }
 
