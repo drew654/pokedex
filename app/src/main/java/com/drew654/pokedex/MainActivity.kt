@@ -15,6 +15,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.drew654.pokedex.models.FilterViewModel
+import com.drew654.pokedex.models.PokemonViewModel
 import com.drew654.pokedex.models.Screen
 import com.drew654.pokedex.ui.screens.FiltersScreen
 import com.drew654.pokedex.ui.screens.pokemon_details.PokemonDetailsScreen
@@ -22,6 +23,7 @@ import com.drew654.pokedex.ui.screens.pokemon_list.PokemonListScreen
 import com.drew654.pokedex.ui.theme.PokedexTheme
 
 class MainActivity : ComponentActivity() {
+    private val pokemonViewModel: PokemonViewModel by viewModels<PokemonViewModel>()
     private val filterViewModel: FilterViewModel by viewModels<FilterViewModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,7 +43,8 @@ class MainActivity : ComponentActivity() {
                         ) {
                             PokemonListScreen(
                                 navController = navController,
-                                filterViewModel = filterViewModel
+                                filterViewModel = filterViewModel,
+                                pokemonViewModel = pokemonViewModel
                             )
                         }
                         composable(
