@@ -13,7 +13,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun FilterTag(type: String) {
+fun FilterTag(type: String, modifier: Modifier = Modifier) {
     Box(
         modifier = Modifier
             .padding(all = 8.dp)
@@ -25,7 +25,7 @@ fun FilterTag(type: String) {
         Text(
             text = type,
             textAlign = TextAlign.Center,
-            modifier = Modifier
+            modifier = modifier
                 .padding(horizontal = 16.dp, vertical = 4.dp)
                 .fillMaxWidth()
         )

@@ -17,7 +17,6 @@ import androidx.navigation.navArgument
 import com.drew654.pokedex.models.FilterViewModel
 import com.drew654.pokedex.models.PokemonViewModel
 import com.drew654.pokedex.models.Screen
-import com.drew654.pokedex.ui.screens.FiltersScreen
 import com.drew654.pokedex.ui.screens.pokemon_details.PokemonDetailsScreen
 import com.drew654.pokedex.ui.screens.pokemon_list.PokemonListScreen
 import com.drew654.pokedex.ui.theme.PokedexTheme
@@ -59,11 +58,6 @@ class MainActivity : ComponentActivity() {
                                 id = it.arguments?.getInt("id")!!,
                                 navController = navController
                             )
-                        }
-                        composable(
-                            route = Screen.Filters.route
-                        ) {
-                            FiltersScreen(filterViewModel = filterViewModel)
                         }
                     }
                 }

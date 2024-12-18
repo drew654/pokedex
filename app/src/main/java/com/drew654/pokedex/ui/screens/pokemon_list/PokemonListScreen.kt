@@ -1,7 +1,6 @@
 package com.drew654.pokedex.ui.screens.pokemon_list
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -34,7 +33,6 @@ import androidx.navigation.NavController
 import com.drew654.pokedex.R
 import com.drew654.pokedex.models.FilterViewModel
 import com.drew654.pokedex.models.PokemonViewModel
-import com.drew654.pokedex.models.Screen
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -47,6 +45,8 @@ fun PokemonListScreen(
     val isSearching = remember { mutableStateOf(false) }
     val focusManager = LocalFocusManager.current
 
+    val types = filterViewModel.types.collectAsState()
+    val regions = filterViewModel.regions.collectAsState()
     val regionFilter = filterViewModel.regionFilter.collectAsState()
     val type1Filter = filterViewModel.type1Filter.collectAsState()
     val type2Filter = filterViewModel.type2Filter.collectAsState()
@@ -62,82 +62,106 @@ fun PokemonListScreen(
         pokemon.name.contains(searchPokemonName.value, ignoreCase = true)
     }
 
+    fun clearSearch() {
+        pokemonViewModel.clearSearchPokemonName()
+        filterViewModel.clearFilters()
+    }
+
     Box(
         modifier = Modifier
             .fillMaxSize()
             .background(MaterialTheme.colorScheme.background)
     ) {
         Column {
-            TextField(
-                value = searchPokemonName.value,
-                onValueChange = { pokemonViewModel.setSearchPokemonName(it) },
-                placeholder = { Text("Search Pokemon") },
-                leadingIcon = {
-                    Icon(
-                        painter = painterResource(id = R.drawable.baseline_search_24),
-                        contentDescription = "Search"
-                    )
-                },
-                trailingIcon = {
+            if (isSearching.value) {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
                     IconButton(
                         onClick = {
-                            pokemonViewModel.clearSearchPokemonName()
+                            isSearching.value = false
+                            clearSearch()
                         }
                     ) {
                         Icon(
-                            painter = painterResource(id = R.drawable.baseline_clear_24),
-                            contentDescription = "Clear"
+                            painter = painterResource(id = R.drawable.baseline_arrow_back_24),
+                            contentDescription = "Back"
                         )
                     }
-                },
-                keyboardOptions = KeyboardOptions.Default.copy(imeAction = ImeAction.Search),
-                keyboardActions = KeyboardActions(
-                    onSearch = {
-                        focusManager.clearFocus()
-                    }
-                ),
-                colors = TextFieldDefaults.colors(
-                    unfocusedContainerColor = Color.Transparent,
-                    focusedContainerColor = Color.Transparent,
-                ),
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(8.dp)
-            )
-            Row(
-                modifier = Modifier.fillMaxWidth()
-            ) {
-                if (regionFilter.value != null) {
-                    Box(
+                    TextField(
+                        value = searchPokemonName.value,
+                        onValueChange = { pokemonViewModel.setSearchPokemonName(it) },
+                        placeholder = { Text("Search Pokemon") },
+                        leadingIcon = {
+                            Icon(
+                                painter = painterResource(id = R.drawable.baseline_search_24),
+                                contentDescription = "Search"
+                            )
+                        },
+                        trailingIcon = {
+                            IconButton(
+                                onClick = {
+                                    clearSearch()
+                                }
+                            ) {
+                                Icon(
+                                    painter = painterResource(id = R.drawable.baseline_clear_24),
+                                    contentDescription = "Clear"
+                                )
+                            }
+                        },
+                        keyboardOptions = KeyboardOptions.Default.copy(imeAction = ImeAction.Search),
+                        keyboardActions = KeyboardActions(
+                            onSearch = {
+                                focusManager.clearFocus()
+                            }
+                        ),
+                        colors = TextFieldDefaults.colors(
+                            unfocusedContainerColor = Color.Transparent,
+                            focusedContainerColor = Color.Transparent,
+                        ),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(8.dp)
+                    )
+                }
+
+                Row(
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    FilterDropdown(
+                        filter = regionFilter.value,
+                        label = "Region",
+                        options = regions.value,
+                        onValueChange = { selectedName ->
+                            filterViewModel.setRegionFilter(selectedName)
+                        },
                         modifier = Modifier
                             .padding(horizontal = 4.dp)
-                            .weight(0.5f)
-                    ) {
-                        FilterTag(type = regionFilter.value!!)
-                    }
-                }
-                Row(
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    modifier = Modifier.weight(1f)
-                ) {
-                    if (type1Filter.value != null) {
-                        Box(
-                            modifier = Modifier
-                                .padding(horizontal = 4.dp)
-                                .weight(1f)
-                        ) {
-                            FilterTag(type = type1Filter.value!!)
-                        }
-                    }
-                    if (type2Filter.value != null) {
-                        Box(
-                            modifier = Modifier
-                                .padding(horizontal = 4.dp)
-                                .weight(1f)
-                        ) {
-                            FilterTag(type = type2Filter.value!!)
-                        }
-                    }
+                            .weight(1f)
+                    )
+                    FilterDropdown(
+                        filter = type1Filter.value,
+                        label = "Type",
+                        options = types.value,
+                        onValueChange = { selectedName ->
+                            filterViewModel.setType1Filter(selectedName)
+                        },
+                        modifier = Modifier
+                            .padding(horizontal = 4.dp)
+                            .weight(1f)
+                    )
+                    FilterDropdown(
+                        filter = type2Filter.value,
+                        label = "Type",
+                        options = types.value,
+                        onValueChange = { selectedName ->
+                            filterViewModel.setType2Filter(selectedName)
+                        },
+                        modifier = Modifier
+                            .padding(horizontal = 4.dp)
+                            .weight(1f)
+                    )
                 }
             }
 
@@ -153,19 +177,23 @@ fun PokemonListScreen(
         }
     }
 
-    Box(
-        contentAlignment = Alignment.BottomEnd,
-        modifier = Modifier
-            .fillMaxSize()
-    ) {
-        FloatingActionButton(
-            onClick = { navController.navigate(Screen.Filters.route) },
-            modifier = Modifier.padding(16.dp)
+    if (!isSearching.value) {
+        Box(
+            contentAlignment = Alignment.BottomEnd,
+            modifier = Modifier
+                .fillMaxSize()
         ) {
-            Icon(
-                painter = painterResource(id = com.drew654.pokedex.R.drawable.baseline_filter_list_24),
-                contentDescription = "Filter"
-            )
+            FloatingActionButton(
+                onClick = {
+                    isSearching.value = true
+                },
+                modifier = Modifier.padding(16.dp)
+            ) {
+                Icon(
+                    painter = painterResource(id = R.drawable.baseline_search_24),
+                    contentDescription = "Filter"
+                )
+            }
         }
     }
 }
