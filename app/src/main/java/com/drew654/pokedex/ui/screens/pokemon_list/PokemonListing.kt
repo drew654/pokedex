@@ -18,15 +18,13 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import com.drew654.pokedex.models.Pokemon
-import com.drew654.pokedex.models.Screen
 
 @Composable
 fun PokemonListing(
     pokemon: Pokemon,
-    navController: NavController
+    onClick: () -> Unit = {}
 ) {
     Box {
         Box(
@@ -35,7 +33,7 @@ fun PokemonListing(
                 .clip(RoundedCornerShape(12.dp))
                 .background(pokemon.color)
                 .clickable {
-                    navController.navigate("${Screen.PokemonDetails.route}/${pokemon.id}")
+                    onClick()
                 }
                 .clip(RoundedCornerShape(12.dp))
                 .padding(8.dp)

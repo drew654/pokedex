@@ -33,6 +33,7 @@ import androidx.navigation.NavController
 import com.drew654.pokedex.R
 import com.drew654.pokedex.models.FilterViewModel
 import com.drew654.pokedex.models.PokemonViewModel
+import com.drew654.pokedex.models.Screen
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -170,7 +171,9 @@ fun PokemonListScreen(
                     val pokemon = pokemonListFiltered[index]
                     PokemonListing(
                         pokemon = pokemon,
-                        navController = navController
+                        onClick = {
+                            navController.navigate("${Screen.PokemonDetails.route}/${pokemon.id}")
+                        }
                     )
                 }
             }

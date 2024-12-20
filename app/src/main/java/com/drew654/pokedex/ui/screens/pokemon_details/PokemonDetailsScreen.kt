@@ -3,29 +3,20 @@ package com.drew654.pokedex.ui.screens.pokemon_details
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import coil.compose.AsyncImage
 import com.drew654.pokedex.models.Pokemon
+import com.drew654.pokedex.ui.screens.pokemon_list.PokemonListing
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.booleanOrNull
 import kotlinx.serialization.json.jsonArray
@@ -62,56 +53,12 @@ fun PokemonDetailsScreen(id: Int, navController: NavController) {
     ) {
         LazyColumn {
             items(1) {
-                Row(
+                Box(
                     modifier = Modifier
-                        .padding(16.dp)
-                        .border(1.dp, Color(0x88000000), RoundedCornerShape(12.dp))
                         .padding(8.dp)
-                        .fillMaxWidth()
+                        .border(1.dp, Color(0x88000000), RoundedCornerShape(12.dp))
                 ) {
-                    Column(
-                        modifier = Modifier.weight(1f)
-                    ) {
-                        Row(
-                            modifier = Modifier.fillMaxWidth()
-                        ) {
-                            Text(
-                                text = name.toString(),
-                                fontSize = 24.sp,
-                                fontWeight = FontWeight.Bold,
-                                color = Color(0x88000000),
-                                modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp)
-                            )
-                            Spacer(modifier = Modifier.weight(1f))
-                            Text(
-                                text = "#${id}",
-                                color = Color(0x88000000),
-                                fontSize = 24.sp,
-                                modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp)
-                            )
-                        }
-                        Row {
-                            for (type in types) {
-                                Text(
-                                    text = type.toString(),
-                                    color = Color(0x88000000),
-                                    fontSize = 24.sp,
-                                    modifier = Modifier
-                                        .padding(horizontal = 8.dp, vertical = 8.dp)
-                                        .border(1.dp, Color(0x88000000), RoundedCornerShape(12.dp))
-                                        .padding(all = 4.dp)
-                                )
-                            }
-                        }
-                    }
-                    AsyncImage(
-                        model = "file:///android_asset/sprites/${id}.png",
-                        contentDescription = name.toString(),
-                        modifier = Modifier
-                            .size(100.dp)
-                            .clip(CircleShape)
-                            .background(MaterialTheme.colorScheme.background)
-                    )
+                    PokemonListing(pokemon = pokemon)
                 }
                 Spacer(modifier = Modifier.size(16.dp))
                 AbilitiesSection(abilityNames, hiddenAbilityNames)
