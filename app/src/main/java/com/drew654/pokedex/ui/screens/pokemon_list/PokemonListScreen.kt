@@ -43,7 +43,7 @@ fun PokemonListScreen(
     filterViewModel: FilterViewModel
 ) {
     val searchPokemonName = pokemonViewModel.searchPokemonName.collectAsState()
-    val isSearching = remember { mutableStateOf(false) }
+    val isSearching = pokemonViewModel.isSearching.collectAsState()
     val focusManager = LocalFocusManager.current
 
     val types = filterViewModel.types.collectAsState()
@@ -80,7 +80,7 @@ fun PokemonListScreen(
                 ) {
                     IconButton(
                         onClick = {
-                            isSearching.value = false
+                            pokemonViewModel.setIsSearching(false)
                             clearSearch()
                         }
                     ) {
@@ -188,7 +188,7 @@ fun PokemonListScreen(
         ) {
             FloatingActionButton(
                 onClick = {
-                    isSearching.value = true
+                    pokemonViewModel.setIsSearching(true)
                 },
                 modifier = Modifier.padding(16.dp)
             ) {

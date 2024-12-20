@@ -57,6 +57,13 @@ class PokemonViewModel(application: Application) : AndroidViewModel(application)
     private val _searchPokemonName = MutableStateFlow("")
     val searchPokemonName: StateFlow<String> = _searchPokemonName.asStateFlow()
 
+    private val _isSearching = MutableStateFlow(false)
+    val isSearching: StateFlow<Boolean> = _isSearching.asStateFlow()
+
+    fun setIsSearching(isSearching: Boolean) {
+        _isSearching.value = isSearching
+    }
+
     fun addPokemon(pokemon: Pokemon) {
         _pokemon.value = _pokemon.value + pokemon
     }

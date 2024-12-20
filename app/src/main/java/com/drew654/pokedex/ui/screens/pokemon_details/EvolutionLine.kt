@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -68,7 +67,11 @@ fun EvolutionLine(id: Int, evolutionData: JsonElement?, navController: NavContro
                         modifier = Modifier
                             .size(64.dp)
                             .clip(CircleShape)
-                            .background(MaterialTheme.colorScheme.background)
+                            .background(
+                                if (pokemon.color == Color.White) Color(0x22000000) else Color(
+                                    0x44FFFFFF
+                                )
+                            )
                     )
                     Spacer(modifier = Modifier.size(8.dp))
                     Column {
