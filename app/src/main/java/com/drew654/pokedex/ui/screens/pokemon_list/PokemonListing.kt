@@ -2,6 +2,7 @@ package com.drew654.pokedex.ui.screens.pokemon_list
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -11,6 +12,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -26,12 +28,14 @@ fun PokemonListing(
     pokemon: Pokemon,
     onClick: () -> Unit = {}
 ) {
+    val pokemonBackgroundColor = if (isSystemInDarkTheme()) Color(0x22FFFFFF) else Color(0x88FFFFFF)
+
     Box {
         Box(
             modifier = Modifier
                 .padding(horizontal = 8.dp, vertical = 4.dp)
                 .clip(RoundedCornerShape(12.dp))
-                .background(pokemon.color)
+                .background(MaterialTheme.colorScheme.surfaceVariant)
                 .clickable {
                     onClick()
                 }
@@ -45,19 +49,22 @@ fun PokemonListing(
                     Row {
                         Text(
                             text = "#${pokemon.id}",
-                            color = Color(0x88000000),
+                            color = MaterialTheme.colorScheme.onSurface,
                             fontSize = 24.sp,
                             modifier = Modifier.padding(all = 8.dp)
                         )
                         Text(
                             text = pokemon.name,
-                            color = Color(0x88000000),
+                            color = MaterialTheme.colorScheme.onSurface,
                             fontSize = 24.sp,
                             modifier = Modifier.padding(all = 8.dp)
                         )
                     }
                     Spacer(modifier = Modifier.height(8.dp))
-                    PokemonListingTypes(types = pokemon.types)
+                    PokemonListingTypes(
+                        types = pokemon.types,
+                        color = MaterialTheme.colorScheme.onSurface
+                    )
                     Spacer(modifier = Modifier.height(8.dp))
                 }
             }
@@ -71,7 +78,7 @@ fun PokemonListing(
                 modifier = Modifier
                     .size(108.dp)
                     .background(
-                        if (pokemon.color == Color.White) Color(0x22000000) else Color(0x44FFFFFF),
+                        pokemonBackgroundColor,
                         RoundedCornerShape(
                             topStart = 58.dp,
                             bottomStart = 58.dp,

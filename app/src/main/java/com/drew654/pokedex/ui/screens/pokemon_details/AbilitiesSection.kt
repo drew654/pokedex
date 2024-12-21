@@ -10,10 +10,10 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -28,14 +28,14 @@ fun AbilitiesSection(abilityNames: List<String>, hiddenAbilityNames: List<String
             text = "Abilities",
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold,
-            color = Color(0x88000000)
+            color = MaterialTheme.colorScheme.onSurfaceVariant
         )
     }
     Box(
         modifier = Modifier
             .padding(16.dp)
             .fillMaxWidth()
-            .border(1.dp, Color(0x88000000), RoundedCornerShape(12.dp))
+            .border(1.dp, MaterialTheme.colorScheme.onSurfaceVariant, RoundedCornerShape(12.dp))
     ) {
         Column {
             Spacer(modifier = Modifier.size(12.dp))

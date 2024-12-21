@@ -9,9 +9,9 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
@@ -49,14 +49,18 @@ fun PokemonDetailsScreen(id: Int, navController: NavController) {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(pokemon.color)
+            .background(MaterialTheme.colorScheme.surfaceVariant)
     ) {
         LazyColumn {
             items(1) {
                 Box(
                     modifier = Modifier
                         .padding(8.dp)
-                        .border(1.dp, Color(0x88000000), RoundedCornerShape(12.dp))
+                        .border(
+                            1.dp,
+                            MaterialTheme.colorScheme.onSurfaceVariant,
+                            RoundedCornerShape(12.dp)
+                        )
                 ) {
                     PokemonListing(pokemon = pokemon)
                 }

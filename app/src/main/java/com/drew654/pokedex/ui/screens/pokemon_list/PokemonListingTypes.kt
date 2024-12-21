@@ -15,18 +15,18 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun PokemonListingTypes(types: List<String>?) {
+fun PokemonListingTypes(types: List<String>?, color: Color = Color.Unspecified) {
     Row(modifier = Modifier.padding(horizontal = 8.dp)) {
         Row(
             horizontalArrangement = Arrangement.Center,
             modifier = Modifier
                 .weight(1f)
-                .border(1.dp, Color(0x88000000), RoundedCornerShape(12.dp))
+                .border(1.dp, color, RoundedCornerShape(12.dp))
         ) {
             if (types?.toList()?.get(0) != null) {
                 Text(
                     text = types.toList()[0].toString(),
-                    color = Color(0x88000000),
+                    color = color,
                     fontSize = 16.sp,
                     modifier = Modifier.padding(all = 2.dp)
                 )
@@ -38,11 +38,11 @@ fun PokemonListingTypes(types: List<String>?) {
                 horizontalArrangement = Arrangement.Center,
                 modifier = Modifier
                     .weight(1f)
-                    .border(1.dp, Color(0x88000000), RoundedCornerShape(12.dp))
+                    .border(1.dp, color, RoundedCornerShape(12.dp))
             ) {
                 Text(
                     text = types.toList()[1].toString(),
-                    color = Color(0x88000000),
+                    color = color,
                     fontSize = 16.sp,
                     modifier = Modifier.padding(all = 2.dp)
                 )

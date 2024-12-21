@@ -2,6 +2,7 @@ package com.drew654.pokedex.ui.screens.pokemon_details
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -10,6 +11,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -30,6 +32,7 @@ import kotlinx.serialization.json.JsonElement
 fun EvolutionLine(id: Int, evolutionData: JsonElement?, navController: NavController) {
     val context = LocalContext.current
     val namesWithIndent = getEvolutionsWithIndention(evolutionData, context)
+    val pokemonBackgroundColor = if (isSystemInDarkTheme()) Color(0x22FFFFFF) else Color(0x88FFFFFF)
 
     Column {
         Row(
@@ -40,7 +43,7 @@ fun EvolutionLine(id: Int, evolutionData: JsonElement?, navController: NavContro
                 text = "Evolution Line",
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color(0x88000000)
+                color = MaterialTheme.colorScheme.onSurfaceVariant
             )
         }
 
@@ -67,16 +70,20 @@ fun EvolutionLine(id: Int, evolutionData: JsonElement?, navController: NavContro
                         modifier = Modifier
                             .size(64.dp)
                             .clip(CircleShape)
-                            .background(
-                                if (pokemon.color == Color.White) Color(0x22000000) else Color(
-                                    0x44FFFFFF
-                                )
-                            )
+                            .background(pokemonBackgroundColor)
                     )
                     Spacer(modifier = Modifier.size(8.dp))
                     Column {
-                        Text(text = "#${pokemon.id}", color = Color(0x88000000), fontSize = 24.sp)
-                        Text(text = pokemon.name, color = Color(0x88000000), fontSize = 24.sp)
+                        Text(
+                            text = "#${pokemon.id}",
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            fontSize = 24.sp
+                        )
+                        Text(
+                            text = pokemon.name,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            fontSize = 24.sp
+                        )
                     }
                 }
             }
