@@ -8,32 +8,23 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.text.KeyboardActions
-import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
-import androidx.compose.material3.TextField
-import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.drew654.pokedex.R
 import com.drew654.pokedex.models.FilterViewModel
 import com.drew654.pokedex.models.PokemonViewModel
 import com.drew654.pokedex.models.Screen
+import com.drew654.pokedex.ui.components.SearchBar
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -44,7 +35,6 @@ fun PokemonListScreen(
 ) {
     val searchPokemonName = pokemonViewModel.searchPokemonName.collectAsState()
     val isSearching = pokemonViewModel.isSearching.collectAsState()
-    val focusManager = LocalFocusManager.current
 
     val types = filterViewModel.types.collectAsState()
     val regions = filterViewModel.regions.collectAsState()
@@ -89,41 +79,12 @@ fun PokemonListScreen(
                             contentDescription = "Back"
                         )
                     }
-                    TextField(
-                        value = searchPokemonName.value,
-                        onValueChange = { pokemonViewModel.setSearchPokemonName(it) },
-                        placeholder = { Text("Search Pokemon") },
-                        leadingIcon = {
-                            Icon(
-                                painter = painterResource(id = R.drawable.baseline_search_24),
-                                contentDescription = "Search"
-                            )
-                        },
-                        trailingIcon = {
-                            IconButton(
-                                onClick = {
-                                    clearSearch()
-                                }
-                            ) {
-                                Icon(
-                                    painter = painterResource(id = R.drawable.baseline_clear_24),
-                                    contentDescription = "Clear"
-                                )
-                            }
-                        },
-                        keyboardOptions = KeyboardOptions.Default.copy(imeAction = ImeAction.Search),
-                        keyboardActions = KeyboardActions(
-                            onSearch = {
-                                focusManager.clearFocus()
-                            }
-                        ),
-                        colors = TextFieldDefaults.colors(
-                            unfocusedContainerColor = Color.Transparent,
-                            focusedContainerColor = Color.Transparent,
-                        ),
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(8.dp)
+                    SearchBar(
+                        query = searchPokemonName.value,
+                        onQueryChange = { pokemonViewModel.setSearchPokemonName(it) },
+                        clearQuery = {
+                            clearSearch()
+                        }
                     )
                 }
 
