@@ -1,6 +1,7 @@
 package com.drew654.pokedex.ui.screens.pokemon_details
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
@@ -11,9 +12,11 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
@@ -51,18 +54,26 @@ fun EvolutionLine(id: Int, evolutionData: JsonElement?, navController: NavContro
 
         namesWithIndent.forEach { (pokemon, indentLevel) ->
             Row(
-                verticalAlignment = androidx.compose.ui.Alignment.CenterVertically,
+                verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(all = 8.dp)
             ) {
                 Spacer(modifier = Modifier.padding(horizontal = (indentLevel * 32).dp))
                 Row(
+                    verticalAlignment = Alignment.CenterVertically,
                     modifier = Modifier
                         .fillMaxWidth()
+                        .clip(RoundedCornerShape(12.dp))
+                        .border(
+                            1.dp,
+                            MaterialTheme.colorScheme.onSurfaceVariant,
+                            RoundedCornerShape(12.dp)
+                        )
                         .conditional(id != pokemon.id) {
                             clickable {
                                 navController.navigate("${Screen.PokemonDetails.route}/${pokemon.id}")
                             }
                         }
+                        .padding(all = 8.dp)
                 ) {
                     AsyncImage(
                         model = "file:///android_asset/sprites/${pokemon.id}.png",
