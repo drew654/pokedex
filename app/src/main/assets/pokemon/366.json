@@ -1,1 +1,1 @@
-{"id": 366, "name": "Clamperl", "types": ["Water"], "abilities": [{"name": "Shell Armor", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 366, "evolves_to": [{"id": 367}, {"id": 368}]}, "original_region": "Hoenn"}
+{"id": 366, "name": "Clamperl", "types": ["Water"], "abilities": [{"name": "Shell Armor", "is_hidden": false}, {"name": "Rattled", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 366, "evolves_to": [{"id": 367}, {"id": 368}]}, "has_branched_evolution": true, "original_region": "Hoenn"}

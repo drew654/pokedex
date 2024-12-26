@@ -1,1 +1,1 @@
-{"id": 797, "name": "Celesteela", "types": ["Steel", "Flying"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "green", "evolution_line": {"id": 797}, "original_region": "Alola"}
+{"id": 797, "name": "Celesteela", "types": ["Steel", "Flying"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "green", "evolution_line": {"id": 797}, "has_branched_evolution": false, "original_region": "Alola"}

@@ -1,1 +1,1 @@
-{"id": 377, "name": "Regirock", "types": ["Rock"], "abilities": [{"name": "Clear Body", "is_hidden": false}, {"name": "Sturdy", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 377}, "original_region": "Hoenn"}
+{"id": 377, "name": "Regirock", "types": ["Rock"], "abilities": [{"name": "Clear Body", "is_hidden": false}, {"name": "Sturdy", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 377}, "has_branched_evolution": false, "original_region": "Hoenn"}

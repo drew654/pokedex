@@ -1,1 +1,1 @@
-{"id": 1021, "name": "Raging Bolt", "types": ["Electric", "Dragon"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 1021}, "original_region": "Paldea"}
+{"id": 1021, "name": "Raging Bolt", "types": ["Electric", "Dragon"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 1021}, "has_branched_evolution": false, "original_region": "Paldea"}

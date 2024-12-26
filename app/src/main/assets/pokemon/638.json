@@ -1,1 +1,1 @@
-{"id": 638, "name": "Cobalion", "types": ["Steel", "Fighting"], "abilities": [{"name": "Justified", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 638}, "original_region": "Unova"}
+{"id": 638, "name": "Cobalion", "types": ["Steel", "Fighting"], "abilities": [{"name": "Justified", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 638}, "has_branched_evolution": false, "original_region": "Unova"}

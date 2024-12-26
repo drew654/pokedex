@@ -1,1 +1,1 @@
-{"id": 37, "name": "Vulpix", "types": ["Fire"], "abilities": [{"name": "Flash Fire", "is_hidden": false}, {"name": "Drought", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 37, "evolves_to": [{"id": 38}]}, "original_region": "Kanto"}
+{"id": 37, "name": "Vulpix", "types": ["Fire"], "abilities": [{"name": "Flash Fire", "is_hidden": false}, {"name": "Drought", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 37, "evolves_to": [{"id": 38}]}, "has_branched_evolution": false, "original_region": "Kanto"}

@@ -1,1 +1,1 @@
-{"id": 642, "name": "Thundurus", "types": ["Electric", "Flying"], "abilities": [{"name": "Prankster", "is_hidden": false}, {"name": "Defiant", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 642}, "original_region": "Unova"}
+{"id": 642, "name": "Thundurus", "types": ["Electric", "Flying"], "abilities": [{"name": "Prankster", "is_hidden": false}, {"name": "Defiant", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 642}, "has_branched_evolution": false, "original_region": "Unova"}

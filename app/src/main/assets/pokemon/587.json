@@ -1,1 +1,1 @@
-{"id": 587, "name": "Emolga", "types": ["Electric", "Flying"], "abilities": [{"name": "Static", "is_hidden": false}, {"name": "Motor Drive", "is_hidden": true}], "color": "white", "evolution_line": {"id": 587}, "original_region": "Unova"}
+{"id": 587, "name": "Emolga", "types": ["Electric", "Flying"], "abilities": [{"name": "Static", "is_hidden": false}, {"name": "Motor Drive", "is_hidden": true}], "color": "white", "evolution_line": {"id": 587}, "has_branched_evolution": false, "original_region": "Unova"}

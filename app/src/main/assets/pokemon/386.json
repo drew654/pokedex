@@ -1,1 +1,1 @@
-{"id": 386, "name": "Deoxys", "types": ["Psychic"], "abilities": [{"name": "Pressure", "is_hidden": false}], "color": "red", "evolution_line": {"id": 386}, "original_region": "Hoenn"}
+{"id": 386, "name": "Deoxys", "types": ["Psychic"], "abilities": [{"name": "Pressure", "is_hidden": false}], "color": "red", "evolution_line": {"id": 386}, "has_branched_evolution": false, "original_region": "Hoenn"}

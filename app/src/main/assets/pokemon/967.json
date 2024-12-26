@@ -1,1 +1,1 @@
-{"id": 967, "name": "Cyclizar", "types": ["Dragon", "Normal"], "abilities": [{"name": "Shed Skin", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "green", "evolution_line": {"id": 967}, "original_region": "Paldea"}
+{"id": 967, "name": "Cyclizar", "types": ["Dragon", "Normal"], "abilities": [{"name": "Shed Skin", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "green", "evolution_line": {"id": 967}, "has_branched_evolution": false, "original_region": "Paldea"}

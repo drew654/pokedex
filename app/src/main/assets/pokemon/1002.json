@@ -1,1 +1,1 @@
-{"id": 1002, "name": "Chien-Pao", "types": ["Dark", "Ice"], "abilities": [{"name": "Sword of Ruin", "is_hidden": false}, {"name": "Sword of Ruin", "is_hidden": true}], "color": "white", "evolution_line": {"id": 1002}, "original_region": "Paldea"}
+{"id": 1002, "name": "Chien-Pao", "types": ["Dark", "Ice"], "abilities": [{"name": "Sword of Ruin", "is_hidden": false}], "color": "white", "evolution_line": {"id": 1002}, "has_branched_evolution": false, "original_region": "Paldea"}

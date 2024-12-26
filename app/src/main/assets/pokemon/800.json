@@ -1,1 +1,1 @@
-{"id": 800, "name": "Necrozma", "types": ["Psychic"], "abilities": [{"name": "Prism Armor", "is_hidden": false}], "color": "black", "evolution_line": {"id": 800}, "original_region": "Alola"}
+{"id": 800, "name": "Necrozma", "types": ["Psychic"], "abilities": [{"name": "Prism Armor", "is_hidden": false}], "color": "black", "evolution_line": {"id": 800}, "has_branched_evolution": false, "original_region": "Alola"}

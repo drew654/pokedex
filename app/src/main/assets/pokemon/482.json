@@ -1,1 +1,1 @@
-{"id": 482, "name": "Azelf", "types": ["Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 482}, "original_region": "Sinnoh"}
+{"id": 482, "name": "Azelf", "types": ["Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 482}, "has_branched_evolution": false, "original_region": "Sinnoh"}

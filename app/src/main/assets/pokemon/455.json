@@ -1,1 +1,1 @@
-{"id": 455, "name": "Carnivine", "types": ["Grass"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "green", "evolution_line": {"id": 455}, "original_region": "Sinnoh"}
+{"id": 455, "name": "Carnivine", "types": ["Grass"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "green", "evolution_line": {"id": 455}, "has_branched_evolution": false, "original_region": "Sinnoh"}

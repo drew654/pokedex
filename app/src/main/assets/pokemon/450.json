@@ -1,1 +1,1 @@
-{"id": 450, "name": "Hippowdon", "types": ["Ground"], "abilities": [{"name": "Sand Stream", "is_hidden": false}, {"name": "Sand Force", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 449, "evolves_to": [{"id": 450}]}, "original_region": "Sinnoh"}
+{"id": 450, "name": "Hippowdon", "types": ["Ground"], "abilities": [{"name": "Sand Stream", "is_hidden": false}, {"name": "Sand Force", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 449, "evolves_to": [{"id": 450}]}, "has_branched_evolution": false, "original_region": "Sinnoh"}

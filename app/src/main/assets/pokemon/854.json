@@ -1,1 +1,1 @@
-{"id": 854, "name": "Sinistea", "types": ["Ghost"], "abilities": [{"name": "Weak Armor", "is_hidden": false}, {"name": "Cursed Body", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 854, "evolves_to": [{"id": 855}]}, "original_region": "Galar"}
+{"id": 854, "name": "Sinistea", "types": ["Ghost"], "abilities": [{"name": "Weak Armor", "is_hidden": false}, {"name": "Cursed Body", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 854, "evolves_to": [{"id": 855}]}, "has_branched_evolution": false, "original_region": "Galar"}

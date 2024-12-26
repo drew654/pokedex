@@ -1,1 +1,1 @@
-{"id": 746, "name": "Wishiwashi", "types": ["Water"], "abilities": [{"name": "Schooling", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 746}, "original_region": "Alola"}
+{"id": 746, "name": "Wishiwashi", "types": ["Water"], "abilities": [{"name": "Schooling", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 746}, "has_branched_evolution": false, "original_region": "Alola"}

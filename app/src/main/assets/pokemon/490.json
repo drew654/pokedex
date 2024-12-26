@@ -1,1 +1,1 @@
-{"id": 490, "name": "Manaphy", "types": ["Water"], "abilities": [{"name": "Hydration", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 489, "evolves_to": [{"id": 490}]}, "original_region": "Sinnoh"}
+{"id": 490, "name": "Manaphy", "types": ["Water"], "abilities": [{"name": "Hydration", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 489, "evolves_to": [{"id": 490}]}, "has_branched_evolution": false, "original_region": "Sinnoh"}

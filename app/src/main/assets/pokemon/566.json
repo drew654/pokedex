@@ -1,1 +1,1 @@
-{"id": 566, "name": "Archen", "types": ["Rock", "Flying"], "abilities": [{"name": "Defeatist", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 566, "evolves_to": [{"id": 567}]}, "original_region": "Unova"}
+{"id": 566, "name": "Archen", "types": ["Rock", "Flying"], "abilities": [{"name": "Defeatist", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 566, "evolves_to": [{"id": 567}]}, "has_branched_evolution": false, "original_region": "Unova"}

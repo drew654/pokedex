@@ -1,1 +1,1 @@
-{"id": 787, "name": "Tapu Bulu", "types": ["Grass", "Fairy"], "abilities": [{"name": "Grassy Surge", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "red", "evolution_line": {"id": 787}, "original_region": "Alola"}
+{"id": 787, "name": "Tapu Bulu", "types": ["Grass", "Fairy"], "abilities": [{"name": "Grassy Surge", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "red", "evolution_line": {"id": 787}, "has_branched_evolution": false, "original_region": "Alola"}

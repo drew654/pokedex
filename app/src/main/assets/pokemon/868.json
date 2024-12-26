@@ -1,1 +1,1 @@
-{"id": 868, "name": "Milcery", "types": ["Fairy"], "abilities": [{"name": "Sweet Veil", "is_hidden": false}, {"name": "Aroma Veil", "is_hidden": true}], "color": "white", "evolution_line": {"id": 868, "evolves_to": [{"id": 869}]}, "original_region": "Galar"}
+{"id": 868, "name": "Milcery", "types": ["Fairy"], "abilities": [{"name": "Sweet Veil", "is_hidden": false}, {"name": "Aroma Veil", "is_hidden": true}], "color": "white", "evolution_line": {"id": 868, "evolves_to": [{"id": 869}]}, "has_branched_evolution": false, "original_region": "Galar"}

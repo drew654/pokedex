@@ -1,1 +1,1 @@
-{"id": 344, "name": "Claydol", "types": ["Ground", "Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "black", "evolution_line": {"id": 343, "evolves_to": [{"id": 344}]}, "original_region": "Hoenn"}
+{"id": 344, "name": "Claydol", "types": ["Ground", "Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "black", "evolution_line": {"id": 343, "evolves_to": [{"id": 344}]}, "has_branched_evolution": false, "original_region": "Hoenn"}

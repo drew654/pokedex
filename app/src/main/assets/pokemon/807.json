@@ -1,1 +1,1 @@
-{"id": 807, "name": "Zeraora", "types": ["Electric"], "abilities": [{"name": "Volt Absorb", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 807}, "original_region": "Alola"}
+{"id": 807, "name": "Zeraora", "types": ["Electric"], "abilities": [{"name": "Volt Absorb", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 807}, "has_branched_evolution": false, "original_region": "Alola"}

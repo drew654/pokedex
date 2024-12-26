@@ -1,1 +1,1 @@
-{"id": 598, "name": "Ferrothorn", "types": ["Grass", "Steel"], "abilities": [{"name": "Iron Barbs", "is_hidden": false}, {"name": "Anticipation", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 597, "evolves_to": [{"id": 598}]}, "original_region": "Unova"}
+{"id": 598, "name": "Ferrothorn", "types": ["Grass", "Steel"], "abilities": [{"name": "Iron Barbs", "is_hidden": false}, {"name": "Anticipation", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 597, "evolves_to": [{"id": 598}]}, "has_branched_evolution": false, "original_region": "Unova"}

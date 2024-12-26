@@ -1,1 +1,1 @@
-{"id": 801, "name": "Magearna", "types": ["Steel", "Fairy"], "abilities": [{"name": "Soul-Heart", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 801}, "original_region": "Alola"}
+{"id": 801, "name": "Magearna", "types": ["Steel", "Fairy"], "abilities": [{"name": "Soul-Heart", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 801}, "has_branched_evolution": false, "original_region": "Alola"}

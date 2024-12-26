@@ -1,1 +1,1 @@
-{"id": 971, "name": "Greavard", "types": ["Ghost"], "abilities": [{"name": "Pickup", "is_hidden": false}, {"name": "Fluffy", "is_hidden": true}], "color": "white", "evolution_line": {"id": 971, "evolves_to": [{"id": 972}]}, "original_region": "Paldea"}
+{"id": 971, "name": "Greavard", "types": ["Ghost"], "abilities": [{"name": "Pickup", "is_hidden": false}, {"name": "Fluffy", "is_hidden": true}], "color": "white", "evolution_line": {"id": 971, "evolves_to": [{"id": 972}]}, "has_branched_evolution": false, "original_region": "Paldea"}

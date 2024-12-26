@@ -1,1 +1,1 @@
-{"id": 646, "name": "Kyurem", "types": ["Dragon", "Ice"], "abilities": [{"name": "Pressure", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 646}, "original_region": "Unova"}
+{"id": 646, "name": "Kyurem", "types": ["Dragon", "Ice"], "abilities": [{"name": "Pressure", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 646}, "has_branched_evolution": false, "original_region": "Unova"}

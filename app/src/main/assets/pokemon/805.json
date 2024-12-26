@@ -1,1 +1,1 @@
-{"id": 805, "name": "Stakataka", "types": ["Rock", "Steel"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 805}, "original_region": "Alola"}
+{"id": 805, "name": "Stakataka", "types": ["Rock", "Steel"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 805}, "has_branched_evolution": false, "original_region": "Alola"}

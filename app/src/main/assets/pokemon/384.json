@@ -1,1 +1,1 @@
-{"id": 384, "name": "Rayquaza", "types": ["Dragon", "Flying"], "abilities": [{"name": "Air Lock", "is_hidden": false}], "color": "green", "evolution_line": {"id": 384}, "original_region": "Hoenn"}
+{"id": 384, "name": "Rayquaza", "types": ["Dragon", "Flying"], "abilities": [{"name": "Air Lock", "is_hidden": false}], "color": "green", "evolution_line": {"id": 384}, "has_branched_evolution": false, "original_region": "Hoenn"}

@@ -1,1 +1,1 @@
-{"id": 879, "name": "Copperajah", "types": ["Steel"], "abilities": [{"name": "Sheer Force", "is_hidden": false}, {"name": "Heavy Metal", "is_hidden": true}], "color": "green", "evolution_line": {"id": 878, "evolves_to": [{"id": 879}]}, "original_region": "Galar"}
+{"id": 879, "name": "Copperajah", "types": ["Steel"], "abilities": [{"name": "Sheer Force", "is_hidden": false}, {"name": "Heavy Metal", "is_hidden": true}], "color": "green", "evolution_line": {"id": 878, "evolves_to": [{"id": 879}]}, "has_branched_evolution": false, "original_region": "Galar"}

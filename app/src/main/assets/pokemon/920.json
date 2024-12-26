@@ -1,1 +1,1 @@
-{"id": 920, "name": "Lokix", "types": ["Bug", "Dark"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Tinted Lens", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 919, "evolves_to": [{"id": 920}]}, "original_region": "Paldea"}
+{"id": 920, "name": "Lokix", "types": ["Bug", "Dark"], "abilities": [{"name": "Swarm", "is_hidden": false}, {"name": "Tinted Lens", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 919, "evolves_to": [{"id": 920}]}, "has_branched_evolution": false, "original_region": "Paldea"}

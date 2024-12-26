@@ -1,1 +1,1 @@
-{"id": 853, "name": "Grapploct", "types": ["Fighting"], "abilities": [{"name": "Limber", "is_hidden": false}, {"name": "Technician", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 852, "evolves_to": [{"id": 853}]}, "original_region": "Galar"}
+{"id": 853, "name": "Grapploct", "types": ["Fighting"], "abilities": [{"name": "Limber", "is_hidden": false}, {"name": "Technician", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 852, "evolves_to": [{"id": 853}]}, "has_branched_evolution": false, "original_region": "Galar"}

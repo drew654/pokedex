@@ -1,1 +1,1 @@
-{"id": 631, "name": "Heatmor", "types": ["Fire"], "abilities": [{"name": "Gluttony", "is_hidden": false}, {"name": "Flash Fire", "is_hidden": false}, {"name": "White Smoke", "is_hidden": true}], "color": "red", "evolution_line": {"id": 631}, "original_region": "Unova"}
+{"id": 631, "name": "Heatmor", "types": ["Fire"], "abilities": [{"name": "Gluttony", "is_hidden": false}, {"name": "Flash Fire", "is_hidden": false}, {"name": "White Smoke", "is_hidden": true}], "color": "red", "evolution_line": {"id": 631}, "has_branched_evolution": false, "original_region": "Unova"}

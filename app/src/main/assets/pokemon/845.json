@@ -1,1 +1,1 @@
-{"id": 845, "name": "Cramorant", "types": ["Flying", "Water"], "abilities": [{"name": "Gulp Missile", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 845}, "original_region": "Galar"}
+{"id": 845, "name": "Cramorant", "types": ["Flying", "Water"], "abilities": [{"name": "Gulp Missile", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 845}, "has_branched_evolution": false, "original_region": "Galar"}

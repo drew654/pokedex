@@ -1,1 +1,1 @@
-{"id": 288, "name": "Vigoroth", "types": ["Normal"], "abilities": [{"name": "Vital Spirit", "is_hidden": false}], "color": "white", "evolution_line": {"id": 287, "evolves_to": [{"id": 288, "evolves_to": [{"id": 289}]}]}, "original_region": "Hoenn"}
+{"id": 288, "name": "Vigoroth", "types": ["Normal"], "abilities": [{"name": "Vital Spirit", "is_hidden": false}], "color": "white", "evolution_line": {"id": 287, "evolves_to": [{"id": 288, "evolves_to": [{"id": 289}]}]}, "has_branched_evolution": false, "original_region": "Hoenn"}

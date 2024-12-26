@@ -1,1 +1,1 @@
-{"id": 891, "name": "Kubfu", "types": ["Fighting"], "abilities": [{"name": "Inner Focus", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 891, "evolves_to": [{"id": 892}]}, "original_region": "Galar"}
+{"id": 891, "name": "Kubfu", "types": ["Fighting"], "abilities": [{"name": "Inner Focus", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 891, "evolves_to": [{"id": 892}]}, "has_branched_evolution": false, "original_region": "Galar"}

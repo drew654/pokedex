@@ -1,1 +1,1 @@
-{"id": 590, "name": "Foongus", "types": ["Grass", "Poison"], "abilities": [{"name": "Effect Spore", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "white", "evolution_line": {"id": 590, "evolves_to": [{"id": 591}]}, "original_region": "Unova"}
+{"id": 590, "name": "Foongus", "types": ["Grass", "Poison"], "abilities": [{"name": "Effect Spore", "is_hidden": false}, {"name": "Regenerator", "is_hidden": true}], "color": "white", "evolution_line": {"id": 590, "evolves_to": [{"id": 591}]}, "has_branched_evolution": false, "original_region": "Unova"}

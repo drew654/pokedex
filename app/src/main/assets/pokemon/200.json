@@ -1,1 +1,1 @@
-{"id": 200, "name": "Misdreavus", "types": ["Ghost"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 200, "evolves_to": [{"id": 429}]}, "original_region": "Johto"}
+{"id": 200, "name": "Misdreavus", "types": ["Ghost"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 200, "evolves_to": [{"id": 429}]}, "has_branched_evolution": false, "original_region": "Johto"}

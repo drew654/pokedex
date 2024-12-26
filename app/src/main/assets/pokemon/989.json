@@ -1,1 +1,1 @@
-{"id": 989, "name": "Sandy Shocks", "types": ["Electric", "Ground"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}, {"name": "Protosynthesis", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 989}, "original_region": "Paldea"}
+{"id": 989, "name": "Sandy Shocks", "types": ["Electric", "Ground"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 989}, "has_branched_evolution": false, "original_region": "Paldea"}

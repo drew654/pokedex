@@ -1,1 +1,1 @@
-{"id": 378, "name": "Regice", "types": ["Ice"], "abilities": [{"name": "Clear Body", "is_hidden": false}, {"name": "Ice Body", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 378}, "original_region": "Hoenn"}
+{"id": 378, "name": "Regice", "types": ["Ice"], "abilities": [{"name": "Clear Body", "is_hidden": false}, {"name": "Ice Body", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 378}, "has_branched_evolution": false, "original_region": "Hoenn"}

@@ -1,1 +1,1 @@
-{"id": 1016, "name": "Fezandipiti", "types": ["Poison", "Fairy"], "abilities": [{"name": "Toxic Chain", "is_hidden": false}, {"name": "Technician", "is_hidden": true}], "color": "black", "evolution_line": {"id": 1016}, "original_region": "Paldea"}
+{"id": 1016, "name": "Fezandipiti", "types": ["Poison", "Fairy"], "abilities": [{"name": "Toxic Chain", "is_hidden": false}, {"name": "Technician", "is_hidden": true}], "color": "black", "evolution_line": {"id": 1016}, "has_branched_evolution": false, "original_region": "Paldea"}

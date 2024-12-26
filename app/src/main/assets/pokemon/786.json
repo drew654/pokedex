@@ -1,1 +1,1 @@
-{"id": 786, "name": "Tapu Lele", "types": ["Psychic", "Fairy"], "abilities": [{"name": "Psychic Surge", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 786}, "original_region": "Alola"}
+{"id": 786, "name": "Tapu Lele", "types": ["Psychic", "Fairy"], "abilities": [{"name": "Psychic Surge", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 786}, "has_branched_evolution": false, "original_region": "Alola"}

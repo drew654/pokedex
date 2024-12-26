@@ -1,1 +1,1 @@
-{"id": 753, "name": "Fomantis", "types": ["Grass"], "abilities": [{"name": "Leaf Guard", "is_hidden": false}, {"name": "Contrary", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 753, "evolves_to": [{"id": 754}]}, "original_region": "Alola"}
+{"id": 753, "name": "Fomantis", "types": ["Grass"], "abilities": [{"name": "Leaf Guard", "is_hidden": false}, {"name": "Contrary", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 753, "evolves_to": [{"id": 754}]}, "has_branched_evolution": false, "original_region": "Alola"}

@@ -1,1 +1,1 @@
-{"id": 324, "name": "Torkoal", "types": ["Fire"], "abilities": [{"name": "White Smoke", "is_hidden": false}, {"name": "Drought", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 324}, "original_region": "Hoenn"}
+{"id": 324, "name": "Torkoal", "types": ["Fire"], "abilities": [{"name": "White Smoke", "is_hidden": false}, {"name": "Drought", "is_hidden": false}, {"name": "Shell Armor", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 324}, "has_branched_evolution": false, "original_region": "Hoenn"}

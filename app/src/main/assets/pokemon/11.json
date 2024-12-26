@@ -1,1 +1,1 @@
-{"id": 11, "name": "Metapod", "types": ["Bug"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "green", "evolution_line": {"id": 10, "evolves_to": [{"id": 11, "evolves_to": [{"id": 12}]}]}, "original_region": "Kanto"}
+{"id": 11, "name": "Metapod", "types": ["Bug"], "abilities": [{"name": "Shed Skin", "is_hidden": false}], "color": "green", "evolution_line": {"id": 10, "evolves_to": [{"id": 11, "evolves_to": [{"id": 12}]}]}, "has_branched_evolution": false, "original_region": "Kanto"}

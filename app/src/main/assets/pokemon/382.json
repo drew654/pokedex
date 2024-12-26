@@ -1,1 +1,1 @@
-{"id": 382, "name": "Kyogre", "types": ["Water"], "abilities": [{"name": "Drizzle", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 382}, "original_region": "Hoenn"}
+{"id": 382, "name": "Kyogre", "types": ["Water"], "abilities": [{"name": "Drizzle", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 382}, "has_branched_evolution": false, "original_region": "Hoenn"}

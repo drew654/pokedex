@@ -1,1 +1,1 @@
-{"id": 877, "name": "Morpeko", "types": ["Electric", "Dark"], "abilities": [{"name": "Hunger Switch", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 877}, "original_region": "Galar"}
+{"id": 877, "name": "Morpeko", "types": ["Electric", "Dark"], "abilities": [{"name": "Hunger Switch", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 877}, "has_branched_evolution": false, "original_region": "Galar"}

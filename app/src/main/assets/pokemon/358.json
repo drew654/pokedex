@@ -1,1 +1,1 @@
-{"id": 358, "name": "Chimecho", "types": ["Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 433, "evolves_to": [{"id": 358}]}, "original_region": "Hoenn"}
+{"id": 358, "name": "Chimecho", "types": ["Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 433, "evolves_to": [{"id": 358}]}, "has_branched_evolution": false, "original_region": "Hoenn"}

@@ -1,1 +1,1 @@
-{"id": 772, "name": "Type: Null", "types": ["Normal"], "abilities": [{"name": "Battle Armor", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 772, "evolves_to": [{"id": 773}]}, "original_region": "Alola"}
+{"id": 772, "name": "Type: Null", "types": ["Normal"], "abilities": [{"name": "Battle Armor", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 772, "evolves_to": [{"id": 773}]}, "has_branched_evolution": false, "original_region": "Alola"}

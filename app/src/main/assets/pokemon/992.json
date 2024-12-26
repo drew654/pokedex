@@ -1,1 +1,1 @@
-{"id": 992, "name": "Iron Hands", "types": ["Fighting", "Electric"], "abilities": [{"name": "Quark Drive", "is_hidden": false}, {"name": "Quark Drive", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 992}, "original_region": "Paldea"}
+{"id": 992, "name": "Iron Hands", "types": ["Fighting", "Electric"], "abilities": [{"name": "Quark Drive", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 992}, "has_branched_evolution": false, "original_region": "Paldea"}

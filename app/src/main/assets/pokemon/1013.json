@@ -1,1 +1,1 @@
-{"id": 1013, "name": "Sinistcha", "types": ["Grass", "Ghost"], "abilities": [{"name": "Hospitality", "is_hidden": false}, {"name": "Heatproof", "is_hidden": true}], "color": "green", "evolution_line": {"id": 1012, "evolves_to": [{"id": 1013}]}, "original_region": "Paldea"}
+{"id": 1013, "name": "Sinistcha", "types": ["Grass", "Ghost"], "abilities": [{"name": "Hospitality", "is_hidden": false}, {"name": "Heatproof", "is_hidden": true}], "color": "green", "evolution_line": {"id": 1012, "evolves_to": [{"id": 1013}]}, "has_branched_evolution": false, "original_region": "Paldea"}

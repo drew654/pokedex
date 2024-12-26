@@ -1,1 +1,1 @@
-{"id": 1022, "name": "Iron Boulder", "types": ["Rock", "Psychic"], "abilities": [{"name": "Quark Drive", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 1022}, "original_region": "Paldea"}
+{"id": 1022, "name": "Iron Boulder", "types": ["Rock", "Psychic"], "abilities": [{"name": "Quark Drive", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 1022}, "has_branched_evolution": false, "original_region": "Paldea"}

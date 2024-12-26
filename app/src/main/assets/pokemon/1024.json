@@ -1,1 +1,1 @@
-{"id": 1024, "name": "Terapagos", "types": ["Normal"], "abilities": [{"name": "Tera Shift", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 1024}, "original_region": "Paldea"}
+{"id": 1024, "name": "Terapagos", "types": ["Normal"], "abilities": [{"name": "Tera Shift", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 1024}, "has_branched_evolution": false, "original_region": "Paldea"}

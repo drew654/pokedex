@@ -88,6 +88,19 @@ def get_evolution_line(pokemon_id):
 
     return build_evolution_tree(data["chain"])
 
+def has_branched_evolution(pokemon_id, evolution_line):
+    evolution_spot = {}
+    if pokemon_id == evolution_line["id"]:
+        evolution_spot = evolution_line
+    else:
+        for e in evolution_line["evolves_to"]:
+            if e["id"] == pokemon_id:
+                evolution_spot = e
+
+    if "evolves_to" in evolution_spot and len(evolution_spot["evolves_to"]) > 1:
+        return True
+    return False
+
 def get_pokedex_names_en():
     data = get_data("https://pokeapi.co/api/v2/pokedex?limit=100")
     pokedexes = data["results"]
@@ -170,6 +183,7 @@ def main():
             trimmed_data["color"] = species_data["color"]["name"]
 
             trimmed_data["evolution_line"] = get_evolution_line(id)
+            trimmed_data["has_branched_evolution"] = has_branched_evolution(id, trimmed_data["evolution_line"])
 
             trimmed_data["original_region"] = generation_region[species_data["generation"]["name"]]
 

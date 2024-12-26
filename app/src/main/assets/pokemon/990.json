@@ -1,1 +1,1 @@
-{"id": 990, "name": "Iron Treads", "types": ["Ground", "Steel"], "abilities": [{"name": "Quark Drive", "is_hidden": false}, {"name": "Quark Drive", "is_hidden": true}], "color": "gray", "evolution_line": {"id": 990}, "original_region": "Paldea"}
+{"id": 990, "name": "Iron Treads", "types": ["Ground", "Steel"], "abilities": [{"name": "Quark Drive", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 990}, "has_branched_evolution": false, "original_region": "Paldea"}

@@ -1,1 +1,1 @@
-{"id": 991, "name": "Iron Bundle", "types": ["Ice", "Water"], "abilities": [{"name": "Quark Drive", "is_hidden": false}, {"name": "Quark Drive", "is_hidden": true}], "color": "red", "evolution_line": {"id": 991}, "original_region": "Paldea"}
+{"id": 991, "name": "Iron Bundle", "types": ["Ice", "Water"], "abilities": [{"name": "Quark Drive", "is_hidden": false}], "color": "red", "evolution_line": {"id": 991}, "has_branched_evolution": false, "original_region": "Paldea"}

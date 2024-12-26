@@ -1,1 +1,1 @@
-{"id": 794, "name": "Buzzwole", "types": ["Bug", "Fighting"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "red", "evolution_line": {"id": 794}, "original_region": "Alola"}
+{"id": 794, "name": "Buzzwole", "types": ["Bug", "Fighting"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "red", "evolution_line": {"id": 794}, "has_branched_evolution": false, "original_region": "Alola"}

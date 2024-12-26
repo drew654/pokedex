@@ -1,1 +1,1 @@
-{"id": 21, "name": "Spearow", "types": ["Normal", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Sniper", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 21, "evolves_to": [{"id": 22}]}, "original_region": "Kanto"}
+{"id": 21, "name": "Spearow", "types": ["Normal", "Flying"], "abilities": [{"name": "Keen Eye", "is_hidden": false}, {"name": "Sniper", "is_hidden": true}], "color": "brown", "evolution_line": {"id": 21, "evolves_to": [{"id": 22}]}, "has_branched_evolution": false, "original_region": "Kanto"}

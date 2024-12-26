@@ -1,1 +1,1 @@
-{"id": 918, "name": "Spidops", "types": ["Bug"], "abilities": [{"name": "Insomnia", "is_hidden": false}, {"name": "Stakeout", "is_hidden": true}], "color": "green", "evolution_line": {"id": 917, "evolves_to": [{"id": 918}]}, "original_region": "Paldea"}
+{"id": 918, "name": "Spidops", "types": ["Bug"], "abilities": [{"name": "Insomnia", "is_hidden": false}, {"name": "Stakeout", "is_hidden": true}], "color": "green", "evolution_line": {"id": 917, "evolves_to": [{"id": 918}]}, "has_branched_evolution": false, "original_region": "Paldea"}
