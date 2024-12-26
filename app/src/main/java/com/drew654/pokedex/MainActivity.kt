@@ -64,6 +64,7 @@ class MainActivity : ComponentActivity() {
                             route = Screen.Filters.route
                         ) {
                             FiltersScreen(
+                                navController = navController,
                                 filterViewModel = filterViewModel
                             )
                         }
