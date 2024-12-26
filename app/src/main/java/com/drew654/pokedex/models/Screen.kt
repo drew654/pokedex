@@ -4,4 +4,6 @@ sealed class Screen(val route: String) {
     data object PokemonList : Screen(route = "pokemon-list")
 
     data object PokemonDetails : Screen(route = "pokemon-details")
+
+    data object Filters : Screen(route = "filters")
 }

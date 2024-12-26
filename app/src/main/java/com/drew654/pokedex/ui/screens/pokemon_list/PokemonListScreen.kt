@@ -88,8 +88,21 @@ fun PokemonListScreen(
                         onQueryChange = { pokemonViewModel.setSearchPokemonName(it) },
                         clearQuery = {
                             clearSearch()
-                        }
+                        },
+                        modifier = Modifier
+                            .weight(1f)
+                            .padding(8.dp)
                     )
+                    IconButton(
+                        onClick = {
+                            navController.navigate(Screen.Filters.route)
+                        }
+                    ) {
+                        Icon(
+                            painter = painterResource(id = R.drawable.baseline_filter_list_24),
+                            contentDescription = "Filter"
+                        )
+                    }
                 }
 
                 Row(
