@@ -41,6 +41,7 @@ fun PokemonListScreen(
     val regionFilter = filterViewModel.regionFilter.collectAsState()
     val type1Filter = filterViewModel.type1Filter.collectAsState()
     val type2Filter = filterViewModel.type2Filter.collectAsState()
+    val hasBranchedEvolutionFilter = filterViewModel.hasBranchedEvolutionFilter.collectAsState()
 
     val pokemonList = pokemonViewModel.pokemon.collectAsState()
     val pokemonListFiltered = pokemonList.value.filter { pokemon ->
@@ -55,6 +56,8 @@ fun PokemonListScreen(
         }
     }.filter { pokemon ->
         pokemon.name.contains(searchPokemonName.value, ignoreCase = true)
+    }.filter { pokemon ->
+        hasBranchedEvolutionFilter.value == null || pokemon.hasBranchedEvolution == hasBranchedEvolutionFilter.value
     }
 
     fun clearSearch() {
@@ -115,9 +118,7 @@ fun PokemonListScreen(
                         onValueChange = { selectedName ->
                             filterViewModel.setRegionFilter(selectedName)
                         },
-                        modifier = Modifier
-                            .padding(horizontal = 4.dp)
-                            .weight(1f)
+                        modifier = Modifier.weight(1f)
                     )
                     FilterDropdown(
                         filter = type1Filter.value,
@@ -137,11 +138,16 @@ fun PokemonListScreen(
                         onValueChange = { selectedName ->
                             filterViewModel.setType2Filter(selectedName)
                         },
-                        modifier = Modifier
-                            .padding(horizontal = 4.dp)
-                            .weight(1f)
+                        modifier = Modifier.weight(1f)
                     )
                 }
+            }
+
+            if (hasBranchedEvolutionFilter.value == true) {
+                FilterTag(
+                    text = "Has Branched Evolution",
+                    modifier = Modifier.padding(horizontal = 4.dp)
+                )
             }
 
             LazyColumn {

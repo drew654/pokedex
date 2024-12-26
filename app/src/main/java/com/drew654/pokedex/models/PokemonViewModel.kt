@@ -10,6 +10,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.boolean
 import kotlinx.serialization.json.intOrNull
 import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
@@ -36,9 +37,10 @@ class PokemonViewModel(application: Application) : AndroidViewModel(application)
             val color = pokemonJson["color"]?.jsonPrimitive?.content
             val types = pokemonJson["types"]?.jsonArray?.map { it.jsonPrimitive.content }
             val originalRegion = pokemonJson["original_region"]?.jsonPrimitive?.content
+            val hasBranchedEvolution = pokemonJson["has_branched_evolution"]?.jsonPrimitive?.boolean
 
-            if (id != null && name != null && color != null && types != null && originalRegion != null) {
-                Pokemon(id, name, color, types, originalRegion)
+            if (id != null && name != null && color != null && types != null && originalRegion != null && hasBranchedEvolution != null) {
+                Pokemon(id, name, color, types, originalRegion, hasBranchedEvolution)
             } else {
                 throw IllegalStateException("Invalid Pokemon data in $fileName")
             }
@@ -49,7 +51,8 @@ class PokemonViewModel(application: Application) : AndroidViewModel(application)
         val json = Json { ignoreUnknownKeys = true }
         return withContext(Dispatchers.IO) {
             val inputStream = getApplication<Application>().assets.open("pokemon/names.json")
-            val namesJson = json.parseToJsonElement(inputStream.bufferedReader().use { it.readText() }).jsonArray
+            val namesJson = json.parseToJsonElement(
+                inputStream.bufferedReader().use { it.readText() }).jsonArray
             namesJson.map { it.jsonPrimitive.content }
         }
     }

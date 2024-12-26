@@ -7,7 +7,8 @@ class Pokemon(
     val name: String,
     colorString: String,
     val types: List<String>,
-    val originalRegion: String
+    val originalRegion: String,
+    val hasBranchedEvolution: Boolean
 ) {
     val color: Color = when (colorString) {
         "green" -> Color(0xFF7AC74C)

@@ -4,12 +4,13 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.material3.Checkbox
+import androidx.compose.material3.CheckboxDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
@@ -31,6 +32,7 @@ fun FiltersScreen(filterViewModel: FilterViewModel) {
     val types = filterViewModel.types.collectAsState()
     val selectedType1Filter = filterViewModel.type1Filter.collectAsState()
     val selectedType2Filter = filterViewModel.type2Filter.collectAsState()
+    val hasBranchedEvolutionFilter = filterViewModel.hasBranchedEvolutionFilter.collectAsState()
 
     Box(
         modifier = Modifier
@@ -44,9 +46,7 @@ fun FiltersScreen(filterViewModel: FilterViewModel) {
             }
     ) {
         LazyColumn(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(16.dp)
+            modifier = Modifier.fillMaxSize()
         ) {
             items(1) {
                 DropdownMenu(
@@ -56,10 +56,10 @@ fun FiltersScreen(filterViewModel: FilterViewModel) {
                     onValueChange = { selectedName ->
                         filterViewModel.setRegionFilter(selectedName)
                     },
-                    modifier = Modifier.fillMaxWidth()
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 8.dp)
                 )
-
-                Spacer(modifier = Modifier.height(16.dp))
 
                 DropdownMenu(
                     selectedValue = selectedType1Filter.value ?: "",
@@ -68,10 +68,10 @@ fun FiltersScreen(filterViewModel: FilterViewModel) {
                     onValueChange = { selectedName ->
                         filterViewModel.setType1Filter(selectedName)
                     },
-                    modifier = Modifier.fillMaxWidth()
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 8.dp)
                 )
-
-                Spacer(modifier = Modifier.height(16.dp))
 
                 DropdownMenu(
                     selectedValue = selectedType2Filter.value ?: "",
@@ -80,8 +80,36 @@ fun FiltersScreen(filterViewModel: FilterViewModel) {
                     onValueChange = { selectedName ->
                         filterViewModel.setType2Filter(selectedName)
                     },
-                    modifier = Modifier.fillMaxWidth()
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 8.dp)
                 )
+
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clickable {
+                            if (hasBranchedEvolutionFilter.value == null) {
+                                filterViewModel.setHasBranchedEvolutionFilter(true)
+                            } else {
+                                filterViewModel.setHasBranchedEvolutionFilter(null)
+                            }
+                        }
+                        .padding(horizontal = 16.dp, vertical = 8.dp)
+                ) {
+                    Checkbox(
+                        checked = hasBranchedEvolutionFilter.value == true,
+                        onCheckedChange = {
+                            if (hasBranchedEvolutionFilter.value == null) {
+                                filterViewModel.setHasBranchedEvolutionFilter(true)
+                            } else {
+                                filterViewModel.setHasBranchedEvolutionFilter(null)
+                            }
+                        }
+                    )
+                    Text(text = "Branched Evolution")
+                }
             }
         }
     }

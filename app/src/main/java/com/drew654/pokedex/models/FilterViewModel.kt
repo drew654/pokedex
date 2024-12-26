@@ -70,9 +70,17 @@ class FilterViewModel(application: Application) : AndroidViewModel(application) 
         _type2Filter.value = type
     }
 
+    private val _hasBranchedEvolutionFilter = MutableStateFlow<Boolean?>(null)
+    val hasBranchedEvolutionFilter: StateFlow<Boolean?> = _hasBranchedEvolutionFilter.asStateFlow()
+
+    fun setHasBranchedEvolutionFilter(hasBranchedEvolution: Boolean?) {
+        _hasBranchedEvolutionFilter.value = hasBranchedEvolution
+    }
+
     fun clearFilters() {
         _regionFilter.value = null
         _type1Filter.value = null
         _type2Filter.value = null
+        _hasBranchedEvolutionFilter.value = null
     }
 }

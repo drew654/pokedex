@@ -4,6 +4,7 @@ import android.content.Context
 import com.drew654.pokedex.models.Pokemon
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonElement
+import kotlinx.serialization.json.booleanOrNull
 import kotlinx.serialization.json.intOrNull
 import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
@@ -28,8 +29,17 @@ fun getEvolutionsWithIndention(
                 pokemonJson.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }
                     ?.toList()!!
             val originalRegion = pokemonJson.jsonObject["original_region"]?.jsonPrimitive?.content!!
+            val hasBranchedEvolution =
+                pokemonJson.jsonObject["has_branched_evolution"]?.jsonPrimitive?.booleanOrNull!!
             val pokemonObject =
-                Pokemon(id, name.toString(), color.toString(), types, originalRegion)
+                Pokemon(
+                    id,
+                    name.toString(),
+                    color.toString(),
+                    types,
+                    originalRegion,
+                    hasBranchedEvolution
+                )
             pokemonList.add(pokemonObject to indentLevel)
 
             val evolvesTo = jsonObject["evolves_to"]?.jsonArray

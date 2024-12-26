@@ -44,7 +44,10 @@ fun PokemonDetailsScreen(id: Int, navController: NavController) {
         }
         ?: (emptyList<String>() to emptyList<String>())
     val originalRegion = pokemonJson.jsonObject["original_region"]?.jsonPrimitive?.content!!
-    val pokemon = Pokemon(id, name.toString(), color.toString(), types, originalRegion)
+    val hasBranchedEvolution =
+        pokemonJson.jsonObject["has_branched_evolution"]?.jsonPrimitive?.booleanOrNull!!
+    val pokemon =
+        Pokemon(id, name.toString(), color.toString(), types, originalRegion, hasBranchedEvolution)
 
     Box(
         modifier = Modifier
