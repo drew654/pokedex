@@ -46,9 +46,13 @@ fun PokemonListScreen(
     val pokemonListFiltered = pokemonList.value.filter { pokemon ->
         regionFilter.value == null || pokemon.originalRegion == regionFilter.value
     }.filter { pokemon ->
-        type1Filter.value == null || pokemon.types.contains(type1Filter.value)
-    }.filter { pokemon ->
-        type2Filter.value == null || pokemon.types.contains(type2Filter.value)
+        val isMonotype = type1Filter.value != null && type1Filter.value == type2Filter.value
+        if (isMonotype) {
+            pokemon.types.size == 1 && pokemon.types.contains(type1Filter.value)
+        } else {
+            (type1Filter.value == null || pokemon.types.contains(type1Filter.value)) &&
+                    (type2Filter.value == null || pokemon.types.contains(type2Filter.value))
+        }
     }.filter { pokemon ->
         pokemon.name.contains(searchPokemonName.value, ignoreCase = true)
     }
