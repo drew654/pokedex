@@ -2,9 +2,10 @@ package com.drew654.pokedex.ui.screens.pokemon_list
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
@@ -39,8 +40,8 @@ fun FilterDropdown(
             onDismissRequest = { isExpanded.value = false },
             modifier = Modifier.padding(bottom = 16.dp)
         ) {
-            Column {
-                options.forEach { option ->
+            LazyColumn {
+                items(options) { option ->
                     Text(
                         text = option,
                         modifier = Modifier
