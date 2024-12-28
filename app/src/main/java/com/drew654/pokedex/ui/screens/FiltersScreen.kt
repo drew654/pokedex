@@ -41,6 +41,7 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
     val selectedType1Filter = filterViewModel.type1Filter.collectAsState()
     val selectedType2Filter = filterViewModel.type2Filter.collectAsState()
     val hasBranchedEvolutionFilter = filterViewModel.hasBranchedEvolutionFilter.collectAsState()
+    val isMonotypeFilter = filterViewModel.isMonotypeFilter.collectAsState()
 
     Box(
         modifier = Modifier
@@ -113,10 +114,49 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
                         onValueChange = { selectedName ->
                             filterViewModel.setType2Filter(selectedName)
                         },
+                        disabled = isMonotypeFilter.value == true,
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(horizontal = 16.dp, vertical = 8.dp)
                     )
+
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clickable {
+                                if (isMonotypeFilter.value == null) {
+                                    filterViewModel.setIsMonotypeFilter(true)
+                                    if (selectedType1Filter.value == null && selectedType2Filter.value != null) {
+                                        filterViewModel.setType1Filter(selectedType2Filter.value!!)
+                                        filterViewModel.clearType2Filter()
+                                    } else {
+                                        filterViewModel.clearType2Filter()
+                                    }
+                                } else {
+                                    filterViewModel.setIsMonotypeFilter(null)
+                                }
+                            }
+                            .padding(horizontal = 16.dp, vertical = 8.dp)
+                    ) {
+                        Checkbox(
+                            checked = isMonotypeFilter.value == true,
+                            onCheckedChange = {
+                                if (isMonotypeFilter.value == null) {
+                                    filterViewModel.setIsMonotypeFilter(true)
+                                    if (selectedType1Filter.value == null && selectedType2Filter.value != null) {
+                                        filterViewModel.setType1Filter(selectedType2Filter.value!!)
+                                        filterViewModel.clearType2Filter()
+                                    } else {
+                                        filterViewModel.clearType2Filter()
+                                    }
+                                } else {
+                                    filterViewModel.setIsMonotypeFilter(null)
+                                }
+                            }
+                        )
+                        Text(text = "Monotype")
+                    }
 
                     Row(
                         verticalAlignment = Alignment.CenterVertically,

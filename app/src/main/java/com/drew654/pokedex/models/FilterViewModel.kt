@@ -63,11 +63,19 @@ class FilterViewModel(application: Application) : AndroidViewModel(application) 
         _type1Filter.value = type
     }
 
+    fun clearType1Filter() {
+        _type1Filter.value = null
+    }
+
     private val _type2Filter = MutableStateFlow<String?>(null)
     val type2Filter: StateFlow<String?> = _type2Filter.asStateFlow()
 
     fun setType2Filter(type: String) {
         _type2Filter.value = type
+    }
+
+    fun clearType2Filter() {
+        _type2Filter.value = null
     }
 
     private val _hasBranchedEvolutionFilter = MutableStateFlow<Boolean?>(null)
@@ -77,10 +85,18 @@ class FilterViewModel(application: Application) : AndroidViewModel(application) 
         _hasBranchedEvolutionFilter.value = hasBranchedEvolution
     }
 
+    private val _isMonotypeFilter = MutableStateFlow<Boolean?>(null)
+    val isMonotypeFilter: StateFlow<Boolean?> = _isMonotypeFilter.asStateFlow()
+
+    fun setIsMonotypeFilter(isMonotype: Boolean?) {
+        _isMonotypeFilter.value = isMonotype
+    }
+
     fun clearFilters() {
         _regionFilter.value = null
         _type1Filter.value = null
         _type2Filter.value = null
         _hasBranchedEvolutionFilter.value = null
+        _isMonotypeFilter.value = null
     }
 }

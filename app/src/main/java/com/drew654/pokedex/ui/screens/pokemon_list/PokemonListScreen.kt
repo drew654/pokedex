@@ -42,18 +42,17 @@ fun PokemonListScreen(
     val type1Filter = filterViewModel.type1Filter.collectAsState()
     val type2Filter = filterViewModel.type2Filter.collectAsState()
     val hasBranchedEvolutionFilter = filterViewModel.hasBranchedEvolutionFilter.collectAsState()
+    val isMonotypeFilter = filterViewModel.isMonotypeFilter.collectAsState()
 
     val pokemonList = pokemonViewModel.pokemon.collectAsState()
     val pokemonListFiltered = pokemonList.value.filter { pokemon ->
         regionFilter.value == null || pokemon.originalRegion == regionFilter.value
     }.filter { pokemon ->
-        val isMonotype = type1Filter.value != null && type1Filter.value == type2Filter.value
-        if (isMonotype) {
-            pokemon.types.size == 1 && pokemon.types.contains(type1Filter.value)
-        } else {
-            (type1Filter.value == null || pokemon.types.contains(type1Filter.value)) &&
-                    (type2Filter.value == null || pokemon.types.contains(type2Filter.value))
-        }
+        type1Filter.value == null || pokemon.types.contains(type1Filter.value)
+    }.filter { pokemon ->
+        type2Filter.value == null || pokemon.types.contains(type2Filter.value)
+    }.filter { pokemon ->
+        isMonotypeFilter.value == null || pokemon.types.size == 1
     }.filter { pokemon ->
         pokemon.name.contains(searchPokemonName.value, ignoreCase = true)
     }.filter { pokemon ->
@@ -131,21 +130,30 @@ fun PokemonListScreen(
                             .padding(horizontal = 4.dp)
                             .weight(1f)
                     )
-                    FilterDropdown(
-                        filter = type2Filter.value,
-                        label = "Type",
-                        options = types.value,
-                        onValueChange = { selectedName ->
-                            filterViewModel.setType2Filter(selectedName)
-                        },
-                        modifier = Modifier.weight(1f)
-                    )
+                    if (isMonotypeFilter.value == null) {
+                        FilterDropdown(
+                            filter = type2Filter.value,
+                            label = "Type",
+                            options = types.value,
+                            onValueChange = { selectedName ->
+                                filterViewModel.setType2Filter(selectedName)
+                            },
+                            modifier = Modifier.weight(1f)
+                        )
+                    }
                 }
             }
 
             if (hasBranchedEvolutionFilter.value == true) {
                 FilterTag(
-                    text = "Has Branched Evolution",
+                    text = "Branched Evolution",
+                    modifier = Modifier.padding(horizontal = 4.dp)
+                )
+            }
+
+            if (isMonotypeFilter.value == true) {
+                FilterTag(
+                    text = "Monotype",
                     modifier = Modifier.padding(horizontal = 4.dp)
                 )
             }

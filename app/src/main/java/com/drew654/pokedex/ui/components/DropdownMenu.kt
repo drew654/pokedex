@@ -21,13 +21,14 @@ fun DropdownMenu(
     label: String,
     options: List<String>,
     onValueChange: (String) -> Unit,
+    disabled: Boolean = false,
     modifier: Modifier
 ) {
     var expanded by remember { mutableStateOf(false) }
 
     ExposedDropdownMenuBox(
         expanded = expanded,
-        onExpandedChange = { expanded = !expanded },
+        onExpandedChange = { if (!disabled) expanded = !expanded },
         modifier = modifier
     ) {
         OutlinedTextField(
@@ -36,6 +37,7 @@ fun DropdownMenu(
             onValueChange = { },
             label = { Text(label) },
             trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
+            enabled = !disabled,
             modifier = Modifier.menuAnchor()
         )
         ExposedDropdownMenu(
