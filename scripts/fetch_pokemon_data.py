@@ -71,6 +71,19 @@ def get_ability_names_en():
                 break
     return ability_names
 
+def get_stat_names_en():
+    data = get_data("https://pokeapi.co/api/v2/stat")
+    stats = data["results"]
+    stat_names = {}
+    for stat in stats:
+        url = stat["url"]
+        names = get_data(url)["names"]
+        for name in names:
+            if name["language"]["name"] == "en":
+                stat_names[stat["name"]] = name["name"]
+                break
+    return stat_names
+
 def get_evolution_line_id(id):
     data = get_data(f"https://pokeapi.co/api/v2/pokemon-species/{id}")
     return data["evolution_chain"]["url"].split("/")[-2]
@@ -148,121 +161,123 @@ def get_generation_names_en():
     return generation_names
 
 def get_types_data():
-    types = {
-        "normal": {
+    types = [
+        {
             "name": "Normal",
             "light_color": "#C1C2C1",
             "color": "#9FA19F",
             "dark_color": "#676967"
         },
-        "fighting": {
+        {
             "name": "Fighting",
             "light_color": "#FFAC59",
             "color": "#FF8000",
             "dark_color": "#A65300"
         },
-        "flying": {
+        {
             "name": "Flying",
             "light_color": "#ADD2F5",
             "color": "#81B9EF",
             "dark_color": "#54789B"
         },
-        "poison": {
+        {
             "name": "Poison",
             "light_color": "#B884DD",
             "color": "#9141CB",
             "dark_color": "#5E2A84"
         },
-        "ground": {
+        {
             "name": "Ground",
             "light_color": "#B88E6F",
             "color": "#915121",
             "dark_color": "#5E3515"
         },
-        "rock": {
+        {
             "name": "Rock",
             "light_color": "#CBC7AD",
             "color": "#AFA981",
             "dark_color": "#726E54"
         },
-        "bug": {
+        {
             "name": "Bug",
             "light_color": "#B8C26A",
             "color": "#91A119",
             "dark_color": "#5E6910"
         },
-        "ghost": {
+        {
             "name": "Ghost",
             "light_color": "#A284A2",
             "color": "#704170",
             "dark_color": "#492A49"
         },
-        "steel": {
+        {
             "name": "Steel",
             "light_color": "#98C2D1",
             "color": "#60A1B8",
             "dark_color": "#3E6978"
         },
-        "fire": {
+        {
             "name": "Fire",
             "light_color": "#EF7374",
             "color": "#E62829",
             "dark_color": "#961A1B"
         },
-        "water": {
+        {
             "name": "Water",
             "light_color": "#74ACF5",
             "color": "#2980EF",
             "dark_color": "#1B539B"
         },
-        "grass": {
+        {
             "name": "Grass",
             "light_color": "#82C274",
             "color": "#3FA129",
             "dark_color": "#29691B"
         },
-        "electric": {
+        {
             "name": "Electric",
             "light_color": "#FCD659",
             "color": "#FAC000",
             "dark_color": "#A37D00"
         },
-        "psychic": {
+        {
             "name": "Psychic",
             "light_color": "#F584A8",
             "color": "#EF4179",
             "dark_color": "#9B2A4F"
         },
-        "ice": {
+        {
             "name": "Ice",
             "light_color": "#81DFF7",
             "color": "#3DCEF3",
             "dark_color": "#28869E"
         },
-        "dragon": {
+        {
             "name": "Dragon",
             "light_color": "#8D98EC",
             "color": "#5060E1",
             "dark_color": "#343E92"
         },
-        "dark": {
+        {
             "name": "Dark",
             "light_color": "#998B8C",
             "color": "#624D4E",
             "dark_color": "#403233"
         },
-        "fairy": {
+        {
             "name": "Fairy",
             "light_color": "#F5A2F5",
             "color": "#EF70EF",
             "dark_color": "#9B499B"
         }
-    }
+    ]
     return types
 
 def main():
     pokemon_species = get_all_pokemon_species()
     pokemon = get_all_pokemon()
+    type_names_en = get_type_names_en()
+    stat_names_en = get_stat_names_en()
     types_data = get_types_data()
     ability_names_en = get_ability_names_en()
     generation_names_en = get_generation_names_en()
@@ -302,7 +317,7 @@ def main():
             trimmed_data["types"] = []
             types = pokemon_data["types"]
             for type in types:
-                trimmed_data["types"] += [types_data[type["type"]["name"]]["name"]]
+                trimmed_data["types"] += [type_names_en[type["type"]["name"]]]
 
             trimmed_data["abilities"] = []
             abilities = pokemon_data["abilities"]
@@ -316,6 +331,10 @@ def main():
 
             trimmed_data["original_region"] = generation_region[species_data["generation"]["name"]]
             trimmed_data["generation"] = generation_names_en[species_data["generation"]["name"]]
+
+            trimmed_data["base_stats"] = {}
+            for stat in pokemon_data["stats"]:
+                trimmed_data["base_stats"][stat_names_en[stat["stat"]["name"]]] = stat["base_stat"]
 
             if not os.path.exists("pokemon"):
                 os.makedirs("pokemon")
