@@ -23,7 +23,7 @@ fun FilterDropdown(
     filter: String?,
     label: String,
     options: List<String>,
-    onValueChange: (String) -> Unit,
+    onValueChange: (String?) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val isExpanded = remember { mutableStateOf(false) }
@@ -45,6 +45,18 @@ fun FilterDropdown(
             modifier = Modifier.padding(bottom = 16.dp)
         ) {
             LazyColumn {
+                items(1) {
+                    Text(
+                        text = "All ${label}s",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clickable {
+                                isExpanded.value = false
+                                onValueChange(null)
+                            }
+                            .padding(16.dp)
+                    )
+                }
                 items(options) { option ->
                     Text(
                         text = option,

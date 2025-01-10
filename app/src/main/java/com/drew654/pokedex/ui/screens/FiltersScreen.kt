@@ -83,42 +83,96 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
                 modifier = Modifier.fillMaxSize()
             ) {
                 items(1) {
-                    DropdownMenu(
-                        selectedValue = selectedGenerationFilter.value ?: "",
-                        label = "Generation",
-                        options = generations.value,
-                        onValueChange = { selectedName ->
-                            filterViewModel.setGenerationFilter(selectedName)
-                        },
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(horizontal = 16.dp, vertical = 8.dp)
-                    )
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        DropdownMenu(
+                            selectedValue = selectedGenerationFilter.value ?: "",
+                            label = "Generation",
+                            options = generations.value,
+                            onValueChange = { selectedName ->
+                                filterViewModel.setGenerationFilter(selectedName)
+                            },
+                            modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+                        )
 
-                    DropdownMenu(
-                        selectedValue = selectedType1Filter.value ?: "",
-                        label = "Type",
-                        options = types.value,
-                        onValueChange = { selectedName ->
-                            filterViewModel.setType1Filter(selectedName)
-                        },
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(horizontal = 16.dp, vertical = 8.dp)
-                    )
+                        if (selectedGenerationFilter.value != null) {
+                            IconButton(
+                                onClick = {
+                                    filterViewModel.setGenerationFilter(null)
+                                    focusManager.clearFocus()
+                                }
+                            ) {
+                                Icon(
+                                    painter = painterResource(id = R.drawable.baseline_clear_24),
+                                    contentDescription = "Clear filter"
+                                )
+                            }
+                        }
+                    }
 
-                    DropdownMenu(
-                        selectedValue = selectedType2Filter.value ?: "",
-                        label = "Type",
-                        options = types.value,
-                        onValueChange = { selectedName ->
-                            filterViewModel.setType2Filter(selectedName)
-                        },
-                        disabled = isMonotypeFilter.value == true,
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(horizontal = 16.dp, vertical = 8.dp)
-                    )
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        DropdownMenu(
+                            selectedValue = selectedType1Filter.value ?: "",
+                            label = "Type",
+                            options = types.value,
+                            onValueChange = { selectedName ->
+                                filterViewModel.setType1Filter(selectedName)
+                            },
+                            modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+                        )
+
+                        if (selectedType1Filter.value != null) {
+                            IconButton(
+                                onClick = {
+                                    filterViewModel.setType1Filter(null)
+                                    focusManager.clearFocus()
+                                }
+                            ) {
+                                Icon(
+                                    painter = painterResource(id = R.drawable.baseline_clear_24),
+                                    contentDescription = "Clear filter"
+                                )
+                            }
+                        }
+                    }
+
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        DropdownMenu(
+                            selectedValue = selectedType2Filter.value ?: "",
+                            label = "Type",
+                            options = types.value,
+                            onValueChange = { selectedName ->
+                                filterViewModel.setType2Filter(selectedName)
+                            },
+                            disabled = isMonotypeFilter.value == true,
+                            modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+                        )
+
+                        if (selectedType2Filter.value != null) {
+                            IconButton(
+                                onClick = {
+                                    filterViewModel.setType2Filter(null)
+                                    focusManager.clearFocus()
+                                }
+                            ) {
+                                Icon(
+                                    painter = painterResource(id = R.drawable.baseline_clear_24),
+                                    contentDescription = "Clear filter"
+                                )
+                            }
+                        }
+                    }
 
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
@@ -129,9 +183,9 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
                                     filterViewModel.setIsMonotypeFilter(true)
                                     if (selectedType1Filter.value == null && selectedType2Filter.value != null) {
                                         filterViewModel.setType1Filter(selectedType2Filter.value!!)
-                                        filterViewModel.clearType2Filter()
+                                        filterViewModel.setType2Filter(null)
                                     } else {
-                                        filterViewModel.clearType2Filter()
+                                        filterViewModel.setType2Filter(null)
                                     }
                                 } else {
                                     filterViewModel.setIsMonotypeFilter(null)
@@ -146,9 +200,9 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
                                     filterViewModel.setIsMonotypeFilter(true)
                                     if (selectedType1Filter.value == null && selectedType2Filter.value != null) {
                                         filterViewModel.setType1Filter(selectedType2Filter.value!!)
-                                        filterViewModel.clearType2Filter()
+                                        filterViewModel.setType2Filter(null)
                                     } else {
-                                        filterViewModel.clearType2Filter()
+                                        filterViewModel.setType2Filter(null)
                                     }
                                 } else {
                                     filterViewModel.setIsMonotypeFilter(null)
