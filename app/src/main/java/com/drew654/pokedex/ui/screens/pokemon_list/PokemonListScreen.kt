@@ -37,8 +37,8 @@ fun PokemonListScreen(
     val isSearching = pokemonViewModel.isSearching.collectAsState()
 
     val types = filterViewModel.types.collectAsState()
-    val regions = filterViewModel.regions.collectAsState()
-    val regionFilter = filterViewModel.regionFilter.collectAsState()
+    val generations = filterViewModel.generations.collectAsState()
+    val generationFilter = filterViewModel.generationFilter.collectAsState()
     val type1Filter = filterViewModel.type1Filter.collectAsState()
     val type2Filter = filterViewModel.type2Filter.collectAsState()
     val hasBranchedEvolutionFilter = filterViewModel.hasBranchedEvolutionFilter.collectAsState()
@@ -46,7 +46,7 @@ fun PokemonListScreen(
 
     val pokemonList = pokemonViewModel.pokemon.collectAsState()
     val pokemonListFiltered = pokemonList.value.filter { pokemon ->
-        regionFilter.value == null || pokemon.originalRegion == regionFilter.value
+        generationFilter.value == null || pokemon.generation == generationFilter.value
     }.filter { pokemon ->
         type1Filter.value == null || pokemon.types.contains(type1Filter.value)
     }.filter { pokemon ->
@@ -111,11 +111,11 @@ fun PokemonListScreen(
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     FilterDropdown(
-                        filter = regionFilter.value,
-                        label = "Region",
-                        options = regions.value,
+                        filter = generationFilter.value,
+                        label = "Generation",
+                        options = generations.value,
                         onValueChange = { selectedName ->
-                            filterViewModel.setRegionFilter(selectedName)
+                            filterViewModel.setGenerationFilter(selectedName)
                         },
                         modifier = Modifier.weight(1f)
                     )

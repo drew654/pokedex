@@ -16,30 +16,29 @@ import kotlinx.serialization.json.jsonPrimitive
 class FilterViewModel(application: Application) : AndroidViewModel(application) {
     init {
         viewModelScope.launch {
-            loadRegionsFromJson()
+            loadGenerationsFromJson()
             loadTypesFromJson()
         }
     }
 
-    private suspend fun loadRegionsFromJson() {
+    private suspend fun loadGenerationsFromJson() {
         val json = Json { ignoreUnknownKeys = true }
-        val regionsJson = withContext(Dispatchers.IO) {
-            val inputStream =
-                getApplication<Application>().assets.open("region_names.json")
+        val generationsJson = withContext(Dispatchers.IO) {
+            val inputStream = getApplication<Application>().assets.open("generation_names.json")
             json.parseToJsonElement(inputStream.bufferedReader().use { it.readText() }).jsonArray
         }
 
-        _regions.value = regionsJson.map { it.jsonPrimitive.content }
+        _generations.value = generationsJson.map { it.jsonPrimitive.content }
     }
 
-    private val _regions = MutableStateFlow<List<String>>(emptyList())
-    val regions: StateFlow<List<String>> = _regions.asStateFlow()
+    private val _generations = MutableStateFlow<List<String>>(emptyList())
+    val generations: StateFlow<List<String>> = _generations.asStateFlow()
 
-    private val _regionFilter = MutableStateFlow<String?>(null)
-    val regionFilter: StateFlow<String?> = _regionFilter.asStateFlow()
+    private val _generationFilter = MutableStateFlow<String?>(null)
+    val generationFilter: StateFlow<String?> = _generationFilter.asStateFlow()
 
-    fun setRegionFilter(region: String) {
-        _regionFilter.value = region
+    fun setGenerationFilter(generation: String) {
+        _generationFilter.value = generation
     }
 
     private suspend fun loadTypesFromJson() {
@@ -93,7 +92,7 @@ class FilterViewModel(application: Application) : AndroidViewModel(application) 
     }
 
     fun clearFilters() {
-        _regionFilter.value = null
+        _generationFilter.value = null
         _type1Filter.value = null
         _type2Filter.value = null
         _hasBranchedEvolutionFilter.value = null

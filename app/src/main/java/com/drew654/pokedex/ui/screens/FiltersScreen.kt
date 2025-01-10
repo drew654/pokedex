@@ -35,8 +35,8 @@ import com.drew654.pokedex.ui.components.DropdownMenu
 @Composable
 fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel) {
     val focusManager = LocalFocusManager.current
-    val regions = filterViewModel.regions.collectAsState()
-    val selectedRegionFilter = filterViewModel.regionFilter.collectAsState()
+    val generations = filterViewModel.generations.collectAsState()
+    val selectedGenerationFilter = filterViewModel.generationFilter.collectAsState()
     val types = filterViewModel.types.collectAsState()
     val selectedType1Filter = filterViewModel.type1Filter.collectAsState()
     val selectedType2Filter = filterViewModel.type2Filter.collectAsState()
@@ -84,11 +84,11 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
             ) {
                 items(1) {
                     DropdownMenu(
-                        selectedValue = selectedRegionFilter.value ?: "",
-                        label = "Region",
-                        options = regions.value,
+                        selectedValue = selectedGenerationFilter.value ?: "",
+                        label = "Generation",
+                        options = generations.value,
                         onValueChange = { selectedName ->
-                            filterViewModel.setRegionFilter(selectedName)
+                            filterViewModel.setGenerationFilter(selectedName)
                         },
                         modifier = Modifier
                             .fillMaxWidth()
