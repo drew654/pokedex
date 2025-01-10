@@ -9,17 +9,22 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun FilterTag(text: String, modifier: Modifier = Modifier) {
+fun FilterTag(
+    text: String,
+    color: Color? = MaterialTheme.colorScheme.surfaceVariant,
+    modifier: Modifier = Modifier
+) {
     Box(
         modifier = Modifier
             .padding(all = 4.dp)
             .background(
-                MaterialTheme.colorScheme.surfaceVariant,
-                RoundedCornerShape(8.dp)
+                color = color ?: MaterialTheme.colorScheme.surfaceVariant,
+                shape = RoundedCornerShape(8.dp)
             )
     ) {
         Text(

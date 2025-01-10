@@ -1,6 +1,7 @@
 package com.drew654.pokedex.ui.screens.pokemon_list
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -115,29 +116,32 @@ fun PokemonListScreen(
                     FilterDropdown(
                         filter = generationFilter.value,
                         label = "Generation",
-                        options = generations.value,
+                        options = generations.value.map { it to MaterialTheme.colorScheme.surfaceVariant },
                         onValueChange = { selectedName ->
                             filterViewModel.setGenerationFilter(selectedName)
                         },
+                        filterViewModel = filterViewModel,
                         modifier = Modifier.weight(1f)
                     )
                     FilterDropdown(
                         filter = type1Filter.value,
                         label = "Type",
-                        options = types.value,
+                        options = types.value.map { it -> it.name to if (isSystemInDarkTheme()) it.darkColor else it.lightColor },
                         onValueChange = { selectedName ->
                             filterViewModel.setType1Filter(selectedName)
                         },
+                        filterViewModel = filterViewModel,
                         modifier = Modifier.weight(1f)
                     )
                     if (isMonotypeFilter.value == null) {
                         FilterDropdown(
                             filter = type2Filter.value,
                             label = "Type",
-                            options = types.value,
+                            options = types.value.map { it -> it.name to if (isSystemInDarkTheme()) it.darkColor else it.lightColor },
                             onValueChange = { selectedName ->
                                 filterViewModel.setType2Filter(selectedName)
                             },
+                            filterViewModel = filterViewModel,
                             modifier = Modifier.weight(1f)
                         )
                     }

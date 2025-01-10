@@ -1,6 +1,11 @@
 package com.drew654.pokedex.utils
 
 import android.content.Context
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.ui.graphics.Color
+import com.drew654.pokedex.models.FilterViewModel
 import com.drew654.pokedex.models.Pokemon
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonElement
@@ -49,4 +54,12 @@ fun getEvolutionsWithIndention(
         }
     }
     return pokemonList
+}
+
+@Composable
+fun getTypeColor(type: String, filterViewModel: FilterViewModel): Color? {
+    val types = filterViewModel.types.collectAsState()
+    val typeColor =
+        if (isSystemInDarkTheme()) types.value.find { it.name == type }?.darkColor else types.value.find { it.name == type }?.lightColor
+    return typeColor
 }

@@ -9,21 +9,24 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ModalBottomSheet
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import com.drew654.pokedex.models.FilterViewModel
+import com.drew654.pokedex.utils.getTypeColor
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun FilterDropdown(
     filter: String?,
     label: String,
-    options: List<String>,
+    options: List<Pair<String, Color>>,
     onValueChange: (String?) -> Unit,
+    filterViewModel: FilterViewModel,
     modifier: Modifier = Modifier,
 ) {
     val isExpanded = remember { mutableStateOf(false) }
@@ -31,6 +34,7 @@ fun FilterDropdown(
     Box(modifier = modifier) {
         FilterTag(
             text = filter?.replace("Generation", "Gen.") ?: label,
+            color = getTypeColor(type = filter ?: label, filterViewModel = filterViewModel),
             modifier = Modifier
                 .clip(RoundedCornerShape(8.dp))
                 .clickable {
@@ -46,7 +50,7 @@ fun FilterDropdown(
         ) {
             LazyColumn {
                 items(1) {
-                    Text(
+                    FilterTag(
                         text = "All ${label}s",
                         modifier = Modifier
                             .fillMaxWidth()
@@ -54,19 +58,18 @@ fun FilterDropdown(
                                 isExpanded.value = false
                                 onValueChange(null)
                             }
-                            .padding(16.dp)
                     )
                 }
                 items(options) { option ->
-                    Text(
-                        text = option,
+                    FilterTag(
+                        text = option.first,
+                        color = option.second,
                         modifier = Modifier
                             .fillMaxWidth()
                             .clickable {
                                 isExpanded.value = false
-                                onValueChange(option)
+                                onValueChange(option.first)
                             }
-                            .padding(16.dp)
                     )
                 }
             }

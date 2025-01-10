@@ -100,7 +100,7 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
                     DismissibleDropdownMenu(
                         selectedValue = selectedType1Filter.value,
                         label = "Type",
-                        options = types.value,
+                        options = types.value.map { it.name },
                         onValueChange = { selectedName ->
                             filterViewModel.setType1Filter(selectedName)
                         },
@@ -114,7 +114,7 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
                     DismissibleDropdownMenu(
                         selectedValue = selectedType2Filter.value,
                         label = "Type",
-                        options = types.value,
+                        options = types.value.map { it.name },
                         onValueChange = { selectedName ->
                             filterViewModel.setType2Filter(selectedName)
                         },

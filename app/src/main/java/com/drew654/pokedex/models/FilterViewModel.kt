@@ -1,6 +1,8 @@
 package com.drew654.pokedex.models
 
 import android.app.Application
+import android.graphics.Color.parseColor
+import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
@@ -11,6 +13,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.jsonArray
+import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
 
 class FilterViewModel(application: Application) : AndroidViewModel(application) {
@@ -45,15 +48,32 @@ class FilterViewModel(application: Application) : AndroidViewModel(application) 
         val json = Json { ignoreUnknownKeys = true }
         val typesJson = withContext(Dispatchers.IO) {
             val inputStream =
-                getApplication<Application>().assets.open("type_names.json")
+                getApplication<Application>().assets.open("types.json")
             json.parseToJsonElement(inputStream.bufferedReader().use { it.readText() }).jsonArray
         }
+        val types = typesJson.map { it ->
+            val name = it.jsonObject["name"]?.jsonPrimitive?.content
+            val lightColor = it.jsonObject["light_color"]?.jsonPrimitive?.content
+            val color = it.jsonObject["color"]?.jsonPrimitive?.content
+            val darkColor = it.jsonObject["dark_color"]?.jsonPrimitive?.content
 
-        _types.value = typesJson.map { it.jsonPrimitive.content }
+            if (name != null && lightColor != null && color != null && darkColor != null) {
+                Type(
+                    name,
+                    Color(parseColor(lightColor)),
+                    Color(parseColor(color)),
+                    Color(parseColor(darkColor))
+                )
+            } else {
+                throw IllegalStateException("Invalid Type data")
+            }
+        }
+
+        _types.value = types
     }
 
-    private val _types = MutableStateFlow<List<String>>(emptyList())
-    val types: StateFlow<List<String>> = _types.asStateFlow()
+    private val _types = MutableStateFlow<List<Type>>(emptyList())
+    val types: StateFlow<List<Type>> = _types.asStateFlow()
 
     private val _type1Filter = MutableStateFlow<String?>(null)
     val type1Filter: StateFlow<String?> = _type1Filter.asStateFlow()
