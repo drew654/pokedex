@@ -13,7 +13,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.material3.Checkbox
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -30,7 +29,8 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.drew654.pokedex.R
 import com.drew654.pokedex.models.FilterViewModel
-import com.drew654.pokedex.ui.components.DropdownMenu
+import com.drew654.pokedex.ui.components.CheckboxRow
+import com.drew654.pokedex.ui.components.DismissibleDropdownMenu
 
 @Composable
 fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel) {
@@ -83,160 +83,77 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
                 modifier = Modifier.fillMaxSize()
             ) {
                 items(1) {
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.SpaceBetween,
-                        modifier = Modifier.fillMaxWidth()
-                    ) {
-                        DropdownMenu(
-                            selectedValue = selectedGenerationFilter.value ?: "",
-                            label = "Generation",
-                            options = generations.value,
-                            onValueChange = { selectedName ->
-                                filterViewModel.setGenerationFilter(selectedName)
-                            },
-                            modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
-                        )
+                    DismissibleDropdownMenu(
+                        selectedValue = selectedGenerationFilter.value,
+                        label = "Generation",
+                        options = generations.value,
+                        onValueChange = { selectedName ->
+                            filterViewModel.setGenerationFilter(selectedName)
+                        },
+                        onClear = {
+                            filterViewModel.setGenerationFilter(null)
+                            focusManager.clearFocus()
+                        },
+                        modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+                    )
 
-                        if (selectedGenerationFilter.value != null) {
-                            IconButton(
-                                onClick = {
-                                    filterViewModel.setGenerationFilter(null)
-                                    focusManager.clearFocus()
-                                }
-                            ) {
-                                Icon(
-                                    painter = painterResource(id = R.drawable.baseline_clear_24),
-                                    contentDescription = "Clear filter"
-                                )
-                            }
-                        }
-                    }
+                    DismissibleDropdownMenu(
+                        selectedValue = selectedType1Filter.value,
+                        label = "Type",
+                        options = types.value,
+                        onValueChange = { selectedName ->
+                            filterViewModel.setType1Filter(selectedName)
+                        },
+                        onClear = {
+                            filterViewModel.setType1Filter(null)
+                            focusManager.clearFocus()
+                        },
+                        modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+                    )
 
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.SpaceBetween,
-                        modifier = Modifier.fillMaxWidth()
-                    ) {
-                        DropdownMenu(
-                            selectedValue = selectedType1Filter.value ?: "",
-                            label = "Type",
-                            options = types.value,
-                            onValueChange = { selectedName ->
-                                filterViewModel.setType1Filter(selectedName)
-                            },
-                            modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
-                        )
+                    DismissibleDropdownMenu(
+                        selectedValue = selectedType2Filter.value,
+                        label = "Type",
+                        options = types.value,
+                        onValueChange = { selectedName ->
+                            filterViewModel.setType2Filter(selectedName)
+                        },
+                        onClear = {
+                            filterViewModel.setType2Filter(null)
+                            focusManager.clearFocus()
+                        },
+                        modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+                    )
 
-                        if (selectedType1Filter.value != null) {
-                            IconButton(
-                                onClick = {
-                                    filterViewModel.setType1Filter(null)
-                                    focusManager.clearFocus()
-                                }
-                            ) {
-                                Icon(
-                                    painter = painterResource(id = R.drawable.baseline_clear_24),
-                                    contentDescription = "Clear filter"
-                                )
-                            }
-                        }
-                    }
-
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.SpaceBetween,
-                        modifier = Modifier.fillMaxWidth()
-                    ) {
-                        DropdownMenu(
-                            selectedValue = selectedType2Filter.value ?: "",
-                            label = "Type",
-                            options = types.value,
-                            onValueChange = { selectedName ->
-                                filterViewModel.setType2Filter(selectedName)
-                            },
-                            disabled = isMonotypeFilter.value == true,
-                            modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
-                        )
-
-                        if (selectedType2Filter.value != null) {
-                            IconButton(
-                                onClick = {
+                    CheckboxRow(
+                        label = "Monotype",
+                        checked = isMonotypeFilter.value == true,
+                        onClick = {
+                            if (isMonotypeFilter.value == null) {
+                                filterViewModel.setIsMonotypeFilter(true)
+                                if (selectedType1Filter.value == null && selectedType2Filter.value != null) {
+                                    filterViewModel.setType1Filter(selectedType2Filter.value!!)
                                     filterViewModel.setType2Filter(null)
-                                    focusManager.clearFocus()
+                                } else {
+                                    filterViewModel.setType2Filter(null)
                                 }
-                            ) {
-                                Icon(
-                                    painter = painterResource(id = R.drawable.baseline_clear_24),
-                                    contentDescription = "Clear filter"
-                                )
+                            } else {
+                                filterViewModel.setIsMonotypeFilter(null)
                             }
                         }
-                    }
+                    )
 
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .clickable {
-                                if (isMonotypeFilter.value == null) {
-                                    filterViewModel.setIsMonotypeFilter(true)
-                                    if (selectedType1Filter.value == null && selectedType2Filter.value != null) {
-                                        filterViewModel.setType1Filter(selectedType2Filter.value!!)
-                                        filterViewModel.setType2Filter(null)
-                                    } else {
-                                        filterViewModel.setType2Filter(null)
-                                    }
-                                } else {
-                                    filterViewModel.setIsMonotypeFilter(null)
-                                }
+                    CheckboxRow(
+                        label = "Branched Evolution",
+                        checked = hasBranchedEvolutionFilter.value == true,
+                        onClick = {
+                            if (hasBranchedEvolutionFilter.value == null) {
+                                filterViewModel.setHasBranchedEvolutionFilter(true)
+                            } else {
+                                filterViewModel.setHasBranchedEvolutionFilter(null)
                             }
-                            .padding(horizontal = 16.dp, vertical = 8.dp)
-                    ) {
-                        Checkbox(
-                            checked = isMonotypeFilter.value == true,
-                            onCheckedChange = {
-                                if (isMonotypeFilter.value == null) {
-                                    filterViewModel.setIsMonotypeFilter(true)
-                                    if (selectedType1Filter.value == null && selectedType2Filter.value != null) {
-                                        filterViewModel.setType1Filter(selectedType2Filter.value!!)
-                                        filterViewModel.setType2Filter(null)
-                                    } else {
-                                        filterViewModel.setType2Filter(null)
-                                    }
-                                } else {
-                                    filterViewModel.setIsMonotypeFilter(null)
-                                }
-                            }
-                        )
-                        Text(text = "Monotype")
-                    }
-
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .clickable {
-                                if (hasBranchedEvolutionFilter.value == null) {
-                                    filterViewModel.setHasBranchedEvolutionFilter(true)
-                                } else {
-                                    filterViewModel.setHasBranchedEvolutionFilter(null)
-                                }
-                            }
-                            .padding(horizontal = 16.dp, vertical = 8.dp)
-                    ) {
-                        Checkbox(
-                            checked = hasBranchedEvolutionFilter.value == true,
-                            onCheckedChange = {
-                                if (hasBranchedEvolutionFilter.value == null) {
-                                    filterViewModel.setHasBranchedEvolutionFilter(true)
-                                } else {
-                                    filterViewModel.setHasBranchedEvolutionFilter(null)
-                                }
-                            }
-                        )
-                        Text(text = "Branched Evolution")
-                    }
+                        }
+                    )
                 }
             }
         }
