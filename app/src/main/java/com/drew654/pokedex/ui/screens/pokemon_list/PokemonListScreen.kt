@@ -108,7 +108,9 @@ fun PokemonListScreen(
                 }
 
                 Row(
-                    modifier = Modifier.fillMaxWidth()
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 4.dp)
                 ) {
                     FilterDropdown(
                         filter = generationFilter.value,
@@ -126,9 +128,7 @@ fun PokemonListScreen(
                         onValueChange = { selectedName ->
                             filterViewModel.setType1Filter(selectedName)
                         },
-                        modifier = Modifier
-                            .padding(horizontal = 4.dp)
-                            .weight(1f)
+                        modifier = Modifier.weight(1f)
                     )
                     if (isMonotypeFilter.value == null) {
                         FilterDropdown(
@@ -144,18 +144,22 @@ fun PokemonListScreen(
                 }
             }
 
-            if (hasBranchedEvolutionFilter.value == true) {
-                FilterTag(
-                    text = "Branched Evolution",
-                    modifier = Modifier.padding(horizontal = 4.dp)
-                )
+            if (isMonotypeFilter.value == true) {
+                Box(modifier = Modifier.padding(horizontal = 4.dp)) {
+                    FilterTag(
+                        text = "Monotype",
+                        modifier = Modifier.padding(horizontal = 4.dp)
+                    )
+                }
             }
 
-            if (isMonotypeFilter.value == true) {
-                FilterTag(
-                    text = "Monotype",
-                    modifier = Modifier.padding(horizontal = 4.dp)
-                )
+            if (hasBranchedEvolutionFilter.value == true) {
+                Box(modifier = Modifier.padding(horizontal = 4.dp)) {
+                    FilterTag(
+                        text = "Branched Evolution",
+                        modifier = Modifier.padding(horizontal = 4.dp)
+                    )
+                }
             }
 
             LazyColumn {

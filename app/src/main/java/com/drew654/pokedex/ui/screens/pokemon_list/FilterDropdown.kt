@@ -30,7 +30,7 @@ fun FilterDropdown(
 
     Box(modifier = modifier) {
         FilterTag(
-            text = filter ?: label,
+            text = filter?.replace("Generation", "Gen.") ?: label,
             modifier = Modifier
                 .clip(RoundedCornerShape(8.dp))
                 .clickable {

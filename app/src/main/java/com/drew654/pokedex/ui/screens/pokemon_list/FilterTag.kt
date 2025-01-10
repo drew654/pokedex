@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.dp
 fun FilterTag(text: String, modifier: Modifier = Modifier) {
     Box(
         modifier = Modifier
-            .padding(all = 8.dp)
+            .padding(all = 4.dp)
             .background(
                 MaterialTheme.colorScheme.surfaceVariant,
                 RoundedCornerShape(8.dp)
@@ -26,7 +26,7 @@ fun FilterTag(text: String, modifier: Modifier = Modifier) {
             text = text,
             textAlign = TextAlign.Center,
             modifier = modifier
-                .padding(horizontal = 16.dp, vertical = 4.dp)
+                .padding(horizontal = 4.dp, vertical = 4.dp)
                 .fillMaxWidth()
         )
     }
