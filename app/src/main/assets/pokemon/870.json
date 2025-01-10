@@ -1,1 +1,1 @@
-{"id": 870, "name": "Falinks", "types": ["Fighting"], "abilities": [{"name": "Battle Armor", "is_hidden": false}, {"name": "Defiant", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 870}, "has_branched_evolution": false, "original_region": "Galar"}
+{"id": 870, "name": "Falinks", "types": ["Fighting"], "abilities": [{"name": "Battle Armor", "is_hidden": false}, {"name": "Defiant", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 870}, "has_branched_evolution": false, "original_region": "Galar", "generation": "Generation VIII"}

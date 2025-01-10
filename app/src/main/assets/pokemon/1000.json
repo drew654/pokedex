@@ -1,1 +1,1 @@
-{"id": 1000, "name": "Gholdengo", "types": ["Steel", "Ghost"], "abilities": [{"name": "Good as Gold", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 999, "evolves_to": [{"id": 1000}]}, "has_branched_evolution": false, "original_region": "Paldea"}
+{"id": 1000, "name": "Gholdengo", "types": ["Steel", "Ghost"], "abilities": [{"name": "Good as Gold", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 999, "evolves_to": [{"id": 1000}]}, "has_branched_evolution": false, "original_region": "Paldea", "generation": "Generation IX"}

@@ -1,1 +1,1 @@
-{"id": 562, "name": "Yamask", "types": ["Ghost"], "abilities": [{"name": "Mummy", "is_hidden": false}], "color": "black", "evolution_line": {"id": 562, "evolves_to": [{"id": 563}, {"id": 867}]}, "has_branched_evolution": true, "original_region": "Unova"}
+{"id": 562, "name": "Yamask", "types": ["Ghost"], "abilities": [{"name": "Mummy", "is_hidden": false}], "color": "black", "evolution_line": {"id": 562, "evolves_to": [{"id": 563}, {"id": 867}]}, "has_branched_evolution": true, "original_region": "Unova", "generation": "Generation V"}

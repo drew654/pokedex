@@ -1,1 +1,1 @@
-{"id": 768, "name": "Golisopod", "types": ["Bug", "Water"], "abilities": [{"name": "Emergency Exit", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 767, "evolves_to": [{"id": 768}]}, "has_branched_evolution": false, "original_region": "Alola"}
+{"id": 768, "name": "Golisopod", "types": ["Bug", "Water"], "abilities": [{"name": "Emergency Exit", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 767, "evolves_to": [{"id": 768}]}, "has_branched_evolution": false, "original_region": "Alola", "generation": "Generation VII"}

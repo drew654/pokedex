@@ -1,1 +1,1 @@
-{"id": 968, "name": "Orthworm", "types": ["Steel"], "abilities": [{"name": "Earth Eater", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 968}, "has_branched_evolution": false, "original_region": "Paldea"}
+{"id": 968, "name": "Orthworm", "types": ["Steel"], "abilities": [{"name": "Earth Eater", "is_hidden": false}, {"name": "Sand Veil", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 968}, "has_branched_evolution": false, "original_region": "Paldea", "generation": "Generation IX"}

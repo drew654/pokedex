@@ -1,1 +1,1 @@
-{"id": 999, "name": "Gimmighoul", "types": ["Ghost"], "abilities": [{"name": "Rattled", "is_hidden": false}], "color": "brown", "evolution_line": {"id": 999, "evolves_to": [{"id": 1000}]}, "has_branched_evolution": false, "original_region": "Paldea"}
+{"id": 999, "name": "Gimmighoul", "types": ["Ghost"], "abilities": [{"name": "Rattled", "is_hidden": false}], "color": "brown", "evolution_line": {"id": 999, "evolves_to": [{"id": 1000}]}, "has_branched_evolution": false, "original_region": "Paldea", "generation": "Generation IX"}

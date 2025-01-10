@@ -1,1 +1,1 @@
-{"id": 647, "name": "Keldeo", "types": ["Water", "Fighting"], "abilities": [{"name": "Justified", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 647}, "has_branched_evolution": false, "original_region": "Unova"}
+{"id": 647, "name": "Keldeo", "types": ["Water", "Fighting"], "abilities": [{"name": "Justified", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 647}, "has_branched_evolution": false, "original_region": "Unova", "generation": "Generation V"}

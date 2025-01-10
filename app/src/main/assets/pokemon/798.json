@@ -1,1 +1,1 @@
-{"id": 798, "name": "Kartana", "types": ["Grass", "Steel"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "white", "evolution_line": {"id": 798}, "has_branched_evolution": false, "original_region": "Alola"}
+{"id": 798, "name": "Kartana", "types": ["Grass", "Steel"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "white", "evolution_line": {"id": 798}, "has_branched_evolution": false, "original_region": "Alola", "generation": "Generation VII"}

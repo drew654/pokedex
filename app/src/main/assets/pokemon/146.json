@@ -1,1 +1,1 @@
-{"id": 146, "name": "Moltres", "types": ["Fire", "Flying"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Flame Body", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 146}, "has_branched_evolution": false, "original_region": "Kanto"}
+{"id": 146, "name": "Moltres", "types": ["Fire", "Flying"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Flame Body", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 146}, "has_branched_evolution": false, "original_region": "Kanto", "generation": "Generation I"}

@@ -1,1 +1,1 @@
-{"id": 692, "name": "Clauncher", "types": ["Water"], "abilities": [{"name": "Mega Launcher", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 692, "evolves_to": [{"id": 693}]}, "has_branched_evolution": false, "original_region": "Kalos"}
+{"id": 692, "name": "Clauncher", "types": ["Water"], "abilities": [{"name": "Mega Launcher", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 692, "evolves_to": [{"id": 693}]}, "has_branched_evolution": false, "original_region": "Kalos", "generation": "Generation VI"}

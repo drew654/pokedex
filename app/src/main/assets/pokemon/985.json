@@ -1,1 +1,1 @@
-{"id": 985, "name": "Scream Tail", "types": ["Fairy", "Psychic"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}], "color": "pink", "evolution_line": {"id": 985}, "has_branched_evolution": false, "original_region": "Paldea"}
+{"id": 985, "name": "Scream Tail", "types": ["Fairy", "Psychic"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}], "color": "pink", "evolution_line": {"id": 985}, "has_branched_evolution": false, "original_region": "Paldea", "generation": "Generation IX"}

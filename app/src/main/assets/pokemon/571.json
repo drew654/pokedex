@@ -1,1 +1,1 @@
-{"id": 571, "name": "Zoroark", "types": ["Dark"], "abilities": [{"name": "Illusion", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 570, "evolves_to": [{"id": 571}]}, "has_branched_evolution": false, "original_region": "Unova"}
+{"id": 571, "name": "Zoroark", "types": ["Dark"], "abilities": [{"name": "Illusion", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 570, "evolves_to": [{"id": 571}]}, "has_branched_evolution": false, "original_region": "Unova", "generation": "Generation V"}

@@ -1,1 +1,1 @@
-{"id": 984, "name": "Great Tusk", "types": ["Ground", "Fighting"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}], "color": "purple", "evolution_line": {"id": 984}, "has_branched_evolution": false, "original_region": "Paldea"}
+{"id": 984, "name": "Great Tusk", "types": ["Ground", "Fighting"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}], "color": "purple", "evolution_line": {"id": 984}, "has_branched_evolution": false, "original_region": "Paldea", "generation": "Generation IX"}

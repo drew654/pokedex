@@ -134,19 +134,39 @@ def get_generation_region():
 
     return generation_region, region_names
 
+def get_generation_names_en():
+    data = get_data("https://pokeapi.co/api/v2/generation")
+    generations = data["results"]
+    generation_names = {}
+    for generation in generations:
+        url = generation["url"]
+        names = get_data(url)["names"]
+        for name in names:
+            if name["language"]["name"] == "en":
+                generation_names[generation["name"]] = name["name"]
+                break
+    return generation_names
+
 def main():
     pokemon_species = get_all_pokemon_species()
     pokemon = get_all_pokemon()
     type_names_en = get_type_names_en()
-    type_names = []
     ability_names_en = get_ability_names_en()
+    generation_names_en = get_generation_names_en()
     generation_region, region_names = get_generation_region()
 
+    type_names = []
     for type in type_names_en:
         if type != "unknown" and type != "stellar":
             type_names.append(type_names_en[type])
     with open("type_names.json", "w") as f:
         f.write(json.dumps(type_names))
+
+    generation_names = []
+    for generation in generation_names_en:
+        generation_names.append(generation_names_en[generation])
+    with open("generation_names.json", "w") as f:
+        f.write(json.dumps(generation_names))
 
     with open("region_names.json", "w") as f:
         f.write(json.dumps(region_names))
@@ -186,6 +206,7 @@ def main():
             trimmed_data["has_branched_evolution"] = has_branched_evolution(id, trimmed_data["evolution_line"])
 
             trimmed_data["original_region"] = generation_region[species_data["generation"]["name"]]
+            trimmed_data["generation"] = generation_names_en[species_data["generation"]["name"]]
 
             if not os.path.exists("pokemon"):
                 os.makedirs("pokemon")

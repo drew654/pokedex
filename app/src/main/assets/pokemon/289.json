@@ -1,1 +1,1 @@
-{"id": 289, "name": "Slaking", "types": ["Normal"], "abilities": [{"name": "Truant", "is_hidden": false}], "color": "brown", "evolution_line": {"id": 287, "evolves_to": [{"id": 288, "evolves_to": [{"id": 289}]}]}, "has_branched_evolution": false, "original_region": "Hoenn"}
+{"id": 289, "name": "Slaking", "types": ["Normal"], "abilities": [{"name": "Truant", "is_hidden": false}], "color": "brown", "evolution_line": {"id": 287, "evolves_to": [{"id": 288, "evolves_to": [{"id": 289}]}]}, "has_branched_evolution": false, "original_region": "Hoenn", "generation": "Generation III"}

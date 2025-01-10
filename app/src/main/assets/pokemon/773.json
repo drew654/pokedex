@@ -1,1 +1,1 @@
-{"id": 773, "name": "Silvally", "types": ["Normal"], "abilities": [{"name": "RKS System", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 772, "evolves_to": [{"id": 773}]}, "has_branched_evolution": false, "original_region": "Alola"}
+{"id": 773, "name": "Silvally", "types": ["Normal"], "abilities": [{"name": "RKS System", "is_hidden": false}], "color": "gray", "evolution_line": {"id": 772, "evolves_to": [{"id": 773}]}, "has_branched_evolution": false, "original_region": "Alola", "generation": "Generation VII"}

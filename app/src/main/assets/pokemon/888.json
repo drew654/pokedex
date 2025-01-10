@@ -1,1 +1,1 @@
-{"id": 888, "name": "Zacian", "types": ["Fairy"], "abilities": [{"name": "Intrepid Sword", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 888}, "has_branched_evolution": false, "original_region": "Galar"}
+{"id": 888, "name": "Zacian", "types": ["Fairy"], "abilities": [{"name": "Intrepid Sword", "is_hidden": false}], "color": "blue", "evolution_line": {"id": 888}, "has_branched_evolution": false, "original_region": "Galar", "generation": "Generation VIII"}

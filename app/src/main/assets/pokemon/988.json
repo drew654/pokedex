@@ -1,1 +1,1 @@
-{"id": 988, "name": "Slither Wing", "types": ["Bug", "Fighting"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}], "color": "red", "evolution_line": {"id": 988}, "has_branched_evolution": false, "original_region": "Paldea"}
+{"id": 988, "name": "Slither Wing", "types": ["Bug", "Fighting"], "abilities": [{"name": "Protosynthesis", "is_hidden": false}], "color": "red", "evolution_line": {"id": 988}, "has_branched_evolution": false, "original_region": "Paldea", "generation": "Generation IX"}

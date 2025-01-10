@@ -1,1 +1,1 @@
-{"id": 243, "name": "Raikou", "types": ["Electric"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 243}, "has_branched_evolution": false, "original_region": "Johto"}
+{"id": 243, "name": "Raikou", "types": ["Electric"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": true}], "color": "yellow", "evolution_line": {"id": 243}, "has_branched_evolution": false, "original_region": "Johto", "generation": "Generation II"}

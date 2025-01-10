@@ -1,1 +1,1 @@
-{"id": 352, "name": "Kecleon", "types": ["Normal"], "abilities": [{"name": "Color Change", "is_hidden": false}, {"name": "Protean", "is_hidden": true}], "color": "green", "evolution_line": {"id": 352}, "has_branched_evolution": false, "original_region": "Hoenn"}
+{"id": 352, "name": "Kecleon", "types": ["Normal"], "abilities": [{"name": "Color Change", "is_hidden": false}, {"name": "Protean", "is_hidden": true}], "color": "green", "evolution_line": {"id": 352}, "has_branched_evolution": false, "original_region": "Hoenn", "generation": "Generation III"}

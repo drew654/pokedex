@@ -1,1 +1,1 @@
-{"id": 486, "name": "Regigigas", "types": ["Normal"], "abilities": [{"name": "Slow Start", "is_hidden": false}], "color": "white", "evolution_line": {"id": 486}, "has_branched_evolution": false, "original_region": "Sinnoh"}
+{"id": 486, "name": "Regigigas", "types": ["Normal"], "abilities": [{"name": "Slow Start", "is_hidden": false}], "color": "white", "evolution_line": {"id": 486}, "has_branched_evolution": false, "original_region": "Sinnoh", "generation": "Generation IV"}

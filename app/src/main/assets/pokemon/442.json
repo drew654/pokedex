@@ -1,1 +1,1 @@
-{"id": 442, "name": "Spiritomb", "types": ["Ghost", "Dark"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 442}, "has_branched_evolution": false, "original_region": "Sinnoh"}
+{"id": 442, "name": "Spiritomb", "types": ["Ghost", "Dark"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Infiltrator", "is_hidden": true}], "color": "purple", "evolution_line": {"id": 442}, "has_branched_evolution": false, "original_region": "Sinnoh", "generation": "Generation IV"}

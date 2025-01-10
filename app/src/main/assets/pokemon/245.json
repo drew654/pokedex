@@ -1,1 +1,1 @@
-{"id": 245, "name": "Suicune", "types": ["Water"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 245}, "has_branched_evolution": false, "original_region": "Johto"}
+{"id": 245, "name": "Suicune", "types": ["Water"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": true}], "color": "blue", "evolution_line": {"id": 245}, "has_branched_evolution": false, "original_region": "Johto", "generation": "Generation II"}

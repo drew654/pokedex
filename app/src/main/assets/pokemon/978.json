@@ -1,1 +1,1 @@
-{"id": 978, "name": "Tatsugiri", "types": ["Dragon", "Water"], "abilities": [{"name": "Commander", "is_hidden": false}, {"name": "Storm Drain", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 978}, "has_branched_evolution": false, "original_region": "Paldea"}
+{"id": 978, "name": "Tatsugiri", "types": ["Dragon", "Water"], "abilities": [{"name": "Commander", "is_hidden": false}, {"name": "Storm Drain", "is_hidden": true}], "color": "pink", "evolution_line": {"id": 978}, "has_branched_evolution": false, "original_region": "Paldea", "generation": "Generation IX"}

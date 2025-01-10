@@ -1,1 +1,1 @@
-{"id": 493, "name": "Arceus", "types": ["Normal"], "abilities": [{"name": "Multitype", "is_hidden": false}], "color": "white", "evolution_line": {"id": 493}, "has_branched_evolution": false, "original_region": "Sinnoh"}
+{"id": 493, "name": "Arceus", "types": ["Normal"], "abilities": [{"name": "Multitype", "is_hidden": false}], "color": "white", "evolution_line": {"id": 493}, "has_branched_evolution": false, "original_region": "Sinnoh", "generation": "Generation IV"}

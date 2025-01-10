@@ -1,1 +1,1 @@
-{"id": 494, "name": "Victini", "types": ["Psychic", "Fire"], "abilities": [{"name": "Victory Star", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 494}, "has_branched_evolution": false, "original_region": "Unova"}
+{"id": 494, "name": "Victini", "types": ["Psychic", "Fire"], "abilities": [{"name": "Victory Star", "is_hidden": false}], "color": "yellow", "evolution_line": {"id": 494}, "has_branched_evolution": false, "original_region": "Unova", "generation": "Generation V"}

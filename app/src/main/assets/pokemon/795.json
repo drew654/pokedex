@@ -1,1 +1,1 @@
-{"id": 795, "name": "Pheromosa", "types": ["Bug", "Fighting"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "white", "evolution_line": {"id": 795}, "has_branched_evolution": false, "original_region": "Alola"}
+{"id": 795, "name": "Pheromosa", "types": ["Bug", "Fighting"], "abilities": [{"name": "Beast Boost", "is_hidden": false}], "color": "white", "evolution_line": {"id": 795}, "has_branched_evolution": false, "original_region": "Alola", "generation": "Generation VII"}
