@@ -19,6 +19,7 @@ import com.drew654.pokedex.models.Pokemon
 import com.drew654.pokedex.ui.screens.pokemon_list.PokemonListing
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.booleanOrNull
+import kotlinx.serialization.json.intOrNull
 import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
@@ -33,6 +34,9 @@ fun PokemonDetailsScreen(id: Int, navController: NavController) {
     val color = pokemonJson.jsonObject["color"]?.jsonPrimitive?.content
     val types =
         pokemonJson.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }?.toList()!!
+    val baseStats = pokemonJson.jsonObject["base_stats"]?.jsonObject?.map { (key, value) ->
+        key to value.jsonPrimitive.intOrNull!!
+    }?.toMap()!!
     val abilities = pokemonJson.jsonObject["abilities"]?.jsonArray
     val (hiddenAbilityNames, abilityNames) = abilities
         ?.partition { ability ->
@@ -51,6 +55,7 @@ fun PokemonDetailsScreen(id: Int, navController: NavController) {
         name.toString(),
         color.toString(),
         types,
+        baseStats,
         generation,
         hasBranchedEvolution
     )
@@ -75,6 +80,8 @@ fun PokemonDetailsScreen(id: Int, navController: NavController) {
                 }
                 Spacer(modifier = Modifier.size(16.dp))
                 AbilitiesSection(abilityNames, hiddenAbilityNames)
+                Spacer(modifier = Modifier.size(16.dp))
+                BaseStatsSection(baseStats = pokemon.baseStats)
                 Spacer(modifier = Modifier.size(16.dp))
                 EvolutionLine(
                     id = id,

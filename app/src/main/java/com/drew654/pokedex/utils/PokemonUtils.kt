@@ -33,6 +33,9 @@ fun getEvolutionsWithIndention(
             val types =
                 pokemonJson.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }
                     ?.toList()!!
+            val baseStats = pokemonJson.jsonObject["base_stats"]?.jsonObject?.map { (key, value) ->
+                key to value.jsonPrimitive.intOrNull!!
+            }?.toMap()!!
             val generation = pokemonJson.jsonObject["generation"]?.jsonPrimitive?.content!!
             val hasBranchedEvolution =
                 pokemonJson.jsonObject["has_branched_evolution"]?.jsonPrimitive?.booleanOrNull!!
@@ -42,6 +45,7 @@ fun getEvolutionsWithIndention(
                     name.toString(),
                     color.toString(),
                     types,
+                    baseStats,
                     generation,
                     hasBranchedEvolution
                 )

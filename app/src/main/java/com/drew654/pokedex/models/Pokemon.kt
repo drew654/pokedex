@@ -7,6 +7,7 @@ class Pokemon(
     val name: String,
     colorString: String,
     val types: List<String>,
+    val baseStats: Map<String, Int>,
     val generation: String,
     val hasBranchedEvolution: Boolean
 ) {

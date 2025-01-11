@@ -36,11 +36,14 @@ class PokemonViewModel(application: Application) : AndroidViewModel(application)
             val name = pokemonJson["name"]?.jsonPrimitive?.content
             val color = pokemonJson["color"]?.jsonPrimitive?.content
             val types = pokemonJson["types"]?.jsonArray?.map { it.jsonPrimitive.content }
+            val baseStats = pokemonJson["base_stats"]?.jsonObject?.map { (key, value) ->
+                key to value.jsonPrimitive.intOrNull!!
+            }?.toMap()
             val generation = pokemonJson["generation"]?.jsonPrimitive?.content
             val hasBranchedEvolution = pokemonJson["has_branched_evolution"]?.jsonPrimitive?.boolean
 
-            if (id != null && name != null && color != null && types != null && generation != null && hasBranchedEvolution != null) {
-                Pokemon(id, name, color, types, generation, hasBranchedEvolution)
+            if (id != null && name != null && color != null && types != null && baseStats != null && generation != null && hasBranchedEvolution != null) {
+                Pokemon(id, name, color, types, baseStats, generation, hasBranchedEvolution)
             } else {
                 throw IllegalStateException("Invalid Pokemon data in $fileName")
             }
