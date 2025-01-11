@@ -18,6 +18,8 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun BaseStatsSection(baseStats: Map<String, Int>) {
+    val maxStatValue = baseStats.values.maxOrNull() ?: 0
+
     Row(
         horizontalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxWidth()
@@ -39,7 +41,7 @@ fun BaseStatsSection(baseStats: Map<String, Int>) {
             modifier = Modifier.padding(vertical = 8.dp)
         ) {
             baseStats.forEach { (statName, statValue) ->
-                StatRow(statName, statValue)
+                StatRow(statName, statValue, maxStatValue)
             }
         }
     }
