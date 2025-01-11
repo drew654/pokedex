@@ -16,7 +16,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.drew654.pokedex.utils.getScreenWidthDp
@@ -68,15 +67,14 @@ fun StatRow(statName: String, statValue: Int, maxStatValue: Int) {
                 .padding(horizontal = 12.dp)
                 .fillMaxWidth()
         ) {
-            Spacer(modifier = Modifier.width(120.dp + barWidth - 32.dp))
+            Spacer(modifier = Modifier.weight(1f))
             Text(
                 text = statValue.toString(),
                 fontSize = 14.sp,
-                textAlign = TextAlign.End,
                 color = MaterialTheme.colorScheme.surfaceVariant,
-                modifier = Modifier.padding(vertical = 4.dp)
+                modifier = Modifier.padding(horizontal = 12.dp, vertical = 4.dp)
             )
-            Spacer(modifier = Modifier.width(16.dp))
+            Spacer(modifier = Modifier.width(maxBarWidth - barWidth))
         }
     }
 }
