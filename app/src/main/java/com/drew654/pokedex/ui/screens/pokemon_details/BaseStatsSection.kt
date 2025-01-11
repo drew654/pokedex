@@ -13,12 +13,14 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
 fun BaseStatsSection(baseStats: Map<String, Int>) {
     val maxStatValue = baseStats.values.maxOrNull() ?: 0
+    val totalStatValue = baseStats.values.sum()
 
     Row(
         horizontalArrangement = Arrangement.Center,
@@ -43,6 +45,14 @@ fun BaseStatsSection(baseStats: Map<String, Int>) {
             baseStats.forEach { (statName, statValue) ->
                 StatRow(statName, statValue, maxStatValue)
             }
+            Text(
+                text = "Total $totalStatValue",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                textAlign = TextAlign.Center,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                modifier = Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 4.dp)
+            )
         }
     }
 }
