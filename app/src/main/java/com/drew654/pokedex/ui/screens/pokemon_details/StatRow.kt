@@ -36,6 +36,7 @@ fun StatRow(statName: String, statValue: Int, maxStatValue: Int) {
             modifier = Modifier
                 .padding(horizontal = 12.dp)
                 .width(120.dp)
+                .height(36.dp)
                 .border(
                     1.dp,
                     MaterialTheme.colorScheme.onSurfaceVariant,
@@ -46,9 +47,7 @@ fun StatRow(statName: String, statValue: Int, maxStatValue: Int) {
             Text(
                 text = statName.replace("Special", "Sp."),
                 fontSize = 14.sp,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier
-
+                color = MaterialTheme.colorScheme.onSurfaceVariant
             )
         }
         Box(
@@ -62,10 +61,12 @@ fun StatRow(statName: String, statValue: Int, maxStatValue: Int) {
                 )
         )
         Row(
+            verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.Start,
             modifier = Modifier
                 .padding(horizontal = 12.dp)
                 .fillMaxWidth()
+                .height(36.dp)
         ) {
             Spacer(modifier = Modifier.weight(1f))
             Text(
