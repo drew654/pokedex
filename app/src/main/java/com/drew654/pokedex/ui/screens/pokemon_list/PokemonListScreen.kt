@@ -56,6 +56,7 @@ fun PokemonListScreen(
         isMonotypeFilter.value == null || pokemon.types.size == 1
     }.filter { pokemon ->
         pokemon.name.contains(searchPokemonName.value, ignoreCase = true)
+                || pokemon.id.toString().contains(searchPokemonName.value)
     }.filter { pokemon ->
         hasBranchedEvolutionFilter.value == null || pokemon.hasBranchedEvolution == hasBranchedEvolutionFilter.value
     }
