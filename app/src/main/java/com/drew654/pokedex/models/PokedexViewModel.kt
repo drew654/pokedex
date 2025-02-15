@@ -21,12 +21,19 @@ import kotlinx.serialization.json.jsonPrimitive
 class PokedexViewModel(application: Application) : AndroidViewModel(application) {
     init {
         viewModelScope.launch {
-            val pokemonCount = loadPokemonNamesFromJson().size
+            val pokemonCount = getPokemonCount()
             for (i in 1..pokemonCount) {
                 addPokemon(loadOnePokemonFromJson("$i.json"))
             }
             loadGenerationsFromJson()
             loadTypesFromJson()
+        }
+    }
+
+    private suspend fun getPokemonCount(): Int {
+        return withContext(Dispatchers.IO) {
+            val files = getApplication<Application>().assets.list("pokemon")
+            files?.size ?: 0
         }
     }
 
@@ -50,16 +57,6 @@ class PokedexViewModel(application: Application) : AndroidViewModel(application)
             } else {
                 throw IllegalStateException("Invalid Pokemon data in $fileName")
             }
-        }
-    }
-
-    private suspend fun loadPokemonNamesFromJson(): List<String> {
-        val json = Json { ignoreUnknownKeys = true }
-        return withContext(Dispatchers.IO) {
-            val inputStream = getApplication<Application>().assets.open("pokemon/names.json")
-            val namesJson = json.parseToJsonElement(
-                inputStream.bufferedReader().use { it.readText() }).jsonArray
-            namesJson.map { it.jsonPrimitive.content }
         }
     }
 

@@ -305,10 +305,6 @@ def main():
             with open(file_path, "wb") as f:
                 f.write(image.content)
 
-        file_path = os.path.join("pokemon", "names.json")
-        with open(file_path, "w") as f:
-            f.write(json.dumps(pokemon_names))
-
     else:
         print("Failed to get pokemon species")
 
