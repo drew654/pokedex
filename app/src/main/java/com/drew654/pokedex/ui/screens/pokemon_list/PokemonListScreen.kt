@@ -22,8 +22,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.drew654.pokedex.R
-import com.drew654.pokedex.models.FilterViewModel
-import com.drew654.pokedex.models.PokemonViewModel
+import com.drew654.pokedex.models.PokedexViewModel
 import com.drew654.pokedex.models.Screen
 import com.drew654.pokedex.ui.components.SearchBar
 
@@ -31,21 +30,20 @@ import com.drew654.pokedex.ui.components.SearchBar
 @Composable
 fun PokemonListScreen(
     navController: NavController,
-    pokemonViewModel: PokemonViewModel,
-    filterViewModel: FilterViewModel
+    pokedexViewModel: PokedexViewModel,
 ) {
-    val searchPokemonName = pokemonViewModel.searchPokemonName.collectAsState()
-    val isSearching = pokemonViewModel.isSearching.collectAsState()
+    val searchPokemonName = pokedexViewModel.searchPokemonName.collectAsState()
+    val isSearching = pokedexViewModel.isSearching.collectAsState()
 
-    val types = filterViewModel.types.collectAsState()
-    val generations = filterViewModel.generations.collectAsState()
-    val generationFilter = filterViewModel.generationFilter.collectAsState()
-    val type1Filter = filterViewModel.type1Filter.collectAsState()
-    val type2Filter = filterViewModel.type2Filter.collectAsState()
-    val hasBranchedEvolutionFilter = filterViewModel.hasBranchedEvolutionFilter.collectAsState()
-    val isMonotypeFilter = filterViewModel.isMonotypeFilter.collectAsState()
+    val types = pokedexViewModel.types.collectAsState()
+    val generations = pokedexViewModel.generations.collectAsState()
+    val generationFilter = pokedexViewModel.generationFilter.collectAsState()
+    val type1Filter = pokedexViewModel.type1Filter.collectAsState()
+    val type2Filter = pokedexViewModel.type2Filter.collectAsState()
+    val hasBranchedEvolutionFilter = pokedexViewModel.hasBranchedEvolutionFilter.collectAsState()
+    val isMonotypeFilter = pokedexViewModel.isMonotypeFilter.collectAsState()
 
-    val pokemonList = pokemonViewModel.pokemon.collectAsState()
+    val pokemonList = pokedexViewModel.pokemon.collectAsState()
     val pokemonListFiltered = pokemonList.value.filter { pokemon ->
         generationFilter.value == null || pokemon.generation == generationFilter.value
     }.filter { pokemon ->
@@ -62,8 +60,8 @@ fun PokemonListScreen(
     }
 
     fun clearSearch() {
-        pokemonViewModel.clearSearchPokemonName()
-        filterViewModel.clearFilters()
+        pokedexViewModel.clearSearchPokemonName()
+        pokedexViewModel.clearFilters()
     }
 
     Box(
@@ -78,7 +76,7 @@ fun PokemonListScreen(
                 ) {
                     IconButton(
                         onClick = {
-                            pokemonViewModel.setIsSearching(false)
+                            pokedexViewModel.setIsSearching(false)
                             clearSearch()
                         }
                     ) {
@@ -89,7 +87,7 @@ fun PokemonListScreen(
                     }
                     SearchBar(
                         query = searchPokemonName.value,
-                        onQueryChange = { pokemonViewModel.setSearchPokemonName(it) },
+                        onQueryChange = { pokedexViewModel.setSearchPokemonName(it) },
                         clearQuery = {
                             clearSearch()
                         },
@@ -119,9 +117,9 @@ fun PokemonListScreen(
                         label = "Generation",
                         options = generations.value.map { it to MaterialTheme.colorScheme.surfaceVariant },
                         onValueChange = { selectedName ->
-                            filterViewModel.setGenerationFilter(selectedName)
+                            pokedexViewModel.setGenerationFilter(selectedName)
                         },
-                        filterViewModel = filterViewModel,
+                        pokedexViewModel = pokedexViewModel,
                         modifier = Modifier.weight(1f)
                     )
                     FilterDropdown(
@@ -129,9 +127,9 @@ fun PokemonListScreen(
                         label = "Type",
                         options = types.value.map { it -> it.name to if (isSystemInDarkTheme()) it.darkColor else it.lightColor },
                         onValueChange = { selectedName ->
-                            filterViewModel.setType1Filter(selectedName)
+                            pokedexViewModel.setType1Filter(selectedName)
                         },
-                        filterViewModel = filterViewModel,
+                        pokedexViewModel = pokedexViewModel,
                         modifier = Modifier.weight(1f)
                     )
                     if (isMonotypeFilter.value == null) {
@@ -140,9 +138,9 @@ fun PokemonListScreen(
                             label = "Type",
                             options = types.value.map { it -> it.name to if (isSystemInDarkTheme()) it.darkColor else it.lightColor },
                             onValueChange = { selectedName ->
-                                filterViewModel.setType2Filter(selectedName)
+                                pokedexViewModel.setType2Filter(selectedName)
                             },
-                            filterViewModel = filterViewModel,
+                            pokedexViewModel = pokedexViewModel,
                             modifier = Modifier.weight(1f)
                         )
                     }
@@ -189,7 +187,7 @@ fun PokemonListScreen(
         ) {
             FloatingActionButton(
                 onClick = {
-                    pokemonViewModel.setIsSearching(true)
+                    pokedexViewModel.setIsSearching(true)
                 },
                 modifier = Modifier.padding(16.dp)
             ) {

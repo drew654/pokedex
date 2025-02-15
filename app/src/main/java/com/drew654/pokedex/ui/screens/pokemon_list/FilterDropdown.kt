@@ -16,7 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.drew654.pokedex.models.FilterViewModel
+import com.drew654.pokedex.models.PokedexViewModel
 import com.drew654.pokedex.utils.getTypeColor
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -26,7 +26,7 @@ fun FilterDropdown(
     label: String,
     options: List<Pair<String, Color>>,
     onValueChange: (String?) -> Unit,
-    filterViewModel: FilterViewModel,
+    pokedexViewModel: PokedexViewModel,
     modifier: Modifier = Modifier,
 ) {
     val isExpanded = remember { mutableStateOf(false) }
@@ -34,7 +34,7 @@ fun FilterDropdown(
     Box(modifier = modifier) {
         FilterTag(
             text = filter?.replace("Generation", "Gen.") ?: label,
-            color = getTypeColor(type = filter ?: label, filterViewModel = filterViewModel),
+            color = getTypeColor(type = filter ?: label, pokedexViewModel = pokedexViewModel),
             modifier = Modifier
                 .clip(RoundedCornerShape(8.dp))
                 .clickable {

@@ -28,20 +28,20 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.drew654.pokedex.R
-import com.drew654.pokedex.models.FilterViewModel
+import com.drew654.pokedex.models.PokedexViewModel
 import com.drew654.pokedex.ui.components.CheckboxRow
 import com.drew654.pokedex.ui.components.DismissibleDropdownMenu
 
 @Composable
-fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel) {
+fun FiltersScreen(navController: NavController, pokedexViewModel: PokedexViewModel) {
     val focusManager = LocalFocusManager.current
-    val generations = filterViewModel.generations.collectAsState()
-    val selectedGenerationFilter = filterViewModel.generationFilter.collectAsState()
-    val types = filterViewModel.types.collectAsState()
-    val selectedType1Filter = filterViewModel.type1Filter.collectAsState()
-    val selectedType2Filter = filterViewModel.type2Filter.collectAsState()
-    val hasBranchedEvolutionFilter = filterViewModel.hasBranchedEvolutionFilter.collectAsState()
-    val isMonotypeFilter = filterViewModel.isMonotypeFilter.collectAsState()
+    val generations = pokedexViewModel.generations.collectAsState()
+    val selectedGenerationFilter = pokedexViewModel.generationFilter.collectAsState()
+    val types = pokedexViewModel.types.collectAsState()
+    val selectedType1Filter = pokedexViewModel.type1Filter.collectAsState()
+    val selectedType2Filter = pokedexViewModel.type2Filter.collectAsState()
+    val hasBranchedEvolutionFilter = pokedexViewModel.hasBranchedEvolutionFilter.collectAsState()
+    val isMonotypeFilter = pokedexViewModel.isMonotypeFilter.collectAsState()
 
     Box(
         modifier = Modifier
@@ -88,10 +88,10 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
                         label = "Generation",
                         options = generations.value,
                         onValueChange = { selectedName ->
-                            filterViewModel.setGenerationFilter(selectedName)
+                            pokedexViewModel.setGenerationFilter(selectedName)
                         },
                         onClear = {
-                            filterViewModel.setGenerationFilter(null)
+                            pokedexViewModel.setGenerationFilter(null)
                             focusManager.clearFocus()
                         },
                         modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
@@ -102,10 +102,10 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
                         label = "Type",
                         options = types.value.map { it.name },
                         onValueChange = { selectedName ->
-                            filterViewModel.setType1Filter(selectedName)
+                            pokedexViewModel.setType1Filter(selectedName)
                         },
                         onClear = {
-                            filterViewModel.setType1Filter(null)
+                            pokedexViewModel.setType1Filter(null)
                             focusManager.clearFocus()
                         },
                         modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
@@ -116,10 +116,10 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
                         label = "Type",
                         options = types.value.map { it.name },
                         onValueChange = { selectedName ->
-                            filterViewModel.setType2Filter(selectedName)
+                            pokedexViewModel.setType2Filter(selectedName)
                         },
                         onClear = {
-                            filterViewModel.setType2Filter(null)
+                            pokedexViewModel.setType2Filter(null)
                             focusManager.clearFocus()
                         },
                         modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
@@ -130,15 +130,15 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
                         checked = isMonotypeFilter.value == true,
                         onClick = {
                             if (isMonotypeFilter.value == null) {
-                                filterViewModel.setIsMonotypeFilter(true)
+                                pokedexViewModel.setIsMonotypeFilter(true)
                                 if (selectedType1Filter.value == null && selectedType2Filter.value != null) {
-                                    filterViewModel.setType1Filter(selectedType2Filter.value!!)
-                                    filterViewModel.setType2Filter(null)
+                                    pokedexViewModel.setType1Filter(selectedType2Filter.value!!)
+                                    pokedexViewModel.setType2Filter(null)
                                 } else {
-                                    filterViewModel.setType2Filter(null)
+                                    pokedexViewModel.setType2Filter(null)
                                 }
                             } else {
-                                filterViewModel.setIsMonotypeFilter(null)
+                                pokedexViewModel.setIsMonotypeFilter(null)
                             }
                         }
                     )
@@ -148,9 +148,9 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
                         checked = hasBranchedEvolutionFilter.value == true,
                         onClick = {
                             if (hasBranchedEvolutionFilter.value == null) {
-                                filterViewModel.setHasBranchedEvolutionFilter(true)
+                                pokedexViewModel.setHasBranchedEvolutionFilter(true)
                             } else {
-                                filterViewModel.setHasBranchedEvolutionFilter(null)
+                                pokedexViewModel.setHasBranchedEvolutionFilter(null)
                             }
                         }
                     )
@@ -166,7 +166,7 @@ fun FiltersScreen(navController: NavController, filterViewModel: FilterViewModel
     ) {
         OutlinedButton(
             onClick = {
-                filterViewModel.clearFilters()
+                pokedexViewModel.clearFilters()
                 focusManager.clearFocus()
             },
             content = {
