@@ -29,7 +29,6 @@ fun getEvolutionsWithIndention(
             val pokemonJson =
                 json.parseToJsonElement(inputStream.bufferedReader().use { it.readText() })
             val name = pokemonJson.jsonObject["name"]?.jsonPrimitive?.content
-            val color = pokemonJson.jsonObject["color"]?.jsonPrimitive?.content
             val types =
                 pokemonJson.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }
                     ?.toList()!!
@@ -43,7 +42,6 @@ fun getEvolutionsWithIndention(
                 Pokemon(
                     id,
                     name.toString(),
-                    color.toString(),
                     types,
                     baseStats,
                     generation,

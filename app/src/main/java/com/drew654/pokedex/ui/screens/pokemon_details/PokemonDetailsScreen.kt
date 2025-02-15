@@ -31,7 +31,6 @@ fun PokemonDetailsScreen(id: Int, navController: NavController) {
     val json = Json { ignoreUnknownKeys = true }
     val pokemonJson = json.parseToJsonElement(inputStream.bufferedReader().use { it.readText() })
     val name = pokemonJson.jsonObject["name"]?.jsonPrimitive?.content
-    val color = pokemonJson.jsonObject["color"]?.jsonPrimitive?.content
     val types =
         pokemonJson.jsonObject["types"]?.jsonArray?.map { it.jsonPrimitive.content }?.toList()!!
     val baseStats = pokemonJson.jsonObject["base_stats"]?.jsonObject?.map { (key, value) ->
@@ -53,7 +52,6 @@ fun PokemonDetailsScreen(id: Int, navController: NavController) {
     val pokemon = Pokemon(
         id,
         name.toString(),
-        color.toString(),
         types,
         baseStats,
         generation,

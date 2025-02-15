@@ -4,35 +4,7 @@ import json
 
 total_pokemon = 1025
 
-def get_all_pokemon_species():
-    url = "https://pokeapi.co/api/v2/pokemon-species?limit={}".format(total_pokemon)
-    try:
-        response = requests.get(url)
-
-        if response.status_code == 200:
-            return response.json()
-        else:
-            print("Error: ", response.status_code)
-            return None
-    except requests.exceptions.RequestException as e:
-        print("Error: ", e)
-        return None
-
-def get_all_pokemon():
-    url = "https://pokeapi.co/api/v2/pokemon?limit={}".format(total_pokemon)
-    try:
-        response = requests.get(url)
-
-        if response.status_code == 200:
-            return response.json()
-        else:
-            print("Error: ", response.status_code)
-            return None
-    except requests.exceptions.RequestException as e:
-        print("Error: ", e)
-        return None
-
-def get_data(url):
+def fetch_data(url):
     try:
         response = requests.get(url)
 
@@ -46,12 +18,12 @@ def get_data(url):
         return None
 
 def get_type_names_en():
-    data = get_data("https://pokeapi.co/api/v2/type")
+    data = fetch_data("https://pokeapi.co/api/v2/type")
     types = data["results"]
     type_names = {}
     for type in types:
         url = type["url"]
-        names = get_data(url)["names"]
+        names = fetch_data(url)["names"]
         for name in names:
             if name["language"]["name"] == "en":
                 type_names[type["name"]] = name["name"]
@@ -59,12 +31,12 @@ def get_type_names_en():
     return type_names
 
 def get_ability_names_en():
-    data = get_data("https://pokeapi.co/api/v2/ability?limit=1000")
+    data = fetch_data("https://pokeapi.co/api/v2/ability?limit=1000")
     abilities = data["results"]
     ability_names = {}
     for ability in abilities:
         url = ability["url"]
-        names = get_data(url)["names"]
+        names = fetch_data(url)["names"]
         for name in names:
             if name["language"]["name"] == "en":
                 ability_names[ability["name"]] = name["name"]
@@ -72,24 +44,23 @@ def get_ability_names_en():
     return ability_names
 
 def get_stat_names_en():
-    data = get_data("https://pokeapi.co/api/v2/stat")
+    data = fetch_data("https://pokeapi.co/api/v2/stat")
     stats = data["results"]
     stat_names = {}
     for stat in stats:
         url = stat["url"]
-        names = get_data(url)["names"]
+        names = fetch_data(url)["names"]
         for name in names:
             if name["language"]["name"] == "en":
                 stat_names[stat["name"]] = name["name"]
                 break
     return stat_names
 
-def get_evolution_line_id(id):
-    data = get_data(f"https://pokeapi.co/api/v2/pokemon-species/{id}")
-    return data["evolution_chain"]["url"].split("/")[-2]
+def get_evolution_line_id(species_data):
+    return int(species_data["evolution_chain"]["url"].split("/")[-2])
 
-def get_evolution_line(pokemon_id):
-    data = get_data(f"https://pokeapi.co/api/v2/evolution-chain/{get_evolution_line_id(pokemon_id)}")
+def get_evolution_line(evolution_chain_data, species_data):
+    data = evolution_chain_data[get_evolution_line_id(species_data)]
 
     def build_evolution_tree(chain):
         species_id = int(chain["species"]["url"].split("/")[-2])
@@ -115,50 +86,40 @@ def has_branched_evolution(pokemon_id, evolution_line):
     return False
 
 def get_pokedex_names_en():
-    data = get_data("https://pokeapi.co/api/v2/pokedex?limit=100")
+    data = fetch_data("https://pokeapi.co/api/v2/pokedex?limit=100")
     pokedexes = data["results"]
     pokedex_names = {}
     for pokedex in pokedexes:
         url = pokedex["url"]
-        names = get_data(url)["names"]
+        names = fetch_data(url)["names"]
         for name in names:
             if name["language"]["name"] == "en":
                 pokedex_names[pokedex["name"]] = name["name"]
                 break
     return pokedex_names
 
-def get_generation_region():
-    region_names = []
-
-    data = get_data("https://pokeapi.co/api/v2/generation")
-    generations = data["results"]
-    generation_region = {}
-    for generation in generations:
-        generation_region[generation["name"]] = get_data(generation["url"])["main_region"]["name"]
-
-    for generation in generation_region:
-        url = "https://pokeapi.co/api/v2/region/{}".format(generation_region[generation])
-        names = get_data(url)["names"]
-        for name in names:
-            if name["language"]["name"] == "en":
-                region_names += [name["name"]]
-                generation_region[generation] = name["name"]
-                break
-
-    return generation_region, region_names
-
 def get_generation_names_en():
-    data = get_data("https://pokeapi.co/api/v2/generation")
+    data = fetch_data("https://pokeapi.co/api/v2/generation")
     generations = data["results"]
     generation_names = {}
     for generation in generations:
         url = generation["url"]
-        names = get_data(url)["names"]
+        names = fetch_data(url)["names"]
         for name in names:
             if name["language"]["name"] == "en":
                 generation_names[generation["name"]] = name["name"]
                 break
     return generation_names
+
+def get_evolution_chain_data():
+    evolution_chains = fetch_data("https://pokeapi.co/api/v2/evolution-chain?limit=1000")
+    array_size = int(evolution_chains["results"][-1]["url"].split("/")[-2]) + 1
+    evolution_chain_data = [None] * array_size
+    for chain in evolution_chains['results']:
+        index = int(chain['url'].split('/')[-2])
+        data = fetch_data(chain['url'])
+        evolution_chain_data[index] = data
+    return evolution_chain_data
 
 def get_types_data():
     types = [
@@ -274,14 +235,14 @@ def get_types_data():
     return types
 
 def main():
-    pokemon_species = get_all_pokemon_species()
-    pokemon = get_all_pokemon()
+    pokemon_species = fetch_data(f"https://pokeapi.co/api/v2/pokemon-species?limit={total_pokemon}")["results"]
+    pokemon = fetch_data(f"https://pokeapi.co/api/v2/pokemon?limit={total_pokemon}")["results"]
     type_names_en = get_type_names_en()
     stat_names_en = get_stat_names_en()
     types_data = get_types_data()
     ability_names_en = get_ability_names_en()
     generation_names_en = get_generation_names_en()
-    generation_region, region_names = get_generation_region()
+    evolution_chain_data = get_evolution_chain_data()
 
     with open("types.json", "w") as f:
         f.write(json.dumps(types_data))
@@ -292,14 +253,11 @@ def main():
     with open("generation_names.json", "w") as f:
         f.write(json.dumps(generation_names))
 
-    with open("region_names.json", "w") as f:
-        f.write(json.dumps(region_names))
-
     if pokemon_species and pokemon:
         pokemon_names = []
         for i in range(total_pokemon):
-            species_data = get_data(pokemon_species["results"][i]["url"])
-            pokemon_data = get_data(pokemon["results"][i]["url"])
+            species_data = fetch_data(pokemon_species[i]["url"])
+            pokemon_data = fetch_data(pokemon[i]["url"])
 
             id = species_data["id"]
             print(f"\rPokemon data fetched: {int(id / total_pokemon * 100)}%", end="", flush=True)
@@ -324,12 +282,9 @@ def main():
             for ability in abilities:
                 trimmed_data["abilities"] += [{"name": ability_names_en[ability["ability"]["name"]], "is_hidden": ability["is_hidden"]}]
 
-            trimmed_data["color"] = species_data["color"]["name"]
-
-            trimmed_data["evolution_line"] = get_evolution_line(id)
+            trimmed_data["evolution_line"] = get_evolution_line(evolution_chain_data, species_data)
             trimmed_data["has_branched_evolution"] = has_branched_evolution(id, trimmed_data["evolution_line"])
 
-            trimmed_data["original_region"] = generation_region[species_data["generation"]["name"]]
             trimmed_data["generation"] = generation_names_en[species_data["generation"]["name"]]
 
             trimmed_data["base_stats"] = {}
