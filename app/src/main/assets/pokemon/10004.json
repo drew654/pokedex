@@ -1,0 +1,1 @@
+{"id": 10004, "name": "Sandy Wormadam", "types": ["Bug", "Ground"], "abilities": [{"name": "Anticipation", "is_hidden": false}, {"name": "Overcoat", "is_hidden": true}], "evolution_line": {"id": 10004}, "has_branched_evolution": false, "generation": "Generation IV", "base_stats": {"HP": 60, "Attack": 79, "Defense": 105, "Special Attack": 59, "Special Defense": 85, "Speed": 36}}

@@ -1,0 +1,1 @@
+{"id": 10239, "name": "Hisuian Zoroark", "types": ["Normal", "Ghost"], "abilities": [{"name": "Illusion", "is_hidden": false}], "evolution_line": {"id": 10239}, "has_branched_evolution": false, "generation": "Generation V", "base_stats": {"HP": 55, "Attack": 100, "Defense": 60, "Special Attack": 125, "Special Defense": 60, "Speed": 110}}

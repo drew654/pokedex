@@ -1,0 +1,1 @@
+{"id": 10006, "name": "Sky Shaymin", "types": ["Grass", "Flying"], "abilities": [{"name": "Serene Grace", "is_hidden": false}], "evolution_line": {"id": 10006}, "has_branched_evolution": false, "generation": "Generation IV", "base_stats": {"HP": 100, "Attack": 103, "Defense": 75, "Special Attack": 120, "Special Defense": 75, "Speed": 127}}

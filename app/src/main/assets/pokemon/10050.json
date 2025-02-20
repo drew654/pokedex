@@ -1,0 +1,1 @@
+{"id": 10050, "name": "Mega Blaziken", "types": ["Fire", "Fighting"], "abilities": [{"name": "Speed Boost", "is_hidden": false}], "evolution_line": {"id": 10050}, "has_branched_evolution": false, "generation": "Generation III", "base_stats": {"HP": 80, "Attack": 160, "Defense": 80, "Special Attack": 130, "Special Defense": 80, "Speed": 100}}

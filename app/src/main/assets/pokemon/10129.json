@@ -1,0 +1,1 @@
+{"id": 10129, "name": "Totem Salazzle", "types": ["Poison", "Fire"], "abilities": [{"name": "Corrosion", "is_hidden": false}, {"name": "Oblivious", "is_hidden": true}], "evolution_line": {"id": 10129}, "has_branched_evolution": false, "generation": "Generation VII", "base_stats": {"HP": 68, "Attack": 64, "Defense": 60, "Special Attack": 111, "Special Defense": 60, "Speed": 117}}

@@ -1,0 +1,1 @@
+{"id": 10190, "name": "Eternamax Eternatus", "types": ["Poison", "Dragon"], "abilities": [{"name": "Pressure", "is_hidden": false}], "evolution_line": {"id": 10190}, "has_branched_evolution": false, "generation": "Generation VIII", "base_stats": {"HP": 255, "Attack": 115, "Defense": 250, "Special Attack": 125, "Special Defense": 250, "Speed": 130}}

@@ -1,0 +1,1 @@
+{"id": 10176, "name": "Galarian Darumaka", "types": ["Ice"], "abilities": [{"name": "Hustle", "is_hidden": false}, {"name": "Inner Focus", "is_hidden": true}], "evolution_line": {"id": 10176}, "has_branched_evolution": false, "generation": "Generation V", "base_stats": {"HP": 70, "Attack": 90, "Defense": 45, "Special Attack": 15, "Special Defense": 45, "Speed": 50}}

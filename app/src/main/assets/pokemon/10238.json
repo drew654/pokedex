@@ -1,0 +1,1 @@
+{"id": 10238, "name": "Hisuian Zorua", "types": ["Normal", "Ghost"], "abilities": [{"name": "Illusion", "is_hidden": false}], "evolution_line": {"id": 10238}, "has_branched_evolution": false, "generation": "Generation V", "base_stats": {"HP": 35, "Attack": 60, "Defense": 40, "Special Attack": 85, "Special Defense": 40, "Speed": 70}}

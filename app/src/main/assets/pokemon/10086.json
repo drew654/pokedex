@@ -1,0 +1,1 @@
+{"id": 10086, "name": "Hoopa Unbound", "types": ["Psychic", "Dark"], "abilities": [{"name": "Magician", "is_hidden": false}], "evolution_line": {"id": 10086}, "has_branched_evolution": false, "generation": "Generation VI", "base_stats": {"HP": 80, "Attack": 160, "Defense": 60, "Special Attack": 170, "Special Defense": 130, "Speed": 80}}

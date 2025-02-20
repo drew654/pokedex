@@ -1,0 +1,1 @@
+{"id": 10080, "name": "Pikachu Rock Star", "types": ["Electric"], "abilities": [{"name": "Static", "is_hidden": false}, {"name": "Lightning Rod", "is_hidden": true}], "evolution_line": {"id": 10080}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 35, "Attack": 55, "Defense": 40, "Special Attack": 50, "Special Defense": 50, "Speed": 90}}

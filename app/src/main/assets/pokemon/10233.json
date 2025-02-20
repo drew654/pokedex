@@ -1,0 +1,1 @@
+{"id": 10233, "name": "Hisuian Typhlosion", "types": ["Fire", "Ghost"], "abilities": [{"name": "Blaze", "is_hidden": false}, {"name": "Frisk", "is_hidden": true}], "evolution_line": {"id": 10233}, "has_branched_evolution": false, "generation": "Generation II", "base_stats": {"HP": 73, "Attack": 84, "Defense": 78, "Special Attack": 119, "Special Defense": 85, "Speed": 95}}

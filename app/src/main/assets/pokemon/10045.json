@@ -1,0 +1,1 @@
+{"id": 10045, "name": "Mega Ampharos", "types": ["Electric", "Dragon"], "abilities": [{"name": "Mold Breaker", "is_hidden": false}], "evolution_line": {"id": 10045}, "has_branched_evolution": false, "generation": "Generation II", "base_stats": {"HP": 90, "Attack": 95, "Defense": 105, "Special Attack": 165, "Special Defense": 110, "Speed": 45}}

@@ -1,0 +1,1 @@
+{"id": 10005, "name": "Trash Wormadam", "types": ["Bug", "Steel"], "abilities": [{"name": "Anticipation", "is_hidden": false}, {"name": "Overcoat", "is_hidden": true}], "evolution_line": {"id": 10005}, "has_branched_evolution": false, "generation": "Generation IV", "base_stats": {"HP": 60, "Attack": 69, "Defense": 95, "Special Attack": 69, "Special Defense": 95, "Speed": 36}}

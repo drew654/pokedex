@@ -1,0 +1,1 @@
+{"id": 10181, "name": "10% Zygarde", "types": ["Dragon", "Ground"], "abilities": [{"name": "Aura Break", "is_hidden": false}], "evolution_line": {"id": 10181}, "has_branched_evolution": false, "generation": "Generation VI", "base_stats": {"HP": 54, "Attack": 100, "Defense": 71, "Special Attack": 61, "Special Defense": 85, "Speed": 115}}

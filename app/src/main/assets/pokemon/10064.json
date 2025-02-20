@@ -1,0 +1,1 @@
+{"id": 10064, "name": "Mega Swampert", "types": ["Water", "Ground"], "abilities": [{"name": "Swift Swim", "is_hidden": false}], "evolution_line": {"id": 10064}, "has_branched_evolution": false, "generation": "Generation III", "base_stats": {"HP": 100, "Attack": 150, "Defense": 110, "Special Attack": 95, "Special Defense": 110, "Speed": 70}}

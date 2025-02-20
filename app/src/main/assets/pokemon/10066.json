@@ -1,0 +1,1 @@
+{"id": 10066, "name": "Mega Sableye", "types": ["Dark", "Ghost"], "abilities": [{"name": "Magic Bounce", "is_hidden": false}], "evolution_line": {"id": 10066}, "has_branched_evolution": false, "generation": "Generation III", "base_stats": {"HP": 50, "Attack": 85, "Defense": 125, "Special Attack": 85, "Special Defense": 115, "Speed": 20}}

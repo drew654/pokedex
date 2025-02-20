@@ -1,0 +1,1 @@
+{"id": 10020, "name": "Therian Thundurus", "types": ["Electric", "Flying"], "abilities": [{"name": "Volt Absorb", "is_hidden": false}], "evolution_line": {"id": 10020}, "has_branched_evolution": false, "generation": "Generation V", "base_stats": {"HP": 79, "Attack": 105, "Defense": 70, "Special Attack": 145, "Special Defense": 80, "Speed": 101}}

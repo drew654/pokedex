@@ -1,0 +1,1 @@
+{"id": 10263, "name": "Roaming Form Gimmighoul", "types": ["Ghost"], "abilities": [{"name": "Run Away", "is_hidden": false}, {"name": "Run Away", "is_hidden": true}], "evolution_line": {"id": 10263}, "has_branched_evolution": false, "generation": "Generation IX", "base_stats": {"HP": 45, "Attack": 30, "Defense": 25, "Special Attack": 75, "Special Defense": 45, "Speed": 80}}

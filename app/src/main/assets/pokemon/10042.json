@@ -1,0 +1,1 @@
+{"id": 10042, "name": "Mega Aerodactyl", "types": ["Rock", "Flying"], "abilities": [{"name": "Tough Claws", "is_hidden": false}], "evolution_line": {"id": 10042}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 80, "Attack": 135, "Defense": 85, "Special Attack": 70, "Special Defense": 95, "Speed": 150}}

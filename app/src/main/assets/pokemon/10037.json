@@ -1,0 +1,1 @@
+{"id": 10037, "name": "Mega Alakazam", "types": ["Psychic"], "abilities": [{"name": "Trace", "is_hidden": false}], "evolution_line": {"id": 10037}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 55, "Attack": 50, "Defense": 65, "Special Attack": 175, "Special Defense": 105, "Speed": 150}}

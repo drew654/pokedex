@@ -1,0 +1,1 @@
+{"id": 10128, "name": "Totem Lurantis", "types": ["Grass"], "abilities": [{"name": "Leaf Guard", "is_hidden": false}, {"name": "Contrary", "is_hidden": true}], "evolution_line": {"id": 10128}, "has_branched_evolution": false, "generation": "Generation VII", "base_stats": {"HP": 70, "Attack": 105, "Defense": 90, "Special Attack": 80, "Special Defense": 90, "Speed": 45}}

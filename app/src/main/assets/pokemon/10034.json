@@ -1,0 +1,1 @@
+{"id": 10034, "name": "Mega Charizard X", "types": ["Fire", "Dragon"], "abilities": [{"name": "Tough Claws", "is_hidden": false}], "evolution_line": {"id": 10034}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 78, "Attack": 130, "Defense": 111, "Special Attack": 130, "Special Defense": 85, "Speed": 100}}

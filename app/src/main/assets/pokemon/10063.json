@@ -1,0 +1,1 @@
+{"id": 10063, "name": "Mega Latios", "types": ["Dragon", "Psychic"], "abilities": [{"name": "Levitate", "is_hidden": false}], "evolution_line": {"id": 10063}, "has_branched_evolution": false, "generation": "Generation III", "base_stats": {"HP": 80, "Attack": 130, "Defense": 100, "Special Attack": 160, "Special Defense": 120, "Speed": 110}}

@@ -21,19 +21,27 @@ import kotlinx.serialization.json.jsonPrimitive
 class PokedexViewModel(application: Application) : AndroidViewModel(application) {
     init {
         viewModelScope.launch {
-            val pokemonCount = getPokemonCount()
-            for (i in 1..pokemonCount) {
-                addPokemon(loadOnePokemonFromJson("$i.json"))
-            }
+            val pokemonOrder = getApplication<Application>().assets.open("pokemon_order.json")
+            val pokemonOrderJson = Json.parseToJsonElement(pokemonOrder.bufferedReader().use { it.readText() }).jsonArray
+            val fileNames =
+                getApplication<Application>().assets.list("pokemon")?.toList() ?: emptyList()
+
+            fileNames
+                .sortedBy { fileName ->
+                    val pokemonId = fileName.substringBefore(".").toIntOrNull()
+
+                    if (pokemonId != null) {
+                        pokemonOrderJson.indexOfFirst { it.jsonPrimitive.content.toIntOrNull() == pokemonId }
+                    } else {
+                        -1
+                    }
+                }
+                .forEach { fileName ->
+                    val pokemon = loadOnePokemonFromJson(fileName)
+                    addPokemon(pokemon)
+                }
             loadGenerationsFromJson()
             loadTypesFromJson()
-        }
-    }
-
-    private suspend fun getPokemonCount(): Int {
-        return withContext(Dispatchers.IO) {
-            val files = getApplication<Application>().assets.list("pokemon")
-            files?.size ?: 0
         }
     }
 

@@ -1,0 +1,1 @@
+{"id": 10236, "name": "Hisuian Samurott", "types": ["Water", "Dark"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Sharpness", "is_hidden": true}], "evolution_line": {"id": 10236}, "has_branched_evolution": false, "generation": "Generation V", "base_stats": {"HP": 90, "Attack": 108, "Defense": 80, "Special Attack": 100, "Special Defense": 65, "Speed": 85}}

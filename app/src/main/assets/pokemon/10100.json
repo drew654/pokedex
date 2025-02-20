@@ -1,0 +1,1 @@
+{"id": 10100, "name": "Alolan Raichu", "types": ["Electric", "Psychic"], "abilities": [{"name": "Surge Surfer", "is_hidden": false}], "evolution_line": {"id": 10100}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 60, "Attack": 85, "Defense": 50, "Special Attack": 95, "Special Defense": 85, "Speed": 110}}

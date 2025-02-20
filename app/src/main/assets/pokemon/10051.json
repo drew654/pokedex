@@ -1,0 +1,1 @@
+{"id": 10051, "name": "Mega Gardevoir", "types": ["Psychic", "Fairy"], "abilities": [{"name": "Pixilate", "is_hidden": false}], "evolution_line": {"id": 10051}, "has_branched_evolution": false, "generation": "Generation III", "base_stats": {"HP": 68, "Attack": 85, "Defense": 65, "Special Attack": 165, "Special Defense": 135, "Speed": 100}}

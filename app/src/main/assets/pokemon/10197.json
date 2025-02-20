@@ -1,0 +1,1 @@
+{"id": 10197, "name": "Gigantamax Blastoise", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Rain Dish", "is_hidden": true}], "evolution_line": {"id": 10197}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 79, "Attack": 83, "Defense": 100, "Special Attack": 85, "Special Defense": 105, "Speed": 78}}

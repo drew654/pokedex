@@ -1,0 +1,1 @@
+{"id": 10018, "name": "Pirouette Meloetta", "types": ["Normal", "Fighting"], "abilities": [{"name": "Serene Grace", "is_hidden": false}], "evolution_line": {"id": 10018}, "has_branched_evolution": false, "generation": "Generation V", "base_stats": {"HP": 100, "Attack": 128, "Defense": 90, "Special Attack": 77, "Special Defense": 77, "Speed": 128}}

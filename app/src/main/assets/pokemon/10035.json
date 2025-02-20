@@ -1,0 +1,1 @@
+{"id": 10035, "name": "Mega Charizard Y", "types": ["Fire", "Flying"], "abilities": [{"name": "Drought", "is_hidden": false}], "evolution_line": {"id": 10035}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 78, "Attack": 104, "Defense": 78, "Special Attack": 159, "Special Defense": 115, "Speed": 100}}

@@ -1,0 +1,1 @@
+{"id": 10070, "name": "Mega Sharpedo", "types": ["Water", "Dark"], "abilities": [{"name": "Strong Jaw", "is_hidden": false}], "evolution_line": {"id": 10070}, "has_branched_evolution": false, "generation": "Generation III", "base_stats": {"HP": 70, "Attack": 140, "Defense": 70, "Special Attack": 110, "Special Defense": 65, "Speed": 105}}

@@ -1,0 +1,1 @@
+{"id": 10179, "name": "Galarian Yamask", "types": ["Ground", "Ghost"], "abilities": [{"name": "Wandering Spirit", "is_hidden": false}], "evolution_line": {"id": 10179}, "has_branched_evolution": false, "generation": "Generation V", "base_stats": {"HP": 38, "Attack": 55, "Defense": 85, "Special Attack": 30, "Special Defense": 65, "Speed": 30}}

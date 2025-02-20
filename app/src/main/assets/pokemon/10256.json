@@ -1,0 +1,1 @@
+{"id": 10256, "name": "Hero Form Palafin", "types": ["Water"], "abilities": [{"name": "Zero to Hero", "is_hidden": false}, {"name": "Zero to Hero", "is_hidden": true}], "evolution_line": {"id": 10256}, "has_branched_evolution": false, "generation": "Generation IX", "base_stats": {"HP": 100, "Attack": 160, "Defense": 97, "Special Attack": 106, "Special Defense": 87, "Speed": 100}}

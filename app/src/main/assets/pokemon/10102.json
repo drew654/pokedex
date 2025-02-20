@@ -1,0 +1,1 @@
+{"id": 10102, "name": "Alolan Sandslash", "types": ["Ice", "Steel"], "abilities": [{"name": "Snow Cloak", "is_hidden": false}, {"name": "Slush Rush", "is_hidden": true}], "evolution_line": {"id": 10102}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 75, "Attack": 100, "Defense": 120, "Special Attack": 25, "Special Defense": 65, "Speed": 65}}

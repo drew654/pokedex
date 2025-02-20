@@ -1,0 +1,1 @@
+{"id": 10158, "name": "Partner Pikachu", "types": ["Electric"], "abilities": [{"name": "Static", "is_hidden": false}, {"name": "Lightning Rod", "is_hidden": true}], "evolution_line": {"id": 10158}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 45, "Attack": 80, "Defense": 50, "Special Attack": 75, "Special Defense": 60, "Speed": 120}}

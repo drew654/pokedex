@@ -1,0 +1,1 @@
+{"id": 10069, "name": "Mega Audino", "types": ["Normal", "Fairy"], "abilities": [{"name": "Healer", "is_hidden": false}], "evolution_line": {"id": 10069}, "has_branched_evolution": false, "generation": "Generation V", "base_stats": {"HP": 103, "Attack": 60, "Defense": 126, "Special Attack": 80, "Special Defense": 126, "Speed": 50}}

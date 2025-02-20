@@ -1,0 +1,1 @@
+{"id": 10046, "name": "Mega Scizor", "types": ["Bug", "Steel"], "abilities": [{"name": "Technician", "is_hidden": false}], "evolution_line": {"id": 10046}, "has_branched_evolution": false, "generation": "Generation II", "base_stats": {"HP": 70, "Attack": 150, "Defense": 140, "Special Attack": 65, "Special Defense": 100, "Speed": 75}}

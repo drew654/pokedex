@@ -1,7 +1,5 @@
 package com.drew654.pokedex.models
 
-import androidx.compose.ui.graphics.Color
-
 class Pokemon(
     val id: Int,
     val name: String,

@@ -1,0 +1,1 @@
+{"id": 10103, "name": "Alolan Vulpix", "types": ["Ice"], "abilities": [{"name": "Snow Cloak", "is_hidden": false}, {"name": "Snow Warning", "is_hidden": true}], "evolution_line": {"id": 10103}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 38, "Attack": 41, "Defense": 40, "Special Attack": 50, "Special Defense": 65, "Speed": 65}}

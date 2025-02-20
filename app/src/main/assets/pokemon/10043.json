@@ -1,0 +1,1 @@
+{"id": 10043, "name": "Mega Mewtwo X", "types": ["Psychic", "Fighting"], "abilities": [{"name": "Steadfast", "is_hidden": false}], "evolution_line": {"id": 10043}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 106, "Attack": 190, "Defense": 100, "Special Attack": 154, "Special Defense": 100, "Speed": 130}}

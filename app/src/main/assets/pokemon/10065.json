@@ -1,0 +1,1 @@
+{"id": 10065, "name": "Mega Sceptile", "types": ["Grass", "Dragon"], "abilities": [{"name": "Lightning Rod", "is_hidden": false}], "evolution_line": {"id": 10065}, "has_branched_evolution": false, "generation": "Generation III", "base_stats": {"HP": 70, "Attack": 110, "Defense": 75, "Special Attack": 145, "Special Defense": 85, "Speed": 145}}

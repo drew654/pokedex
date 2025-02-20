@@ -1,0 +1,1 @@
+{"id": 10171, "name": "Galarian Moltres", "types": ["Dark", "Flying"], "abilities": [{"name": "Berserk", "is_hidden": false}], "evolution_line": {"id": 10171}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 90, "Attack": 85, "Defense": 90, "Special Attack": 100, "Special Defense": 125, "Speed": 90}}

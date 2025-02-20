@@ -1,0 +1,1 @@
+{"id": 10041, "name": "Mega Gyarados", "types": ["Water", "Dark"], "abilities": [{"name": "Mold Breaker", "is_hidden": false}], "evolution_line": {"id": 10041}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 95, "Attack": 155, "Defense": 109, "Special Attack": 70, "Special Defense": 130, "Speed": 81}}

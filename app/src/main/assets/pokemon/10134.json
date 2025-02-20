@@ -1,0 +1,1 @@
+{"id": 10134, "name": "Indigo Meteor Minior", "types": ["Rock", "Flying"], "abilities": [{"name": "Shields Down", "is_hidden": false}], "evolution_line": {"id": 10134}, "has_branched_evolution": false, "generation": "Generation VII", "base_stats": {"HP": 60, "Attack": 60, "Defense": 100, "Special Attack": 60, "Special Defense": 100, "Speed": 60}}

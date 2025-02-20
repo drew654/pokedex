@@ -1,0 +1,1 @@
+{"id": 10074, "name": "Mega Glalie", "types": ["Ice"], "abilities": [{"name": "Refrigerate", "is_hidden": false}], "evolution_line": {"id": 10074}, "has_branched_evolution": false, "generation": "Generation III", "base_stats": {"HP": 80, "Attack": 120, "Defense": 80, "Special Attack": 120, "Special Defense": 80, "Speed": 100}}

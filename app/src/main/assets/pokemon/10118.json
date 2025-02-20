@@ -1,0 +1,1 @@
+{"id": 10118, "name": "10% Zygarde", "types": ["Dragon", "Ground"], "abilities": [{"name": "Power Construct", "is_hidden": false}], "evolution_line": {"id": 10118}, "has_branched_evolution": false, "generation": "Generation VI", "base_stats": {"HP": 54, "Attack": 100, "Defense": 71, "Special Attack": 61, "Special Defense": 85, "Speed": 115}}

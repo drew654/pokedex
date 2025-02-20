@@ -1,0 +1,1 @@
+{"id": 10211, "name": "Gigantamax Inteleon", "types": ["Water"], "abilities": [{"name": "Torrent", "is_hidden": false}, {"name": "Sniper", "is_hidden": true}], "evolution_line": {"id": 10211}, "has_branched_evolution": false, "generation": "Generation VIII", "base_stats": {"HP": 70, "Attack": 85, "Defense": 65, "Special Attack": 125, "Special Defense": 65, "Speed": 120}}

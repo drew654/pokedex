@@ -1,0 +1,1 @@
+{"id": 10223, "name": "Gigantamax Alcremie", "types": ["Fairy"], "abilities": [{"name": "Sweet Veil", "is_hidden": false}, {"name": "Aroma Veil", "is_hidden": true}], "evolution_line": {"id": 10223}, "has_branched_evolution": false, "generation": "Generation VIII", "base_stats": {"HP": 65, "Attack": 60, "Defense": 75, "Special Attack": 110, "Special Defense": 121, "Speed": 64}}

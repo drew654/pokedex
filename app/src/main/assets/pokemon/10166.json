@@ -1,0 +1,1 @@
+{"id": 10166, "name": "Galarian Farfetch\u2019d", "types": ["Fighting"], "abilities": [{"name": "Steadfast", "is_hidden": false}, {"name": "Scrappy", "is_hidden": true}], "evolution_line": {"id": 10166}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 52, "Attack": 95, "Defense": 55, "Special Attack": 58, "Special Defense": 62, "Speed": 55}}

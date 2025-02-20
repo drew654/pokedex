@@ -1,0 +1,1 @@
+{"id": 10170, "name": "Galarian Zapdos", "types": ["Fighting", "Flying"], "abilities": [{"name": "Defiant", "is_hidden": false}], "evolution_line": {"id": 10170}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 90, "Attack": 125, "Defense": 90, "Special Attack": 85, "Special Defense": 90, "Speed": 100}}

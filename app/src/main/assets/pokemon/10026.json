@@ -1,0 +1,1 @@
+{"id": 10026, "name": "Blade Aegislash", "types": ["Steel", "Ghost"], "abilities": [{"name": "Stance Change", "is_hidden": false}], "evolution_line": {"id": 10026}, "has_branched_evolution": false, "generation": "Generation VI", "base_stats": {"HP": 60, "Attack": 140, "Defense": 50, "Special Attack": 140, "Special Defense": 50, "Speed": 60}}

@@ -1,0 +1,1 @@
+{"id": 10067, "name": "Mega Altaria", "types": ["Dragon", "Fairy"], "abilities": [{"name": "Pixilate", "is_hidden": false}], "evolution_line": {"id": 10067}, "has_branched_evolution": false, "generation": "Generation III", "base_stats": {"HP": 75, "Attack": 110, "Defense": 110, "Special Attack": 110, "Special Defense": 105, "Speed": 80}}

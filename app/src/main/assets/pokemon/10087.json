@@ -1,0 +1,1 @@
+{"id": 10087, "name": "Mega Camerupt", "types": ["Fire", "Ground"], "abilities": [{"name": "Sheer Force", "is_hidden": false}], "evolution_line": {"id": 10087}, "has_branched_evolution": false, "generation": "Generation III", "base_stats": {"HP": 70, "Attack": 120, "Defense": 100, "Special Attack": 145, "Special Defense": 105, "Speed": 20}}

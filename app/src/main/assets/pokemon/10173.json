@@ -1,0 +1,1 @@
+{"id": 10173, "name": "Galarian Corsola", "types": ["Ghost"], "abilities": [{"name": "Weak Armor", "is_hidden": false}, {"name": "Cursed Body", "is_hidden": true}], "evolution_line": {"id": 10173}, "has_branched_evolution": false, "generation": "Generation II", "base_stats": {"HP": 60, "Attack": 55, "Defense": 100, "Special Attack": 65, "Special Defense": 100, "Speed": 30}}

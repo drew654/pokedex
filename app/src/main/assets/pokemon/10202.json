@@ -1,0 +1,1 @@
+{"id": 10202, "name": "Gigantamax Gengar", "types": ["Ghost", "Poison"], "abilities": [{"name": "Cursed Body", "is_hidden": false}], "evolution_line": {"id": 10202}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 60, "Attack": 65, "Defense": 60, "Special Attack": 130, "Special Defense": 75, "Speed": 110}}

@@ -1,0 +1,1 @@
+{"id": 10246, "name": "Origin Palkia", "types": ["Water", "Dragon"], "abilities": [{"name": "Pressure", "is_hidden": false}, {"name": "Telepathy", "is_hidden": true}], "evolution_line": {"id": 10246}, "has_branched_evolution": false, "generation": "Generation IV", "base_stats": {"HP": 90, "Attack": 100, "Defense": 100, "Special Attack": 150, "Special Defense": 120, "Speed": 120}}

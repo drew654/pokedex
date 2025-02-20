@@ -1,0 +1,1 @@
+{"id": 10071, "name": "Mega Slowbro", "types": ["Water", "Psychic"], "abilities": [{"name": "Shell Armor", "is_hidden": false}], "evolution_line": {"id": 10071}, "has_branched_evolution": false, "generation": "Generation I", "base_stats": {"HP": 95, "Attack": 75, "Defense": 180, "Special Attack": 130, "Special Defense": 80, "Speed": 30}}

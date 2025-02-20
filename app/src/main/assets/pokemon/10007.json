@@ -1,0 +1,1 @@
+{"id": 10007, "name": "Origin Giratina", "types": ["Ghost", "Dragon"], "abilities": [{"name": "Levitate", "is_hidden": false}], "evolution_line": {"id": 10007}, "has_branched_evolution": false, "generation": "Generation IV", "base_stats": {"HP": 150, "Attack": 120, "Defense": 100, "Special Attack": 120, "Special Defense": 100, "Speed": 90}}

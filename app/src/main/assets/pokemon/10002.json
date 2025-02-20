@@ -1,0 +1,1 @@
+{"id": 10002, "name": "Defense Deoxys", "types": ["Psychic"], "abilities": [{"name": "Pressure", "is_hidden": false}], "evolution_line": {"id": 10002}, "has_branched_evolution": false, "generation": "Generation III", "base_stats": {"HP": 50, "Attack": 70, "Defense": 160, "Special Attack": 70, "Special Defense": 160, "Speed": 90}}

@@ -1,0 +1,1 @@
+{"id": 10209, "name": "Gigantamax Rillaboom", "types": ["Grass"], "abilities": [{"name": "Overgrow", "is_hidden": false}, {"name": "Grassy Surge", "is_hidden": true}], "evolution_line": {"id": 10209}, "has_branched_evolution": false, "generation": "Generation VIII", "base_stats": {"HP": 100, "Attack": 125, "Defense": 90, "Special Attack": 60, "Special Defense": 70, "Speed": 85}}

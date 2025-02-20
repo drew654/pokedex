@@ -1,0 +1,1 @@
+{"id": 10078, "name": "Primal Groudon", "types": ["Ground", "Fire"], "abilities": [{"name": "Desolate Land", "is_hidden": false}], "evolution_line": {"id": 10078}, "has_branched_evolution": false, "generation": "Generation III", "base_stats": {"HP": 100, "Attack": 180, "Defense": 160, "Special Attack": 150, "Special Defense": 90, "Speed": 90}}

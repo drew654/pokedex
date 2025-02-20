@@ -1,0 +1,1 @@
+{"id": 10072, "name": "Mega Steelix", "types": ["Steel", "Ground"], "abilities": [{"name": "Sand Force", "is_hidden": false}], "evolution_line": {"id": 10072}, "has_branched_evolution": false, "generation": "Generation II", "base_stats": {"HP": 75, "Attack": 125, "Defense": 230, "Special Attack": 55, "Special Defense": 95, "Speed": 30}}
